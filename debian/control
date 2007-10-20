@@ -2,9 +2,9 @@ Source: kdeutils
 Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Build-Depends: cdbs, debhelper (>= 5), cmake, quilt, kdelibs5-dev (>=4:3.90.1),
- kdepimlibs5-dev (>=4:3.90.1),  kdebase (>=4:3.90.1), 
- tpctl, libgmp3-dev, python2.5-dev, libxtst-dev
+Build-Depends: cdbs, debhelper (>= 5), cmake, quilt, kdepimlibs5-dev (>=3.94.0),  
+ libgmp3-dev, python2.5-dev, libxtst-dev, 
+ libzip-dev, libqimageblitz-dev
 Standards-Version: 3.7.2
 
 Package: kdeutils
