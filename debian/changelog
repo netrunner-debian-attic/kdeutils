@@ -1,7 +1,9 @@
 kdeutils (4:3.94.0-1) unstable; urgency=low
 
-  * New upstream release. 
-  * Update build-dep: add libqimageblitz-dev and libzip-dev and remove tpctl.
+  * New upstream release.
+  * Update build-dep:
+    * Add libqimageblitz-dev, libsnmp-dev and libzip-dev.
+    * Remove tpctl.
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sat, 20 Oct 2007 21:36:45 +0200
 

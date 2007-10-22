@@ -1,0 +1,14 @@
+usr/bin/kregexpeditor
+usr/lib/kde4/libkregexpeditorgui.so
+usr/lib/libkregexpeditorcommon.so.4
+usr/lib/libkregexpeditorcommon.so.4.0.0
+usr/share/applications/kde4/kregexpeditor.desktop
+usr/share/kde4/apps/kregexpeditor/predefined/general/anything.regexp
+usr/share/kde4/apps/kregexpeditor/predefined/general/spaces.regexp
+usr/share/kde4/services/kregexpeditorgui.desktop
+usr/share/icons/hicolor/16x16/apps/kregexpeditor.png
+usr/share/icons/hicolor/22x22/apps/kregexpeditor.png
+usr/share/icons/hicolor/32x32/apps/kregexpeditor.png
+usr/share/icons/hicolor/48x48/apps/kregexpeditor.png
+usr/share/icons/hicolor/64x64/apps/kregexpeditor.png
+usr/share/icons/hicolor/128x128/apps/kregexpeditor.png

@@ -1,0 +1,7 @@
+usr/bin/kcharselect
+usr/share/applications/kde4/KCharSelect.desktop
+usr/share/kde4/apps/kcharselect/kcharselectui.rc
+usr/share/kde4/apps/kconf_update/kcharselect.upd
+usr/share/icons/hicolor/16x16/apps/kcharselect.png
+usr/share/icons/hicolor/32x32/apps/kcharselect.png
+usr/share/icons/hicolor/48x48/apps/kcharselect.png
