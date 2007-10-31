@@ -1,9 +1,19 @@
+kdeutils (4:3.95.0-1) unstable; urgency=low
+
+  * KDE4 beta 4, first upload to the Debian archive.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Wed, 31 Oct 2007 17:52:19 +0100
+
 kdeutils (4:3.94.0-1) unstable; urgency=low
 
-  * New upstream release.
+  * New upstream release, KDE4 beta3.
   * Update build-dep:
     * Add libqimageblitz-dev, libsnmp-dev and libzip-dev.
     * Remove tpctl.
+
+  +++ Changes by Fathi Boudra:
+
+  * Split kdeutils in multiple packages.
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sat, 20 Oct 2007 21:36:45 +0200
 
