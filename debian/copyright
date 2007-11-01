@@ -1,24 +1,24 @@
 This package was debianized by Ana Beatriz Guerrero Lopez <ana@debian.org> on
 Wed, 23 May 2007 18:51:02 +0200.
 
-It was downloaded from <url://example.com>
+It was downloaded from ftp://ftp.kde.org
 
-Upstream Author(s): 
+Upstream Author: The KDE development team <kde-core-devel@kde.org>
+Numerous people, too many to count, have contributed to kdelibs as a
+whole. The KDE project tries to make an extensive list of people who contributed
+to KDE at http://www.kde.org/people/credits/
 
-    <put author's name and email here>
-    <likewise for another author>
+Copyright:
+Unless something else is mentioned, copyright is
+(C) 1996-2007, The K Desktop Enviroment project http://www.kde.org
 
-Copyright: 
-
-    <Copyright (C) YYYY Name OfAuthor>
-    <likewise for another author>
 
 License:
 
-    <Put the license of the package here indented by 4 spaces>
 
-The Debian packaging is (C) 2007, Ana Beatriz Guerrero Lopez <ana@debian.org> and
-is licensed under the GPL, see `/usr/share/common-licenses/GPL'.
 
-# Please also look if there are files or directories which have a
-# different copyright/license attached and list them here.
+
+
+The Debian packaging is (C) 2007, Debian Qt/KDE Maintainers
+<debian-qt-kde@lists.debian.org> and is licensed under the GPL,
+see `/usr/share/common-licenses/GPL'.
