@@ -16,6 +16,178 @@ Unless something else is mentioned, copyright is
 License:
 
 
+Unless something else is mentioned, the code files in this package are under
+the GNU General Public License:
+
+    | This program is free software; you can redistribute it and/or modify
+    | it under the terms of the GNU General Public License as published by
+    | the Free Software Foundation; version 2 dated June, 1991.
+    |
+    | This package is distributed in the hope that it will be useful,
+    | but WITHOUT ANY WARRANTY; without even the implied warranty of
+    | MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    | GNU General Public License for more details.
+    |
+    | You should have received a copy of the GNU General Public License
+    | along with this program; if not, write to the Free Software Foundation,
+    | Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
+
+  The full text of the GNU General Public License version 2 is available on
+  Debian systems in /usr/share/common-licenses/GPL-2.
+
+
+The documentation docbook files in this package, placed under docs/, are under
+the GNU Free Documentation License:
+
+    | Permission is granted to copy, distribute and/or modify this
+    | document under the terms of the GNU Free Documentation License,
+    | Version 1.1 or any later version published by the Free Software
+    | Foundation; with no Invariant Sections, with no Front-Cover Texts,
+    | and with no Back-Cover Texts.
+
+  The full text of the GNU Free Documentation License is available on
+  Debian systems in /usr/share/common-licenses/GFDL-1.2
+
+As well, all the Manpages.dox included are under this license, unless specified
+otherwise below.
+
+
+Detailed copyright/license information of the files that are not under the
+directories detailed above.
+
+
+ file ~ license ~ copyright holder
+------~---------~------------------
+
+Files under ark/
+
+ ark/app/ark.desktop ~ unspec ~ unspec
+ ark/app/arkui.rc ~ unspec ~ unspec
+ ark/app/CMakeLists.txt ~ unspec ~ unspec
+ ark/app/main.cpp ~ GPLv2h ~ Copyright (C) 2007 Henrique Pinto <henrique.pinto@kdemail.net>
+ ark/app/mainwindow.cpp ~ GPLv2h ~ Copyright (C) 2007 Henrique Pinto <henrique.pinto@kdemail.net>
+                                   Copyright (C) 2003: Helio Chissini de Castro <helio@conectiva.com>
+                                   Copyright (C) 2002-2003: Georg Robbers <Georg.Robbers@urz.uni-hd.de>
+ ark/app/mainwindow.h ~ GPLv2h ~ Copyright (C) 2007 Henrique Pinto <henrique.pinto@kdemail.net>
+ ark/CMakeLists.txt ~ unspec ~ unspec
+ ark/hi128-app-ark.png ~ unspec ~ unspec
+ ark/hi16-app-ark.png ~ unspec ~ unspec
+ ark/hi22-app-ark.png ~ unspec ~ unspec
+ ark/hi32-app-ark.png ~ unspec ~ unspec
+ ark/hi48-app-ark.png ~ unspec ~ unspec
+ ark/hi64-app-ark.png ~ unspec ~ unspec
+ ark/hisc-app-ark.svgz ~ unspec ~ unspec
+ ark/kerfuffle/archivebase.cpp ~ BSD ~  * Copyright (c) 2007 Henrique Pinto <henrique.pinto@kdemail.net>
+ ark/kerfuffle/archivebase.h ~ BSD ~  * Copyright (c) 2007 Henrique Pinto <henrique.pinto@kdemail.net>
+ ark/kerfuffle/archive.cpp ~ BSD ~  * Copyright (c) 2007 Henrique Pinto <henrique.pinto@kdemail.net>
+ ark/kerfuffle/archivefactory.h ~ GPLv2h ~  * Copyright (C) 2007 Henrique Pinto <henrique.pinto@kdemail.net>
+ ark/kerfuffle/archive.h ~ BSD ~  * Copyright (c) 2007 Henrique Pinto <henrique.pinto@kdemail.net>
+ ark/kerfuffle/archiveinterface.cpp ~ BSD ~  * Copyright (c) 2007 Henrique Pinto <henrique.pinto@kdemail.net>
+ ark/kerfuffle/archiveinterface.h ~ BSD ~  * Copyright (c) 2007 Henrique Pinto <henrique.pinto@kdemail.net>
+ ark/kerfuffle/CMakeLists.txt ~ unspec ~ unspec
+ ark/kerfuffle/internaljobs.cpp ~ BSD ~  * Copyright (c) 2007 Henrique Pinto <henrique.pinto@kdemail.net>
+ ark/kerfuffle/internaljobs.h ~ BSD ~  * Copyright (c) 2007 Henrique Pinto <henrique.pinto@kdemail.net>
+ ark/kerfuffle/jobs.cpp ~ BSD ~  * Copyright (c) 2007 Henrique Pinto <henrique.pinto@kdemail.net>
+ ark/kerfuffle/jobs.h ~ BSD ~  * Copyright (c) 2007 Henrique Pinto <henrique.pinto@kdemail.net>
+ ark/kerfuffle/kerfuffle_export.h ~ LGPLv2h ~     Copyright (C) 2007 David Faure <faure@kde.org>
+ ark/kerfuffle/kerfufflePlugin.desktop ~ unspec ~ unspec
+ ark/kerfuffle/observer.h ~ GPLv2h ~  Copyright (C) 2007 Henrique Pinto <henrique.pinto@kdemail.net>
+ ark/Messages.sh ~ unspec ~ unspec
+ ark/part/archivemodel.cpp ~ GPLv2h ~  * Copyright (C) 2007 Henrique Pinto <henrique.pinto@kdemail.net>
+ ark/part/archivemodel.h ~ GPLv2h ~  * Copyright (C) 2007 Henrique Pinto <henrique.pinto@kdemail.net>
+ ark/part/ark.kcfg ~ unspec ~ unspec
+ ark/part/ark_part.desktop ~ unspec ~ unspec
+ ark/part/ark_part.rc ~ unspec ~ unspec
+ ark/part/arkviewer.cpp ~ GPLv2h ~  * Copyright (C) 2004, Henrique Pinto <henrique.pinto@kdemail.net>
+ ark/part/arkviewer.h ~ GPLv2h ~  * Copyright (C) 2004-2007, Henrique Pinto <henrique.pinto@kdemail.net>
+ ark/part/CMakeLists.txt ~ unspec ~ unspec
+ ark/part/extractiondialog.cpp ~ GPLv2h ~  * Copyright (C) 2007 Henrique Pinto <henrique.pinto@kdemail.net>
+ ark/part/extractiondialog.h ~ GPLv2h ~  * Copyright (C) 2007 Henrique Pinto <henrique.pinto@kdemail.net>
+ ark/part/extractiondialog.ui ~ unspec ~ unspec
+ ark/part/infopanel.cpp ~ GPLv2h ~  * Copyright (C) 2007 Henrique Pinto <henrique.pinto@kdemail.net>
+ ark/part/infopanel.h ~ GPLv2h ~  * Copyright (C) 2007 Henrique Pinto <henrique.pinto@kdemail.net>
+ ark/part/infopanel.ui ~ unspec ~ unspec
+ ark/part/interface.h ~ GPLv2h ~  * Copyright (C) 2007 Henrique Pinto <henrique.pinto@kdemail.net>
+ ark/part/jobtracker.cpp ~ GPLv2h ~  * Copyright (C) 2007 Henrique Pinto <henrique.pinto@kdemail.net>
+ ark/part/jobtracker.h ~ GPLv2h ~  * Copyright (C) 2007 Henrique Pinto <henrique.pinto@kdemail.net>
+ ark/part/jobtracker.ui ~ unspec ~ unspec
+ ark/part/part.cpp ~ GPLv2h ~  * Copyright (C) 2007 Henrique Pinto <henrique.pinto@kdemail.net>
+ ark/part/part.h ~ GPLv2h ~  * Copyright (C) 2007 Henrique Pinto <henrique.pinto@kdemail.net>
+ ark/part/settings.kcfgc ~ unspec ~ unspec
+ ark/plugins/bk/bkAdd.c ~ GPLv2 ~ * Copyright 2005-2007 Andrew Smith <andrew-smith@mail.ru>
+ ark/plugins/bk/bkAdd.h ~ GPLv2 ~ * Copyright 2005-2007 Andrew Smith <andrew-smith@mail.ru>
+ ark/plugins/bk/bkCache.c ~ GPLv2 ~ * Copyright 2005-2007 Andrew Smith <andrew-smith@mail.ru>
+ ark/plugins/bk/bkCache.h ~ GPLv2 ~ * Copyright 2005-2007 Andrew Smith <andrew-smith@mail.ru>
+ ark/plugins/bk/bkDelete.c ~ GPLv2 ~ * Copyright 2005-2007 Andrew Smith <andrew-smith@mail.ru>
+ ark/plugins/bk/bkDelete.h ~ GPLv2 ~ * Copyright 2005-2007 Andrew Smith <andrew-smith@mail.ru>
+ ark/plugins/bk/bkError.c ~ GPLv2 ~ * Copyright 2005-2007 Andrew Smith <andrew-smith@mail.ru>
+ ark/plugins/bk/bkError.h ~ GPLv2 ~ * Copyright 2005-2007 Andrew Smith <andrew-smith@mail.ru>
+ ark/plugins/bk/bkExtract.c ~ GPLv2 ~ * Copyright 2005-2007 Andrew Smith <andrew-smith@mail.ru>
+ ark/plugins/bk/bkExtract.h ~ GPLv2 ~ * Copyright 2005-2007 Andrew Smith <andrew-smith@mail.ru>
+ ark/plugins/bk/bkGet.c ~ GPLv2 ~ * Copyright 2005-2007 Andrew Smith <andrew-smith@mail.ru>
+ ark/plugins/bk/bkGet.h ~ GPLv2 ~ * Copyright 2005-2007 Andrew Smith <andrew-smith@mail.ru>
+ ark/plugins/bk/bk.h ~ GPLv2 ~ * Copyright 2005-2007 Andrew Smith <andrew-smith@mail.ru>
+ ark/plugins/bk/bkInternal.h ~ GPLv2 ~ * Copyright 2005-2007 Andrew Smith <andrew-smith@mail.ru>
+ ark/plugins/bk/bkLink.c ~ GPLv2 ~ * Copyright 2005-2007 Andrew Smith <andrew-smith@mail.ru>
+ ark/plugins/bk/bkLink.h ~ GPLv2 ~ * Copyright 2005-2007 Andrew Smith <andrew-smith@mail.ru>
+ ark/plugins/bk/bkMangle.c ~ GPLv2 ~ * Copyright 2005-2007 Andrew Smith <andrew-smith@mail.ru>
+ ark/plugins/bk/bkMangle.h ~ GPLv2 ~ * Copyright 2005-2007 Andrew Smith <andrew-smith@mail.ru>
+ ark/plugins/bk/bkMisc.c ~ GPLv2 ~ * Copyright 2005-2007 Andrew Smith <andrew-smith@mail.ru>
+ ark/plugins/bk/bkMisc.h ~ GPLv2 ~ * Copyright 2005-2007 Andrew Smith <andrew-smith@mail.ru>
+ ark/plugins/bk/bkPath.c ~ GPLv2 ~ * Copyright 2005-2007 Andrew Smith <andrew-smith@mail.ru>
+ ark/plugins/bk/bkPath.h ~ GPLv2 ~ * Copyright 2005-2007 Andrew Smith <andrew-smith@mail.ru>
+ ark/plugins/bk/bkplugin.cpp ~ GPLv2h ~  * Copyright (C) 2007 Henrique Pinto <henrique.pinto@kdemail.net>
+ ark/plugins/bk/bkplugin.h ~ GPLv2 ~  * Copyright (C) 2007 Henrique Pinto <henrique.pinto@kdemail.net>
+ ark/plugins/bk/bkRead7x.c ~ GPLv2 ~ * Copyright 2005-2007 Andrew Smith <andrew-smith@mail.ru>
+ ark/plugins/bk/bkRead7x.h ~ GPLv2 ~ * Copyright 2005-2007 Andrew Smith <andrew-smith@mail.ru>
+ ark/plugins/bk/bkRead.c ~ GPLv2 ~ * Copyright 2005-2007 Andrew Smith <andrew-smith@mail.ru>
+ ark/plugins/bk/bkRead.h ~ GPLv2 ~ * Copyright 2005-2007 Andrew Smith <andrew-smith@mail.ru>
+ ark/plugins/bk/bkSet.c ~ GPLv2 ~ * Copyright 2005-2007 Andrew Smith <andrew-smith@mail.ru>
+ ark/plugins/bk/bkSet.h ~ GPLv2 ~ * Copyright 2005-2007 Andrew Smith <andrew-smith@mail.ru>
+ ark/plugins/bk/bkSort.c ~ GPLv2 ~ * Copyright 2005-2007 Andrew Smith <andrew-smith@mail.ru>
+ ark/plugins/bk/bkSort.h ~ GPLv2 ~ * Copyright 2005-2007 Andrew Smith <andrew-smith@mail.ru>
+ ark/plugins/bk/bkTime.c ~ GPLv2 ~ * Copyright 2005-2007 Andrew Smith <andrew-smith@mail.ru>
+ ark/plugins/bk/bkTime.h ~ GPLv2 ~ * Copyright 2005-2007 Andrew Smith <andrew-smith@mail.ru>
+ ark/plugins/bk/bkWrite7x.c ~ GPLv2 ~ * Copyright 2005-2007 Andrew Smith <andrew-smith@mail.ru>
+ ark/plugins/bk/bkWrite7x.h ~ GPLv2 ~ * Copyright 2005-2007 Andrew Smith <andrew-smith@mail.ru>
+ ark/plugins/bk/bkWrite.c ~ GPLv2 ~ * Copyright 2005-2007 Andrew Smith <andrew-smith@mail.ru>
+ ark/plugins/bk/bkWrite.h ~ GPLv2 ~ * Copyright 2005-2007 Andrew Smith <andrew-smith@mail.ru>
+ ark/plugins/bk/CMakeLists.txt ~ unspec ~ unspec
+ ark/plugins/bk/kerfuffle_bk.desktop ~ unspec ~ unspec
+ ark/plugins/CMakeLists.txt ~ unspec ~ unspec
+ ark/plugins/karchiveplugin/CMakeLists.txt ~ unspec ~ unspec
+ ark/plugins/karchiveplugin/karchiveplugin.cpp ~ GPLv2h ~  * Copyright (C) 2007 Henrique Pinto <henrique.pinto@kdemail.net>
+ ark/plugins/karchiveplugin/karchiveplugin.h ~ GPLv2h ~  * Copyright (C) 2007 Henrique Pinto <henrique.pinto@kdemail.net>
+ ark/plugins/karchiveplugin/kerfuffle_karchive.desktop ~ unspec ~ unspec
+ ark/plugins/libarchive/CMakeLists.txt ~ unspec ~ unspec
+ ark/plugins/libarchive/kerfuffle_libarchive.desktop ~ unspec ~ unspec
+ ark/plugins/libarchive/libarchivehandler.cpp ~ BSD ~  * Copyright (c) 2007 Henrique Pinto <henrique.pinto@kdemail.net>
+ ark/plugins/libarchive/libarchivehandler.h ~ BSD ~  * Copyright (c) 2007 Henrique Pinto <henrique.pinto@kdemail.net>
+ ark/plugins/libzipplugin/CMakeLists.txt ~ unspec ~ unspec
+ ark/plugins/libzipplugin/kerfuffle_libzip.desktop ~ unspec ~ unspec
+ ark/plugins/libzipplugin/zipplugin.cpp ~ BSD ~ Copyright (c) 2007 Henrique Pinto <henrique.pinto@kdemail.net>
+ 
+ 
+Files under charselectapplet/
+
+ charselectapplet/charselectapplet.cpp ~ MIT ~ Copyright (c) 2001 Matthias Elter <elter@kde.org>
+ charselectapplet/charselectapplet.h ~ MIT ~ Copyright (c) 2001 Matthias Elter <elter@kde.org>
+ charselectapplet/CMakeLists.txt ~ unspec ~ unspec
+ charselectapplet/kcharselectapplet.desktop ~ unspec ~ unspec
+ charselectapplet/Messages.sh ~ unspec ~ unspec
+
+
+Files under cmake/
+
+ cmake/modules/FindGMP.cmake ~ BSD ~ # Copyright (c) 2006, Laurent Montel, <montel@kde.org>
+ cmake/modules/FindLibZip.cmake ~ BSD ~ # Copyright (c) 2006, Pino Toscano, <toscano.pino@tiscali.it>
+ cmake/modules/FindTPCTL.cmake ~ BSD ~ # Copyright (c) 2006, Laurent Montel, <montel@kde.org>
+
+
+
+
+
+
 
 
 
