@@ -330,16 +330,498 @@ Files under kdessh/
 
 
 Files under kdf/
+
+ kdf/CMakeLists.txt ~ unspec ~ unspec
+ kdf/disklist.cpp ~ GPLv2h ~  * Copyright (c) 1999 Michael Kropfberger <michael.kropfberger@gmx.net>
+ kdf/disklist.h ~ GPLv2h ~  * Copyright (c) 1999 Michael Kropfberger <michael.kropfberger@gmx.net>
+ kdf/disks.cpp ~ GPLv2h ~  * Copyright (c) 1998 Michael Kropfberger <michael.kropfberger@gmx.net>
+ kdf/disks.h ~ GPLv2h ~  * Copyright (c) 1998 Michael Kropfberger <michael.kropfberger@gmx.net>
+ kdf/kcmdf.cpp ~ GPLv2h ~   Copyright (C) 1998 by Michael Kropfberger <michael.kropfberger@gmx.net>
+ kdf/kcmdf.desktop ~ unspec ~ unspec
+ kdf/kcmdf.h ~ GPLv2h ~   Copyright (C) 1999 by Michael Kropfberger <michael.kropfberger@gmx.net>
+ kdf/kconftest.cpp ~ GPLv2h ~ ** Copyright (C) 1999 by Michael Kropfberger
+ kdf/kdfconfig.cpp ~ GPLv2h ~  * Copyright (c) 1999 Michael Kropfberger <michael.kropfberger@gmx.net>
+ kdf/kdfconfig.h ~ GPLv2h ~  * Copyright (c) 1999 Michael Kropfberger <michael.kropfberger@gmx.net>
+ kdf/kdf.cpp ~ GPLv2h ~  * Copyright 1998-2001 by Michael Kropfberger <michael.kropfberger@gmx.net>
+ kdf/kdf.desktop ~ unspec ~ unspec
+ kdf/kdf.h ~ GPLv2h ~   Copyright (C) 1998 by Michael Kropfberger <michael.kropfberger@gmx.net>
+ kdf/kdfui.rc ~ unspec ~ unspec
+ kdf/kdfwidget.cpp ~ GPLv2h ~  * Copyright (c) 1998-2001 Michael Kropfberger <michael.kropfberger@gmx.net>
+ kdf/kdfwidget.h ~ GPLv2h ~  * Copyright (c) 1998 Michael Kropfberger <michael.kropfberger@gmx.net>
+ kdf/kwikdisk.cpp ~ GPLv2h ~   Copyright (C) 1999 by Michael Kropfberger <michael.kropfberger@gmx.net>
+ kdf/kwikdisk.desktop ~ unspec ~ unspec
+ kdf/kwikdisk.h ~ GPLv2h ~   Copyright (C) 1999 by Michael Kropfberger <michael.kropfberger@gmx.net>
+ kdf/listview.cpp ~ GPLv2h ~  *   Copyright (C) 1999  Espen Sand, espen@kde.org
+ kdf/listview.h ~ GPLv2h ~  *   Copyright (C) 1999  Espen Sand, espen@kde.org
+ kdf/Messages.sh ~ unspec ~ unspec
+ kdf/mntconfig.cpp ~ GPLv2h ~  * Copyright (c) 1999 Michael Kropfberger <michael.kropfberger@gmx.net>
+ kdf/mntconfig.h ~ GPLv2h ~  * Copyright (c) 1999 Michael Kropfberger <michael.kropfberger@gmx.net>
+ kdf/optiondialog.cpp ~ GPLv2h ~  *   Copyright (C) 1999  Espen Sand, espen@kde.org
+ kdf/optiondialog.h ~ GPLv2h ~  *   Copyright (C) 1999  Espen Sand, espen@kde.org
+ kdf/pics/* ~ unspec ~ unspec
+ kdf/stdoption.cpp ~ GPLv2h ~ ** Copyright (C) 1998 by Michael Kropfberger
+ kdf/stdoption.h ~ GPLv2h ~ ** Copyright (C) 1998 by Michael Kropfberger
+ kdf/unix_outputs/* ~ unspec ~ unspec
+
+
 Files under kfloppy/
+
+ kfloppy/CMakeLists.txt ~ unspec ~ unspec
+ kfloppy/debug.h ~ GPLv2h ~     Copyright (C) 2003 Adriaan de Groot <groot@kde.org>
+ kfloppy/floppy.cpp ~ GPLv2h ~ Copyright (C) 1997 Bernd Johannes Wuebben <wuebben@math.cornell.edu>
+                                Copyright (C) 2004, 2005 Nicolas GOUTTE <goutte@kde.org>
+ kfloppy/floppy_format.desktop ~ unspec ~ unspec
+ kfloppy/floppy.h ~ GPLv2h ~     Copyright (C) 1997 Bernd Johannes Wuebben <wuebben@math.cornell.edu>
+                               Copyright (C) 2004, 2005 Nicolas GOUTTE <goutte@kde.org>
+ kfloppy/format.cpp ~ GPLv2 ~     Copyright (C) 2002 Adriaan de Groot <groot@kde.org>
+                                Copyright (C) 2004, 2005 Nicolas GOUTTE <goutte@kde.org>
+ kfloppy/format.h ~ GPLv2 ~     Copyright (C) 2002 Adriaan de Groot <groot@kde.org>
+                              Copyright (C) 2004, 2005 Nicolas GOUTTE <goutte@kde.org>
+ kfloppy/hi128-app-kfloppy.png ~ unspec ~ unspec
+ kfloppy/hi16-app-kfloppy.png ~ unspec ~ unspec
+ kfloppy/hi22-app-kfloppy.png ~ unspec ~ unspec
+ kfloppy/hi32-app-kfloppy.png ~ unspec ~ unspec
+ kfloppy/hi48-app-kfloppy.png ~ unspec ~ unspec
+ kfloppy/hi64-app-kfloppy.png ~ unspec ~ unspec
+ kfloppy/KFloppy.desktop ~ unspec ~ unspec
+ kfloppy/main.cpp ~ GPLv2h ~     Copyright (C) 1997 Bernd Johannes Wuebben <wuebben@math.cornell.edu>
+                                   Copyright (C) 2004, 2005 Nicolas GOUTTE <goutte@kde.org>
+ kfloppy/Messages.sh ~ unspec ~ unspec
+ kfloppy/README ~ unspec ~ unspec
+ kfloppy/TODO ~ unspec ~ unspec
+ kfloppy/zip.cpp ~ GPLv2h ~     Copyright (C) 2002 by Adriaan de Groot
+ kfloppy/zip.h ~ GPLv2h ~     Copyright (C) 2002 by Adriaan de Groot
+
+
 Files under kgpg/
+
+ kgpg/adduid.ui ~ unspec ~ unspec
+ kgpg/AUTHORS ~ unspec ~ unspec
+ kgpg/ChangeLog ~ unspec ~ unspec
+ kgpg/CMakeLists.txt ~ unspec ~ unspec
+ kgpg/conf_decryption.ui ~ unspec ~ unspec
+ kgpg/conf_encryption.cpp ~ GPLv2h ~     copyright          : (C) 2002 by Jean-Baptiste Mardelle
+ kgpg/conf_encryption.h ~ GPLv2h ~     copyright          : (C) 2002 by Jean-Baptiste Mardelle
+ kgpg/conf_encryption.ui ~ unspec ~ unspec
+ kgpg/conf_gpg.ui ~ unspec ~ unspec
+ kgpg/conf_misc.ui ~ unspec ~ unspec
+ kgpg/conf_servers.ui ~ unspec ~ unspec
+ kgpg/conf_ui2.ui ~ unspec ~ unspec
+ kgpg/core/convert.cpp ~  GPLv2h ~  *   Copyright (C) 2006 by Jimmy Gilles                                   
+ kgpg/core/convert.h ~  GPLv2h ~  *   Copyright (C) 2006 by Jimmy Gilles                                   
+ kgpg/core/emailvalidator.cpp ~  GPLv2h ~  *   Copyright (C) 2006 by Jimmy Gilles                                  
+ kgpg/core/emailvalidator.h ~  GPLv2h ~  *   Copyright (C) 2006 by Jimmy Gilles                                   
+ kgpg/core/images.cpp ~  GPLv2h ~  *   Copyright (C) 2006 by Jimmy Gilles                                  
+ kgpg/core/images.h ~  GPLv2h ~  *   Copyright (C) 2006 by Jimmy Gilles                                   
+ kgpg/core/kgpgkey.cpp ~  GPLv2h ~ unspec
+ kgpg/core/kgpgkey.h ~  GPLv2h ~ unspec
+ kgpg/detailedconsole.cpp ~ GPLv2h ~     copyright            : (C) 2002 by Jean-Baptiste Mardelle
+ kgpg/detailedconsole.h ~ GPLv2h ~     copyright            : (C) 2002 by Jean-Baptiste Mardelle
+ kgpg/encryptfile.desktop ~ unspec ~ unspec
+ kgpg/encryptfolder.desktop ~ unspec ~ unspec
+ kgpg/gpgproc.cpp ~ GPLv2h ~  * Copyright (C) 2007 Rolf Eike Beer <kde@opensource.sf-tec.de>
+ kgpg/gpgproc.h ~ GPLv2h ~  * Copyright (C) 2007 Rolf Eike Beer <kde@opensource.sf-tec.de>
+ kgpg/groupedit.ui ~ unspec ~ unspec
+ kgpg/hi16-app-kgpg.png ~ unspec ~ unspec
+ kgpg/hi22-app-kgpg.png ~ unspec ~ unspec
+ kgpg/hi32-app-kgpg.png ~ unspec ~ unspec
+ kgpg/hi48-app-kgpg.png ~ unspec ~ unspec
+ kgpg/icons/* ~ unspec ~ unspec
+ kgpg/keyexport.cpp ~  GPLv2h ~     copyright          : (C) 2002 by Jean-Baptiste Mardelle
+ kgpg/keyexport.h ~  GPLv2h ~     copyright          : (C) 2002 by Jean-Baptiste Mardelle
+ kgpg/keyexport.ui ~ unspec ~ unspec
+ kgpg/keyinfodialog.cpp ~  GPLv2h ~     copyright          : (C) 2002 by Jean-Baptiste Mardelle
+ kgpg/keyinfodialog.h ~  GPLv2h ~     copyright          : (C) 2002 by Jean-Baptiste Mardelle
+ kgpg/keylistview.cpp ~ unspec ~ unspec
+ kgpg/keylistview.h ~ unspec ~ unspec
+ kgpg/keyservers.cpp ~  GPLv2h ~     copyright          : (C) 2002 by Jean-Baptiste Mardelle
+ kgpg/keyservers.h ~  GPLv2h ~     copyright          : (C) 2002 by Jean-Baptiste Mardelle
+ kgpg/keyserver.ui ~ unspec ~ unspec
+ kgpg/keysmanager.cpp ~  GPLv2h ~     copyright          : (C) 2002 by Jean-Baptiste Mardelle
+ kgpg/keysmanager.h ~  GPLv2h ~     copyright          : (C) 2002 by Jean-Baptiste Mardelle
+ kgpg/keysmanager.rc ~ unspec ~ unspec
+ kgpg/kgpg_anim.gif ~ unspec ~ unspec
+ kgpg/kgpg_blank.png ~ unspec ~ unspec
+ kgpg/kgpg.cpp ~  GPLv2h ~     copyright          : (C) 2002 by Jean-Baptiste Mardelle
+ kgpg/kgpg.desktop ~ unspec ~ unspec
+ kgpg/kgpg_docked.gif ~ unspec ~ unspec
+ kgpg/kgpg_docked.png ~ unspec ~ unspec
+ kgpg/kgpgeditor.cpp ~  GPLv2h ~     copyright          : (C) 2002 by Jean-Baptiste Mardelle
+ kgpg/kgpgeditor.h ~  GPLv2h ~     copyright          : (C) 2002 by Jean-Baptiste Mardelle
+ kgpg/kgpg_fill.png ~ unspec ~ unspec
+ kgpg/kgpg.h ~  GPLv2h ~     copyright          : (C) 2002 by Jean-Baptiste Mardelle
+ kgpg/kgpginterface.cpp ~  GPLv2h ~     copyright          : (C) 2002 by Jean-Baptiste Mardelle
+ kgpg/kgpginterface.h ~  GPLv2h ~     copyright          : (C) 2002 by Jean-Baptiste Mardelle
+ kgpg/kgpg.kcfg ~ unspec ~ unspec
+ kgpg/kgpgkeygenerate.cpp ~  GPLv2h ~     copyright            : (C) 2002 by Jean-Baptiste Mardelle
+ kgpg/kgpgkeygenerate.h ~  GPLv2h ~     copyright          : (C) 2002 by Jean-Baptiste Mardelle
+ kgpg/kgpglibrary.cpp ~  GPLv2h ~     copyright          : (C) 2002 by Jean-Baptiste Mardelle
+ kgpg/kgpglibrary.h ~  GPLv2h ~     copyright          : (C) 2002 by Jean-Baptiste Mardelle
+ kgpg/kgpgmd5widget.cpp ~ unspec ~ unspec
+ kgpg/kgpgmd5widget.h ~ unspec ~ unspec
+ kgpg/kgpgoptions.cpp ~  GPLv2h ~     copyright          : (C) 2002 by Jean-Baptiste Mardelle
+ kgpg/kgpgoptions.h ~  GPLv2h ~     copyright          : (C) 2002 by Jean-Baptiste Mardelle
+ kgpg/kgpg.rc ~ unspec ~ unspec
+ kgpg/kgpgrevokewidget.cpp ~  GPLv2h ~     copyright          : (C) 2002 by Jean-Baptiste Mardelle
+ kgpg/kgpgrevokewidget.h ~  GPLv2h ~     copyright          : (C) 2002 by Jean-Baptiste Mardelle
+ kgpg/kgpgrevokewidget.ui ~ unspec ~ unspec
+ kgpg/kgpgsettings_addons.h ~  GPLv2h ~     copyright          : (C) 2003Waldo Bastian
+ kgpg/kgpgsettings.kcfgc ~ unspec ~ unspec
+ kgpg/kgpgview.cpp ~  GPLv2h ~     copyright          : (C) 2002 by Jean-Baptiste Mardelle
+ kgpg/kgpgview.h ~  GPLv2h ~     copyright          : (C) 2002 by Jean-Baptiste Mardelle
+ kgpg/kgpgwizard.ui ~ unspec ~ unspec
+ kgpg/main.cpp ~  GPLv2h ~     copyright          : (C) 2002 by Jean-Baptiste Mardelle
+ kgpg/Messages.sh ~ unspec ~ unspec
+ kgpg/newkey.cpp ~  GPLv2h ~     copyright          : (C) 2002 by Jean-Baptiste Mardelle
+ kgpg/newkey.h ~  GPLv2h ~     copyright          : (C) 2002 by Jean-Baptiste Mardelle
+ kgpg/newkey.ui ~ unspec ~ unspec
+ kgpg/org.kde.kgpg.Key.xml ~ unspec ~ unspec
+ kgpg/searchres.ui ~ unspec ~ unspec
+ kgpg/selectpublickeydialog.cpp ~  GPLv2h ~     copyright            : (C) 2002 by Jean-Baptiste Mardelle
+ kgpg/selectpublickeydialog.h ~  GPLv2h ~     copyright            : (C) 2002 by Jean-Baptiste Mardelle
+ kgpg/selectsecretkey.cpp ~ unspec ~ unspec
+ kgpg/selectsecretkey.h ~ unspec ~ unspec
+ kgpg/sourceselect.cpp ~  GPLv2h ~     copyright          : (C) 2007 by Lukas Kropatschek
+ kgpg/sourceselect.h ~  GPLv2h ~     copyright          : (C) 2007 by Lukas Kropatschek
+ kgpg/sourceselect.ui ~ unspec ~ unspec
+ kgpg/tips ~ unspec ~ unspec
+
+
 Files under khexedit/
+
+
+
 Files under kjots/
 Files under klaptopdaemon/
 Files under kmilo/
 Files under kregexpeditor/
 Files under ksim/
 Files under ktimer/
+
+ ktimer/CMakeLists.txt ~ unspec ~ unspec
+ ktimer/hi128-app-ktimer.png ~ unspec ~ unspec
+ ktimer/hi16-app-ktimer.png ~ unspec ~ unspec
+ ktimer/hi32-app-ktimer.png ~ unspec ~ unspec
+ ktimer/hi48-app-ktimer.png ~ unspec ~ unspec
+ ktimer/ktimer.cpp ~ GPLv2h ~  * Copyright 2001 Stefan Schimanski <1Stein@gmx.de>
+ ktimer/ktimer.desktop ~ unspec ~ unspec
+ ktimer/ktimer.h ~ GPLv2h ~  * Copyright 2001 Stefan Schimanski <1Stein@gmx.de>
+ ktimer/main.cpp ~ GPLv2h ~  * Copyright 2001 Stefan Schimanski <schimmi@kde.org>
+ ktimer/Messages.sh ~ unspec ~ unspec
+ ktimer/prefwidget.ui ~ unspec ~ unspec
+
+
 Files under kwallet/
+
+ kwallet/allyourbase.cpp ~ GPLv2h ~ Copyright (C) 2003-2005 George Staikos <staikos@kde.org>
+                                    Copyright (C) 2005 Isaac Clerencia <isaac@warp.es>
+ kwallet/allyourbase.h ~ GPLv2h ~ Copyright (C) 2003-2005 George Staikos <staikos@kde.org>
+                                  Copyright (C) 2005 Isaac Clerencia <isaac@warp.es>
+ kwallet/CMakeLists.txt ~ unspec ~ unspec
+ kwallet/hi128-app-kwalletmanager2.png ~ unspec ~ unspec
+ kwallet/hi128-app-kwalletmanager.png ~ unspec ~ unspec
+ kwallet/hi16-app-kwalletmanager2.png ~ unspec ~ unspec
+ kwallet/hi16-app-kwalletmanager.png ~ unspec ~ unspec
+ kwallet/hi22-app-kwalletmanager.png ~ unspec ~ unspec
+ kwallet/hi32-app-kwalletmanager2.png ~ unspec ~ unspec
+ kwallet/hi32-app-kwalletmanager.png ~ unspec ~ unspec
+ kwallet/hi48-app-kwalletmanager2.png ~ unspec ~ unspec
+ kwallet/hi48-app-kwalletmanager.png ~ unspec ~ unspec
+ kwallet/hi64-app-kwalletmanager2.png ~ unspec ~ unspec
+ kwallet/hi64-app-kwalletmanager.png ~ unspec ~ unspec
+ kwallet/icons/* ~ unspec ~ unspec
+ kwallet/kbetterthankdialogbase.cpp ~ unspec ~ unspec
+ kwallet/kbetterthankdialogbase.h ~ unspec ~ unspec
+ kwallet/kbetterthankdialogbase.ui ~ unspec ~ unspec
+ kwallet/konfigurator/CMakeLists.txt ~ unspec ~ unspec
+ kwallet/konfigurator/konfigurator.cpp ~ GPLv2h ~    Copyright (C) 2003 George Staikos <staikos@kde.org>
+ kwallet/konfigurator/konfigurator.h ~ GPLv2h ~    Copyright (C) 2003 George Staikos <staikos@kde.org>
+ kwallet/konfigurator/kwalletconfig.desktop ~ unspec ~ unspec
+ kwallet/konfigurator/kwalletmanager_show.desktop ~ unspec ~ unspec
+ kwallet/konfigurator/Messages.sh ~ unspec ~ unspec
+ kwallet/konfigurator/walletconfigwidget.ui ~ unspec ~ unspec
+ kwallet/kwalleteditor.cpp ~ GPLv2h ~    Copyright (C) 2003-2005 George Staikos <staikos@kde.org>
+                                        Copyright (C) 2005 Isaac Clerencia <isaac@warp.es>
+ kwallet/kwalleteditor.h ~ GPLv2h ~    Copyright (C) 2003-2005 George Staikos <staikos@kde.org>
+                                        Copyright (C) 2005 Isaac Clerencia <isaac@warp.es>
+ kwallet/kwalleteditor.rc ~ unspec ~ unspec
+ kwallet/kwalletmanager.cpp ~ GPLv2h ~    Copyright (C) 2003,2004 George Staikos <staikos@kde.org>
+ kwallet/kwalletmanager.desktop ~ unspec ~ unspec
+ kwallet/kwalletmanager.h ~ GPLv2h ~    Copyright (C) 2003,2004 George Staikos <staikos@kde.org>
+ kwallet/kwalletmanager-kwalletd.desktop ~ unspec ~ unspec
+ kwallet/kwalletmanager.rc ~ unspec ~ unspec
+ kwallet/kwalletpopup.cpp ~ GPLv2h ~    Copyright (C) 2003 George Staikos <staikos@kde.org>
+ kwallet/kwalletpopup.h ~ GPLv2h ~    Copyright (C) 2003 George Staikos <staikos@kde.org>
+ kwallet/kwmapeditor.cpp ~ GPLv2h ~    Copyright (C) 2003,2004 George Staikos <staikos@kde.org>
+ kwallet/kwmapeditor.h ~ GPLv2h ~    Copyright (C) 2003,2004 George Staikos <staikos@kde.org>
+ kwallet/main.cpp ~ GPLv2h ~    Copyright (C) 2003-2005 George Staikos <staikos@kde.org>
+ kwallet/Messages.sh ~ unspec ~ unspec
+ kwallet/TODO ~ unspec ~ unspec
+ kwallet/walletwidget.ui ~ unspec ~ unspec
+
+
+Files under superkaramba/
+
+superkaramba/AUTHORS ~ unspec ~ unspec
+ superkaramba/ChangeLog ~ unspec ~ unspec
+ superkaramba/CMakeLists.txt ~ unspec ~ unspec
+ superkaramba/COPYING ~ unspec ~ unspec
+ superkaramba/doc/* ~ unspec ~ unspec
+ superkaramba/Doxyfile ~ unspec ~ unspec
+ superkaramba/examples/* ~ unspec ~ unspec
+ superkaramba/icons/* ~ unspec ~ unspec
+ superkaramba/karamba.kdevelop ~ unspec ~ unspec
+ superkaramba/karamba.kdevses ~ unspec ~ unspec
+ superkaramba/NEWS ~ unspec ~ unspec
+ superkaramba/README ~ unspec ~ unspec
+ superkaramba/skapplet/CMakeLists.txt ~ unspec ~ unspec
+ superkaramba/skapplet/Messages.sh ~ unspec ~ unspec
+ superkaramba/skapplet/plasma-skapplet-default.desktop ~ unspec ~ unspec
+ superkaramba/skapplet/skappletadaptor.h ~ GPLv2h ~  * Copyright (C) 2007 Sebastian Sauer <mail@dipe.org>
+ superkaramba/skapplet/skapplet.cpp ~ GPLv2h ~  * Copyright (C) 2007 Sebastian Sauer <mail@dipe.org>
+ superkaramba/skapplet/skapplet.h ~ GPLv2h ~  * Copyright (C) 2007 Sebastian Sauer <mail@dipe.org>
+ superkaramba/skapplet/skwidgetadaptor.h ~ GPLv2h ~  * Copyright (C) 2007 Sebastian Sauer <mail@dipe.org>
+ superkaramba/src/CMakeLists.txt ~ unspec ~ unspec
+ superkaramba/src/config-superkaramba.h.cmake ~ unspec ~ unspec
+ superkaramba/src/karambaapp.cpp ~ GPLv2h ~ Copyright (C) 2003-2004 Adam Geitgey <adam@rootnode.org>             
+                                Copyright (C) 2003 Hans Karlsson <karlsson.h@home.se>                 *
+                                Copyright (C) 2007 Alexander Wiedenbruch <mail@wiedenbruch.de>        *
+                                Copyright (C) 2007 Matt Broadstone <mbroadst@gmail.com>               *
+ superkaramba/src/karambaapp.h ~ GPLv2h ~ Copyright (C) 2003-2004 Adam Geitgey <adam@rootnode.org>              *
+                                Copyright (C) 2003 Hans Karlsson <karlsson.h@home.se>                 *
+                                Copyright (C) 2007 Alexander Wiedenbruch <mail@wiedenbruch.de>        *
+                                Copyright (C) 2007 Matt Broadstone <mbroadst@gmail.com>               *
+ superkaramba/src/karamba.cpp ~ GPLv2h ~  * Copyright (C) 2003-2004 Adam Geitgey <adam@rootnode.org>
+                                Copyright (C) 2003 Hans Karlsson <karlsson.h@home.se>
+                                Copyright (C) 2004,2005 Luke Kenneth Casson Leighton <lkcl@lkcl.net>
+                                Copyright (c) 2005 Ryan Nickell <p0z3r@earthlink.net>
+                                Copyright (c) 2007 Alexander Wiedenbruch <mail@wiedenbruch.de>
+ superkaramba/src/karamba.h ~ GPLv2h ~  * Copyright (C) 2003-2004 Adam Geitgey <adam@rootnode.org>
+                                 Copyright (C) 2003 Hans Karlsson <karlsson.h@home.se>
+                                 Copyright (C) 2004,2005 Luke Kenneth Casson Leighton <lkcl@lkcl.net>
+                                 Copyright (c) 2005 Ryan Nickell <p0z3r@earthlink.net>
+                                 Copyright (c) 2007 Alexander Wiedenbruch <mail@wiedenbruch.de>
+ superkaramba/src/karambainterface.cpp ~ GPLv2h ~  * Copyright (c) 2007 Alexander Wiedenbruch <mail@wiedenbruch.de>
+ superkaramba/src/karambainterface.h ~ GPLv2h ~  * Copyright (c) 2007 Alexander Wiedenbruch <mail@wiedenbruch.de>
+ superkaramba/src/karambamanager.cpp ~ GPLv2h ~  * Copyright (c) 2007 Alexander Wiedenbruch <mail@wiedenbruch.de>
+ superkaramba/src/karambamanager.h ~ GPLv2h ~  * Copyright (c) 2007 Alexander Wiedenbruch <mail@wiedenbruch.de>
+ superkaramba/src/karambasessionmanaged.cpp ~ GPLv2h ~ *  Copyright (C) 2004 -
+ superkaramba/src/karambasessionmanaged.h ~ GPLv2h ~ *  Copyright (C) 2004 -
+ superkaramba/src/kwidgetlistbox.cpp ~ GPLv2h ~ * Copyright (C) 2005 Petri Damst� <petri.damsten@iki.fi>
+ superkaramba/src/kwidgetlistbox.h ~ GPLv2h ~  * Copyright (C) 2005 Petri Damst� <petri.damsten@iki.fi>
+ superkaramba/src/lineparser.cpp ~ GPLv2h ~  * Copyright (C) 2003-2004 Adam Geitgey <adam@rootnode.org>
+                                             * Copyright (C) 2003 Hans Karlsson <karlsson.h@home.se>
+                                             * Copyright (c) 2005 Ryan Nickell <p0z3r@earthlink.net>
+                                             * Copyright (c) 2005 Petri Damsten <damu@iki.fi>
+ superkaramba/src/lineparser.h ~ unspec ~ unspec
+ superkaramba/src/main.cpp ~ GPLv2h ~ Copyright (C) 2003 Hans Karlsson <karlsson.h@home.se>
+                                      Copyright (C) 2003-2004 Adam Geitgey <adam@rootnode.org>
+                                      Copyright (c) 2005 Ryan Nickell <p0z3r@earthlink.net>
+ superkaramba/src/mainwidget.cpp ~ GPLv2h ~  * Copyright (c) 2007 Alexander Wiedenbruch <mail@wiedenbruch.de>
+ superkaramba/src/mainwidget.h ~ GPLv2h ~  * Copyright (c) 2007 Alexander Wiedenbruch <mail@wiedenbruch.de>
+ superkaramba/src/Messages.sh ~ unspec ~ unspec
+ superkaramba/src/meters/bar.cpp ~ GPLv2h ~ Copyright             (C) 2003 by Hans Karlsson <karlsson.h@home.se>              *
+                                           Copyright (C) 2003 Matt Broadstone <mbroadst@gmail.com>               *
+ superkaramba/src/meters/bar.h ~ GPLv2h ~ Copyright             (C) 2003 by Hans Karlsson <karlsson.h@home.se>              *
+                                 Copyright (C) 2003 Matt Broadstone <mbroadst@gmail.com>               
+ superkaramba/src/meters/clickarea.cpp ~ GPLv2h ~ Copyright             (C) 2003 by Hans Karlsson       
+                                 Copyright (C) 2004,2005 Luke Kenneth Casson Leighton <lkcl@lkcl.net>  
+ superkaramba/src/meters/clickarea.h ~ GPLv2h ~ Copyright (C) 2003 Hans Karlsson <karlsson.h@home.se>
+                                                Copyright (C) 2003-2004 Adam Geitgey <adam@rootnode.org>
+                                                Copyright (c) 2005 Ryan Nickell <p0z3r@earthlink.net>
+ superkaramba/src/meters/clickmap.cpp ~ GPLv2h ~ Copyright             (C) 2003 by Ralph M. Churchill <mrchucho@yahoo.com>                                                      Copyright (C) 2007 Matt Broadstone <mbroadst@gmail.com>               
+ superkaramba/src/meters/clickmap.h ~ GPLv2h ~ Copyright             (C) 2003 by Ralph M. Churchill <mrchucho@yahoo.com>                                                       Copyright (C) 2007 Matt Broadstone <mbroadst@gmail.com>            
+ superkaramba/src/meters/graph.cpp ~ GPLv2h ~ Copyright             (C) 2003 by Hans Karlsson                                  
+ superkaramba/src/meters/graph.h ~ GPLv2h ~ Copyright             (C) 2003 by Hans Karlsson                                   
+ superkaramba/src/meters/imagelabel.cpp ~ GPLv2h ~ *  Copyright (C) 2003 Hans Karlsson <karlsson.h@home.se>
+                                                   Copyright (c) 2004 Petri Damst� <damu@iki.fi>
+ superkaramba/src/meters/imagelabel.h ~ GPLv2h ~ Copyright (C) 2003 Hans Karlsson <karlsson.h@home.se>
+                                                  Copyright (c) 2004 Petri Damst� <damu@iki.fi>
+ superkaramba/src/meters/input.cpp ~ GPLv2h ~  Copyright (c) 2005 Alexander Wiedenbruch <mail@wiedenbruch.de>
+                                                Copyright (c) 2007 Matt Broadstone <mbroadst@gmail.com>
+                                               Copyright (C) 1992-2006 Trolltech ASA. All rights reserved.
+ superkaramba/src/meters/input.h ~ GPLv2h ~  Copyright (c) 2005 Alexander Wiedenbruch <mail@wiedenbruch.de>
+  * Copyright (c) 2007 Matt Broadstone <mbroadst@gmail.com>
+ superkaramba/src/meters/meter.cpp ~ GPLv2h ~ Copyright             (C) 2003 by Hans Karlsson <karlsson.h@home.se>             
+                                 Copyright (C) 2003 Matt Broadstone <mbroadst@gmail.com>               
+ superkaramba/src/meters/meter.h ~ GPLv2h ~ Copyright             (C) 2003 by Hans Karlsson <karlsson.h@home.se>             
+                                 Copyright (C) 2003 Matt Broadstone <mbroadst@gmail.com>               
+ superkaramba/src/meters/richtextlabel.cpp ~ GPLv2h ~ Copyright             (C) 2003 by Wilfried Huss <Wilfried.Huss@gmx.at>                                                Copyright (C) 2003 Matt Broadstone <mbroadst@gmail.com>               *
+ superkaramba/src/meters/richtextlabel.h ~ GPLv2h ~ Copyright             (C) 2003 by Wilfried Huss <Wilfried.Huss@gmx.at>                                                         Copyright (C) 2003 Matt Broadstone <mbroadst@gmail.com>               *
+ superkaramba/src/meters/textfield.cpp ~ GPLv2h ~ Copyright             (C) 2003 by Ralph M. Churchill   
+ superkaramba/src/meters/textfield.h ~ GPLv2h ~ Copyright             (C) 2003 by Ralph M. Churchill                            
+ superkaramba/src/meters/textlabel.cpp ~ GPLv2h ~ Copyright             (C) 2003 by Hans Karlsson <karlsson.h@home.se>     
+                                 Copyright (C) 2007 Matt Broadstone <mbroadst@gmail.com>               
+ superkaramba/src/meters/textlabel.h ~ GPLv2h ~ Copyright             (C) 2003 by Hans Karlsson                       
+ superkaramba/src/org.kde.superkaramba.xml ~ unspec ~ unspec
+ superkaramba/src/python/bar.cpp ~ GPLv2h ~ *  Copyright (c) 2004 Petri Damst� <damu@iki.fi>
+ superkaramba/src/python/bar.h ~ GPLv2h ~ *  Copyright (c) 2004 Petri Damst�n <damu@iki.fi>
+ superkaramba/src/python/config.cpp ~ GPLv2h ~ *  Copyright (C) 2003 Hans Karlsson <karlsson.h@home.se>
+                                             Copyright (C) 2003-2004 Adam Geitgey <adam@rootnode.org>
+                                             Copyright (c) 2004 Petri Damst� <damu@iki.fi>
+ superkaramba/src/python/config.h ~ GPLv2h ~ *  Copyright (C) 2003 Hans Karlsson <karlsson.h@home.se>
+                                             Copyright (C) 2003-2004 Adam Geitgey <adam@rootnode.org>
+                                             Copyright (c) 2004 Petri Damst�n <damu@iki.fi>
+ superkaramba/src/python/graph.cpp ~ GPLv2h ~ *  Copyright (c) 2004 Petri Damst� <damu@iki.fi>
+ superkaramba/src/python/graph.h ~ GPLv2h ~ *  Copyright (c) 2004 Petri Damst�n <damu@iki.fi>
+ superkaramba/src/python/imagelabel.cpp ~ GPLv2h ~ *  Copyright (C) 2003 Hans Karlsson <karlsson.h@home.se>
+                                             Copyright (C) 2003-2004 Adam Geitgey <adam@rootnode.org>
+                                             Copyright (c) 2004 Petri Damst� <damu@iki.fi>
+ superkaramba/src/python/imagelabel.h ~ GPLv2h ~ *  Copyright (C) 2003 Hans Karlsson <karlsson.h@home.se>
+                                             Copyright (C) 2003-2004 Adam Geitgey <adam@rootnode.org>
+                                             Copyright (c) 2004 Petri Damst�n <damu@iki.fi>
+ superkaramba/src/python/input.cpp ~ GPLv2h ~ *  Copyright (C) 2003 Hans Karlsson <karlsson.h@home.se>
+                                             Copyright (C) 2003-2004 Adam Geitgey <adam@rootnode.org>
+                                             Copyright (c) 2004 Petri Damst� <damu@iki.fi>
+                                             Copyright (c) 2005 Alexander Wiedenbruch <mail@wiedenbruch.de>
+ superkaramba/src/python/input.h ~ GPLv2h ~ *  Copyright (C) 2003 Hans Karlsson <karlsson.h@home.se>
+                                             Copyright (C) 2003-2004 Adam Geitgey <adam@rootnode.org>
+                                             Copyright (c) 2004 Petri Damst�n <damu@iki.fi>
+                                             Copyright (c) 2005 Alexander Wiedenbruch <mail@wiedenbruch.de>
+ superkaramba/src/python/karamba.cpp ~ GPLv2h ~ *  Copyright (C) 2003 Hans Karlsson <karlsson.h@home.se>
+                                             Copyright (C) 2003-2004 Adam Geitgey <adam@rootnode.org>
+                                             Copyright (c) 2004 Petri Damst� <damu@iki.fi>
+                                             Copyright (c) 2004 Luke Kenneth Casson Leighton <lkcl@lkcl.net>
+ superkaramba/src/python/karamba.h ~ GPLv2h ~ *  Copyright (C) 2003 Hans Karlsson <karlsson.h@home.se>
+                                             Copyright (C) 2003-2004 Adam Geitgey <adam@rootnode.org>
+                                             Copyright (c) 2004 Petri Damst� <damu@iki.fi>
+ superkaramba/src/python/menu.cpp ~ GPLv2h ~ *  Copyright (C) 2003 Hans Karlsson <karlsson.h@home.se>
+                                             Copyright (C) 2003-2004 Adam Geitgey <adam@rootnode.org>
+                                             Copyright (c) 2004 Petri Damst� <damu@iki.fi>
+ superkaramba/src/python/menu.h ~ GPLv2h ~ *  Copyright (C) 2003 Hans Karlsson <karlsson.h@home.se>
+                                             Copyright (C) 2003-2004 Adam Geitgey <adam@rootnode.org>
+                                             Copyright (c) 2004 Petri Damst�n <damu@iki.fi>
+ superkaramba/src/python/meter.cpp ~ GPLv2h ~  * Copyright (C) 2003-2004 Adam Geitgey <adam@rootnode.org>                
+                                             Copyright (C) 2003 Hans Karlsson <karlsson.h@home.se>                   
+ superkaramba/src/python/meter.h ~ GPLv2h ~  * Copyright (C) 2003-2004 Adam Geitgey <adam@rootnode.org>                
+                                             Copyright (C) 2003 Hans Karlsson <karlsson.h@home.se>                   
+ superkaramba/src/python/misc.cpp ~ GPLv2h ~ *  Copyright (C) 2003 Hans Karlsson <karlsson.h@home.se>
+                                             Copyright (C) 2003-2004 Adam Geitgey <adam@rootnode.org>
+                                             Copyright (C) 2004 Petri Damst� <damu@iki.fi>
+                                             Copyright (C) 2004, 2005 Luke Kenneth Casson Leighton <lkcl@lkcl.net>
+ superkaramba/src/python/misc.h ~ GPLv2h ~ *  Copyright (C) 2003 Hans Karlsson <karlsson.h@home.se>
+                                             Copyright (C) 2003-2004 Adam Geitgey <adam@rootnode.org>
+                                             Copyright (C) 2004 Petri Damst� <damu@iki.fi>
+                                             Copyright (C) 2004,2005 Luke Kenneth Casson Leighton <lkcl@lkcl.net>
+ superkaramba/src/python/richtextlabel.cpp ~ GPLv2h ~ *  Copyright (C) 2003 Hans Karlsson <karlsson.h@home.se>
+                                             Copyright (C) 2003-2004 Adam Geitgey <adam@rootnode.org>
+                                             Copyright (c) 2004 Petri Damst� <damu@iki.fi>
+ superkaramba/src/python/richtextlabel.h ~ GPLv2h ~ *  Copyright (C) 2003 Hans Karlsson <karlsson.h@home.se>
+                                             Copyright (C) 2003-2004 Adam Geitgey <adam@rootnode.org>
+                                             Copyright (c) 2004 Petri Damst�n <damu@iki.fi>
+ superkaramba/src/python/svcgrp.cpp ~ GPLv2h ~  * Copyright (C) 2004 Luke Kenneth Casson Leighton <lkcl@lkcl.net>         
+                                                 Copyright (C) 2004 by Tommy Brander                                   
+ superkaramba/src/python/svcgrp.h ~ GPLv2h ~  * Copyright (C) 2004 Luke Kenneth Casson Leighton <lkcl@lkcl.net>         
+ superkaramba/src/python/systray.cpp ~ GPLv2h ~ *  Copyright (C) 2003 Hans Karlsson <karlsson.h@home.se>
+                                             Copyright (C) 2003-2004 Adam Geitgey <adam@rootnode.org>
+                                             Copyright (c) 2004 Petri Damst�n <damu@iki.fi>
+ superkaramba/src/python/systray.h ~ GPLv2h ~ *  Copyright (C) 2003 Hans Karlsson <karlsson.h@home.se>
+                                             Copyright (C) 2003-2004 Adam Geitgey <adam@rootnode.org>
+ superkaramba/src/python/task.cpp ~ GPLv2h ~ *  Copyright (C) 2003 Hans Karlsson <karlsson.h@home.se>
+                                             Copyright (C) 2003-2004 Adam Geitgey <adam@rootnode.org>
+                                             Copyright (c) 2004 Petri Damst� <damu@iki.fi>
+ superkaramba/src/python/task.h ~ GPLv2h ~ *  Copyright (C) 2003 Hans Karlsson <karlsson.h@home.se>
+                                             Copyright (C) 2003-2004 Adam Geitgey <adam@rootnode.org>
+                                              Copyright (c) 2004 Petri Damst�n <damu@iki.fi>
+ superkaramba/src/python/textlabel.cpp ~ GPLv2h ~ *  Copyright (C) 2003 Hans Karlsson <karlsson.h@home.se>
+                                             Copyright (C) 2003-2004 Adam Geitgey <adam@rootnode.org>
+                                              Copyright (c) 2004 Petri Damst� <damu@iki.fi>
+ superkaramba/src/python/textlabel.h ~ GPLv2h ~ *  Copyright (C) 2003 Hans Karlsson <karlsson.h@home.se>
+                                             Copyright (C) 2003-2004 Adam Geitgey <adam@rootnode.org>
+                                             Copyright (c) 2004 Petri Damst�n <damu@iki.fi>
+ superkaramba/src/python/widget.cpp ~ GPLv2h ~ *  Copyright (C) 2003 Hans Karlsson <karlsson.h@home.se>
+                                             Copyright (C) 2003-2004 Adam Geitgey <adam@rootnode.org>
+                                             Copyright (c) 2004 Petri Damst� <damu@iki.fi>
+ superkaramba/src/python/widget.h ~ GPLv2h ~ *  Copyright (C) 2003 Hans Karlsson <karlsson.h@home.se>
+                                             Copyright (C) 2003-2004 Adam Geitgey <adam@rootnode.org>
+                                             Copyright (c) 2004 Petri Damst�n <damu@iki.fi>
+ superkaramba/src/sensors/cpu.cpp ~ GPLv2h ~ Copyright             (C) 2003 by Hans Karlsson                                   
+ superkaramba/src/sensors/cpu.h ~ GPLv2h ~ Copyright             (C) 2003 by Hans Karlsson                                  
+ superkaramba/src/sensors/date.cpp ~ GPLv2h ~ Copyright             (C) 2003 by Hans Karlsson                                 
+ superkaramba/src/sensors/date.h ~ GPLv2h ~ Copyright             (C) 2003 by Hans Karlsson                                  
+ superkaramba/src/sensors/disk.cpp ~ GPLv2h ~ Copyright             (C) 2003 by Hans Karlsson                                 
+ superkaramba/src/sensors/disk.h ~ GPLv2h ~ Copyright             (C) 2003 by Hans Karlsson                                  
+ superkaramba/src/sensors/lmsensor.cpp ~ GPLv2h ~ Copyright             (C) 2003 by Hans Karlsson                              
+ superkaramba/src/sensors/lmsensor.h ~ unspec ~ unspec
+ superkaramba/src/sensors/mem.cpp ~ GPLv2h ~ Copyright             (C) 2003 by Hans Karlsson                                  
+ superkaramba/src/sensors/mem.h ~ GPLv2h ~ Copyright             (C) 2003 by Hans Karlsson                                  
+ superkaramba/src/sensors/network.cpp ~ GPLv2h ~ Copyright             (C) 2003 by Hans Karlsson                              
+ superkaramba/src/sensors/network.h ~ GPLv2h ~ Copyright             (C) 2003 by Hans Karlsson                                  
+ superkaramba/src/sensors/plasmaengine.cpp ~ GPLv2h ~  * Copyright (C) 2007 Sebastian Sauer <mail@dipe.org>
+ superkaramba/src/sensors/plasmaengine.h ~ GPLv2h ~  * Copyright (C) 2007 Sebastian Sauer <mail@dipe.org>
+ superkaramba/src/sensors/program.cpp ~ GPLv2h ~ Copyright             (C) 2003 by Hans Karlsson                               
+ superkaramba/src/sensors/program.h ~ GPLv2h ~ Copyright             (C) 2003 by Hans Karlsson                                 
+ superkaramba/src/sensors/rss.cpp ~ GPLv2h ~ Copyright             (C) 2003 by Ralph M. Churchill                              
+ superkaramba/src/sensors/rss.h ~ GPLv2h ~ Copyright             (C) 2003 by Ralph M. Churchill                              
+ superkaramba/src/sensors/sensor.cpp ~ GPLv2h ~ Copyright             (C) 2003 by Hans Karlsson                                 
+ superkaramba/src/sensors/sensor.h ~ GPLv2h ~ Copyright             (C) 2003 by Hans Karlsson                                 
+ superkaramba/src/sensors/sensorparams.cpp ~ GPLv2h ~ Copyright             (C) 2003 by Hans Karlsson                           
+ superkaramba/src/sensors/sensorparams.h ~ GPLv2h ~  * Copyright (C) 2003-2004 Adam Geitgey <adam@rootnode.org>
+                                                     Copyright (c) 2005 Ryan Nickell <p0z3r@earthlink.net>
+ superkaramba/src/sensors/textfile.cpp ~ GPLv2h ~ Copyright             (C) 2003 by Hans Karlsson                              
+ superkaramba/src/sensors/textfile.h ~ GPLv2h ~  * Copyright (C) 2003 Hans Karlsson <karlsson.h@home.se>
+                                                Copyright (C) 2003-2004 Adam Geitgey <adam@rootnode.org>
+                                                    Copyright (c) 2005 Ryan Nickell <p0z3r@earthlink.net>
+ superkaramba/src/sensors/uptime.cpp ~ GPLv2h ~ Copyright             (C) 2003 by Hans Karlsson                                 
+ superkaramba/src/sensors/uptime.h ~ GPLv2h ~ Copyright             (C) 2003 by Hans Karlsson                                   
+ superkaramba/src/showdesktop.cpp ~ GPLv2h ~ Copyright (C) 2003-2004 Adam Geitgey <adam@rootnode.org>
+                                             Copyright (c) 2005 Ryan Nickell <p0z3r@earthlink.net>
+ superkaramba/src/showdesktop.h ~ GPLv2h ~  Copyright (C) 2003-2004 Adam Geitgey <adam@rootnode.org>
+                                            Copyright (c) 2005 Ryan Nickell <p0z3r@earthlink.net>
+ superkaramba/src/superkaramba.desktop ~ unspec ~ unspec
+ superkaramba/src/superkaramba_export.h ~ GPLv2h ~     Copyright (C) 2007 David Faure <faure@kde.org>
+ superkaramba/src/superkaramba.kcfg ~ unspec ~ unspec
+ superkaramba/src/superkaramba.knsrc ~ unspec ~ unspec
+ superkaramba/src/superkaramba.lsm ~ unspec ~ unspec
+ superkaramba/src/superkarambasettings.kcfgc ~ unspec ~ unspec
+ superkaramba/src/superkarambaui.rc ~ unspec ~ unspec
+ superkaramba/src/systemtray.cpp ~ GPLv2h ~     copyright (C) 2003      Adam Geitgey <adam@rootnode.org>
+ superkaramba/src/systemtray.h ~ GPLv2h ~     copyright (C) 2003      Adam Geitgey <adam@rootnode.org>
+ superkaramba/src/taskmanager.cpp ~ MIT ~ Copyright (c) 2000 Matthias Elter <elter@kde.org>
+                                             Copyright (C) 2004 Hans Oischinger
+ superkaramba/src/taskmanager.h ~ MIT ~ Copyright (c) 2000-2001 Matthias Elter <elter@kde.org>
+                                             Copyright (c) 2001 Richard Moore <rich@kde.org>
+ superkaramba/src/themefile.cpp ~ GPLv2 ~ *  Copyright (C) 2003 Hans Karlsson <karlsson.h@home.se>
+                                             Copyright (C) 2003-2004 Adam Geitgey <adam@rootnode.org>
+                                             Copyright (c) 2004 Petri Damst� <damu@iki.fi>
+ superkaramba/src/themefile.h ~ GPLv2 ~ *  Copyright (C) 2003 Hans Karlsson <karlsson.h@home.se>
+                                             Copyright (C) 2003-2004 Adam Geitgey <adam@rootnode.org>
+                                             Copyright (c) 2004 Petri Damst� <damu@iki.fi>
+ superkaramba/src/themelocale.cpp ~ GPLv2 ~  *  Copyright (c) 1997,2001 Stephan Kulow <coolo@kde.org>
+                                             Copyright (c) 1999 Preston Brown <pbrown@kde.org>
+                                             Copyright (c) 1999-2002 Hans Petter Bieker <bieker@kde.org>
+                                             Copyright (c) 2002 Lukas Tinkl <lukas@kde.org>
+                                             Copyright (C) 1995 Software Foundation, Inc.
+                                              Copyright (c) 2005 Petri Damsten <damu@iki.fi>
+ superkaramba/src/themelocale.h ~ GPLv2 ~  * Copyright (c) 2005 Petri Damsten <damu@iki.fi>
+ 
+ 
+ superkaramba/src/themesdlg.cpp ~ GPLv2h ~  * Copyright (C) 2005 Petri Damst� <petri.damsten@iki.fi>
+ superkaramba/src/themesdlg.h ~ GPLv2h ~  * Copyright (C) 2005 Petri Damst� <petri.damsten@iki.fi>
+ superkaramba/src/themes_layout.ui ~ unspec ~ unspec
+ superkaramba/src/themewidget.cpp ~ GPLv2h ~  * Copyright (C) 2005 Petri Damst� <petri.damsten@iki.fi>
+ superkaramba/src/themewidget.h ~ GPLv2h ~  * Copyright (C) 2005 Petri Damst� <petri.damsten@iki.fi>
+ superkaramba/src/themewidget_layout.ui ~ unspec ~ unspec
+ superkaramba/TODO ~ unspec ~ unspec
+
+
+Files under sweeper/
+
+ sweeper/CMakeLists.txt ~ unspec ~ unspec
+ sweeper/kprivacysettings.ui ~ unspec ~ unspec
+ sweeper/main.cpp ~ LGPLv2.1h ~   * Copyright (C) 2005 Benjamin C Meyer (ben at meyerhome dot net)
+ sweeper/Messages.sh ~ unspec ~ unspec
+ sweeper/org.kde.sweeper.xml ~ unspec ~ unspec
+ sweeper/privacyaction.cpp ~ LGPLv2.1h ~   * Copyright (C) 2005 Brian S. Stephan ( bssteph at irtonline dot org )
+ sweeper/privacyaction.h ~ LGPLv2.1h ~   * Copyright (C) 2005 Brian S. Stephan ( bssteph at irtonline dot org )
+ sweeper/privacyfunctions.cpp ~ LGPLv2.1h ~  * Copyright (c) 2003 Ralf Hoelzer <ralf@well.com>
+ sweeper/privacyfunctions.h ~ LGPLv2.1h ~   * Copyright (c) 2003 Ralf Hoelzer <ralf@well.com>
+ sweeper/sweeper.cpp ~ LGPLv2.1h ~   * Copyright (c) 2003-2005 Ralf Hoelzer <ralf@well.com>
+ sweeper/sweeper.desktop ~ unspec ~ unspec
+ sweeper/sweeperdialog.ui ~ unspec ~ unspec
+ sweeper/sweeper.h ~ LGPLv2.1h ~   * Copyright (c) 2003-2005 Ralf Hoelzer <ralf@well.com>
+ sweeper/sweeperui.rc ~ unspec ~ unspec
+ sweeper/TODO ~ unspec ~ unspec
 
 The Debian packaging is (C) 2007, Debian Qt/KDE Maintainers
 <debian-qt-kde@lists.debian.org> and is licensed under the GPL,
