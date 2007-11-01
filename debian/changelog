@@ -1,4 +1,4 @@
-kdeutils (4:3.95.0-1) unstable; urgency=low
+kdeutils (4:3.95.0-1) experimental; urgency=low
 
   * KDE4 beta 4, first upload to the Debian archive.
   * Rework packages description.
@@ -6,7 +6,7 @@ kdeutils (4:3.95.0-1) unstable; urgency=low
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Wed, 31 Oct 2007 17:52:19 +0100
 
-kdeutils (4:3.94.0-1) unstable; urgency=low
+kdeutils (4:3.94.0-1) alioth; urgency=low
 
   * New upstream release, KDE4 beta3.
   * Update build-dep:
@@ -19,7 +19,7 @@ kdeutils (4:3.94.0-1) unstable; urgency=low
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sat, 20 Oct 2007 21:36:45 +0200
 
-kdeutils (4:3.90.1-1) unstable; urgency=low
+kdeutils (4:3.90.1-1) alioth; urgency=low
 
   * Initial release.
 
