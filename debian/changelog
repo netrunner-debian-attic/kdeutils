@@ -1,6 +1,8 @@
 kdeutils (4:3.95.0-1) unstable; urgency=low
 
   * KDE4 beta 4, first upload to the Debian archive.
+  * Rework packages description.
+  * Complete copyright file.
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Wed, 31 Oct 2007 17:52:19 +0100
 
