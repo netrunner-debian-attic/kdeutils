@@ -184,12 +184,162 @@ Files under cmake/
  cmake/modules/FindTPCTL.cmake ~ BSD ~ # Copyright (c) 2006, Laurent Montel, <montel@kde.org>
 
 
+Files under kcalc/
+
+ kcalc/ChangeLog ~ unspec ~ unspec
+ kcalc/CMakeLists.txt ~ unspec ~ unspec
+ kcalc/colors.ui ~ unspec ~ unspec
+ kcalc/config-kcalc.h.cmake ~ unspec ~ unspec
+ kcalc/configure.in.in ~ unspec ~ unspec
+ kcalc/confvalues.h ~ GPLv2h ~  Copyright (C) Bernd Johannes Wuebben
+ kcalc/constants.ui ~ unspec ~ unspec
+ kcalc/dlabel.cpp ~ GPLv2h ~     Copyright (C) 1996 Bernd Johannes Wuebben   
+ kcalc/dlabel.h ~ GPLv2h ~  Copyright (C) Bernd Johannes Wuebben
+ kcalc/general.ui ~ unspec ~ unspec
+ kcalc/hi16-app-kcalc.png ~ unspec ~ unspec
+ kcalc/hi22-app-kcalc.png ~ unspec ~ unspec
+ kcalc/hi32-app-kcalc.png ~ unspec ~ unspec
+ kcalc/hi48-app-kcalc.png ~ unspec ~ unspec
+ kcalc/hi64-app-kcalc.png ~ unspec ~ unspec
+ kcalc/hisc-app-kcalc.svgz ~ unspec ~ unspec
+ kcalc/kcalc_bitset.cpp ~ GPLv2h ~     Copyright (C) 2006  Michel Marti <mma@objectxp.com>
+ kcalc/kcalc_bitset.h ~ GPLv2h ~     Copyright (C) 2006  Michel Marti <mma@objectxp.com>
+ kcalc/kcalc_button.cpp ~ GPLv2h ~     Copyright (C) 1996-2000 Bernd Johannes Wuebben
+ kcalc/kcalc_button.h ~ GPLv2h ~     Copyright (C) 2004-2005 Klaus Niederkruger
+ kcalc/kcalc_const_button.cpp ~ GPLv2h ~     Copyright (C) 2003 Klaus Niederkrueger <kniederk@math.uni-koeln.de>
+ kcalc/kcalc_const_button.h ~ GPLv2h ~     Copyright (C) 1996 Bernd Johannes Wuebben
+ kcalc/kcalc_const_menu.cpp ~ GPLv2h ~     Copyright (C) 2003 Klaus Niederkrueger <kniederk@math.uni-koeln.de>
+ kcalc/kcalc_const_menu.h ~ GPLv2h ~     Copyright (C) 2004 Klaus Niederkruger
+ kcalc/kcalc_core.cpp ~ GPLv2h ~ portions:	Copyright (C) 2003-2006 Klaus Niederkrueger
+                                 portions:	Copyright (C) 1996 Bernd Johannes Wuebben
+                                 portions: 	Copyright (C) 1995 Martin Bartlett
+ kcalc/kcalc_core.h ~ GPLv2h ~     Copyright (C) 1996 Bernd Johannes Wuebben
+ kcalc/kcalc.cpp ~ GPLv2h ~     Copyright (C) 1996-2000 Bernd Johannes Wuebben
+ kcalc/kcalc.desktop ~ unspec ~ unspec
+ kcalc/kcalcdisplay.cpp ~ GPLv2h ~     Copyright (C) 1996 Bernd Johannes Wuebben   
+ kcalc/kcalcdisplay.h ~ GPLv2h ~  Copyright (C) Bernd Johannes Wuebben
+ kcalc/kcalc.h ~ GPLv2h ~     Copyright (C) 1996 Bernd Johannes Wuebben
+ kcalc/kcalc.kcfg ~ unspec ~ unspec
+ kcalc/kcalcrc.upd ~ unspec ~ unspec
+ kcalc/kcalc_settings.kcfgc ~ unspec ~ unspec
+ kcalc/kcalctype.h ~ GPLv2h ~     Copyright (C) 1996 Bernd Johannes Wuebben
+ kcalc/kcalcui.rc ~ unspec ~ unspec
+ kcalc/knumber/CMakeLists.txt ~ unspec ~ unspec
+ kcalc/knumber/configure.in.in ~ unspec ~ unspec
+ kcalc/knumber/knumber.cpp ~ LGPLv2h ~    Copyright (c) 2005 Klaus Niederkrueger <kniederk@math.uni-koeln.de>
+ kcalc/knumber/knumber.h ~ LGPLv2h ~     Copyright (C) 2005 Klaus Niederkrueger <kniederk@math.uni-koeln.de>
+ kcalc/knumber/knumber_priv.cpp ~ LGPLv2h ~    Copyright (c) 2005 Klaus Niederkrueger <kniederk@math.uni-koeln.de>
+ kcalc/knumber/knumber_priv.h ~ LGPLv2h ~     Copyright (C) 2005 Klaus Niederkrueger <kniederk@math.uni-koeln.de>
+ kcalc/knumber/tests/CMakeLists.txt ~ unspec ~ unspec
+ kcalc/knumber/tests/knumbertest.cpp ~ unspec ~ unspec
+ kcalc/knumber/tests/knumbertest.h ~ unspec ~ unspec
+ kcalc/Messages.sh ~ unspec ~ unspec
+ kcalc/README ~ unspec ~ unspec
+ kcalc/scienceconstants.xml ~ unspec ~ unspec
+ kcalc/stats.cpp ~ GPLv2h ~     Copyright (C) 1996 Bernd Johannes Wuebben
+ kcalc/stats.h ~ GPLv2h ~     Copyright (C) 1996 Bernd Johannes Wuebben
+ kcalc/TODO ~ unspec ~ unspec
+ kcalc/version.h ~ unspec ~ unspec
 
 
+Files under kcharselect/
+
+ kcharselect/CMakeLists.txt ~ unspec ~ unspec
+ kcharselect/hi16-app-kcharselect.png ~ unspec ~ unspec
+ kcharselect/hi32-app-kcharselect.png ~ unspec ~ unspec
+ kcharselect/hi48-app-kcharselect.png ~ unspec ~ unspec
+ kcharselect/KCharSelect.desktop ~ unspec ~ unspec
+ kcharselect/kcharselectdia.cc ~ unspec ~ Copyright 1999 Reginald Stadlbauer <reggie@kde.org>   
+ kcharselect/kcharselectdia.h ~ unspec ~ Copyright 1999 Reginald Stadlbauer <reggie@kde.org>  
+ kcharselect/kcharselect-generate-datafile.py ~ LGPLv2h ~ Copyright (C) 2007 Daniel Laidig <d.laidig@gmx.de>
+                                                          Copyright (C) 2007 Daniel Laidig <d.laidig@gmx.de>
+ kcharselect/kcharselectui.rc ~ unspec ~ unspec
+ kcharselect/kcharselect.upd ~ unspec ~ unspec
+ kcharselect/main.cc ~ unspec ~ Copyright 1999 Reginald Stadlbauer <reggie@kde.org>      
+ kcharselect/Messages.sh ~ unspec ~ unspec
+ kcharselect/TODO ~ unspec ~ unspec
 
 
+Files under kdelirc/
+
+ kdelirc/AUTHORS ~ unspec ~ unspec
+ kdelirc/ChangeLog ~ unspec ~ unspec
+ kdelirc/CMakeLists.txt ~ unspec ~ unspec
+ kdelirc/COPYING ~ unspec ~ unspec
+ kdelirc/icons/*~ unspec ~ unspec
+ kdelirc/irkick/CMakeLists.txt ~ unspec ~ unspec
+ kdelirc/irkick/hi16-app-irkick.png ~ unspec ~ unspec
+ kdelirc/irkick/hi22-app-irkick.png ~ unspec ~ unspec
+ kdelirc/irkick/hi32-app-irkick.png ~ unspec ~ unspec
+ kdelirc/irkick/icons/* ~ unspec ~ unspec
+ kdelirc/irkick/irkick.cpp ~ unspec ~     copyright            : (C) 2002 by Gav Wood
+ kdelirc/irkick/irkick.desktop ~ unspec ~ unspec
+ kdelirc/irkick/irkick.h ~ unspec ~     copyright            : (C) 2002 by Gav Wood
+ kdelirc/irkick/irkick.project ~ unspec ~ unspec
+ kdelirc/irkick/kdedmodule_stub.h ~ unspec ~ unspec
+ kdelirc/irkick/klircclient.cpp ~ unspec ~ 2002 by Malte Starostik
+ kdelirc/irkick/klircclient.h ~ unspec ~ Gav Wood <gav@kde.org>, (C) 2003
+ kdelirc/irkick/lo16-app-irkick.png ~ unspec ~ unspec
+ kdelirc/irkick/lo32-app-irkick.png ~ unspec ~ unspec
+ kdelirc/irkick/main.cpp ~ LGPLv2 ~     copyright  2002 by Gav Wood
+ kdelirc/irkick/Messages.sh ~ unspec ~ unspec
+ kdelirc/kcmlirc/addactionbase.ui ~ unspec ~ unspec
+ kdelirc/kcmlirc/addaction.cpp ~ GPLv2h ~  *   Copyright (C) 2003 by Gav Wood                                        
+ kdelirc/kcmlirc/addaction.h ~ GPLv2h ~  *   Copyright (C) 2003 by Gav Wood                                        
+ kdelirc/kcmlirc/CMakeLists.txt ~ unspec ~ unspec
+ kdelirc/kcmlirc/editactionbase.ui ~ unspec ~ unspec
+ kdelirc/kcmlirc/editaction.cpp ~ GPLv2 ~ Gav Wood <gav@kde.org>, (C) 2003
+ kdelirc/kcmlirc/editaction.h ~ GPLv2 ~ Gav Wood <gav@kde.org>, (C) 2003
+ kdelirc/kcmlirc/editmodebase.ui ~ unspec ~ unspec
+ kdelirc/kcmlirc/editmode.cpp ~ GPLv2 ~ Gav Wood <gav@kde.org>, (C) 2003
+ kdelirc/kcmlirc/editmode.h ~ GPLv2 ~ Gav Wood <gav@kde.org>, (C) 2003
+ kdelirc/kcmlirc/kcmlircbase.ui ~ unspec ~ unspec
+ kdelirc/kcmlirc/kcmlircbase.ui.h ~ GPLv2h ~  *   Copyright (C) 2003 by Gav Wood
+ kdelirc/kcmlirc/kcmlirc.cpp ~ GPLv2h ~  *   Copyright (C) 2003 by Gav Wood                                        *
+ kdelirc/kcmlirc/kcmlirc.desktop ~ unspec ~ unspec
+ kdelirc/kcmlirc/kcmlirc.h ~ GPLv2h ~  *   Copyright (C) 2003 by Gav Wood                                        *
+ kdelirc/kcmlirc/Messages.sh ~ unspec ~ unspec
+ kdelirc/kcmlirc/modeslist.cpp ~ GPLv2 ~  Copyright (C) 2003 by Gav Wood 
+ kdelirc/kcmlirc/modeslist.h ~ GPLv2 ~  Copyright (C) 2003 by Gav Wood 
+ kdelirc/kcmlirc/newmodedialog.cpp ~ GPLv2h ~  *   Copyright (C) 2003 by Gav Wood                                        
+ kdelirc/kcmlirc/newmodedialog.h ~ GPLv2h ~  *   Copyright (C) 2003 by Gav Wood                                        
+ kdelirc/kcmlirc/newmode.ui ~ unspec ~ unspec
+ kdelirc/kcmlirc/selectprofile.ui ~ unspec ~ unspec
+ kdelirc/kdelirc/* ~ GPLv2 ~ Gav Wood <gav@kde.org>, (C) 2003
+ kdelirc/profiles/* ~ unspec ~ unspec
+ kdelirc/profiles/klauncher.profile.xml ~ unspec ~ unspec
+ kdelirc/profiles/konqueror.profile.xml ~ unspec ~ unspec
+ kdelirc/profiles/noatun.profile.xml ~ unspec ~ unspec
+ kdelirc/profiles/profile.dtd ~ unspec ~ unspec
+ kdelirc/README ~ unspec ~ unspec
+ kdelirc/README.profile-creation ~ unspec ~ unspec
+ kdelirc/README.remote-creation ~ unspec ~ unspec
+ kdelirc/remotes/* ~ unspec ~ unspec
+ kdelirc/TODO ~ unspec ~ unspec
 
 
+Files under kdessh/
+
+ kdessh/CMakeLists.txt ~ unspec ~ unspec
+ kdessh/kdessh.cpp ~ GPLv2h ~  * Copyright (C) 2000 Geert Jansen <jansen@kde.org>
+ kdessh/LICENSE.readme ~ unspec ~ unspec
+ kdessh/Messages.sh ~ unspec ~ unspec
+ kdessh/README ~ unspec ~ unspec
+ kdessh/sshdlg.cpp ~ GPLv2h ~  * Copyright (C) 2000 Geert Jansen <jansen@kde.org>
+ kdessh/sshdlg.h ~ GPLv2h ~  * Copyright (C) 2000 Geert Jansen <jansen@kde.org>
+
+
+Files under kdf/
+Files under kfloppy/
+Files under kgpg/
+Files under khexedit/
+Files under kjots/
+Files under klaptopdaemon/
+Files under kmilo/
+Files under kregexpeditor/
+Files under ksim/
+Files under ktimer/
+Files under kwallet/
 
 The Debian packaging is (C) 2007, Debian Qt/KDE Maintainers
 <debian-qt-kde@lists.debian.org> and is licensed under the GPL,
