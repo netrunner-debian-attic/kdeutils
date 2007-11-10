@@ -10,8 +10,8 @@ usr/share/kde4/apps/kgpg/pics/kgpg_blank.png
 usr/share/kde4/apps/kgpg/pics/kgpg_docked.png
 usr/share/kde4/apps/kgpg/pics/kgpg_docked.gif
 usr/share/kde4/apps/kgpg/pics/kgpg_fill.png
-usr/share/kde4/apps/konqueror/servicemenus/encryptfile.desktop
-usr/share/kde4/apps/konqueror/servicemenus/encryptfolder.desktop
+usr/share/kde4/services/ServiceMenus/encryptfile.desktop
+usr/share/kde4/services/ServiceMenus/encryptfolder.desktop
 usr/share/kde4/config.kcfg/kgpg.kcfg
 usr/share/icons/hicolor/16x16/apps/kgpg.png
 usr/share/icons/hicolor/22x22/apps/kgpg.png
