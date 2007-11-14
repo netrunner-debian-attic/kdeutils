@@ -4,8 +4,6 @@ usr/share/applications/kde4/kwalletmanager.desktop
 usr/share/applications/kde4/kwalletmanager-kwalletd.desktop
 usr/share/kde4/apps/kwalletmanager/icons/oxygen/22x22/actions/folder_closed.png
 usr/share/kde4/apps/kwalletmanager/icons/oxygen/22x22/actions/folder_open.png
-usr/share/kde4/apps/kwalletmanager/icons/oxygen/22x22/actions/wallet_closed.png
-usr/share/kde4/apps/kwalletmanager/icons/oxygen/22x22/actions/wallet_open.png
 usr/share/kde4/apps/kwalletmanager/kwalleteditor.rc
 usr/share/kde4/apps/kwalletmanager/kwalletmanager.rc
 usr/share/kde4/services/kwalletconfig.desktop

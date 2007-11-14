@@ -3,7 +3,7 @@ Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Fathi Boudra <fboudra@free.fr>
-Build-Depends: cdbs, debhelper (>= 5), cmake, quilt, kdepimlibs5-dev (>= 3.95.2),
+Build-Depends: cdbs, debhelper (>= 5), cmake, quilt, kdepimlibs5-dev (>= 3.96.0),
  libgmp3-dev, libqimageblitz-dev, libsnmp-dev, libzip-dev, python-all-dev
 Standards-Version: 3.7.2
 

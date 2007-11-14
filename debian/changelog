@@ -1,3 +1,14 @@
+kdeutils (4:3.96.0-1) experimental; urgency=low
+
+  * New upstream release.
+  
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+  
+  * Build depend on kdelibs5-dev >= 4:3.96.0-1
+  * Update *.install files.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 14 Nov 2007 20:45:22 +0100
+
 kdeutils (4:3.95.2-1) experimental; urgency=low
 
   * New upstream release.

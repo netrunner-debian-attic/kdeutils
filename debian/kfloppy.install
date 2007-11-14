@@ -1,6 +1,6 @@
 usr/bin/kfloppy
 usr/share/applications/kde4/KFloppy.desktop
-usr/share/kde4/services/KonqPopupMenu/floppy_format.desktop
+usr/share/kde4/services/ServiceMenus/floppy_format.desktop
 usr/share/icons/hicolor/16x16/apps/kfloppy.png
 usr/share/icons/hicolor/22x22/apps/kfloppy.png
 usr/share/icons/hicolor/32x32/apps/kfloppy.png
