@@ -1,3 +1,13 @@
+kdeutils (4:3.97.0-2) experimental; urgency=low
+
+  * Add kdeutils-dbg package
+  * Move handbooks into respective packages & remove kdeutils-doc package
+  * Change ${Source-Version} to ${binary:Version}
+  * Wrap lines in control
+  * Add self to uploaders
+
+ -- Matthew Rosewarne <mrosewarne@inoutbox.com>  Tue, 11 Dec 2007 21:20:12 -0500
+
 kdeutils (4:3.97.0-1) experimental; urgency=low
 
   * New upstream release.

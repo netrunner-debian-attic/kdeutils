@@ -6,6 +6,12 @@ usr/lib/liboktetacore.so.4.0.0
 usr/lib/liboktetagui.so.4
 usr/lib/liboktetagui.so.4.0.0
 usr/share/applications/kde4/khexedit.desktop
+usr/share/doc/kde4/HTML/en/khexedit/index.cache.bz2
+usr/share/doc/kde4/HTML/en/khexedit/index.docbook
+usr/share/doc/kde4/HTML/en/khexedit/khexedit1.png
+usr/share/icons/hicolor/16x16/apps/khexedit.png
+usr/share/icons/hicolor/32x32/apps/khexedit.png
+usr/share/icons/hicolor/48x48/apps/khexedit.png
 usr/share/kde4/apps/khexedit/khexeditui.rc
 usr/share/kde4/apps/khexedit/pics/hexdrag.png
 usr/share/kde4/apps/khexedit/pics/hexmask.png
@@ -13,6 +19,3 @@ usr/share/kde4/apps/khexedit/pics/hexwrite.png
 usr/share/kde4/apps/oktetapart/oktetapartui.rc
 usr/share/kde4/services/kbytearrayedit.desktop
 usr/share/kde4/services/oktetapart.desktop
-usr/share/icons/hicolor/16x16/apps/khexedit.png
-usr/share/icons/hicolor/32x32/apps/khexedit.png
-usr/share/icons/hicolor/48x48/apps/khexedit.png

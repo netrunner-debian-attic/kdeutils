@@ -5,6 +5,9 @@ usr/lib/kde4/libarkpart.so
 usr/lib/libkerfuffle.so.4
 usr/lib/libkerfuffle.so.4.0.0
 usr/share/applications/kde4/ark.desktop
+usr/share/doc/kde4/HTML/en/ark/index.cache.bz2
+usr/share/doc/kde4/HTML/en/ark/index.docbook
+usr/share/doc/kde4/HTML/en/ark/man-ark.1.docbook
 usr/share/kde4/apps/ark/ark_part.rc
 usr/share/kde4/apps/ark/arkui.rc
 usr/share/kde4/config.kcfg/ark.kcfg
@@ -12,4 +15,3 @@ usr/share/kde4/services/ark_part.desktop
 usr/share/kde4/services/kerfuffle_bk.desktop
 usr/share/kde4/services/kerfuffle_libzip.desktop
 usr/share/kde4/servicetypes/kerfufflePlugin.desktop
-

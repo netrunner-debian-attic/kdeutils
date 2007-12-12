@@ -2,14 +2,22 @@ Source: kdeutils
 Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Fathi Boudra <fabo@debian.org>
+Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Fathi Boudra <fabo@debian.org>, Matthew Rosewarne <mrosewarne@inoutbox.com>
 Build-Depends: cdbs, debhelper (>= 5), cmake, quilt, kdepimlibs5-dev (>= 4:3.97.0),
  libgmp3-dev, libqimageblitz-dev, libsnmp-dev, libzip-dev, python-all-dev
 Standards-Version: 3.7.3
 
+
 Package: kdeutils
 Architecture: all
-Depends: ark (>= ${source:Version}), kcalc (>= ${source:Version}), kcharselect (>= ${source:Version}), kdessh (>= ${source:Version}), kdf (>= ${source:Version}), kfloppy (>= ${source:Version}), kgpg (>= ${source:Version}), khexedit (>= ${source:Version}), kjots (>= ${source:Version}), kmilo (>= ${source:Version}), kregexpeditor (>= ${source:Version}), ktimer (>= ${source:Version}), kwalletmanager (>= ${source:Version}), kwikdisk (>= ${source:Version}), superkaramba (>= ${source:Version}), sweeper (>= ${source:Version})
+Depends: ark (>= ${binary:Version}), kcalc (>= ${binary:Version}),
+ kcharselect (>= ${binary:Version}), kdessh (>= ${binary:Version}),
+ kdf (>= ${binary:Version}), kfloppy (>= ${binary:Version}),
+ kgpg (>= ${binary:Version}), khexedit (>= ${binary:Version}),
+ kjots (>= ${binary:Version}), kmilo (>= ${binary:Version}),
+ kregexpeditor (>= ${binary:Version}), ktimer (>= ${binary:Version}),
+ kwalletmanager (>= ${binary:Version}), kwikdisk (>= ${binary:Version}),
+ superkaramba (>= ${binary:Version}), sweeper (>= ${binary:Version})
 Description: general purpose utilities from the official KDE4 release
  KDE (the K Desktop Environment) is a powerful Open Source graphical
  desktop environment for Unix workstations. It combines ease of use,
@@ -19,10 +27,27 @@ Description: general purpose utilities from the official KDE4 release
  This metapackage includes a collection of general purpose utilities
  provided with the official release of KDE4.
 
+
+Package: kdeutils-dbg
+Section: libdevel
+Architecture: any
+Priority: extra
+Depends: kdelibs-dbg (>=4:3.97.0), ark (= ${binary:Version}),
+ kcalc (= ${binary:Version}), kdf (= ${binary:Version}),
+ khexedit (= ${binary:Version}), kmilo (= ${binary:Version},
+ kregexpeditor (= ${binary:Version}), kwalletmanager (= ${binary:Version}),
+ superkaramba (= ${binary:Version})
+Description: debugging symbols for kdeutils
+ This package contains the debugging symbols associated with kdeutils.
+ They will automatically be used by gdb for debugging kdeutils-related issues.
+
+
 Package: kdeutils-dev
 Section: utils
 Architecture: any
-Depends: ark (= ${source:Version}), khexedit (= ${source:Version}), kmilo (= ${source:Version}), kregexpeditor (= ${source:Version}), superkaramba (= ${source:Version})
+Depends: ark (>= ${binary:Version}), khexedit (>= ${binary:Version}),
+ kmilo (>= ${binary:Version}), kregexpeditor (>= ${binary:Version}),
+ superkaramba (>= ${binary:Version})
 Description: development files for the KDE4 utilities module
  This package contains development files needed to compile kdeutils
  applications.
@@ -30,15 +55,6 @@ Description: development files for the KDE4 utilities module
  This package is part of KDE4, as a component of the KDE4 utilities module.
  See the 'kde' and 'kdeutils' packages for more information.
 
-Package: kdeutils-doc
-Section: doc
-Architecture: all
-Description: developer documentation for the KDE4 utilities module
- This package contains documentation for the KDE4 utilities module, of
- use more for developers creating applications than regular users.
- .
- This package is part of KDE4, and a component of the KDE utilities module.
- See the 'kde' and 'kdeutils' packages for more information.
 
 Package: ark
 Architecture: any
@@ -58,6 +74,7 @@ Description: graphical archiving tool for KDE4
  This package is part of KDE4, as a component of the KDE4 utilities module.
  See the 'kde' and 'kdeutils' packages for more information.
 
+
 Package: kcalc
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
@@ -73,6 +90,7 @@ Description: calculator for KDE4
  This package is part of KDE4, as a component of the KDE4 utilities module.
  See the 'kde' and 'kdeutils' packages for more information.
 
+
 Package: kcharselect
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
@@ -82,6 +100,7 @@ Description: character selector for KDE4
  This package is part of KDE4, as a component of the KDE4 utilities module.
  See the 'kde' and 'kdeutils' packages for more information.
 
+
 Package: kdessh
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
@@ -90,6 +109,7 @@ Description: ssh frontend for KDE4
  .
  This package is part of KDE4, as a component of the KDE4 utilities module.
  See the 'kde' and 'kdeutils' packages for more information.
+
 
 Package: kdf
 Architecture: any
@@ -103,6 +123,7 @@ Description: disk space utility for KDE4
  This package is part of KDE4, as a component of the KDE4 utilities module.
  See the 'kde' and 'kdeutils' packages for more information.
 
+
 Package: kfloppy
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
@@ -112,6 +133,7 @@ Description: floppy formatter for KDE4
  .
  This package is part of KDE4, as a component of the KDE4 utilities module.
  See the 'kde' and 'kdeutils' packages for more information.
+
 
 Package: kgpg
 Architecture: any
@@ -134,6 +156,7 @@ Description: GnuPG frontend for KDE4
  This package is part of KDE4, as a component of the KDE4 utilities module.
  See the 'kde' and 'kdeutils' packages for more information.
 
+
 Package: khexedit
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
@@ -145,6 +168,7 @@ Description: KDE4 hex editor
  This package is part of KDE4, as a component of the KDE4 utilities module.
  See the 'kde' and 'kdeutils' packages for more information.
 
+
 Package: kjots
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
@@ -154,6 +178,7 @@ Description: note taking utility for KDE4
  .
  This package is part of KDE4, as a component of the KDE4 utilities module.
  See the 'kde' and 'kdeutils' packages for more information.
+
 
 Package: kmilo
 Architecture: any
@@ -168,6 +193,7 @@ Description: laptop special keys support for KDE4
  This package is part of KDE4, as a component of the KDE4 utilities module.
  See the 'kde' and 'kdeutils' packages for more information.
 
+
 Package: kregexpeditor
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
@@ -177,6 +203,7 @@ Description: graphical regular expression editor plugin for KDE4
  .
  This package is part of KDE4, as a component of the KDE4 utilities module.
  See the 'kde' and 'kdeutils' packages for more information.
+
 
 Package: ktimer
 Architecture: any
@@ -189,6 +216,7 @@ Description: timer utility for KDE4
  This package is part of KDE4, as a component of the KDE4 utilities module.
  See the 'kde' and 'kdeutils' packages for more information.
 
+
 Package: kwalletmanager
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
@@ -200,6 +228,7 @@ Description: wallet manager for KDE4
  This package is part of KDE4, as a component of the KDE4 utilities module.
  See the 'kde' and 'kdeutils' packages for more information.
 
+
 Package: kwikdisk
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
@@ -208,6 +237,7 @@ Description: Removable Media Utility for KDE4
  .
  This package is part of KDE4, as a component of the KDE4 utilities module.
  See the 'kde' and 'kdeutils' packages for more information.
+
 
 Package: superkaramba
 Architecture: any
@@ -227,6 +257,7 @@ Description: a program based on karamba improving the eyecandy of KDE4
  .
  This package is part of KDE4, as a component of the KDE4 utilities module.
  See the 'kde' and 'kdeutils' packages for more information.
+
 
 Package: sweeper
 Architecture: any

@@ -4,11 +4,13 @@ usr/lib/libsuperkaramba.so.4
 usr/lib/libsuperkaramba.so.4.0.0
 usr/share/applications/kde4/superkaramba.desktop
 usr/share/dbus-1/interfaces/org.kde.superkaramba.xml
-usr/share/kde4/apps/superkaramba/superkarambaui.rc
+usr/share/doc/kde4/HTML/en/superkaramba/index.cache.bz2
+usr/share/doc/kde4/HTML/en/superkaramba/index.docbook
+usr/share/icons/hicolor/128x128/apps/superkaramba.png
 usr/share/icons/hicolor/16x16/apps/superkaramba.png
 usr/share/icons/hicolor/22x22/apps/superkaramba.png
 usr/share/icons/hicolor/32x32/apps/superkaramba.png
 usr/share/icons/hicolor/48x48/apps/superkaramba.png
 usr/share/icons/hicolor/64x64/apps/superkaramba.png
-usr/share/icons/hicolor/128x128/apps/superkaramba.png
 usr/share/icons/hicolor/scalable/apps/superkaramba.svgz
+usr/share/kde4/apps/superkaramba/superkarambaui.rc
