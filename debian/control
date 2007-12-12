@@ -32,11 +32,7 @@ Package: kdeutils-dbg
 Section: libdevel
 Architecture: any
 Priority: extra
-Depends: kdelibs-dbg (>=4:3.97.0), ark (= ${binary:Version}),
- kcalc (= ${binary:Version}), kdf (= ${binary:Version}),
- khexedit (= ${binary:Version}), kmilo (= ${binary:Version},
- kregexpeditor (= ${binary:Version}), kwalletmanager (= ${binary:Version}),
- superkaramba (= ${binary:Version})
+Depends: kdelibs-dbg (>=4:3.97.0)
 Description: debugging symbols for kdeutils
  This package contains the debugging symbols associated with kdeutils.
  They will automatically be used by gdb for debugging kdeutils-related issues.
