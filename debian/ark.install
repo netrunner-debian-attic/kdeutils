@@ -15,3 +15,8 @@ usr/share/kde4/services/ark_part.desktop
 usr/share/kde4/services/kerfuffle_bk.desktop
 usr/share/kde4/services/kerfuffle_libzip.desktop
 usr/share/kde4/servicetypes/kerfufflePlugin.desktop
+usr/lib/kde4/kerfuffle_karchive.so
+usr/lib/kde4/kerfuffle_libarchive.so
+usr/share/kde4/services/kerfuffle_karchive.desktop
+usr/share/kde4/services/kerfuffle_libarchive.desktop
+
