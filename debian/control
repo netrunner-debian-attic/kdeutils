@@ -13,9 +13,8 @@ Architecture: all
 Depends: ark (>= ${binary:Version}), kcalc (>= ${binary:Version}),
  kcharselect (>= ${binary:Version}), kdessh (>= ${binary:Version}),
  kdf (>= ${binary:Version}), kfloppy (>= ${binary:Version}),
- kgpg (>= ${binary:Version}), khexedit (>= ${binary:Version}),
- kjots (>= ${binary:Version}), kmilo (>= ${binary:Version}),
- ktimer (>= ${binary:Version}),
+ kgpg (>= ${binary:Version}), kjots (>= ${binary:Version}), 
+ kmilo (>= ${binary:Version}), ktimer (>= ${binary:Version}),
  kwalletmanager (>= ${binary:Version}), kwikdisk (>= ${binary:Version}),
  superkaramba (>= ${binary:Version}), sweeper (>= ${binary:Version})
 Description: general purpose utilities from the official KDE4 release
@@ -41,8 +40,7 @@ Description: debugging symbols for kdeutils
 Package: kdeutils-dev
 Section: utils
 Architecture: any
-Depends: ark (>= ${binary:Version}), khexedit (>= ${binary:Version}),
- kmilo (>= ${binary:Version}), superkaramba (>= ${binary:Version})
+Depends: ark (>= ${binary:Version}), kmilo (>= ${binary:Version}), superkaramba (>= ${binary:Version})
 Description: development files for the KDE4 utilities module
  This package contains development files needed to compile kdeutils
  applications.
@@ -147,18 +145,6 @@ Description: GnuPG frontend for KDE4
    * key management functions (generation, import, export, deletion and
      signing)
    * decrypting clipboard contents, including integration with Klipper
- .
- This package is part of KDE4, as a component of the KDE4 utilities module.
- See the 'kde' and 'kdeutils' packages for more information.
-
-
-Package: khexedit
-Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: KDE4 hex editor
- KHexEdit is an editor for the raw data of binary files.  It includes
- find/replace functions, bookmarks, many configuration options, drag and drop
- support and other powerful features.
  .
  This package is part of KDE4, as a component of the KDE4 utilities module.
  See the 'kde' and 'kdeutils' packages for more information.
