@@ -2,8 +2,8 @@ Source: kdeutils
 Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Fathi Boudra <fabo@debian.org>, Matthew Rosewarne <mrosewarne@inoutbox.com>
-Build-Depends: cdbs, debhelper (>= 5), cmake, quilt, kdepimlibs5-dev (>= 4:3.98.0~),
+Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Fathi Boudra <fabo@debian.org>, Matthew Rosewarne <mrosewarne@inoutbox.com>, Sune Vuorela <debian@pusling.com>,
+Build-Depends: cdbs, debhelper (>= 5), cmake, quilt, kdepimlibs5-dev (>=4:3.98.0~svn755919-1),
  libgmp3-dev, libqimageblitz-dev, libsnmp-dev, libzip-dev, python-all-dev, libarchive-dev
 Standards-Version: 3.7.3
 
@@ -15,7 +15,7 @@ Depends: ark (>= ${binary:Version}), kcalc (>= ${binary:Version}),
  kdf (>= ${binary:Version}), kfloppy (>= ${binary:Version}),
  kgpg (>= ${binary:Version}), khexedit (>= ${binary:Version}),
  kjots (>= ${binary:Version}), kmilo (>= ${binary:Version}),
- kregexpeditor (>= ${binary:Version}), ktimer (>= ${binary:Version}),
+ ktimer (>= ${binary:Version}),
  kwalletmanager (>= ${binary:Version}), kwikdisk (>= ${binary:Version}),
  superkaramba (>= ${binary:Version}), sweeper (>= ${binary:Version})
 Description: general purpose utilities from the official KDE4 release
@@ -32,7 +32,7 @@ Package: kdeutils-dbg
 Section: libdevel
 Architecture: any
 Priority: extra
-Depends: kdelibs-dbg (>=4:3.98.0~)
+Depends: kdelibs-dbg (>=4:3.98.0~svn755919-1)
 Description: debugging symbols for kdeutils
  This package contains the debugging symbols associated with kdeutils.
  They will automatically be used by gdb for debugging kdeutils-related issues.
@@ -42,8 +42,7 @@ Package: kdeutils-dev
 Section: utils
 Architecture: any
 Depends: ark (>= ${binary:Version}), khexedit (>= ${binary:Version}),
- kmilo (>= ${binary:Version}), kregexpeditor (>= ${binary:Version}),
- superkaramba (>= ${binary:Version})
+ kmilo (>= ${binary:Version}), superkaramba (>= ${binary:Version})
 Description: development files for the KDE4 utilities module
  This package contains development files needed to compile kdeutils
  applications.
@@ -185,17 +184,6 @@ Description: laptop special keys support for KDE4
  Usually this includes volume keys and other features. Currently, KMilo
  comes with plugins for Powerbooks, Thinkpads, Vaios and generic keyboards
  with special keys.
- .
- This package is part of KDE4, as a component of the KDE4 utilities module.
- See the 'kde' and 'kdeutils' packages for more information.
-
-
-Package: kregexpeditor
-Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: graphical regular expression editor plugin for KDE4
- This package contains a graphical regular expression editor plugin for use
- with KDE. It let you draw your regular expression in an unambiguous way.
  .
  This package is part of KDE4, as a component of the KDE4 utilities module.
  See the 'kde' and 'kdeutils' packages for more information.

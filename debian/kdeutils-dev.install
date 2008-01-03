@@ -8,14 +8,6 @@ usr/lib/liboktetagui.so
 # kmilo
 usr/lib/libkmilo.so
 
-# kregexpeditor
-usr/include/kmultiformlistbox.h
-usr/include/kmultiformlistboxentry.h
-usr/include/kmultiformlistboxfactory.h
-usr/include/kwidgetstreamer.h
-
-usr/lib/libkregexpeditorcommon.so
-
 # superkaramba
 usr/lib/libsuperkaramba.so
 
