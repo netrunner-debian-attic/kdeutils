@@ -1,10 +1,6 @@
 # ark
 usr/lib/libkerfuffle.so
 
-# khexedit
-usr/lib/liboktetacore.so
-usr/lib/liboktetagui.so
-
 # kmilo
 usr/lib/libkmilo.so
 

@@ -2,6 +2,7 @@ kdeutils (4:3.98.0~svn755919-1) experimental; urgency=low
 
   * New svn snapshot release to revision 755919.
   * Remove kregexpeditor and khexedit, it was moved out by upstream.
+  * Update years in copyright.
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Thu, 03 Jan 2008 20:12:07 +0100
 
