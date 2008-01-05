@@ -12,6 +12,8 @@ usr/share/doc/kde4/HTML/en/kwallet/ox22-action-wallet_closed.png
 usr/share/doc/kde4/HTML/en/kwallet/ox22-action-wallet_open.png
 usr/share/doc/kde4/HTML/en/kwallet/password1.png
 usr/share/doc/kde4/HTML/en/kwallet/password2.png
+usr/share/icons/hicolor/128x128/apps/kwalletmanager2.png
+usr/share/icons/hicolor/128x128/apps/kwalletmanager.png
 usr/share/icons/hicolor/16x16/apps/kwalletmanager2.png
 usr/share/icons/hicolor/16x16/apps/kwalletmanager.png
 usr/share/icons/hicolor/22x22/apps/kwalletmanager.png
@@ -21,8 +23,6 @@ usr/share/icons/hicolor/48x48/apps/kwalletmanager2.png
 usr/share/icons/hicolor/48x48/apps/kwalletmanager.png
 usr/share/icons/hicolor/64x64/apps/kwalletmanager2.png
 usr/share/icons/hicolor/64x64/apps/kwalletmanager.png
-usr/share/icons/hicolor/128x128/apps/kwalletmanager2.png
-usr/share/icons/hicolor/128x128/apps/kwalletmanager.png
 usr/share/kde4/apps/kwalletmanager/icons/oxygen/22x22/actions/folder_closed.png
 usr/share/kde4/apps/kwalletmanager/icons/oxygen/22x22/actions/folder_open.png
 usr/share/kde4/apps/kwalletmanager/kwalleteditor.rc

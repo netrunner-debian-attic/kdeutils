@@ -9,10 +9,10 @@ usr/lib/libkmilo.so.4
 usr/lib/libkmilo.so.4.0.0
 usr/share/dbus-1/interfaces/org.kde.kmilod.xml
 usr/share/kde4/services/kded/kmilod.desktop
-usr/share/kde4/services/kvaio.desktop
-usr/share/kde4/services/thinkpad.desktop
 usr/share/kde4/services/kmilo/kmilo_asus.desktop
 usr/share/kde4/services/kmilo/kmilo_delli8k.desktop
 usr/share/kde4/services/kmilo/kmilo_kvaio.desktop
 usr/share/kde4/services/kmilo/kmilo_thinkpad.desktop
+usr/share/kde4/services/kvaio.desktop
+usr/share/kde4/services/thinkpad.desktop
 usr/share/kde4/servicetypes/kmilo/kmilopluginsvc.desktop

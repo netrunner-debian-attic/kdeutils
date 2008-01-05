@@ -3,7 +3,7 @@ Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Fathi Boudra <fabo@debian.org>, Matthew Rosewarne <mrosewarne@inoutbox.com>, Sune Vuorela <debian@pusling.com>,
-Build-Depends: cdbs, debhelper (>= 5), cmake, quilt, kdepimlibs5-dev (>=4:3.98.0~svn755919-1),
+Build-Depends: cdbs, debhelper (>= 5), cmake, quilt, kdepimlibs5-dev (>=4:4.0.0-1),
  libgmp3-dev, libqimageblitz-dev, libsnmp-dev, libzip-dev, python-all-dev, libarchive-dev
 Standards-Version: 3.7.3
 
@@ -31,7 +31,7 @@ Package: kdeutils-dbg
 Section: libdevel
 Architecture: any
 Priority: extra
-Depends: kdelibs-dbg (>=4:3.98.0~svn755919-1)
+Depends: kdelibs-dbg (>=4:4.0.0-1)
 Description: debugging symbols for kdeutils
  This package contains the debugging symbols associated with kdeutils.
  They will automatically be used by gdb for debugging kdeutils-related issues.
