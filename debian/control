@@ -31,7 +31,7 @@ Package: kdeutils-dbg
 Section: libdevel
 Architecture: any
 Priority: extra
-Depends: kdelibs-dbg (>=4:4.0.0-1)
+Depends: kdebase-runtime-dbg
 Description: debugging symbols for kdeutils
  This package contains the debugging symbols associated with kdeutils.
  They will automatically be used by gdb for debugging kdeutils-related issues.

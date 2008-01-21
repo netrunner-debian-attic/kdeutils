@@ -10,6 +10,7 @@ kdeutils (4:4.0.0-1) experimental; urgency=low
   +++ Changes by Matthew Rosewarne:
 
   * Add Homepage: to control.
+  * Change kdeutils-dbg Depends from kdelibs-dbg to kdebase-runtime-dbg.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 05 Jan 2008 14:54:02 +0100
 
