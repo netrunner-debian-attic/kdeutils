@@ -10,13 +10,13 @@ Homepage: http://www.kde.org/
 
 Package: kdeutils
 Architecture: all
-Depends: ark (>= ${binary:Version}), kcalc (>= ${binary:Version}),
- kcharselect (>= ${binary:Version}), kdessh (>= ${binary:Version}),
- kdf (>= ${binary:Version}), kfloppy (>= ${binary:Version}),
- kgpg (>= ${binary:Version}), kjots (>= ${binary:Version}), 
- kmilo (>= ${binary:Version}), ktimer (>= ${binary:Version}),
- kwalletmanager (>= ${binary:Version}), kwikdisk (>= ${binary:Version}),
- superkaramba (>= ${binary:Version}), sweeper (>= ${binary:Version})
+Depends: ark (>= ${source:Version}), kcalc (>= ${source:Version}),
+ kcharselect (>= ${source:Version}), kdessh (>= ${source:Version}),
+ kdf (>= ${source:Version}), kfloppy (>= ${source:Version}),
+ kgpg (>= ${source:Version}), kjots (>= ${source:Version}), 
+ kmilo (>= ${source:Version}), ktimer (>= ${source:Version}),
+ kwalletmanager (>= ${source:Version}), kwikdisk (>= ${source:Version}),
+ superkaramba (>= ${source:Version}), sweeper (>= ${source:Version})
 Description: general purpose utilities from the official KDE 4 release
  KDE (the K Desktop Environment) is a powerful Open Source graphical
  desktop environment for Unix workstations. It combines ease of use,
@@ -32,6 +32,7 @@ Section: libdevel
 Architecture: any
 Priority: extra
 Depends: kdebase-runtime-dbg
+Suggests: kdeutils (= ${source:Version})
 Description: debugging symbols for kdeutils
  This package contains the debugging symbols associated with kdeutils.
  They will automatically be used by gdb for debugging kdeutils-related issues.
@@ -39,8 +40,8 @@ Description: debugging symbols for kdeutils
 
 Package: kdeutils-dev
 Section: utils
-Architecture: any
-Depends: ark (>= ${binary:Version}), kmilo (>= ${binary:Version}), superkaramba (>= ${binary:Version})
+Architecture: all
+Depends: ark (= ${source:Version}), kmilo (= ${source:Version}), superkaramba (= ${source:Version})
 Description: development files for the KDE 4 utilities module
  This package contains development files needed to compile kdeutils
  applications.
