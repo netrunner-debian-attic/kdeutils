@@ -40,8 +40,9 @@ Description: debugging symbols for kdeutils
 
 Package: kdeutils-dev
 Section: utils
-Architecture: all
-Depends: ark (= ${source:Version}), kmilo (= ${source:Version}), superkaramba (= ${source:Version})
+Architecture: any
+Depends: ark (= ${binary:Version}), kmilo (= ${binary:Version}),
+ superkaramba (= ${binary:Version})
 Description: development files for the KDE 4 utilities module
  This package contains development files needed to compile kdeutils
  applications.
