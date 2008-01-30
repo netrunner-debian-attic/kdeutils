@@ -15,16 +15,18 @@ Depends: ark (>= ${source:Version}), kcalc (>= ${source:Version}),
  kdf (>= ${source:Version}), kfloppy (>= ${source:Version}),
  kgpg (>= ${source:Version}), kjots (>= ${source:Version}), 
  kmilo (>= ${source:Version}), ktimer (>= ${source:Version}),
- kwalletmanager (>= ${source:Version}), kwikdisk (>= ${source:Version}),
- superkaramba (>= ${source:Version}), sweeper (>= ${source:Version})
-Description: general purpose utilities from the official KDE 4 release
- KDE (the K Desktop Environment) is a powerful Open Source graphical
- desktop environment for Unix workstations. It combines ease of use,
- contemporary functionality, and outstanding graphical design with the
- technological superiority of the Unix operating system.
+ kwalletmanager (>= ${source:Version}), superkaramba (>= ${source:Version}),
+ sweeper (>= ${source:Version})
+Description: general-purpose utilities from the official KDE 4 release
+ KDE is produced by an international technology team that creates free and open
+ source software for desktop and portable computing. Among KDE's products are a
+ modern desktop system for Linux and UNIX platforms, comprehensive office
+ productivity and groupware suites and hundreds of software titles in many
+ categories including Internet and web applications, multimedia, entertainment,
+ educational, graphics and software development.
  .
- This metapackage includes a collection of general purpose utilities
- provided with the official release of KDE 4.
+ This metapackage includes general-purpose utilities provided with the
+ official release of KDE 4.
 
 
 Package: kdeutils-dbg
@@ -47,195 +49,156 @@ Description: development files for the KDE 4 utilities module
  This package contains development files needed to compile kdeutils
  applications.
  .
- This package is part of KDE 4, as a component of the KDE 4 utilities module.
- See the 'kde' and 'kdeutils' packages for more information.
+ This package is part of the KDE 4 utilities module.
 
 
 Package: ark
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: graphical archiving tool for KDE 4
- Ark is a graphical program for managing various archive formats within the
- KDE environment. Archives can be viewed, extracted, created and modified
- from within Ark.
+Description: archive utility for KDE 4
+ Ark manages various archive formats, including tar, gzip, bzip2, and zip,
+ as well as CD-ROM images.  Ark can be used to browse, extract, create, and
+ modify archives.
  .
- The program can handle various formats such as tar, gzip, bzip2, zip, rar and
- lha (if appropriate command-line programs are installed).
- .
- Ark can work closely with Konqueror in the KDE environment to handle archives,
- if you install the Konqueror Integration plugin available in the konq-plugins
- package.
- .
- This package is part of KDE 4, as a component of the KDE 4 utilities module.
- See the 'kde' and 'kdeutils' packages for more information.
+ This package is part of the KDE 4 utilities module.
 
 
 Package: kcalc
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: calculator for KDE 4
- KCalc is KDE's scientific calculator.
+ KCalc is a scientific calculator.
  .
- It provides:
-  * trigonometric functions, logic operations, and statistical calculations
-  * easy cut and paste of numbers from/into its display
-  * a results-stack which lets you conveniently recall previous results
-  * configurable precision, and number of digits after the period
+ KCalc provides:
+  * Trigonometric functions, logic operations, and statistical calculations
+  * Calculation in decimal, hexadecimal, octal, and binary bases
+  * Memory functions for storing results
+  * A comprehensive collection of mathematical constants
  .
- This package is part of KDE 4, as a component of the KDE 4 utilities module.
- See the 'kde' and 'kdeutils' packages for more information.
+ This package is part of the KDE 4 utilities module.
 
 
 Package: kcharselect
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: character selector for KDE 4
- A character set selector for KDE.
+Description: special character utility for KDE 4
+ KCharSelect is a utility for finding special characters which are not
+ available on the keyboard.  It can search for characters by Unicode number,
+ display characters in any font, and copy characters to the clipboard so they
+ can be pasted into documents.
  .
- This package is part of KDE 4, as a component of the KDE 4 utilities module.
- See the 'kde' and 'kdeutils' packages for more information.
+ This package is part of the KDE 4 utilities module.
 
 
 Package: kdessh
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: ssh frontend for KDE 4
- This package contains KDE's frontend for ssh.
+Description: Secure Shell utility for KDE 4
+ KDE SSH runs commands on remote systems using the Secure Shell protocol.  It
+ temporarily stores passwords, so users do not have to repeatedly re-enter
+ their passwords to run further commands.
  .
- This package is part of KDE 4, as a component of the KDE 4 utilities module.
- See the 'kde' and 'kdeutils' packages for more information.
+ This package is part of the KDE 4 utilities module.
 
 
 Package: kdf
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: disk space utility for KDE 4
- KDiskFree displays the available file devices (hard drive partitions, floppy
- and CD drives, etc.) along with information on their capacity, free space, type
- and mount point. It also allows you to mount and unmount drives and view them
- in a file manager.
+Description: disk information utility for KDE 4
+ KDiskFree displays information about hard disks and other storage devices,
+ including the amount of free space available.  It can also mount and unmount
+ storage devices and view them in the file manager.
  .
- This package is part of KDE 4, as a component of the KDE 4 utilities module.
- See the 'kde' and 'kdeutils' packages for more information.
+ KwikDisk is an icon for the system tray that provides convenient access to
+ the features of KDiskFree.
+ .
+ This package is part of the KDE 4 utilities module.
 
 
 Package: kfloppy
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: floppy formatter for KDE 4
- Kfloppy is a utility that provides a straightforward graphical means
- to format 3.5" and 5.25" floppy disks.
+ Kfloppy is a utility for formatting floppy disks.
  .
- This package is part of KDE 4, as a component of the KDE 4 utilities module.
- See the 'kde' and 'kdeutils' packages for more information.
+ This package is part of the KDE 4 utilities module.
 
 
 Package: kgpg
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: GnuPG frontend for KDE 4
- Kgpg is a frontend for GNU Privacy Guard (GnuPG). It provides file
- encryption, file decryption and key management.
+Description: encryption utility for KDE 4
+ Kgpg manages cryptographic keys for the GNU Privacy Guard, and can encrypt,
+ decrypt, sign, and verify files.  It features a simple editor for applying
+ cryptography to short pieces of text, and can also quickly apply cryptography
+ to the contents of the clipboard.
  .
- Features:
-   * an editor mode for easily and quickly encrypting or decrypting a file
-     or message which is typed, copied, pasted or dragged into the editor,
-     or which is double-clicked in the file manager
-   * Konqueror integration for encrypting or decrypting files
-   * a panel applet for encrypting / decrypting files or the clipboard
-     contents, etc.
-   * key management functions (generation, import, export, deletion and
-     signing)
-   * decrypting clipboard contents, including integration with Klipper
- .
- This package is part of KDE 4, as a component of the KDE 4 utilities module.
- See the 'kde' and 'kdeutils' packages for more information.
+ This package is part of the KDE 4 utilities module.
 
 
 Package: kjots
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: note taking utility for KDE 4
- Kjots is a small note taker program. Name and idea are taken from the jots
- program included in the tkgoodstuff package.
+Description: note-taking utility for KDE 4
+ Kjots is a notebook utility that organizes notes using groups of pages.
  .
- This package is part of KDE 4, as a component of the KDE 4 utilities module.
- See the 'kde' and 'kdeutils' packages for more information.
+ This package is part of the KDE 4 utilities module.
 
 
 Package: kmilo
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: laptop special keys support for KDE 4
- KMilo lets you use the special keys on some keyboards and laptops.
+Description: support for laptop function keys in KDE 4
+ KMilo provides support for the keys found on laptops and some keyboards that
+ perform special functions, such as adjust audio volume or screen brightness.
  .
- Usually this includes volume keys and other features. Currently, KMilo
- comes with plugins for Powerbooks, Thinkpads, Vaios and generic keyboards
- with special keys.
+ Currently, KMilo can be used with Apple Powerbooks, IBM/Lenovo Thinkpads,
+ Sony Vaios, and other hardware with similar function keys.
  .
- This package is part of KDE 4, as a component of the KDE 4 utilities module.
- See the 'kde' and 'kdeutils' packages for more information.
+ This package is part of the KDE 4 utilities module.
 
 
 Package: ktimer
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: timer utility for KDE 4
- This is a timer application for KDE 4. It allows you to execute commands after
- a certain amount of time. It supports looping commands as well as delayed
- command execution.
+Description: countdown timer for KDE 4
+ KTimer is a countdown timer for running commands after a delay.
+ The countdown can be paused or set to loop continuously.
  .
- This package is part of KDE 4, as a component of the KDE 4 utilities module.
- See the 'kde' and 'kdeutils' packages for more information.
+ This package is part of the KDE 4 utilities module.
 
 
 Package: kwalletmanager
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: wallet manager for KDE 4
- This program keeps various wallets for any kind of data that the user can
- store encrypted with passwords and can also serve as a password manager that
- keeps a master password to all wallets.
+Description: secure password wallet manager for KDE 4
+ The KDE Wallet system provides a secure way to store passwords and other
+ secret information, allowing the user to remember only a single KDE Wallet
+ password instead of numerous different passwords and credentials.
  .
- This package is part of KDE 4, as a component of the KDE 4 utilities module.
- See the 'kde' and 'kdeutils' packages for more information.
-
-
-Package: kwikdisk
-Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: Removable Media Utility for KDE 4
- This utility allows you to manage removable media.
+ KWallet Manager is a utility for viewing and editing information stored in 
+ the KDE Wallet.
  .
- This package is part of KDE 4, as a component of the KDE 4 utilities module.
- See the 'kde' and 'kdeutils' packages for more information.
+ This package is part of the KDE 4 utilities module.
 
 
 Package: superkaramba
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: a program based on karamba improving the eyecandy of KDE 4
- SuperKaramba is a tool based on karamba that allows anyone to easily create
- and run little interactive widgets on a KDE desktop. Widgets are defined in a
- simple text file and can be augmented with Python code to make them
- interactive.
+Description: SuperKaramba theme support for the KDE 4 Plasma desktop
+ SuperKaramba was the KDE 3.5 utility for displaying interactive desktop
+ applets, called "themes".  This package allows the Plasma desktop to use
+ SuperKaramba themes.
  .
- Here are just some examples of the things that can be done:
- .
-  * Display system information such as CPU Usage, MP3 playing, etc.
-  * Create cool custom toolbars that work any way imaginable.
-  * Create little games or virtual pets that live on your desktop.
-  * Display information from the internet, such as weather and headlines.
- .
- This package is part of KDE 4, as a component of the KDE 4 utilities module.
- See the 'kde' and 'kdeutils' packages for more information.
+ This package is part of the KDE 4 utilities module.
 
 
 Package: sweeper
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: privacy utility for KDE 4
- This utility helps to clean unwanted traces the user leaves on the system.
+Description: history and temporary file cleaner for KDE 4
+ Sweeper can quickly remove temporary information, such as web page cookies,
+ browser history, or the list of recently-opened documents.  It helps provide
+ additional privacy on a system shared between multiple users.
  .
- This package is part of KDE 4, as a component of the KDE 4 utilities module.
- See the 'kde' and 'kdeutils' packages for more information.
+ This package is part of the KDE 4 utilities module.

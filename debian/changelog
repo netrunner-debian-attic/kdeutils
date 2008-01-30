@@ -2,6 +2,8 @@ kdeutils (4:4.0.0-2) UNRELEASED; urgency=low
 
   +++ Changes by Matthew Rosewarne:
 
+  * Tweak package descriptions.
+  * Merged kwikdisk into kdf package.
   * Use source:Version for kdeutils metapackage.
   * More specific dependencies for kdesdk-dev.
   * Add Suggests: kdeutils to kdeutils-dbg.
