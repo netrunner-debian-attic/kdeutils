@@ -2,7 +2,7 @@ Source: kdeutils
 Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Fathi Boudra <fabo@debian.org>, Matthew Rosewarne <mrosewarne@inoutbox.com>, Sune Vuorela <debian@pusling.com>,
+Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Fathi Boudra <fabo@debian.org>, Matthew Rosewarne <mrosewarne@inoutbox.com>, Sune Vuorela <debian@pusling.com>, Matthew Rosewarne <mrosewarne@inoutbox.com>
 Build-Depends: cdbs, debhelper (>= 5), cmake, quilt, kdepimlibs5-dev (>=4:4.0.0-1),
  libgmp3-dev, libqimageblitz-dev, libsnmp-dev, libzip-dev, python-all-dev, libarchive-dev
 Standards-Version: 3.7.3
@@ -35,9 +35,9 @@ Architecture: any
 Priority: extra
 Depends: kdebase-runtime-dbg
 Suggests: kdeutils (= ${source:Version})
-Description: debugging symbols for kdeutils
- This package contains the debugging symbols associated with kdeutils.
- They will automatically be used by gdb for debugging kdeutils-related issues.
+Description: debugging symbols for the KDE 4 utilities module
+ This package contains debugging files used to investigate problems with
+ binaries included in the KDE 4 utilities module.
 
 
 Package: kdeutils-dev
@@ -46,10 +46,8 @@ Architecture: any
 Depends: ark (= ${binary:Version}), kmilo (= ${binary:Version}),
  superkaramba (= ${binary:Version})
 Description: development files for the KDE 4 utilities module
- This package contains development files needed to compile kdeutils
- applications.
- .
- This package is part of the KDE 4 utilities module.
+ This package contains development files for building software that uses
+ libraries from the KDE 4 utilities module.
 
 
 Package: ark
