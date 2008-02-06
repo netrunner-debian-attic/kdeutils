@@ -3,6 +3,7 @@ usr/share/applications/kde4/kgpg.desktop
 usr/share/autostart/kgpg.desktop
 usr/share/dbus-1/interfaces/org.kde.kgpg.Key.xml
 usr/share/doc/kde4/HTML/en/kgpg/editor.png
+usr/share/doc/kde4/HTML/en/kgpg/common
 usr/share/doc/kde4/HTML/en/kgpg/index.cache.bz2
 usr/share/doc/kde4/HTML/en/kgpg/index.docbook
 usr/share/doc/kde4/HTML/en/kgpg/keygen.png

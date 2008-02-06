@@ -1,6 +1,7 @@
 usr/bin/kdf
 usr/lib/kde4/kcm_kdf.so
 usr/share/applications/kde4/kdf.desktop
+usr/share/doc/kde4/HTML/en/kdf/common
 usr/share/doc/kde4/HTML/en/kdf/index.cache.bz2
 usr/share/doc/kde4/HTML/en/kdf/index.docbook
 usr/share/doc/kde4/HTML/en/kdf/kdf_config.png

@@ -1,5 +1,6 @@
 usr/bin/kfloppy
 usr/share/applications/kde4/KFloppy.desktop
+usr/share/doc/kde4/HTML/en/kfloppy/common
 usr/share/doc/kde4/HTML/en/kfloppy/index.cache.bz2
 usr/share/doc/kde4/HTML/en/kfloppy/index.docbook
 usr/share/icons/hicolor/128x128/apps/kfloppy.png

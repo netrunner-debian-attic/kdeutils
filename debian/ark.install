@@ -7,6 +7,7 @@ usr/lib/kde4/libarkpart.so
 usr/lib/libkerfuffle.so.4
 usr/lib/libkerfuffle.so.4.0.0
 usr/share/applications/kde4/ark.desktop
+usr/share/doc/kde4/HTML/en/ark/common
 usr/share/doc/kde4/HTML/en/ark/index.cache.bz2
 usr/share/doc/kde4/HTML/en/ark/index.docbook
 usr/share/doc/kde4/HTML/en/ark/man-ark.1.docbook

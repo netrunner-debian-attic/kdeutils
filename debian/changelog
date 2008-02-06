@@ -1,4 +1,4 @@
-kdeutils (4:4.0.1-1) UNRELEASED; urgency=low
+kdeutils (4:4.0.1-1) experimental; urgency=low
 
   * New upstream release.
 
@@ -12,10 +12,15 @@ kdeutils (4:4.0.1-1) UNRELEASED; urgency=low
 
   +++ Changes by Ana Beatriz Guerrero Lopez:
 
-  * Update to debhelper 6.
+  * Bump compat/debhelper 6.
   * Bump build-depends to >= 4:4.0.1.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 02 Feb 2008 04:42:09 +0100
+  +++ Changes by Fathi Boudra:
+
+  * Add Vcs-Browser and Vcs-Svn fields.
+  * Update installed files.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 06 Feb 2008 14:24:29 +0100
 
 kdeutils (4:4.0.0-1) experimental; urgency=low
 
