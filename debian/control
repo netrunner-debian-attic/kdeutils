@@ -43,7 +43,7 @@ Description: debugging symbols for the KDE 4 utilities module
 
 
 Package: kdeutils-dev
-Section: utils
+Section: libdevel
 Architecture: any
 Depends: ark (= ${binary:Version}), kmilo (= ${binary:Version}),
  superkaramba (= ${binary:Version})
@@ -53,6 +53,7 @@ Description: development files for the KDE 4 utilities module
 
 
 Package: ark
+Section: utils
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: archive utility for KDE 4
@@ -64,6 +65,7 @@ Description: archive utility for KDE 4
 
 
 Package: kcalc
+Section: math
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: calculator for KDE 4
@@ -79,6 +81,7 @@ Description: calculator for KDE 4
 
 
 Package: kcharselect
+Section: utils
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: special character utility for KDE 4
@@ -91,6 +94,7 @@ Description: special character utility for KDE 4
 
 
 Package: kdessh
+Section: net
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Secure Shell utility for KDE 4
@@ -102,6 +106,7 @@ Description: Secure Shell utility for KDE 4
 
 
 Package: kdf
+Section: utils
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: disk information utility for KDE 4
@@ -116,6 +121,7 @@ Description: disk information utility for KDE 4
 
 
 Package: kfloppy
+Section: admin
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: floppy formatter for KDE 4
@@ -125,6 +131,7 @@ Description: floppy formatter for KDE 4
 
 
 Package: kgpg
+Section: utils
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: encryption utility for KDE 4
@@ -146,6 +153,7 @@ Description: note-taking utility for KDE 4
 
 
 Package: kmilo
+Section: utils
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: support for laptop function keys in KDE 4
@@ -159,6 +167,7 @@ Description: support for laptop function keys in KDE 4
 
 
 Package: ktimer
+Section: utils
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: countdown timer for KDE 4
@@ -194,6 +203,7 @@ Description: SuperKaramba theme support for the KDE 4 Plasma desktop
 
 
 Package: sweeper
+Section: utils
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: history and temporary file cleaner for KDE 4
