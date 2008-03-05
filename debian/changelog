@@ -10,7 +10,8 @@ kdeutils (4:4.0.2-1) experimental; urgency=low
   +++ Changes by Matthew Rosewarne:
 
   * Move kdeutils-dev to Section: libdevel.
-  * Move ark, kcharselect, kdf, kgpg, kmilo, ktimer, and sweeper to Section: utils.
+  * Move ark, kcharselect, kdf, kgpg, kmilo, ktimer, and sweeper 
+    to Section: utils.
   * Move kcalc to Section: math.
   * Move kdessh to Section: net.
   * Move kfloppy to Section: admin.
