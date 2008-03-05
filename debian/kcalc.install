@@ -12,8 +12,6 @@ usr/share/icons/hicolor/48x48/apps/kcalc.png
 usr/share/icons/hicolor/64x64/apps/kcalc.png
 usr/share/icons/hicolor/scalable/apps/kcalc.svgz
 usr/share/kde4/apps/kcalc/kcalcui.rc
-usr/share/kde4/apps/kcalc/pics/math_cbrt.png
-usr/share/kde4/apps/kcalc/pics/math_sqrt.png
 usr/share/kde4/apps/kcalc/scienceconstants.xml
 usr/share/kde4/apps/kconf_update/kcalcrc.upd
 usr/share/kde4/config.kcfg/kcalc.kcfg

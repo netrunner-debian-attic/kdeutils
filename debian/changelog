@@ -1,4 +1,11 @@
-kdeutils (4:4.0.1-2) UNRELEASED; urgency=low
+kdeutils (4:4.0.2-1) experimental; urgency=low
+
+  * New upstream release.
+  
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
+  * Bump build-depends to >= 4:4.0.2.
+  * Update kcalc.install.
 
   +++ Changes by Matthew Rosewarne:
 
@@ -8,7 +15,7 @@ kdeutils (4:4.0.1-2) UNRELEASED; urgency=low
   * Move kdessh to Section: net.
   * Move kfloppy to Section: admin.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 13 Feb 2008 19:19:17 -0500
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 05 Mar 2008 21:10:42 +0100
 
 kdeutils (4:4.0.1-1) experimental; urgency=low
 
