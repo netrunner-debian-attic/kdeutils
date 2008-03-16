@@ -1,9 +1,6 @@
 # ark
-usr/lib/libkerfuffle.so
-
 # kmilo
-usr/lib/libkmilo.so
-
 # superkaramba
+usr/lib/libkerfuffle.so
+usr/lib/libkmilo.so
 usr/lib/libsuperkaramba.so
-

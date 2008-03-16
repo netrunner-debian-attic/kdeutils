@@ -6,7 +6,7 @@ usr/lib/kde4/kmilo_delli8k.so
 usr/lib/kde4/kmilo_kvaio.so
 usr/lib/kde4/kmilo_thinkpad.so
 usr/lib/libkmilo.so.4
-usr/lib/libkmilo.so.4.0.0
+usr/lib/libkmilo.so.4.1.0
 usr/share/dbus-1/interfaces/org.kde.kmilod.xml
 usr/share/kde4/services/kded/kmilod.desktop
 usr/share/kde4/services/kmilo/kmilo_asus.desktop
