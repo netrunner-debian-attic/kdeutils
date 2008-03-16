@@ -2,10 +2,10 @@ usr/bin/kwalletmanager
 usr/lib/kde4/kcm_kwallet.so
 usr/share/applications/kde4/kwalletmanager.desktop
 usr/share/applications/kde4/kwalletmanager-kwalletd.desktop
-usr/share/doc/kde4/HTML/en/kwallet/common
 usr/share/doc/kde4/HTML/en/kwallet/edit1.png
 usr/share/doc/kde4/HTML/en/kwallet/edit2.png
 usr/share/doc/kde4/HTML/en/kwallet/edit3.png
+usr/share/doc/kde4/HTML/en/kwallet/common
 usr/share/doc/kde4/HTML/en/kwallet/index.cache.bz2
 usr/share/doc/kde4/HTML/en/kwallet/index.docbook
 usr/share/doc/kde4/HTML/en/kwallet/kwalletmanager.png

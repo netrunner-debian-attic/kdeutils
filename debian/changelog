@@ -1,12 +1,148 @@
-kdeutils (4:4.0.66-1) experimental; urgency=low
+kdeutils (4:4.0.2-1) experimental; urgency=low
 
-  * ...
+  * New upstream release.
+  
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
+  * Bump build-depends to >= 4:4.0.2.
+  * Update kcalc.install.
+
+  +++ Changes by Matthew Rosewarne:
+
+  * Move kdeutils-dev to Section: libdevel.
+  * Move ark, kcharselect, kdf, kgpg, kmilo, ktimer, and sweeper 
+    to Section: utils.
+  * Move kcalc to Section: math.
+  * Move kdessh to Section: net.
+  * Move kfloppy to Section: admin.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 05 Mar 2008 21:10:42 +0100
+
+kdeutils (4:4.0.1-1) experimental; urgency=low
+
+  * New upstream release.
+
+  +++ Changes by Matthew Rosewarne:
+
+  * Tweak package descriptions.
+  * Merged kwikdisk into kdf package.
+  * Use source:Version for kdeutils metapackage.
+  * More specific dependencies for kdesdk-dev.
+  * Add Suggests: kdeutils to kdeutils-dbg.
+
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
+  * Bump compat/debhelper 6.
+  * Bump build-depends to >= 4:4.0.1.
+
+  +++ Changes by Fathi Boudra:
+
+  * Add Vcs-Browser and Vcs-Svn fields.
   * Update installed files.
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sun, 16 Mar 2008 17:58:24 +0100
-
-kdeutils (4:4.pre) experimental; urgency=low
-
-  * TODO: merge old changelogs
-
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 06 Feb 2008 14:24:29 +0100
+
+kdeutils (4:4.0.0-1) experimental; urgency=low
+
+  * New uptream release.
+
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
+  * Bump build-depends to >=4:4.0.0-1.
+  * Update kgpg.install.
+
+  +++ Changes by Matthew Rosewarne:
+
+  * Add Homepage: to control.
+  * Change kdeutils-dbg Depends from kdelibs-dbg to kdebase-runtime-dbg.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 05 Jan 2008 14:54:02 +0100
+
+kdeutils (4:3.98.0~svn755919-1) experimental; urgency=low
+
+  * New svn snapshot release to revision 755919.
+  * Remove kregexpeditor and khexedit, it was moved out by upstream.
+  * Update years in copyright.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Thu, 03 Jan 2008 20:12:07 +0100
+
+kdeutils (4:3.98.0~svn753247-1) experimental; urgency=low
+
+  * Svn snapshot of revision 753247.
+
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
+  * Add build-depend on libarchive-dev.
+  * Update *.install files. 
+  * Remove LDFLAGS+="-Wl,--as-needed". It was integrated into
+    cdbs/kde.mk.
+
+  +++ Changes by Matthew Rosewarne:
+
+  * Add kdeutils-dbg package.
+  * Move handbooks into respective packages & remove kdeutils-doc package.
+  * Change ${Source-Version} to ${binary:Version}
+  * Wrap lines in control.
+  * Add self to uploaders.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 28 Dec 2007 19:10:59 +0100
+
+kdeutils (4:3.97.0-1) experimental; urgency=low
+
+  * New upstream release.
+  * Update Standards-Version to 3.7.3.
+  * Update *.install files.
+  * Add export LDFLAGS+="-Wl,--as-needed" in rules to make dpkg-shlibdeps
+    happier.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sat, 08 Dec 2007 02:04:40 +0100
+
+kdeutils (4:3.96.0-1) experimental; urgency=low
+
+  * New upstream release.
+  
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+  
+  * Build depend on kdelibs5-dev >= 4:3.96.0-1
+  * Update *.install files.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 14 Nov 2007 20:45:22 +0100
+
+kdeutils (4:3.95.2-1) experimental; urgency=low
+
+  * New upstream release.
+
+  +++ Changes by Fathi Boudra:
+
+  * Bump kdepimlibs5-dev build dependency version.
+  * Update installed files.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 10 Nov 2007 10:36:32 +0100
+
+kdeutils (4:3.95.0-1) experimental; urgency=low
+
+  * KDE4 beta 4, first upload to the Debian archive.
+  * Rework packages description.
+  * Complete copyright file.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Wed, 31 Oct 2007 17:52:19 +0100
+
+kdeutils (4:3.94.0-1) alioth; urgency=low
+
+  * New upstream release, KDE4 beta3.
+  * Update build-dep:
+    * Add libqimageblitz-dev, libsnmp-dev and libzip-dev.
+    * Remove tpctl.
+
+  +++ Changes by Fathi Boudra:
+
+  * Split kdeutils in multiple packages.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sat, 20 Oct 2007 21:36:45 +0200
+
+kdeutils (4:3.90.1-1) alioth; urgency=low
+
+  * Initial release.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Wed, 23 May 2007 18:51:02 +0200
+
