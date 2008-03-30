@@ -3,8 +3,10 @@ Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Fathi Boudra <fabo@debian.org>, Matthew Rosewarne <mrosewarne@inoutbox.com>, Sune Vuorela <debian@pusling.com>, Matthew Rosewarne <mrosewarne@inoutbox.com>
-Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), cmake, quilt, kdepimlibs5-dev (>= 4:4.0.2),
- libgmp3-dev, libqimageblitz-dev, libsnmp-dev, libzip-dev, python-all-dev, libarchive-dev
+Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), cmake, quilt, 
+ kdepimlibs5-dev (>= 4:4.0.66),
+ libgmp3-dev, libqimageblitz-dev, libsnmp-dev, libzip-dev, 
+ python-all-dev, libarchive-dev
 Standards-Version: 3.7.3
 Homepage: http://www.kde.org/
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/branches/kde4/packages/kdeutils
