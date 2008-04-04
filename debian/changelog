@@ -1,7 +1,7 @@
 kdeutils (4:4.0.68-1) experimental; urgency=low
 
   * New upstream snapshot. 
-  * Add versioned build depen on libqimageblitz-dev from experimental.
+  * Add versioned build depend on libqimageblitz-dev from experimental.
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sun, 30 Mar 2008 12:56:22 +0200
 
