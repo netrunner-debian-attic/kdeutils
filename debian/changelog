@@ -1,4 +1,4 @@
-kdeutils (4:4.0.68+svn794174-1) experimental; urgency=low
+kdeutils (4:4.0.68+svn794641-1) experimental; urgency=low
 
   * New upstream snapshot. 
   * Add versioned build depend on libqimageblitz-dev from experimental.
