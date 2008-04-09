@@ -57,6 +57,7 @@ Description: development files for the KDE 4 utilities module
 Package: ark
 Section: utils
 Architecture: any
+Recommends: ncompress, unzip, zip, zoo, bzip2, p7zip-full
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: archive utility for KDE 4
  Ark manages various archive formats, including tar, gzip, bzip2, and zip,

@@ -2,8 +2,9 @@ kdeutils (4:4.0.68+svn794641-1) experimental; urgency=low
 
   * New upstream snapshot. 
   * Add versioned build depend on libqimageblitz-dev from experimental.
+  * Add Recommends: to ark with most popular uncompress software. 
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sun, 30 Mar 2008 12:56:22 +0200
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Wed, 09 Apr 2008 13:51:47 +0200
 
 kdeutils (4:4.0.66+svn791114-1) experimental; urgency=low
 
