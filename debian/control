@@ -6,7 +6,7 @@ Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Fathi Boudra <fabo@debia
 Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), cmake, quilt, 
  kdepimlibs5-dev (>= 4:4.0.68),
  libgmp3-dev, libqimageblitz-dev (>= 1:0.0.4-2), libsnmp-dev, libzip-dev, 
- python-all-dev, libarchive-dev, libxrender-dev
+ python-all-dev, libarchive-dev
 Standards-Version: 3.7.3
 Homepage: http://www.kde.org/
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/branches/kde4/packages/kdeutils
@@ -193,6 +193,14 @@ Description: secure password wallet manager for KDE 4
  .
  This package is part of the KDE 4 utilities module.
 
+Package: okteta
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: hexeditor for binary files
+ okteta is a KDE 4 related hexeditor
+ .
+ This package is part of the KDE 4 utilities module.
+ 
 
 Package: superkaramba
 Architecture: any
