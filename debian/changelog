@@ -1,3 +1,11 @@
+kdeutils (4:4.0.71+svn801741-1) experimental; urgency=low
+
+  * New upstream snapshot
+  * add target_link_library patch
+  * add libxrender-dev build-dep. superkaramba includes headers from here
+
+ -- Sune Vuorela <debian@pusling.com>  Mon, 28 Apr 2008 11:04:54 +0200
+
 kdeutils (4:4.0.68+svn794641-1) experimental; urgency=low
 
   * New upstream snapshot. 
