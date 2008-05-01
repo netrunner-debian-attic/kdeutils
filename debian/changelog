@@ -1,18 +1,26 @@
-kdeutils (4:4.0.71+svn801741-1) experimental; urgency=low
+kdeutils (4:4.0.72-1) experimental; urgency=low
 
-  * New upstream snapshot
-    - new app: okteta
-  * add target_link_library patch
-  * add libxrender-dev build-dep. superkaramba includes headers from here
-  * fix kmilo install dir
+  * New upstream snapshot.
+    - new application: okteta
 
- -- Sune Vuorela <debian@pusling.com>  Mon, 28 Apr 2008 11:04:54 +0200
+  +++ Changes by Sune Vuorela:
+
+  * Add target_link_library patch.
+  * Add libxrender-dev build dependency.
+    superkaramba includes headers from here.
+  * Fix kmilo install dir.
+
+  +++ Changes by Fathi Boudra:
+
+  * Add libx11-dev and libxrender-dev build-dependencies.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 01 May 2008 17:03:15 +0200
 
 kdeutils (4:4.0.68+svn794641-1) experimental; urgency=low
 
-  * New upstream snapshot. 
+  * New upstream snapshot.
   * Add versioned build depend on libqimageblitz-dev from experimental.
-  * Add Recommends: to ark with most popular uncompress software. 
+  * Add Recommends: to ark with most popular uncompress software.
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Wed, 09 Apr 2008 13:51:47 +0200
 
@@ -26,7 +34,7 @@ kdeutils (4:4.0.66+svn791114-1) experimental; urgency=low
 kdeutils (4:4.0.2-1) experimental; urgency=low
 
   * New upstream release.
-  
+
   +++ Changes by Ana Beatriz Guerrero Lopez:
 
   * Bump build-depends to >= 4:4.0.2.

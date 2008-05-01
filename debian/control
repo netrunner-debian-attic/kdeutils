@@ -3,10 +3,10 @@ Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Fathi Boudra <fabo@debian.org>, Matthew Rosewarne <mrosewarne@inoutbox.com>, Sune Vuorela <debian@pusling.com>, Matthew Rosewarne <mrosewarne@inoutbox.com>
-Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), cmake, quilt, 
- kdepimlibs5-dev (>= 4:4.0.68),
- libgmp3-dev, libqimageblitz-dev (>= 1:0.0.4-2), libsnmp-dev, libzip-dev, 
- python-all-dev, libarchive-dev
+Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), cmake, quilt,
+ kdepimlibs5-dev (>= 4:4.0.72),
+ libgmp3-dev, libqimageblitz-dev (>= 1:0.0.4-2), libsnmp-dev, libzip-dev,
+ python-all-dev, libarchive-dev, libx11-dev, libxrender-dev
 Standards-Version: 3.7.3
 Homepage: http://www.kde.org/
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/branches/kde4/packages/kdeutils
@@ -32,7 +32,6 @@ Description: general-purpose utilities from the official KDE 4 release
  This metapackage includes general-purpose utilities provided with the
  official release of KDE 4.
 
-
 Package: kdeutils-dbg
 Section: libdevel
 Architecture: any
@@ -43,7 +42,6 @@ Description: debugging symbols for the KDE 4 utilities module
  This package contains debugging files used to investigate problems with
  binaries included in the KDE 4 utilities module.
 
-
 Package: kdeutils-dev
 Section: libdevel
 Architecture: any
@@ -52,7 +50,6 @@ Depends: ark (= ${binary:Version}), kmilo (= ${binary:Version}),
 Description: development files for the KDE 4 utilities module
  This package contains development files for building software that uses
  libraries from the KDE 4 utilities module.
-
 
 Package: ark
 Section: utils
@@ -65,7 +62,6 @@ Description: archive utility for KDE 4
  modify archives.
  .
  This package is part of the KDE 4 utilities module.
-
 
 Package: kcalc
 Section: math
@@ -82,7 +78,6 @@ Description: calculator for KDE 4
  .
  This package is part of the KDE 4 utilities module.
 
-
 Package: kcharselect
 Section: utils
 Architecture: any
@@ -95,7 +90,6 @@ Description: special character utility for KDE 4
  .
  This package is part of the KDE 4 utilities module.
 
-
 Package: kdessh
 Section: net
 Architecture: any
@@ -106,7 +100,6 @@ Description: Secure Shell utility for KDE 4
  their passwords to run further commands.
  .
  This package is part of the KDE 4 utilities module.
-
 
 Package: kdf
 Section: utils
@@ -122,7 +115,6 @@ Description: disk information utility for KDE 4
  .
  This package is part of the KDE 4 utilities module.
 
-
 Package: kfloppy
 Section: admin
 Architecture: any
@@ -131,7 +123,6 @@ Description: floppy formatter for KDE 4
  Kfloppy is a utility for formatting floppy disks.
  .
  This package is part of the KDE 4 utilities module.
-
 
 Package: kgpg
 Section: utils
@@ -145,7 +136,6 @@ Description: encryption utility for KDE 4
  .
  This package is part of the KDE 4 utilities module.
 
-
 Package: kjots
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
@@ -153,7 +143,6 @@ Description: note-taking utility for KDE 4
  Kjots is a notebook utility that organizes notes using groups of pages.
  .
  This package is part of the KDE 4 utilities module.
-
 
 Package: kmilo
 Section: utils
@@ -168,7 +157,6 @@ Description: support for laptop function keys in KDE 4
  .
  This package is part of the KDE 4 utilities module.
 
-
 Package: ktimer
 Section: utils
 Architecture: any
@@ -178,7 +166,6 @@ Description: countdown timer for KDE 4
  The countdown can be paused or set to loop continuously.
  .
  This package is part of the KDE 4 utilities module.
-
 
 Package: kwalletmanager
 Architecture: any
@@ -200,7 +187,6 @@ Description: hexeditor for binary files
  okteta is a KDE 4 related hexeditor
  .
  This package is part of the KDE 4 utilities module.
- 
 
 Package: superkaramba
 Architecture: any
@@ -212,7 +198,6 @@ Description: SuperKaramba theme support for the KDE 4 Plasma desktop
  .
  This package is part of the KDE 4 utilities module.
 
-
 Package: sweeper
 Section: utils
 Architecture: any
@@ -223,3 +208,4 @@ Description: history and temporary file cleaner for KDE 4
  additional privacy on a system shared between multiple users.
  .
  This package is part of the KDE 4 utilities module.
+
