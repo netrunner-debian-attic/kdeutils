@@ -1,8 +1,6 @@
-Index: b/kcalc/CMakeLists.txt
-===================================================================
 --- a/kcalc/CMakeLists.txt
 +++ b/kcalc/CMakeLists.txt
-@@ -44,7 +44,7 @@
+@@ -43,7 +43,7 @@
  
  kde4_add_kdeinit_executable( kcalc ${kcalc_KDEINIT_SRCS})
  
@@ -11,8 +9,6 @@ Index: b/kcalc/CMakeLists.txt
  
  install(TARGETS kdeinit_kcalc ${INSTALL_TARGETS_DEFAULT_ARGS})
  
-Index: b/kwallet/konfigurator/CMakeLists.txt
-===================================================================
 --- a/kwallet/konfigurator/CMakeLists.txt
 +++ b/kwallet/konfigurator/CMakeLists.txt
 @@ -11,7 +11,7 @@
@@ -24,8 +20,6 @@ Index: b/kwallet/konfigurator/CMakeLists.txt
  
  install(TARGETS kcm_kwallet  DESTINATION ${PLUGIN_INSTALL_DIR})
  
-Index: b/superkaramba/src/CMakeLists.txt
-===================================================================
 --- a/superkaramba/src/CMakeLists.txt
 +++ b/superkaramba/src/CMakeLists.txt
 @@ -83,6 +83,7 @@

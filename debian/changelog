@@ -1,3 +1,10 @@
+kdeutils (4:4.0.73-1) UNRELEASED; urgency=low
+
+  * New upstream snapshot.
+  * Remove kmilo package, removed upstream.
+
+ -- Fathi Boudra <fabo@debian.org>  Sun, 11 May 2008 16:45:22 +0200
+
 kdeutils (4:4.0.72-1) experimental; urgency=low
 
   * New upstream snapshot.
