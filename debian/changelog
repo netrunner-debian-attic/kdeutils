@@ -1,12 +1,9 @@
-kdeutils (4:4.0.73+svn806541-1) UNRELEASED; urgency=low
+kdeutils (4:4.0.74-1) experimental; urgency=low
 
-  * New upstream snapshot:
-    - The latest upstream commit is r806541 by skelly
-    - Date: Sun May 11 17:13:04 2008 UTC
-
+  * New upstream snapshot.
   * Remove kmilo package, removed upstream.
 
- -- Fathi Boudra <fabo@debian.org>  Sun, 11 May 2008 16:45:22 +0200
+ -- Fathi Boudra <fabo@debian.org>  Sun, 18 May 2008 14:50:52 +0200
 
 kdeutils (4:4.0.72-1) experimental; urgency=low
 
