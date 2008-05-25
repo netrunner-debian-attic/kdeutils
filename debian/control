@@ -17,9 +17,9 @@ Architecture: all
 Depends: ark (>= ${source:Version}), kcalc (>= ${source:Version}),
  kcharselect (>= ${source:Version}), kdessh (>= ${source:Version}),
  kdf (>= ${source:Version}), kfloppy (>= ${source:Version}),
- kgpg (>= ${source:Version}), kjots (>= ${source:Version}),
- ktimer (>= ${source:Version}), kwalletmanager (>= ${source:Version}),
- superkaramba (>= ${source:Version}), sweeper (>= ${source:Version})
+ kgpg (>= ${source:Version}), ktimer (>= ${source:Version}),
+ kwalletmanager (>= ${source:Version}), superkaramba (>= ${source:Version}),
+ sweeper (>= ${source:Version})
 Description: general-purpose utilities from the official KDE 4 release
  KDE is produced by an international technology team that creates free and open
  source software for desktop and portable computing. Among KDE's products are a
@@ -131,14 +131,6 @@ Description: encryption utility for KDE 4
  decrypt, sign, and verify files.  It features a simple editor for applying
  cryptography to short pieces of text, and can also quickly apply cryptography
  to the contents of the clipboard.
- .
- This package is part of the KDE 4 utilities module.
-
-Package: kjots
-Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: note-taking utility for KDE 4
- Kjots is a notebook utility that organizes notes using groups of pages.
  .
  This package is part of the KDE 4 utilities module.
 
