@@ -1,4 +1,4 @@
-etc/kde4/superkaramba.knsrc
+usr/share/kde4/config/superkaramba.knsrc
 usr/bin/superkaramba
 usr/lib/kde4/plasma_package_superkaramba.so
 usr/lib/kde4/plasma_scriptengine_superkaramba.so
