@@ -1,12 +1,12 @@
-kdeutils (4:4.0.81+svn816028-1) UNRELEASED; urgency=low
+kdeutils (4:4.0.82+svn819867-1) experimental; urgency=low
 
   * New upstream snapshot.
   * Update build dependencies:
-    - Bump kdepimlibs5-dev to (>= 4:4.0.81).
+    - Bump kdepimlibs5-dev to (>= 4:4.0.82).
     - Add libplasma-dev.
   * Update superkaramba.install to install plasmoid related files.
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sat, 31 May 2008 13:56:12 +0200
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sun, 15 Jun 2008 20:23:57 +0200
 
 kdeutils (4:4.0.80-1) experimental; urgency=low
 
