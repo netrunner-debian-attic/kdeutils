@@ -18,8 +18,8 @@ Depends: ark (>= ${source:Version}), kcalc (>= ${source:Version}),
  kcharselect (>= ${source:Version}), kdessh (>= ${source:Version}),
  kdf (>= ${source:Version}), kfloppy (>= ${source:Version}),
  kgpg (>= ${source:Version}), ktimer (>= ${source:Version}),
- kwalletmanager (>= ${source:Version}), superkaramba (>= ${source:Version}),
- sweeper (>= ${source:Version})
+ kwalletmanager (>= ${source:Version}), okteta (>= ${source:Version}),
+ superkaramba (>= ${source:Version}), sweeper (>= ${source:Version})
 Description: general-purpose utilities from the official KDE 4 release
  KDE is produced by an international technology team that creates free and open
  source software for desktop and portable computing. Among KDE's products are a
