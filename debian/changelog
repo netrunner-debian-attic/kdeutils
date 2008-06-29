@@ -1,12 +1,12 @@
 kdeutils (4:4.0.84-1) experimental; urgency=low
 
-  * New upstream snapshot. Now. With. Excessive. Dot. Usage. In. Changelog.
+  * New upstream snapshot. 
 
   +++ Changes by Fathi Boudra:
 
   * Add okteta to kdeutils meta package.
 
- -- Sune Vuorela <debian@pusling.com>  Sun, 29 Jun 2008 01:47:14 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 29 Jun 2008 01:47:14 +0200
 
 kdeutils (4:4.0.82+svn819867-1) experimental; urgency=low
 
