@@ -1,6 +1,7 @@
 kdeutils (4:4.1.0-1) experimental; urgency=low
 
   * New upstream release. 
+  * Update installed files and build depends versions.
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Mon, 28 Jul 2008 02:06:25 +0200
 
