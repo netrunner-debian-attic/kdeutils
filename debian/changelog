@@ -2,7 +2,7 @@ kdeutils (4:4.1.1-1) experimental; urgency=low
 
   * New upstream release
   * Remove 97_fix_target_link_libraries.diff, implemented upstram
-  * Remove kdeutils-dv, useless.
+  * Remove kdeutils-dev, useless.
 
  -- Sune Vuorela <pusling@eider.killmulehill.net>  Fri, 29 Aug 2008 11:39:50 +0200
 
