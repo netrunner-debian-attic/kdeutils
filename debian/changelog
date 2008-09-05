@@ -1,3 +1,9 @@
+kdeutils (4:4.1.1-2) UNRELEASED; urgency=low
+
+  * Improve okteta's description. 
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Fri, 05 Sep 2008 14:02:59 +0200
+
 kdeutils (4:4.1.1-1) experimental; urgency=low
 
   * New upstream release
