@@ -1,3 +1,17 @@
+kdeutils (4:4.1.1-2) UNRELEASED; urgency=low
+
+  * Improve okteta's description. 
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Fri, 05 Sep 2008 14:02:59 +0200
+
+kdeutils (4:4.1.1-1) experimental; urgency=low
+
+  * New upstream release
+  * Remove 97_fix_target_link_libraries.diff, implemented upstram
+  * Remove kdeutils-dev, useless.
+
+ -- Sune Vuorela <debian@pusling.com>  Fri, 29 Aug 2008 11:39:50 +0200
+
 kdeutils (4:4.1.0-1~lenny+1) lenny; urgency=low
 
   * Backport for Lenny.
