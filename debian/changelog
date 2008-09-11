@@ -1,3 +1,9 @@
+kdeutils (4:4.1.1-2~lenny+1) lenny; urgency=low
+
+  * Backport for Lenny.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Thu, 11 Sep 2008 20:31:35 +0200
+
 kdeutils (4:4.1.1-2) UNRELEASED; urgency=low
 
   * Improve okteta's description. 
