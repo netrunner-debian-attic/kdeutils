@@ -1,14 +1,15 @@
-kdeutils (4:4.1.1-2~lenny+1) lenny; urgency=low
+kdeutils (4:4.1.2-1~lenny+1) lenny; urgency=low
 
   * Backport for Lenny.
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Thu, 11 Sep 2008 20:31:35 +0200
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Tue, 07 Oct 2008 18:36:37 +0200
 
-kdeutils (4:4.1.1-2) UNRELEASED; urgency=low
+kdeutils (4:4.1.2-1) experimental; urgency=low
 
+  * New upstream release.
   * Improve okteta's description. 
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Fri, 05 Sep 2008 14:02:59 +0200
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Tue, 30 Sep 2008 18:16:22 +0200
 
 kdeutils (4:4.1.1-1) experimental; urgency=low
 
@@ -17,12 +18,6 @@ kdeutils (4:4.1.1-1) experimental; urgency=low
   * Remove kdeutils-dev, useless.
 
  -- Sune Vuorela <debian@pusling.com>  Fri, 29 Aug 2008 11:39:50 +0200
-
-kdeutils (4:4.1.0-1~lenny+1) lenny; urgency=low
-
-  * Backport for Lenny.
-
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Wed, 20 Aug 2008 04:30:16 +0200
 
 kdeutils (4:4.1.0-1) experimental; urgency=low
 
