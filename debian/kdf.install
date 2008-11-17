@@ -3,6 +3,9 @@ usr/bin/kwikdisk
 usr/lib/kde4/kcm_kdf.so
 usr/share/applications/kde4/kdf.desktop
 usr/share/applications/kde4/kwikdisk.desktop
+usr/share/doc/kde4/HTML/en/kcontrol/blockdevices/common
+usr/share/doc/kde4/HTML/en/kcontrol/blockdevices/index.cache.bz2
+usr/share/doc/kde4/HTML/en/kcontrol/blockdevices/index.docbook
 usr/share/doc/kde4/HTML/en/kdf/common
 usr/share/doc/kde4/HTML/en/kdf/index.cache.bz2
 usr/share/doc/kde4/HTML/en/kdf/index.docbook
