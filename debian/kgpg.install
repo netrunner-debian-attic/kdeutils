@@ -9,8 +9,8 @@ usr/share/doc/kde4/HTML/en/kgpg/index.docbook
 usr/share/doc/kde4/HTML/en/kgpg/keygen.png
 usr/share/doc/kde4/HTML/en/kgpg/keymanage.png
 usr/share/doc/kde4/HTML/en/kgpg/keyprop.png
-usr/share/doc/kde4/HTML/en/kgpg/keyserver.png
 usr/share/doc/kde4/HTML/en/kgpg/keys.png
+usr/share/doc/kde4/HTML/en/kgpg/keyserver.png
 usr/share/doc/kde4/HTML/en/kgpg/kicker.png
 usr/share/doc/kde4/HTML/en/kgpg/options.png
 usr/share/icons/hicolor/16x16/apps/kgpg.png
@@ -57,3 +57,4 @@ usr/share/kde4/apps/kgpg/tips
 usr/share/kde4/config.kcfg/kgpg.kcfg
 usr/share/kde4/services/ServiceMenus/encryptfile.desktop
 usr/share/kde4/services/ServiceMenus/encryptfolder.desktop
+usr/share/kde4/services/ServiceMenus/viewdecrypted.desktop

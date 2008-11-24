@@ -1,9 +1,8 @@
-usr/share/kde4/config/superkaramba.knsrc
 usr/bin/superkaramba
 usr/lib/kde4/plasma_package_superkaramba.so
 usr/lib/kde4/plasma_scriptengine_superkaramba.so
 usr/lib/libsuperkaramba.so.4
-usr/lib/libsuperkaramba.so.4.1.0
+usr/lib/libsuperkaramba.so.4.2.0
 usr/share/applications/kde4/superkaramba.desktop
 usr/share/dbus-1/interfaces/org.kde.superkaramba.xml
 usr/share/doc/kde4/HTML/en/superkaramba/common
@@ -17,6 +16,6 @@ usr/share/icons/hicolor/48x48/apps/superkaramba.png
 usr/share/icons/hicolor/64x64/apps/superkaramba.png
 usr/share/icons/hicolor/scalable/apps/superkaramba.svgz
 usr/share/kde4/apps/superkaramba/superkarambaui.rc
+usr/share/kde4/config/superkaramba.knsrc
 usr/share/kde4/services/plasma-package-superkaramba.desktop
 usr/share/kde4/services/plasma-scriptengine-superkaramba.desktop
-
