@@ -1,8 +1,12 @@
 usr/bin/ktimer
 usr/share/applications/kde4/ktimer.desktop
 usr/share/doc/kde4/HTML/en/ktimer/common
+usr/share/doc/kde4/HTML/en/ktimer/first.png
 usr/share/doc/kde4/HTML/en/ktimer/index.cache.bz2
 usr/share/doc/kde4/HTML/en/ktimer/index.docbook
+usr/share/doc/kde4/HTML/en/ktimer/main.png
+usr/share/doc/kde4/HTML/en/ktimer/running.png
+usr/share/doc/kde4/HTML/en/ktimer/two.at.once.png
 usr/share/icons/hicolor/128x128/apps/ktimer.png
 usr/share/icons/hicolor/16x16/apps/ktimer.png
 usr/share/icons/hicolor/32x32/apps/ktimer.png
