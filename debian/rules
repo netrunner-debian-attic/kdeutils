@@ -2,3 +2,6 @@
 
 include debian/cdbs/kde.mk
 
+binary-install/printer-applet::
+	dh_pysupport -pprinter-applet
+

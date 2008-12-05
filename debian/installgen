@@ -3,39 +3,41 @@ stop dst:usr/include
 miss dst:usr/lib/lib[^/]+\.so$ link:usr/lib/lib[^/]+\.so\.
 
 [ark]
-from:\bark/
+from:/ark/
 
 [kcalc]
-from:\bkcalc/
+from:/kcalc/
 
 [kcharselect]
-from:\bkcharselect/
+from:/kcharselect/
 
 [kdessh]
-from:\bkdessh/
+from:/kdessh/
 
 [kdf]
-from:\bkdf/
-from:\bdoc/kcontrol/blockdevices/
+from:/kdf/
+from:/doc/kcontrol/blockdevices/
 
 [kfloppy]
-from:\bkfloppy/
+from:/kfloppy/
 
 [kgpg]
-from:\bkgpg/
+from:/kgpg/
 
 [ktimer]
-from:\bktimer/
+from:/ktimer/
 
 [kwalletmanager]
-from:\bkwallet/
+from:/kwallet/
 
 [okteta]
-from:\bokteta/
+from:/okteta/
 
 [superkaramba]
-from:\bsuperkaramba/
+from:/superkaramba/
 
 [sweeper]
-from:\bsweeper/
+from:/sweeper/
 
+[printer-applet]
+from:/printer-applet/

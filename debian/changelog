@@ -1,16 +1,24 @@
-kdeutils (4:4.1.81+svn890682-0r1) UNRELEASED; urgency=low
+kdeutils (4:4.1.82+svn892767-0r1) UNRELEASED; urgency=low
 
   * New upstream development snapshot.
 
   +++ Changes by Modestas Vainius:
 
   * Drop 97_fix_target_link_libraries.diff, no longer needed.
-  * Bump KDE build depends to 4:4.1.80.
+  * Bump KDE build depends to 4:4.1.81.
   * Bump Standards-Version to 3.8.0: add README.source.
   * Do not build depend on cmake explicitly.
   * Update install files and add debian/installgen.
+  * Printer applet recommends hal-cups-utils and system-config-printer for
+    auto printer configuration.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 30 Nov 2008 00:05:03 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 05 Dec 2008 11:36:02 +0200
+
+kdeutils (4:4.1.3-2) experimental; urgency=low
+
+  * Build the printer applet
+
+ -- Sune Vuorela <debian@pusling.com>  Sun, 30 Nov 2008 18:41:12 +0100
 
 kdeutils (4:4.1.3-1) experimental; urgency=low
 
