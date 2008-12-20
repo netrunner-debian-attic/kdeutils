@@ -13,6 +13,10 @@ kdeutils (4:4.1.82+svn892767-0r1) UNRELEASED; urgency=low
   * Printer applet recommends hal-cups-utils and system-config-printer for
     auto printer configuration.
 
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
+  * Fix typo in the printer-applet description (Closes: #509241).
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 05 Dec 2008 21:53:41 +0200
 
 kdeutils (4:4.1.3-2) experimental; urgency=low
