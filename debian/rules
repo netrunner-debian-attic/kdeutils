@@ -1,7 +1,8 @@
 #!/usr/bin/make -f
 
+DEB_CMAKE_CUSTOM_FLAGS += -DINSTALL_PRINTER_APPLET:BOOL=TRUE
+
 include debian/cdbs/kde.mk
 
 binary-install/printer-applet::
 	dh_pysupport -pprinter-applet
-

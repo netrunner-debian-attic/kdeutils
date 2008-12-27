@@ -26,3 +26,4 @@ usr/share/kde4/services/kerfuffle_libgz.desktop
 usr/share/kde4/services/kerfuffle_libzip.desktop
 usr/share/kde4/services/kerfuffle_rar.desktop
 usr/share/kde4/servicetypes/kerfufflePlugin.desktop
+usr/share/man/man1/ark.1
