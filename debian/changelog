@@ -14,6 +14,8 @@ kdeutils (4:4.1.86+svn903220-0r1) UNRELEASED; urgency=low
   * Update install files and add debian/installgen.
   * Printer applet recommends hal-cups-utils and system-config-printer for
     auto printer configuration.
+  * Do not build depend on libplasma-dev. Plasma headers are in kdelibs5-dev
+    for now.
 
   +++ Changes by Ana Beatriz Guerrero Lopez:
 
