@@ -1,6 +1,5 @@
 usr/bin/ark
 usr/lib/kde4/kerfuffle_7zip.so
-usr/lib/kde4/kerfuffle_bk.so
 usr/lib/kde4/kerfuffle_libarchive.so
 usr/lib/kde4/kerfuffle_libgz.so
 usr/lib/kde4/kerfuffle_libzip.so
@@ -20,7 +19,6 @@ usr/share/kde4/services/ServiceMenus/ark_addtoservicemenu.desktop
 usr/share/kde4/services/ServiceMenus/ark_servicemenu.desktop
 usr/share/kde4/services/ark_part.desktop
 usr/share/kde4/services/kerfuffle_7zip.desktop
-usr/share/kde4/services/kerfuffle_bk.desktop
 usr/share/kde4/services/kerfuffle_libarchive.desktop
 usr/share/kde4/services/kerfuffle_libgz.desktop
 usr/share/kde4/services/kerfuffle_libzip.desktop
