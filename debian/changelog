@@ -1,3 +1,10 @@
+kdeutils (4:4.1.4-1) experimental; urgency=low
+
+  * New upstream
+    - bump build-dep
+
+ -- Sune Vuorela <debian@pusling.com>  Sat, 10 Jan 2009 19:43:37 +0100
+
 kdeutils (4:4.1.3-2) experimental; urgency=low
 
   * Build the printer applet
