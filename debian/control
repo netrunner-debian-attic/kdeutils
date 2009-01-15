@@ -2,11 +2,11 @@ Source: kdeutils
 Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Fathi Boudra <fabo@debian.org>, Matthew Rosewarne <mrosewarne@inoutbox.com>, Sune Vuorela <debian@pusling.com>, Matthew Rosewarne <mrosewarne@inoutbox.com>
+Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Fathi Boudra <fabo@debian.org>, Matthew Rosewarne <mrosewarne@inoutbox.com>, Sune Vuorela <debian@pusling.com>
 Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), cmake (>= 2.6), quilt,
- kdepimlibs5-dev (>= 4:4.1.3), libplasma-dev (>= 4:4.1.3),
+ kdepimlibs5-dev (>= 4:4.1.4), libplasma-dev (>= 4:4.1.4),
  libgmp3-dev, libqimageblitz-dev (>= 1:0.0.4-2), libsnmp-dev, libzip-dev,
- python-all-dev, libarchive-dev, libx11-dev, libxrender-dev
+ python-all-dev, libarchive-dev, libx11-dev, libxrender-dev, python-kde4 (>=4:4.1.4), python-cups, python-support, python-qt4, python-sip4-dev, python-qt4-dev
 Standards-Version: 3.7.3
 Homepage: http://www.kde.org/
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/branches/kde4/packages/kdeutils
@@ -188,3 +188,12 @@ Description: history and temporary file cleaner for KDE 4
  .
  This package is part of the KDE 4 utilities module.
 
+Package: printer-applet
+Section: utils
+Architecture: all
+Depends: ${python:Depends}, ${shlibs:Depends}, ${misc:Depends}, python-qt4-dbus, python-cups, python-kde4
+Description: manages your printing jobs
+ priter applet lets you easily manage your printing jobs
+ .
+ This package is part of the KDE 4 utilities module.
+ 

@@ -1,0 +1,6 @@
+usr/bin/printer-applet
+usr/share/autostart/printer-applet.desktop
+usr/share/kde4/apps/printer-applet/printer-applet-printers.ui
+usr/share/kde4/apps/printer-applet/printer-applet.py
+usr/share/kde4/apps/printer-applet/printer-applet.ui
+usr/share/kde4/apps/printer-applet/printer-appletui.rc
