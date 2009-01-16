@@ -1,6 +1,10 @@
 kdeutils (4:4.1.4-1~lenny+1) lenny; urgency=low
 
   * Backport for Lenny.
+  * Changes:
+    - Remove build depend on python-kde4 (>=4:4.1.4), python-cups, 
+      python-support, python-qt4, python-sip4-dev, python-qt4-dev.
+    - Disable the printer applet.
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Thu, 15 Jan 2009 14:00:05 +0100
 
