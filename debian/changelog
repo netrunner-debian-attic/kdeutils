@@ -1,11 +1,11 @@
-kdeutils (4:4.1.96+svn911499-0r1) UNRELEASED; urgency=low
+kdeutils (4:4.2.0-0r1) UNRELEASED; urgency=low
 
-  * New upstream development snapshot.
+  * New upstream release.
 
   +++ Changes by Modestas Vainius:
 
   * Drop 97_fix_target_link_libraries.diff, no longer needed.
-  * Bump KDE build depends to 4:4.1.86.
+  * Bump KDE build depends to 4:4.2.0.
   * Set INSTALL_PRINTER_APPLET to TRUE to force installation of printer-applet
     despite missing build dependencies. Drop all python related build depends
     except python-support.
