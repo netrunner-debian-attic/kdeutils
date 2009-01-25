@@ -17,11 +17,12 @@ License:
 
 
 Unless something else is mentioned, the code files in this package are under
-the GNU General Public License:
+the GNU General Public License: (This is later referred to as GPLv2 or later)
 
     | This program is free software; you can redistribute it and/or modify
     | it under the terms of the GNU General Public License as published by
-    | the Free Software Foundation; version 2 dated June, 1991.
+    | the Free Software Foundation; either version 2 of the license, or 
+    | (at your option) any later version.
     |
     | This package is distributed in the hope that it will be useful,
     | but WITHOUT ANY WARRANTY; without even the implied warranty of
@@ -51,6 +52,67 @@ the GNU Free Documentation License:
 As well, all the Manpages.dox included are under this license, unless specified
 otherwise below.
 
+Some more legend:
+
+The following is later referred to as GPLv2 or GPLv2only
+
+    | This program is free software; you can redistribute it and/or modify
+    | it under the terms of the GNU General Public License as published by
+    | the Free Software Foundation; version 2
+    |
+    | This package is distributed in the hope that it will be useful,
+    | but WITHOUT ANY WARRANTY; without even the implied warranty of
+    | MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    | GNU General Public License for more details.
+    |
+    | You should have received a copy of the GNU General Public License
+    | along with this program; if not, write to the Free Software Foundation,
+    | Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
+
+  The full text of the GNU General Public License version 2 is available on
+  Debian systems in /usr/share/common-licenses/GPL-2.
+
+The following is later referred to as GPLv2+3+KDEev
+ * This program is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU General Public License as
+ * published by the Free Software Foundation; either version 2 of
+ * the License or (at your option) version 3 or any later version
+ * accepted by the membership of KDE e.V. (or its successor approved
+ * by the membership of KDE e.V.), which shall act as a proxy
+ * defined in Section 14 of version 3 of the license.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+
+  The full text of the GNU General Public License version 2 is available on
+  Debian systems in /usr/share/common-licenses/GPL-2.
+  The full text of the GNU General Public License version 3 is available on
+  Debian systems in /usr/share/common-licenses/GPL-3.
+
+The following is referred to as LGPLv2.1+3+KDEev
+
+    This library is free software; you can redistribute it and/or
+    modify it under the terms of the GNU Lesser General Public
+    License as published by the Free Software Foundation; either
+    version 2.1 of the License, or (at your option) version 3, or any
+    later version accepted by the membership of KDE e.V. (or its
+    successor approved by the membership of KDE e.V.), which shall
+    act as a proxy defined in Section 6 of version 3 of the license.
+
+    This library is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+    Lesser General Public License for more details.
+
+  The full text of the GNU Lesser General Public License version 2.1 is available on
+  Debian systems in /usr/share/common-licenses/LGPL-2.1.
+  The full text of the GNU Lesser General Public License version 3 is available on
+  Debian systems in /usr/share/common-licenses/LGPL-3.
+
+
 
 Detailed copyright/license information of the files that are not under the
 directories detailed above.
@@ -60,1515 +122,216 @@ directories detailed above.
 ------~---------~------------------
 
 Files under ark/
+   Copyright (C) 2008 Harald Hvaal <haraldhv AT stud.ntnu.no>
+   Copyright (C) 2004-2007 Henrique Pinto <henrique.pinto@kdemail.net>
+   Copyright (C) 2003 Helio Chissini de Castro <helio@conectiva.com>
+   Copyright (C) 2002-2003 Georg Robbers <Georg.Robbers@urz.uni-hd.de>
+   Copyright (C) 2008 Chen Yew Ming <fusion82@gmail.com>
+   Copyright (C) 2005-2007 Andrew Smith <andrew-smith@mail.ru>
+   Copyright (C) 2008 Claudio Bantaloukas <rockdreamer@gmail.com>
+   
 
- ark/app/ark.desktop ~ unspec ~ unspec
- ark/app/arkui.rc ~ unspec ~ unspec
- ark/app/CMakeLists.txt ~ unspec ~ unspec
- ark/app/main.cpp ~ GPLv2h ~ Copyright (C) 2007 Henrique Pinto <henrique.pinto@kdemail.net>
- ark/app/mainwindow.cpp ~ GPLv2h ~ Copyright (C) 2007 Henrique Pinto <henrique.pinto@kdemail.net>
-                                   Copyright (C) 2003: Helio Chissini de Castro <helio@conectiva.com>
-                                   Copyright (C) 2002-2003: Georg Robbers <Georg.Robbers@urz.uni-hd.de>
- ark/app/mainwindow.h ~ GPLv2h ~ Copyright (C) 2007 Henrique Pinto <henrique.pinto@kdemail.net>
- ark/CMakeLists.txt ~ unspec ~ unspec
- ark/hi128-app-ark.png ~ unspec ~ unspec
- ark/hi16-app-ark.png ~ unspec ~ unspec
- ark/hi22-app-ark.png ~ unspec ~ unspec
- ark/hi32-app-ark.png ~ unspec ~ unspec
- ark/hi48-app-ark.png ~ unspec ~ unspec
- ark/hi64-app-ark.png ~ unspec ~ unspec
- ark/hisc-app-ark.svgz ~ unspec ~ unspec
- ark/kerfuffle/archivebase.cpp ~ BSD ~  * Copyright (c) 2007 Henrique Pinto <henrique.pinto@kdemail.net>
- ark/kerfuffle/archivebase.h ~ BSD ~  * Copyright (c) 2007 Henrique Pinto <henrique.pinto@kdemail.net>
- ark/kerfuffle/archive.cpp ~ BSD ~  * Copyright (c) 2007 Henrique Pinto <henrique.pinto@kdemail.net>
- ark/kerfuffle/archivefactory.h ~ GPLv2h ~  * Copyright (C) 2007 Henrique Pinto <henrique.pinto@kdemail.net>
- ark/kerfuffle/archive.h ~ BSD ~  * Copyright (c) 2007 Henrique Pinto <henrique.pinto@kdemail.net>
- ark/kerfuffle/archiveinterface.cpp ~ BSD ~  * Copyright (c) 2007 Henrique Pinto <henrique.pinto@kdemail.net>
- ark/kerfuffle/archiveinterface.h ~ BSD ~  * Copyright (c) 2007 Henrique Pinto <henrique.pinto@kdemail.net>
- ark/kerfuffle/CMakeLists.txt ~ unspec ~ unspec
- ark/kerfuffle/internaljobs.cpp ~ BSD ~  * Copyright (c) 2007 Henrique Pinto <henrique.pinto@kdemail.net>
- ark/kerfuffle/internaljobs.h ~ BSD ~  * Copyright (c) 2007 Henrique Pinto <henrique.pinto@kdemail.net>
- ark/kerfuffle/jobs.cpp ~ BSD ~  * Copyright (c) 2007 Henrique Pinto <henrique.pinto@kdemail.net>
- ark/kerfuffle/jobs.h ~ BSD ~  * Copyright (c) 2007 Henrique Pinto <henrique.pinto@kdemail.net>
- ark/kerfuffle/kerfuffle_export.h ~ LGPLv2h ~     Copyright (C) 2007 David Faure <faure@kde.org>
- ark/kerfuffle/kerfufflePlugin.desktop ~ unspec ~ unspec
- ark/kerfuffle/observer.h ~ GPLv2h ~  Copyright (C) 2007 Henrique Pinto <henrique.pinto@kdemail.net>
- ark/Messages.sh ~ unspec ~ unspec
- ark/part/archivemodel.cpp ~ GPLv2h ~  * Copyright (C) 2007 Henrique Pinto <henrique.pinto@kdemail.net>
- ark/part/archivemodel.h ~ GPLv2h ~  * Copyright (C) 2007 Henrique Pinto <henrique.pinto@kdemail.net>
- ark/part/ark.kcfg ~ unspec ~ unspec
- ark/part/ark_part.desktop ~ unspec ~ unspec
- ark/part/ark_part.rc ~ unspec ~ unspec
- ark/part/arkviewer.cpp ~ GPLv2h ~  * Copyright (C) 2004, Henrique Pinto <henrique.pinto@kdemail.net>
- ark/part/arkviewer.h ~ GPLv2h ~  * Copyright (C) 2004-2007, Henrique Pinto <henrique.pinto@kdemail.net>
- ark/part/CMakeLists.txt ~ unspec ~ unspec
- ark/part/extractiondialog.cpp ~ GPLv2h ~  * Copyright (C) 2007 Henrique Pinto <henrique.pinto@kdemail.net>
- ark/part/extractiondialog.h ~ GPLv2h ~  * Copyright (C) 2007 Henrique Pinto <henrique.pinto@kdemail.net>
- ark/part/extractiondialog.ui ~ unspec ~ unspec
- ark/part/infopanel.cpp ~ GPLv2h ~  * Copyright (C) 2007 Henrique Pinto <henrique.pinto@kdemail.net>
- ark/part/infopanel.h ~ GPLv2h ~  * Copyright (C) 2007 Henrique Pinto <henrique.pinto@kdemail.net>
- ark/part/infopanel.ui ~ unspec ~ unspec
- ark/part/interface.h ~ GPLv2h ~  * Copyright (C) 2007 Henrique Pinto <henrique.pinto@kdemail.net>
- ark/part/jobtracker.cpp ~ GPLv2h ~  * Copyright (C) 2007 Henrique Pinto <henrique.pinto@kdemail.net>
- ark/part/jobtracker.h ~ GPLv2h ~  * Copyright (C) 2007 Henrique Pinto <henrique.pinto@kdemail.net>
- ark/part/jobtracker.ui ~ unspec ~ unspec
- ark/part/part.cpp ~ GPLv2h ~  * Copyright (C) 2007 Henrique Pinto <henrique.pinto@kdemail.net>
- ark/part/part.h ~ GPLv2h ~  * Copyright (C) 2007 Henrique Pinto <henrique.pinto@kdemail.net>
- ark/part/settings.kcfgc ~ unspec ~ unspec
- ark/plugins/bk/bkAdd.c ~ GPLv2 ~ * Copyright 2005-2007 Andrew Smith <andrew-smith@mail.ru>
- ark/plugins/bk/bkAdd.h ~ GPLv2 ~ * Copyright 2005-2007 Andrew Smith <andrew-smith@mail.ru>
- ark/plugins/bk/bkCache.c ~ GPLv2 ~ * Copyright 2005-2007 Andrew Smith <andrew-smith@mail.ru>
- ark/plugins/bk/bkCache.h ~ GPLv2 ~ * Copyright 2005-2007 Andrew Smith <andrew-smith@mail.ru>
- ark/plugins/bk/bkDelete.c ~ GPLv2 ~ * Copyright 2005-2007 Andrew Smith <andrew-smith@mail.ru>
- ark/plugins/bk/bkDelete.h ~ GPLv2 ~ * Copyright 2005-2007 Andrew Smith <andrew-smith@mail.ru>
- ark/plugins/bk/bkError.c ~ GPLv2 ~ * Copyright 2005-2007 Andrew Smith <andrew-smith@mail.ru>
- ark/plugins/bk/bkError.h ~ GPLv2 ~ * Copyright 2005-2007 Andrew Smith <andrew-smith@mail.ru>
- ark/plugins/bk/bkExtract.c ~ GPLv2 ~ * Copyright 2005-2007 Andrew Smith <andrew-smith@mail.ru>
- ark/plugins/bk/bkExtract.h ~ GPLv2 ~ * Copyright 2005-2007 Andrew Smith <andrew-smith@mail.ru>
- ark/plugins/bk/bkGet.c ~ GPLv2 ~ * Copyright 2005-2007 Andrew Smith <andrew-smith@mail.ru>
- ark/plugins/bk/bkGet.h ~ GPLv2 ~ * Copyright 2005-2007 Andrew Smith <andrew-smith@mail.ru>
- ark/plugins/bk/bk.h ~ GPLv2 ~ * Copyright 2005-2007 Andrew Smith <andrew-smith@mail.ru>
- ark/plugins/bk/bkInternal.h ~ GPLv2 ~ * Copyright 2005-2007 Andrew Smith <andrew-smith@mail.ru>
- ark/plugins/bk/bkLink.c ~ GPLv2 ~ * Copyright 2005-2007 Andrew Smith <andrew-smith@mail.ru>
- ark/plugins/bk/bkLink.h ~ GPLv2 ~ * Copyright 2005-2007 Andrew Smith <andrew-smith@mail.ru>
- ark/plugins/bk/bkMangle.c ~ GPLv2 ~ * Copyright 2005-2007 Andrew Smith <andrew-smith@mail.ru>
- ark/plugins/bk/bkMangle.h ~ GPLv2 ~ * Copyright 2005-2007 Andrew Smith <andrew-smith@mail.ru>
- ark/plugins/bk/bkMisc.c ~ GPLv2 ~ * Copyright 2005-2007 Andrew Smith <andrew-smith@mail.ru>
- ark/plugins/bk/bkMisc.h ~ GPLv2 ~ * Copyright 2005-2007 Andrew Smith <andrew-smith@mail.ru>
- ark/plugins/bk/bkPath.c ~ GPLv2 ~ * Copyright 2005-2007 Andrew Smith <andrew-smith@mail.ru>
- ark/plugins/bk/bkPath.h ~ GPLv2 ~ * Copyright 2005-2007 Andrew Smith <andrew-smith@mail.ru>
- ark/plugins/bk/bkplugin.cpp ~ GPLv2h ~  * Copyright (C) 2007 Henrique Pinto <henrique.pinto@kdemail.net>
- ark/plugins/bk/bkplugin.h ~ GPLv2 ~  * Copyright (C) 2007 Henrique Pinto <henrique.pinto@kdemail.net>
- ark/plugins/bk/bkRead7x.c ~ GPLv2 ~ * Copyright 2005-2007 Andrew Smith <andrew-smith@mail.ru>
- ark/plugins/bk/bkRead7x.h ~ GPLv2 ~ * Copyright 2005-2007 Andrew Smith <andrew-smith@mail.ru>
- ark/plugins/bk/bkRead.c ~ GPLv2 ~ * Copyright 2005-2007 Andrew Smith <andrew-smith@mail.ru>
- ark/plugins/bk/bkRead.h ~ GPLv2 ~ * Copyright 2005-2007 Andrew Smith <andrew-smith@mail.ru>
- ark/plugins/bk/bkSet.c ~ GPLv2 ~ * Copyright 2005-2007 Andrew Smith <andrew-smith@mail.ru>
- ark/plugins/bk/bkSet.h ~ GPLv2 ~ * Copyright 2005-2007 Andrew Smith <andrew-smith@mail.ru>
- ark/plugins/bk/bkSort.c ~ GPLv2 ~ * Copyright 2005-2007 Andrew Smith <andrew-smith@mail.ru>
- ark/plugins/bk/bkSort.h ~ GPLv2 ~ * Copyright 2005-2007 Andrew Smith <andrew-smith@mail.ru>
- ark/plugins/bk/bkTime.c ~ GPLv2 ~ * Copyright 2005-2007 Andrew Smith <andrew-smith@mail.ru>
- ark/plugins/bk/bkTime.h ~ GPLv2 ~ * Copyright 2005-2007 Andrew Smith <andrew-smith@mail.ru>
- ark/plugins/bk/bkWrite7x.c ~ GPLv2 ~ * Copyright 2005-2007 Andrew Smith <andrew-smith@mail.ru>
- ark/plugins/bk/bkWrite7x.h ~ GPLv2 ~ * Copyright 2005-2007 Andrew Smith <andrew-smith@mail.ru>
- ark/plugins/bk/bkWrite.c ~ GPLv2 ~ * Copyright 2005-2007 Andrew Smith <andrew-smith@mail.ru>
- ark/plugins/bk/bkWrite.h ~ GPLv2 ~ * Copyright 2005-2007 Andrew Smith <andrew-smith@mail.ru>
- ark/plugins/bk/CMakeLists.txt ~ unspec ~ unspec
- ark/plugins/bk/kerfuffle_bk.desktop ~ unspec ~ unspec
- ark/plugins/CMakeLists.txt ~ unspec ~ unspec
- ark/plugins/karchiveplugin/CMakeLists.txt ~ unspec ~ unspec
- ark/plugins/karchiveplugin/karchiveplugin.cpp ~ GPLv2h ~  * Copyright (C) 2007 Henrique Pinto <henrique.pinto@kdemail.net>
- ark/plugins/karchiveplugin/karchiveplugin.h ~ GPLv2h ~  * Copyright (C) 2007 Henrique Pinto <henrique.pinto@kdemail.net>
- ark/plugins/karchiveplugin/kerfuffle_karchive.desktop ~ unspec ~ unspec
- ark/plugins/libarchive/CMakeLists.txt ~ unspec ~ unspec
- ark/plugins/libarchive/kerfuffle_libarchive.desktop ~ unspec ~ unspec
- ark/plugins/libarchive/libarchivehandler.cpp ~ BSD ~  * Copyright (c) 2007 Henrique Pinto <henrique.pinto@kdemail.net>
- ark/plugins/libarchive/libarchivehandler.h ~ BSD ~  * Copyright (c) 2007 Henrique Pinto <henrique.pinto@kdemail.net>
- ark/plugins/libzipplugin/CMakeLists.txt ~ unspec ~ unspec
- ark/plugins/libzipplugin/kerfuffle_libzip.desktop ~ unspec ~ unspec
- ark/plugins/libzipplugin/zipplugin.cpp ~ BSD ~ Copyright (c) 2007 Henrique Pinto <henrique.pinto@kdemail.net>
+ Most files under GPLv2 or later
+ Some plugins under GPLv2only
+ A few is under a BSD-ish license:
+
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions
+ * are met:
+ *
+ * 1. Redistributions of source code must retain the above copyright
+ *    notice, this list of conditions and the following disclaimer.
+ * 2. Redistributions in binary form must reproduce the above copyright
+ *    notice, this list of conditions and the following disclaimer in the
+ *    documentation and/or other materials provided with the distribution.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+ * IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+ * OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+ * IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+ * INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES ( INCLUDING, BUT
+ * NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ * DATA, OR PROFITS; OR BUSINESS INTERRUPTION ) HOWEVER CAUSED AND ON ANY
+ * THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ * ( INCLUDING NEGLIGENCE OR OTHERWISE ) ARISING IN ANY WAY OUT OF THE USE OF
+ * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+ so ark is effectively GPLv2.
  
  
-Files under charselectapplet/
-
- charselectapplet/charselectapplet.cpp ~ MIT ~ Copyright (c) 2001 Matthias Elter <elter@kde.org>
- charselectapplet/charselectapplet.h ~ MIT ~ Copyright (c) 2001 Matthias Elter <elter@kde.org>
- charselectapplet/CMakeLists.txt ~ unspec ~ unspec
- charselectapplet/kcharselectapplet.desktop ~ unspec ~ unspec
- charselectapplet/Messages.sh ~ unspec ~ unspec
-
 
 Files under cmake/
+Files under printer-applet/cmake
 
- cmake/modules/FindGMP.cmake ~ BSD ~ # Copyright (c) 2006, Laurent Montel, <montel@kde.org>
- cmake/modules/FindLibZip.cmake ~ BSD ~ # Copyright (c) 2006, Pino Toscano, <toscano.pino@tiscali.it>
- cmake/modules/FindTPCTL.cmake ~ BSD ~ # Copyright (c) 2006, Laurent Montel, <montel@kde.org>
+ Copyright (c) 2006, Pino Toscano, <toscano.pino@tiscali.it>
+ Copyright (c) 2007 Simon Edwards <simon@simonzone.com>
+ Copyright (c) 2008 Jonathan Riddell <jriddell@ubuntu.com>
+
+	Redistribution and use in source and binary forms, with or without
+	modification, are permitted provided that the following conditions
+	are met:
+
+	1. Redistributions of source code must retain the copyright
+	   notice, this list of conditions and the following disclaimer.
+	2. Redistributions in binary form must reproduce the copyright
+	   notice, this list of conditions and the following disclaimer in the
+	   documentation and/or other materials provided with the distribution.
+	3. The name of the author may not be used to endorse or promote products 
+	   derived from this software without specific prior written permission.
+
+	THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+	IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+	OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+	IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+	INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+	NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+	DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+	THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+	(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+	THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
 Files under kcalc/
+ Copyright (c) 2003-2006 Klaus Niederkrueger <kniederk@math.uni-koeln.de>
+ Copyright (C) 1996-2000 Bernd Johannes Wuebben <wuebben@kde.org>
+ Copyright (C) 2006  Michel Marti <mma@objectxp.com>
+ Copyright (C) 1995 Martin Bartlett
 
- kcalc/ChangeLog ~ unspec ~ unspec
- kcalc/CMakeLists.txt ~ unspec ~ unspec
- kcalc/colors.ui ~ unspec ~ unspec
- kcalc/config-kcalc.h.cmake ~ unspec ~ unspec
- kcalc/configure.in.in ~ unspec ~ unspec
- kcalc/confvalues.h ~ GPLv2h ~  Copyright (C) Bernd Johannes Wuebben
- kcalc/constants.ui ~ unspec ~ unspec
- kcalc/dlabel.cpp ~ GPLv2h ~     Copyright (C) 1996 Bernd Johannes Wuebben   
- kcalc/dlabel.h ~ GPLv2h ~  Copyright (C) Bernd Johannes Wuebben
- kcalc/general.ui ~ unspec ~ unspec
- kcalc/hi16-app-kcalc.png ~ unspec ~ unspec
- kcalc/hi22-app-kcalc.png ~ unspec ~ unspec
- kcalc/hi32-app-kcalc.png ~ unspec ~ unspec
- kcalc/hi48-app-kcalc.png ~ unspec ~ unspec
- kcalc/hi64-app-kcalc.png ~ unspec ~ unspec
- kcalc/hisc-app-kcalc.svgz ~ unspec ~ unspec
- kcalc/kcalc_bitset.cpp ~ GPLv2h ~     Copyright (C) 2006  Michel Marti <mma@objectxp.com>
- kcalc/kcalc_bitset.h ~ GPLv2h ~     Copyright (C) 2006  Michel Marti <mma@objectxp.com>
- kcalc/kcalc_button.cpp ~ GPLv2h ~     Copyright (C) 1996-2000 Bernd Johannes Wuebben
- kcalc/kcalc_button.h ~ GPLv2h ~     Copyright (C) 2004-2005 Klaus Niederkruger
- kcalc/kcalc_const_button.cpp ~ GPLv2h ~     Copyright (C) 2003 Klaus Niederkrueger <kniederk@math.uni-koeln.de>
- kcalc/kcalc_const_button.h ~ GPLv2h ~     Copyright (C) 1996 Bernd Johannes Wuebben
- kcalc/kcalc_const_menu.cpp ~ GPLv2h ~     Copyright (C) 2003 Klaus Niederkrueger <kniederk@math.uni-koeln.de>
- kcalc/kcalc_const_menu.h ~ GPLv2h ~     Copyright (C) 2004 Klaus Niederkruger
- kcalc/kcalc_core.cpp ~ GPLv2h ~ portions:	Copyright (C) 2003-2006 Klaus Niederkrueger
-                                 portions:	Copyright (C) 1996 Bernd Johannes Wuebben
-                                 portions: 	Copyright (C) 1995 Martin Bartlett
- kcalc/kcalc_core.h ~ GPLv2h ~     Copyright (C) 1996 Bernd Johannes Wuebben
- kcalc/kcalc.cpp ~ GPLv2h ~     Copyright (C) 1996-2000 Bernd Johannes Wuebben
- kcalc/kcalc.desktop ~ unspec ~ unspec
- kcalc/kcalcdisplay.cpp ~ GPLv2h ~     Copyright (C) 1996 Bernd Johannes Wuebben   
- kcalc/kcalcdisplay.h ~ GPLv2h ~  Copyright (C) Bernd Johannes Wuebben
- kcalc/kcalc.h ~ GPLv2h ~     Copyright (C) 1996 Bernd Johannes Wuebben
- kcalc/kcalc.kcfg ~ unspec ~ unspec
- kcalc/kcalcrc.upd ~ unspec ~ unspec
- kcalc/kcalc_settings.kcfgc ~ unspec ~ unspec
- kcalc/kcalctype.h ~ GPLv2h ~     Copyright (C) 1996 Bernd Johannes Wuebben
- kcalc/kcalcui.rc ~ unspec ~ unspec
- kcalc/knumber/CMakeLists.txt ~ unspec ~ unspec
- kcalc/knumber/configure.in.in ~ unspec ~ unspec
- kcalc/knumber/knumber.cpp ~ LGPLv2h ~    Copyright (c) 2005 Klaus Niederkrueger <kniederk@math.uni-koeln.de>
- kcalc/knumber/knumber.h ~ LGPLv2h ~     Copyright (C) 2005 Klaus Niederkrueger <kniederk@math.uni-koeln.de>
- kcalc/knumber/knumber_priv.cpp ~ LGPLv2h ~    Copyright (c) 2005 Klaus Niederkrueger <kniederk@math.uni-koeln.de>
- kcalc/knumber/knumber_priv.h ~ LGPLv2h ~     Copyright (C) 2005 Klaus Niederkrueger <kniederk@math.uni-koeln.de>
- kcalc/knumber/tests/CMakeLists.txt ~ unspec ~ unspec
- kcalc/knumber/tests/knumbertest.cpp ~ unspec ~ unspec
- kcalc/knumber/tests/knumbertest.h ~ unspec ~ unspec
- kcalc/Messages.sh ~ unspec ~ unspec
- kcalc/README ~ unspec ~ unspec
- kcalc/scienceconstants.xml ~ unspec ~ unspec
- kcalc/stats.cpp ~ GPLv2h ~     Copyright (C) 1996 Bernd Johannes Wuebben
- kcalc/stats.h ~ GPLv2h ~     Copyright (C) 1996 Bernd Johannes Wuebben
- kcalc/TODO ~ unspec ~ unspec
- kcalc/version.h ~ unspec ~ unspec
+ Some parts under GNU Library General Public License version 2 or later, some parts under 
+ GNU General Public License, version 2 or later.
 
+ KCalc is effectively GPLv2 or later.
 
 Files under kcharselect/
 
- kcharselect/CMakeLists.txt ~ unspec ~ unspec
- kcharselect/hi16-app-kcharselect.png ~ unspec ~ unspec
- kcharselect/hi32-app-kcharselect.png ~ unspec ~ unspec
- kcharselect/hi48-app-kcharselect.png ~ unspec ~ unspec
- kcharselect/KCharSelect.desktop ~ unspec ~ unspec
- kcharselect/kcharselectdia.cc ~ unspec ~ Copyright 1999 Reginald Stadlbauer <reggie@kde.org>   
- kcharselect/kcharselectdia.h ~ unspec ~ Copyright 1999 Reginald Stadlbauer <reggie@kde.org>  
- kcharselect/kcharselect-generate-datafile.py ~ LGPLv2h ~ Copyright (C) 2007 Daniel Laidig <d.laidig@gmx.de>
-                                                          Copyright (C) 2007 Daniel Laidig <d.laidig@gmx.de>
- kcharselect/kcharselectui.rc ~ unspec ~ unspec
- kcharselect/kcharselect.upd ~ unspec ~ unspec
- kcharselect/main.cc ~ unspec ~ Copyright 1999 Reginald Stadlbauer <reggie@kde.org>      
- kcharselect/Messages.sh ~ unspec ~ unspec
- kcharselect/TODO ~ unspec ~ unspec
+ Copyright (C) 1999 Reginald Stadlbauer <reggie@kde.org>   
+ Copyright (C) 2007 Daniel Laidig <d.laidig@gmx.de>
 
-
-Files under kdelirc/
-
- kdelirc/AUTHORS ~ unspec ~ unspec
- kdelirc/ChangeLog ~ unspec ~ unspec
- kdelirc/CMakeLists.txt ~ unspec ~ unspec
- kdelirc/COPYING ~ unspec ~ unspec
- kdelirc/icons/*~ unspec ~ unspec
- kdelirc/irkick/CMakeLists.txt ~ unspec ~ unspec
- kdelirc/irkick/hi16-app-irkick.png ~ unspec ~ unspec
- kdelirc/irkick/hi22-app-irkick.png ~ unspec ~ unspec
- kdelirc/irkick/hi32-app-irkick.png ~ unspec ~ unspec
- kdelirc/irkick/icons/* ~ unspec ~ unspec
- kdelirc/irkick/irkick.cpp ~ unspec ~     copyright            : (C) 2002 by Gav Wood
- kdelirc/irkick/irkick.desktop ~ unspec ~ unspec
- kdelirc/irkick/irkick.h ~ unspec ~     copyright            : (C) 2002 by Gav Wood
- kdelirc/irkick/irkick.project ~ unspec ~ unspec
- kdelirc/irkick/kdedmodule_stub.h ~ unspec ~ unspec
- kdelirc/irkick/klircclient.cpp ~ unspec ~ 2002 by Malte Starostik
- kdelirc/irkick/klircclient.h ~ unspec ~ Gav Wood <gav@kde.org>, (C) 2003
- kdelirc/irkick/lo16-app-irkick.png ~ unspec ~ unspec
- kdelirc/irkick/lo32-app-irkick.png ~ unspec ~ unspec
- kdelirc/irkick/main.cpp ~ LGPLv2 ~     copyright  2002 by Gav Wood
- kdelirc/irkick/Messages.sh ~ unspec ~ unspec
- kdelirc/kcmlirc/addactionbase.ui ~ unspec ~ unspec
- kdelirc/kcmlirc/addaction.cpp ~ GPLv2h ~  *   Copyright (C) 2003 by Gav Wood                                        
- kdelirc/kcmlirc/addaction.h ~ GPLv2h ~  *   Copyright (C) 2003 by Gav Wood                                        
- kdelirc/kcmlirc/CMakeLists.txt ~ unspec ~ unspec
- kdelirc/kcmlirc/editactionbase.ui ~ unspec ~ unspec
- kdelirc/kcmlirc/editaction.cpp ~ GPLv2 ~ Gav Wood <gav@kde.org>, (C) 2003
- kdelirc/kcmlirc/editaction.h ~ GPLv2 ~ Gav Wood <gav@kde.org>, (C) 2003
- kdelirc/kcmlirc/editmodebase.ui ~ unspec ~ unspec
- kdelirc/kcmlirc/editmode.cpp ~ GPLv2 ~ Gav Wood <gav@kde.org>, (C) 2003
- kdelirc/kcmlirc/editmode.h ~ GPLv2 ~ Gav Wood <gav@kde.org>, (C) 2003
- kdelirc/kcmlirc/kcmlircbase.ui ~ unspec ~ unspec
- kdelirc/kcmlirc/kcmlircbase.ui.h ~ GPLv2h ~  *   Copyright (C) 2003 by Gav Wood
- kdelirc/kcmlirc/kcmlirc.cpp ~ GPLv2h ~  *   Copyright (C) 2003 by Gav Wood                                        *
- kdelirc/kcmlirc/kcmlirc.desktop ~ unspec ~ unspec
- kdelirc/kcmlirc/kcmlirc.h ~ GPLv2h ~  *   Copyright (C) 2003 by Gav Wood                                        *
- kdelirc/kcmlirc/Messages.sh ~ unspec ~ unspec
- kdelirc/kcmlirc/modeslist.cpp ~ GPLv2 ~  Copyright (C) 2003 by Gav Wood 
- kdelirc/kcmlirc/modeslist.h ~ GPLv2 ~  Copyright (C) 2003 by Gav Wood 
- kdelirc/kcmlirc/newmodedialog.cpp ~ GPLv2h ~  *   Copyright (C) 2003 by Gav Wood                                        
- kdelirc/kcmlirc/newmodedialog.h ~ GPLv2h ~  *   Copyright (C) 2003 by Gav Wood                                        
- kdelirc/kcmlirc/newmode.ui ~ unspec ~ unspec
- kdelirc/kcmlirc/selectprofile.ui ~ unspec ~ unspec
- kdelirc/kdelirc/* ~ GPLv2 ~ Gav Wood <gav@kde.org>, (C) 2003
- kdelirc/profiles/* ~ unspec ~ unspec
- kdelirc/profiles/klauncher.profile.xml ~ unspec ~ unspec
- kdelirc/profiles/konqueror.profile.xml ~ unspec ~ unspec
- kdelirc/profiles/noatun.profile.xml ~ unspec ~ unspec
- kdelirc/profiles/profile.dtd ~ unspec ~ unspec
- kdelirc/README ~ unspec ~ unspec
- kdelirc/README.profile-creation ~ unspec ~ unspec
- kdelirc/README.remote-creation ~ unspec ~ unspec
- kdelirc/remotes/* ~ unspec ~ unspec
- kdelirc/TODO ~ unspec ~ unspec
+ Some parts under GNU Library General Public License version 2 or later, some parts under 
+ GNU General Public License, version 2 or later.
 
 
 Files under kdessh/
 
- kdessh/CMakeLists.txt ~ unspec ~ unspec
- kdessh/kdessh.cpp ~ GPLv2h ~  * Copyright (C) 2000 Geert Jansen <jansen@kde.org>
- kdessh/LICENSE.readme ~ unspec ~ unspec
- kdessh/Messages.sh ~ unspec ~ unspec
- kdessh/README ~ unspec ~ unspec
- kdessh/sshdlg.cpp ~ GPLv2h ~  * Copyright (C) 2000 Geert Jansen <jansen@kde.org>
- kdessh/sshdlg.h ~ GPLv2h ~  * Copyright (C) 2000 Geert Jansen <jansen@kde.org>
+ Copyright (C) 2000 Geert Jansen <jansen@kde.org>
+
+ Files under GNU General Public License, version2 or later.
 
 
 Files under kdf/
 
- kdf/CMakeLists.txt ~ unspec ~ unspec
- kdf/disklist.cpp ~ GPLv2h ~  * Copyright (c) 1999 Michael Kropfberger <michael.kropfberger@gmx.net>
- kdf/disklist.h ~ GPLv2h ~  * Copyright (c) 1999 Michael Kropfberger <michael.kropfberger@gmx.net>
- kdf/disks.cpp ~ GPLv2h ~  * Copyright (c) 1998 Michael Kropfberger <michael.kropfberger@gmx.net>
- kdf/disks.h ~ GPLv2h ~  * Copyright (c) 1998 Michael Kropfberger <michael.kropfberger@gmx.net>
- kdf/kcmdf.cpp ~ GPLv2h ~   Copyright (C) 1998 by Michael Kropfberger <michael.kropfberger@gmx.net>
- kdf/kcmdf.desktop ~ unspec ~ unspec
- kdf/kcmdf.h ~ GPLv2h ~   Copyright (C) 1999 by Michael Kropfberger <michael.kropfberger@gmx.net>
- kdf/kconftest.cpp ~ GPLv2h ~ ** Copyright (C) 1999 by Michael Kropfberger
- kdf/kdfconfig.cpp ~ GPLv2h ~  * Copyright (c) 1999 Michael Kropfberger <michael.kropfberger@gmx.net>
- kdf/kdfconfig.h ~ GPLv2h ~  * Copyright (c) 1999 Michael Kropfberger <michael.kropfberger@gmx.net>
- kdf/kdf.cpp ~ GPLv2h ~  * Copyright 1998-2001 by Michael Kropfberger <michael.kropfberger@gmx.net>
- kdf/kdf.desktop ~ unspec ~ unspec
- kdf/kdf.h ~ GPLv2h ~   Copyright (C) 1998 by Michael Kropfberger <michael.kropfberger@gmx.net>
- kdf/kdfui.rc ~ unspec ~ unspec
- kdf/kdfwidget.cpp ~ GPLv2h ~  * Copyright (c) 1998-2001 Michael Kropfberger <michael.kropfberger@gmx.net>
- kdf/kdfwidget.h ~ GPLv2h ~  * Copyright (c) 1998 Michael Kropfberger <michael.kropfberger@gmx.net>
- kdf/kwikdisk.cpp ~ GPLv2h ~   Copyright (C) 1999 by Michael Kropfberger <michael.kropfberger@gmx.net>
- kdf/kwikdisk.desktop ~ unspec ~ unspec
- kdf/kwikdisk.h ~ GPLv2h ~   Copyright (C) 1999 by Michael Kropfberger <michael.kropfberger@gmx.net>
- kdf/listview.cpp ~ GPLv2h ~  *   Copyright (C) 1999  Espen Sand, espen@kde.org
- kdf/listview.h ~ GPLv2h ~  *   Copyright (C) 1999  Espen Sand, espen@kde.org
- kdf/Messages.sh ~ unspec ~ unspec
- kdf/mntconfig.cpp ~ GPLv2h ~  * Copyright (c) 1999 Michael Kropfberger <michael.kropfberger@gmx.net>
- kdf/mntconfig.h ~ GPLv2h ~  * Copyright (c) 1999 Michael Kropfberger <michael.kropfberger@gmx.net>
- kdf/optiondialog.cpp ~ GPLv2h ~  *   Copyright (C) 1999  Espen Sand, espen@kde.org
- kdf/optiondialog.h ~ GPLv2h ~  *   Copyright (C) 1999  Espen Sand, espen@kde.org
- kdf/pics/* ~ unspec ~ unspec
- kdf/stdoption.cpp ~ GPLv2h ~ ** Copyright (C) 1998 by Michael Kropfberger
- kdf/stdoption.h ~ GPLv2h ~ ** Copyright (C) 1998 by Michael Kropfberger
- kdf/unix_outputs/* ~ unspec ~ unspec
+ Copyright (c) 1998-2001 Michael Kropfberger <michael.kropfberger@gmx.net>
+ Copyright (C) 1999  Espen Sand, espen@kde.org
 
+ Files under GNU General Public License, version2 or later.
 
 Files under kfloppy/
+ Copyright (C) 2002-2003 Adriaan de Groot <groot@kde.org>
+ Copyright (C) 1997 Bernd Johannes Wuebben <wuebben@math.cornell.edu>
+ Copyright (C) 2004, 2005 Nicolas GOUTTE <goutte@kde.org>
 
- kfloppy/CMakeLists.txt ~ unspec ~ unspec
- kfloppy/debug.h ~ GPLv2h ~     Copyright (C) 2003 Adriaan de Groot <groot@kde.org>
- kfloppy/floppy.cpp ~ GPLv2h ~ Copyright (C) 1997 Bernd Johannes Wuebben <wuebben@math.cornell.edu>
-                                Copyright (C) 2004, 2005 Nicolas GOUTTE <goutte@kde.org>
- kfloppy/floppy_format.desktop ~ unspec ~ unspec
- kfloppy/floppy.h ~ GPLv2h ~     Copyright (C) 1997 Bernd Johannes Wuebben <wuebben@math.cornell.edu>
-                               Copyright (C) 2004, 2005 Nicolas GOUTTE <goutte@kde.org>
- kfloppy/format.cpp ~ GPLv2 ~     Copyright (C) 2002 Adriaan de Groot <groot@kde.org>
-                                Copyright (C) 2004, 2005 Nicolas GOUTTE <goutte@kde.org>
- kfloppy/format.h ~ GPLv2 ~     Copyright (C) 2002 Adriaan de Groot <groot@kde.org>
-                              Copyright (C) 2004, 2005 Nicolas GOUTTE <goutte@kde.org>
- kfloppy/hi128-app-kfloppy.png ~ unspec ~ unspec
- kfloppy/hi16-app-kfloppy.png ~ unspec ~ unspec
- kfloppy/hi22-app-kfloppy.png ~ unspec ~ unspec
- kfloppy/hi32-app-kfloppy.png ~ unspec ~ unspec
- kfloppy/hi48-app-kfloppy.png ~ unspec ~ unspec
- kfloppy/hi64-app-kfloppy.png ~ unspec ~ unspec
- kfloppy/KFloppy.desktop ~ unspec ~ unspec
- kfloppy/main.cpp ~ GPLv2h ~     Copyright (C) 1997 Bernd Johannes Wuebben <wuebben@math.cornell.edu>
-                                   Copyright (C) 2004, 2005 Nicolas GOUTTE <goutte@kde.org>
- kfloppy/Messages.sh ~ unspec ~ unspec
- kfloppy/README ~ unspec ~ unspec
- kfloppy/TODO ~ unspec ~ unspec
- kfloppy/zip.cpp ~ GPLv2h ~     Copyright (C) 2002 by Adriaan de Groot
- kfloppy/zip.h ~ GPLv2h ~     Copyright (C) 2002 by Adriaan de Groot
-
+ Files is under a mix of GNU General Public License, version 2 only and GNU General
+ Public License, version 2 or later - effectively making KFloppy GPLv2.
 
 Files under kgpg/
 
- kgpg/adduid.ui ~ unspec ~ unspec
- kgpg/AUTHORS ~ unspec ~ unspec
- kgpg/ChangeLog ~ unspec ~ unspec
- kgpg/CMakeLists.txt ~ unspec ~ unspec
- kgpg/conf_decryption.ui ~ unspec ~ unspec
- kgpg/conf_encryption.cpp ~ GPLv2h ~     copyright          : (C) 2002 by Jean-Baptiste Mardelle
- kgpg/conf_encryption.h ~ GPLv2h ~     copyright          : (C) 2002 by Jean-Baptiste Mardelle
- kgpg/conf_encryption.ui ~ unspec ~ unspec
- kgpg/conf_gpg.ui ~ unspec ~ unspec
- kgpg/conf_misc.ui ~ unspec ~ unspec
- kgpg/conf_servers.ui ~ unspec ~ unspec
- kgpg/conf_ui2.ui ~ unspec ~ unspec
- kgpg/core/convert.cpp ~  GPLv2h ~  *   Copyright (C) 2006 by Jimmy Gilles                                   
- kgpg/core/convert.h ~  GPLv2h ~  *   Copyright (C) 2006 by Jimmy Gilles                                   
- kgpg/core/emailvalidator.cpp ~  GPLv2h ~  *   Copyright (C) 2006 by Jimmy Gilles                                  
- kgpg/core/emailvalidator.h ~  GPLv2h ~  *   Copyright (C) 2006 by Jimmy Gilles                                   
- kgpg/core/images.cpp ~  GPLv2h ~  *   Copyright (C) 2006 by Jimmy Gilles                                  
- kgpg/core/images.h ~  GPLv2h ~  *   Copyright (C) 2006 by Jimmy Gilles                                   
- kgpg/core/kgpgkey.cpp ~  GPLv2h ~ unspec
- kgpg/core/kgpgkey.h ~  GPLv2h ~ unspec
- kgpg/detailedconsole.cpp ~ GPLv2h ~     copyright            : (C) 2002 by Jean-Baptiste Mardelle
- kgpg/detailedconsole.h ~ GPLv2h ~     copyright            : (C) 2002 by Jean-Baptiste Mardelle
- kgpg/encryptfile.desktop ~ unspec ~ unspec
- kgpg/encryptfolder.desktop ~ unspec ~ unspec
- kgpg/gpgproc.cpp ~ GPLv2h ~  * Copyright (C) 2007 Rolf Eike Beer <kde@opensource.sf-tec.de>
- kgpg/gpgproc.h ~ GPLv2h ~  * Copyright (C) 2007 Rolf Eike Beer <kde@opensource.sf-tec.de>
- kgpg/groupedit.ui ~ unspec ~ unspec
- kgpg/hi16-app-kgpg.png ~ unspec ~ unspec
- kgpg/hi22-app-kgpg.png ~ unspec ~ unspec
- kgpg/hi32-app-kgpg.png ~ unspec ~ unspec
- kgpg/hi48-app-kgpg.png ~ unspec ~ unspec
- kgpg/icons/* ~ unspec ~ unspec
- kgpg/keyexport.cpp ~  GPLv2h ~     copyright          : (C) 2002 by Jean-Baptiste Mardelle
- kgpg/keyexport.h ~  GPLv2h ~     copyright          : (C) 2002 by Jean-Baptiste Mardelle
- kgpg/keyexport.ui ~ unspec ~ unspec
- kgpg/keyinfodialog.cpp ~  GPLv2h ~     copyright          : (C) 2002 by Jean-Baptiste Mardelle
- kgpg/keyinfodialog.h ~  GPLv2h ~     copyright          : (C) 2002 by Jean-Baptiste Mardelle
- kgpg/keylistview.cpp ~ unspec ~ unspec
- kgpg/keylistview.h ~ unspec ~ unspec
- kgpg/keyservers.cpp ~  GPLv2h ~     copyright          : (C) 2002 by Jean-Baptiste Mardelle
- kgpg/keyservers.h ~  GPLv2h ~     copyright          : (C) 2002 by Jean-Baptiste Mardelle
- kgpg/keyserver.ui ~ unspec ~ unspec
- kgpg/keysmanager.cpp ~  GPLv2h ~     copyright          : (C) 2002 by Jean-Baptiste Mardelle
- kgpg/keysmanager.h ~  GPLv2h ~     copyright          : (C) 2002 by Jean-Baptiste Mardelle
- kgpg/keysmanager.rc ~ unspec ~ unspec
- kgpg/kgpg_anim.gif ~ unspec ~ unspec
- kgpg/kgpg_blank.png ~ unspec ~ unspec
- kgpg/kgpg.cpp ~  GPLv2h ~     copyright          : (C) 2002 by Jean-Baptiste Mardelle
- kgpg/kgpg.desktop ~ unspec ~ unspec
- kgpg/kgpg_docked.gif ~ unspec ~ unspec
- kgpg/kgpg_docked.png ~ unspec ~ unspec
- kgpg/kgpgeditor.cpp ~  GPLv2h ~     copyright          : (C) 2002 by Jean-Baptiste Mardelle
- kgpg/kgpgeditor.h ~  GPLv2h ~     copyright          : (C) 2002 by Jean-Baptiste Mardelle
- kgpg/kgpg_fill.png ~ unspec ~ unspec
- kgpg/kgpg.h ~  GPLv2h ~     copyright          : (C) 2002 by Jean-Baptiste Mardelle
- kgpg/kgpginterface.cpp ~  GPLv2h ~     copyright          : (C) 2002 by Jean-Baptiste Mardelle
- kgpg/kgpginterface.h ~  GPLv2h ~     copyright          : (C) 2002 by Jean-Baptiste Mardelle
- kgpg/kgpg.kcfg ~ unspec ~ unspec
- kgpg/kgpgkeygenerate.cpp ~  GPLv2h ~     copyright            : (C) 2002 by Jean-Baptiste Mardelle
- kgpg/kgpgkeygenerate.h ~  GPLv2h ~     copyright          : (C) 2002 by Jean-Baptiste Mardelle
- kgpg/kgpglibrary.cpp ~  GPLv2h ~     copyright          : (C) 2002 by Jean-Baptiste Mardelle
- kgpg/kgpglibrary.h ~  GPLv2h ~     copyright          : (C) 2002 by Jean-Baptiste Mardelle
- kgpg/kgpgmd5widget.cpp ~ unspec ~ unspec
- kgpg/kgpgmd5widget.h ~ unspec ~ unspec
- kgpg/kgpgoptions.cpp ~  GPLv2h ~     copyright          : (C) 2002 by Jean-Baptiste Mardelle
- kgpg/kgpgoptions.h ~  GPLv2h ~     copyright          : (C) 2002 by Jean-Baptiste Mardelle
- kgpg/kgpg.rc ~ unspec ~ unspec
- kgpg/kgpgrevokewidget.cpp ~  GPLv2h ~     copyright          : (C) 2002 by Jean-Baptiste Mardelle
- kgpg/kgpgrevokewidget.h ~  GPLv2h ~     copyright          : (C) 2002 by Jean-Baptiste Mardelle
- kgpg/kgpgrevokewidget.ui ~ unspec ~ unspec
- kgpg/kgpgsettings_addons.h ~  GPLv2h ~     copyright          : (C) 2003Waldo Bastian
- kgpg/kgpgsettings.kcfgc ~ unspec ~ unspec
- kgpg/kgpgview.cpp ~  GPLv2h ~     copyright          : (C) 2002 by Jean-Baptiste Mardelle
- kgpg/kgpgview.h ~  GPLv2h ~     copyright          : (C) 2002 by Jean-Baptiste Mardelle
- kgpg/kgpgwizard.ui ~ unspec ~ unspec
- kgpg/main.cpp ~  GPLv2h ~     copyright          : (C) 2002 by Jean-Baptiste Mardelle
- kgpg/Messages.sh ~ unspec ~ unspec
- kgpg/newkey.cpp ~  GPLv2h ~     copyright          : (C) 2002 by Jean-Baptiste Mardelle
- kgpg/newkey.h ~  GPLv2h ~     copyright          : (C) 2002 by Jean-Baptiste Mardelle
- kgpg/newkey.ui ~ unspec ~ unspec
- kgpg/org.kde.kgpg.Key.xml ~ unspec ~ unspec
- kgpg/searchres.ui ~ unspec ~ unspec
- kgpg/selectpublickeydialog.cpp ~  GPLv2h ~     copyright            : (C) 2002 by Jean-Baptiste Mardelle
- kgpg/selectpublickeydialog.h ~  GPLv2h ~     copyright            : (C) 2002 by Jean-Baptiste Mardelle
- kgpg/selectsecretkey.cpp ~ unspec ~ unspec
- kgpg/selectsecretkey.h ~ unspec ~ unspec
- kgpg/sourceselect.cpp ~  GPLv2h ~     copyright          : (C) 2007 by Lukas Kropatschek
- kgpg/sourceselect.h ~  GPLv2h ~     copyright          : (C) 2007 by Lukas Kropatschek
- kgpg/sourceselect.ui ~ unspec ~ unspec
- kgpg/tips ~ unspec ~ unspec
+ Copyright (C) 2006-2007 Jimmy Gilles  <jimmygilles@gmail.com>
+ Copyright (C) 2002 Jean-Baptiste Mardelle <bj@altern.org>
+ Copyright (C) 2007-2008  Rolf Eike Beer <kde@opensource.sf-tec.de>
+ Copyright (C) 2007 Lukas Kropatschek <lukas.krop@gmail.com>
 
-
-Files under khexedit/
-
- khexedit/bitswapwidget.cc ~ LGPLv2 ~  *   Copyright (C) 1999  Espen Sand, espensa@online.no
- khexedit/bitswapwidget.h ~ LGPLv2 ~  *   Copyright (C) 1999  Espen Sand, espensa@online.no
- khexedit/chartabledialog.cc ~ LGPLv2 ~  *   Copyright (C) 1999  Espen Sand, espensa@online.no
- khexedit/chartabledialog.h ~ LGPLv2 ~  *   Copyright (C) 1999  Espen Sand, espensa@online.no
- khexedit/CMakeLists.txt ~ unspec ~ unspec
- khexedit/conversion.cc ~ LGPLv2 ~  *   Copyright (C) 1999  Espen Sand, espensa@online.no
- khexedit/conversion.h ~ LGPLv2 ~  *   Copyright (C) 1999  Espen Sand, espensa@online.no
- khexedit/converterdialog.cc ~ LGPLv2 ~  *   Copyright (C) 1999-2000 Espen Sand, espensa@online.no
- khexedit/converterdialog.h ~ LGPLv2 ~  *   Copyright (C) 1999-2000 Espen Sand, espensa@online.no
- khexedit/core/CMakeLists.txt ~ unspec ~ unspec
- khexedit/core/codecs/kbinarybytecodec.cpp ~ LGPLv2 ~     copyright            : (C) 2004 by Friedrich W. H. Kossebau
- khexedit/core/codecs/kbinarybytecodec.h ~ LGPLv2 ~     copyright            : (C) 2004 by Friedrich W. H. Kossebau
- khexedit/core/codecs/kbytecodec.cpp ~ LGPLv2 ~     copyright            : (C) 2004 by Friedrich W. H. Kossebau
- khexedit/core/codecs/kcharcodec.cpp ~ LGPLv2 ~     copyright            : (C) 2004 by Friedrich W. H. Kossebau
- khexedit/core/codecs/kdecimalbytecodec.cpp ~ LGPLv2 ~     copyright            : (C) 2004 by Friedrich W. H. Kossebau
- khexedit/core/codecs/kdecimalbytecodec.h ~ LGPLv2 ~     copyright            : (C) 2004 by Friedrich W. H. Kossebau
- khexedit/core/codecs/kebcdic1047charcodec.cpp ~ LGPLv2 ~     copyright            : (C) 2004 by Friedrich W. H. Kossebau
- khexedit/core/codecs/kebcdic1047charcodec.h ~ LGPLv2 ~     copyright            : (C) 2004 by Friedrich W. H. Kossebau
- khexedit/core/codecs/khexadecimalbytecodec.cpp ~ LGPLv2 ~     copyright            : (C) 2004 by Friedrich W. H. Kossebau
- khexedit/core/codecs/khexadecimalbytecodec.h ~ LGPLv2 ~     copyright            : (C) 2004 by Friedrich W. H. Kossebau
- khexedit/core/codecs/koctalbytecodec.cpp ~ LGPLv2 ~     copyright            : (C) 2004 by Friedrich W. H. Kossebau
- khexedit/core/codecs/koctalbytecodec.h ~ LGPLv2 ~     copyright            : (C) 2004 by Friedrich W. H. Kossebau
- khexedit/core/codecs/ktextcharcodec.cpp ~ LGPLv2 ~     copyright            : (C) 2004 by Friedrich W. H. Kossebau
- khexedit/core/codecs/ktextcharcodec.h ~ LGPLv2 ~     copyright            : (C) 2004 by Friedrich W. H. Kossebau
- khexedit/core/codecs/README ~ unspec ~ unspec
- khexedit/core/kabstractbytearraymodel.cpp ~ LGPLv2 ~     copyright            : (C) 2003 by Friedrich W. H. Kossebau
- khexedit/core/kabstractbytearraymodel.h ~ LGPLv2 ~     copyright            : (C) 2003 by Friedrich W. H. Kossebau
- khexedit/core/kbytearraymodel.cpp ~ LGPLv2 ~     copyright            : (C) 2003,2007 by Friedrich W. H. Kossebau
- khexedit/core/kbytearraymodel.h ~ LGPLv2 ~     copyright            : (C) 2003,2007 by Friedrich W. H. Kossebau
- khexedit/core/kbytearraymodel_p.cpp ~ LGPLv2 ~     copyright            : (C) 2003,2007 by Friedrich W. H. Kossebau
- khexedit/core/kbytearraymodel_p.h ~ LGPLv2 ~     copyright            : (C) 2003,2007 by Friedrich W. H. Kossebau
- khexedit/core/kbytecodec.h ~ LGPLv2 ~     copyright            : (C) 2003 by Friedrich W. H. Kossebau
- khexedit/core/kcharcodec.h ~ LGPLv2 ~     copyright            : (C) 2004 by Friedrich W. H. Kossebau
- khexedit/core/kfilebytearraymodel.cpp ~ LGPLv2 ~     copyright            : (C) 2003,2007 by Friedrich W. H. Kossebau
- khexedit/core/kfilebytearraymodel.h ~ LGPLv2 ~     copyright            : (C) 2003,2007 by Friedrich W. H. Kossebau
- khexedit/core/kfilebytearraymodel_p.cpp ~ LGPLv2 ~     copyright            : (C) 2003,2007 by Friedrich W. H. Kossebau
- khexedit/core/kfilebytearraymodel_p.h ~ LGPLv2 ~     copyright            : (C) 2003,2007 by Friedrich W. H. Kossebau
- khexedit/core/kfixedsizebytearraymodel.cpp ~ LGPLv2 ~     copyright            : (C) 2003 by Friedrich W. H. Kossebau
- khexedit/core/kfixedsizebytearraymodel.h ~ LGPLv2 ~     copyright            : (C) 2003 by Friedrich W. H. Kossebau
- khexedit/core/khechar.h ~ LGPLv2 ~     copyright            : (C) 2004 by Friedrich W. H. Kossebau
- khexedit/core/khe_export.h ~ LGPLv2 ~     Copyright (C) 2007 David Faure <faure@kde.org>
- khexedit/core/khe.h ~ LGPLv2 ~     copyright            : (C) 2003 by Friedrich W. H. Kossebau
- khexedit/core/krange.h ~ LGPLv2 ~     copyright            : (C) 2003 by Friedrich W. H. Kossebau
- khexedit/core/ksection.cpp ~ LGPLv2 ~     copyright            : (C) 2005 by Friedrich W. H. Kossebau
- khexedit/core/ksection.h ~ LGPLv2 ~     copyright            : (C) 2003 by Friedrich W. H. Kossebau
- khexedit/core/ksectionlist.cpp ~ LGPLv2 ~     copyright            : (C) 2003 by Friedrich W. H. Kossebau
- khexedit/core/ksectionlist.h ~ LGPLv2 ~     copyright            : (C) 2003 by Friedrich W. H. Kossebau
- khexedit/core/kselection.h ~ LGPLv2 ~     copyright            : (C) 2003 by Friedrich W. H. Kossebau
- khexedit/core/kwordbufferservice.cpp ~ LGPLv2 ~     copyright            : (C) 2005 by Friedrich W. H. Kossebau
- khexedit/core/kwordbufferservice.h ~ LGPLv2 ~     copyright            : (C) 2005 by Friedrich W. H. Kossebau
- khexedit/core/README ~ unspec ~ unspec
- khexedit/core/tests/CMakeLists.txt ~ unspec ~ unspec
- khexedit/core/tests/kabstractbytearraymodeliftest.cpp ~ LGPLv2 ~     copyright (C) 2006 by Friedrich W. H. Kossebau
- khexedit/core/tests/kabstractbytearraymodeliftest.h ~ LGPLv2 ~     copyright     : (C) 2006 by Friedrich W. H. Kossebau
- khexedit/core/tests/kbytearraymodelkabstractbytearraymodeliftest.cpp ~ LGPLv2 ~  (C) 2006 by Friedrich W. H. Kossebau
- khexedit/core/tests/kbytearraymodelkabstractbytearraymodeliftest.h ~ LGPLv2 ~ (C) 2006 by Friedrich W. H. Kossebau
- khexedit/core/tests/kbytearraymodeltest.cpp ~ LGPLv2 ~     copyright            : (C) 2006 by Friedrich W. H. Kossebau
- khexedit/core/tests/kbytearraymodeltest.h ~ LGPLv2 ~     copyright            : (C) 2006 by Friedrich W. H. Kossebau
- khexedit/core/tests/kcharcodeciftest.cpp ~ LGPLv2 ~     copyright            : (C) 2006 by Friedrich W. H. Kossebau
- khexedit/core/tests/kcharcodeciftest.h ~ LGPLv2 ~     copyright            : (C) 2006 by Friedrich W. H. Kossebau
- khexedit/core/tests/kcharcodectest.cpp ~ LGPLv2 ~     copyright            : (C) 2005 by Friedrich W. H. Kossebau
- khexedit/core/tests/kcharcodectest.h ~ LGPLv2 ~     copyright            : (C) 2006 by Friedrich W. H. Kossebau
- khexedit/core/tests/kebcdic1047charcodeckcharcodeciftest.cpp ~ LGPLv2 ~     copyright            : (C) 2006 by Friedrich W. H. Kossebau
- khexedit/core/tests/kebcdic1047charcodeckcharcodeciftest.h ~ LGPLv2 ~     copyright            : (C) 2006 by Friedrich W. H. Kossebau
- khexedit/core/tests/kfixedsizebytearraymodelkabstractbytearraymodeliftest.cpp ~ LGPLv2 ~     copyright            : (C) 2006 by Friedrich W. H. Kossebau
- khexedit/core/tests/kfixedsizebytearraymodelkabstractbytearraymodeliftest.h ~ LGPLv2 ~     copyright            : (C) 2006 by Friedrich W. H. Kossebau
- khexedit/core/tests/kfixedsizebytearraymodeltest.cpp ~ LGPLv2 ~     copyright            : (C) 2006 by Friedrich W. H. Kossebau
- khexedit/core/tests/kfixedsizebytearraymodeltest.h ~ LGPLv2 ~     copyright            : (C) 2006 by Friedrich W. H. Kossebau
- khexedit/core/tests/ksectionlisttest.cpp ~ LGPLv2 ~     copyright            : (C) 2006 by Friedrich W. H. Kossebau
- khexedit/core/tests/ksectionlisttest.h ~ LGPLv2 ~     copyright            : (C) 2006 by Friedrich W. H. Kossebau
- khexedit/core/tests/ksectiontest.cpp ~ LGPLv2 ~     copyright            : (C) 2006 by Friedrich W. H. Kossebau
- khexedit/core/tests/ksectiontest.h ~ LGPLv2 ~     copyright            : (C) 2006 by Friedrich W. H. Kossebau
- khexedit/core/tests/kselectiontest.cpp ~ LGPLv2 ~     copyright            : (C) 2006 by Friedrich W. H. Kossebau
- khexedit/core/tests/kselectiontest.h ~ LGPLv2 ~     copyright            : (C) 2006 by Friedrich W. H. Kossebau
- khexedit/core/tests/ktextcharcodeckcharcodeciftest.cpp ~ LGPLv2 ~     copyright            : (C) 2006 by Friedrich W. H. Kossebau
- khexedit/core/tests/ktextcharcodeckcharcodeciftest.h ~ LGPLv2 ~     copyright            : (C) 2006 by Friedrich W. H. Kossebau
- khexedit/core/tests/ktextcharcodectest.cpp ~ LGPLv2 ~     copyright            : (C) 2006 by Friedrich W. H. Kossebau
- khexedit/core/tests/ktextcharcodectest.h ~ LGPLv2 ~     copyright            : (C) 2006 by Friedrich W. H. Kossebau
- khexedit/core/tests/util/fill.cpp ~ LGPLv2 ~     copyright            : 2007 by Friedrich W. H. Kossebau
- khexedit/core/tests/util/fill.h ~ LGPLv2 ~     copyright            : 2007 by Friedrich W. H. Kossebau
- khexedit/dialog.cc ~ GPLv2h ~  *   Copyright (C) 1999  Espen Sand, espensa@online.no
- khexedit/dialog.h ~ GPLv2h ~  *   Copyright (C) 1999  Espen Sand, espensa@online.no
- khexedit/draglabel.cc ~ GPLv2h ~  *   Copyright (C) 1999-2000 Espen Sand, espensa@online.no
- khexedit/draglabel.h ~ GPLv2h ~  *   Copyright (C) 1999-2000 Espen Sand, espensa@online.no
- khexedit/exportdialog.cc ~ GPLv2h ~  *   Copyright (C) 1999  Espen Sand, espensa@online.no
- khexedit/exportdialog.h ~ GPLv2h ~  *   Copyright (C) 1999  Espen Sand, espensa@online.no
- khexedit/fileinfodialog.cc ~ GPLv2h ~  *   Copyright (C) 1999  Espen Sand, espensa@online.no
- khexedit/fileinfodialog.h ~ GPLv2h ~  *   Copyright (C) 1999  Espen Sand, espensa@online.no
- khexedit/gui/CMakeLists.txt ~ unspec ~ unspec
- khexedit/gui/controller/kchareditor.cpp ~ LGPLv2 ~     copyright            : (C) 2004 by Friedrich W. H. Kossebau
- khexedit/gui/controller/kchareditor.h ~ LGPLv2 ~     copyright            : (C) 2004 by Friedrich W. H. Kossebau
- khexedit/gui/controller/kcontroller.cpp ~ LGPLv2 ~     copyright            : (C) 2004 by Friedrich W. H. Kossebau
- khexedit/gui/controller/kcontroller.h ~ LGPLv2 ~     copyright            : (C) 2004 by Friedrich W. H. Kossebau
- khexedit/gui/controller/keditor.cpp ~ LGPLv2 ~     copyright            : (C) 2004 by Friedrich W. H. Kossebau
- khexedit/gui/controller/keditor.h ~ LGPLv2 ~     copyright            : (C) 2004 by Friedrich W. H. Kossebau
- khexedit/gui/controller/knavigator.cpp ~ LGPLv2 ~     copyright            : (C) 2004 by Friedrich W. H. Kossebau
- khexedit/gui/controller/knavigator.h ~ LGPLv2 ~     copyright            : (C) 2004 by Friedrich W. H. Kossebau
- khexedit/gui/controller/ktabcontroller.cpp ~ LGPLv2 ~     copyright            : (C) 2004 by Friedrich W. H. Kossebau
- khexedit/gui/controller/ktabcontroller.h ~ LGPLv2 ~     copyright            : (C) 2004 by Friedrich W. H. Kossebau
- khexedit/gui/controller/kvalueeditor.cpp ~ LGPLv2 ~     copyright            : (C) 2004 by Friedrich W. H. Kossebau
- khexedit/gui/controller/kvalueeditor.h ~ LGPLv2 ~     copyright            : (C) 2004 by Friedrich W. H. Kossebau
- khexedit/gui/helper.h ~ LGPLv2 ~     copyright            : (C) 2003 by Friedrich W. H. Kossebau
- khexedit/gui/kbordercoltextexport.cpp ~ LGPLv2 ~     copyright            : (C) 2003 by Friedrich W. H. Kossebau
- khexedit/gui/kbordercoltextexport.h ~ LGPLv2 ~     copyright            : (C) 2003 by Friedrich W. H. Kossebau
- khexedit/gui/kbordercolumn.cpp ~ LGPLv2 ~     copyright            : (C) 2003 by Friedrich W. H. Kossebau
- khexedit/gui/kbordercolumn.h ~ LGPLv2 ~     copyright            : (C) 2003 by Friedrich W. H. Kossebau
- khexedit/gui/kbytearraydrag.cpp ~ LGPLv2 ~     copyright            : (C) 2003 by Friedrich W. H. Kossebau
- khexedit/gui/kbytearraydrag.h ~ LGPLv2 ~     copyright            : (C) 2003 by Friedrich W. H. Kossebau
- khexedit/gui/kbytearrayview.cpp ~ LGPLv2 ~     copyright            : (C) 2003 by Friedrich W. H. Kossebau
- khexedit/gui/kbytearrayview.h ~ LGPLv2 ~     copyright            : (C) 2003 by Friedrich W. H. Kossebau
- khexedit/gui/kcharcoltextexport.cpp ~ LGPLv2 ~     copyright            : (C) 2003 by Friedrich W. H. Kossebau
- khexedit/gui/kcharcoltextexport.h ~ LGPLv2 ~     copyright            : (C) 2003 by Friedrich W. H. Kossebau
- khexedit/gui/kcharcolumn.cpp ~ LGPLv2 ~     copyright            : (C) 2003 by Friedrich W. H. Kossebau
- khexedit/gui/kcharcolumn.h ~ LGPLv2 ~     copyright            : (C) 2003 by Friedrich W. H. Kossebau
- khexedit/gui/kcoltextexport.h ~ LGPLv2 ~     copyright            : (C) 2003 by Friedrich W. H. Kossebau
- khexedit/gui/kcoord.h ~ LGPLv2 ~     copyright            : (C) 2003 by Friedrich W. H. Kossebau
- khexedit/gui/kcoordrange.h ~ LGPLv2 ~     copyright            : (C) 2003 by Friedrich W. H. Kossebau
- khexedit/gui/kcoordrangelist.cpp ~ LGPLv2 ~     copyright            : (C) 2003 by Friedrich W. H. Kossebau
- khexedit/gui/kcoordrangelist.h ~ LGPLv2 ~     copyright            : (C) 2003 by Friedrich W. H. Kossebau
- khexedit/gui/kcursor.cpp ~ LGPLv2 ~     copyright            : (C) 2003 by Friedrich W. H. Kossebau
- khexedit/gui/kcursor.h ~ LGPLv2 ~     copyright            : (C) 2003 by Friedrich W. H. Kossebau
- khexedit/gui/kdatacoltextexport.cpp ~ LGPLv2 ~     copyright            : (C) 2003 by Friedrich W. H. Kossebau
- khexedit/gui/kdatacoltextexport.h ~ LGPLv2 ~     copyright            : (C) 2003 by Friedrich W. H. Kossebau
- khexedit/gui/kdatacolumn.cpp ~ LGPLv2 ~     copyright            : (C) 2003,2007 by Friedrich W. H. Kossebau
- khexedit/gui/kdatacolumn.h ~ LGPLv2 ~     copyright            : (C) 2003,2007 by Friedrich W. H. Kossebau
- khexedit/gui/kdatacursor.cpp ~ LGPLv2 ~     copyright            : (C) 2003 by Friedrich W. H. Kossebau
- khexedit/gui/kdatacursor.h ~ LGPLv2 ~     copyright            : (C) 2003 by Friedrich W. H. Kossebau
- khexedit/gui/kdatalayout.cpp ~ LGPLv2 ~     copyright            : (C) 2003 by Friedrich W. H. Kossebau
- khexedit/gui/kdatalayout.h ~ LGPLv2 ~     copyright            : (C) 2003 by Friedrich W. H. Kossebau
- khexedit/gui/kdataranges.cpp ~ LGPLv2 ~     copyright            : (C) 2003 by Friedrich W. H. Kossebau
- khexedit/gui/kdataranges.h ~ LGPLv2 ~     copyright            : (C) 2003 by Friedrich W. H. Kossebau
- khexedit/gui/koffsetcoltextexport.cpp ~ LGPLv2 ~     copyright            : (C) 2003 by Friedrich W. H. Kossebau
- khexedit/gui/koffsetcoltextexport.h ~ LGPLv2 ~     copyright            : (C) 2003 by Friedrich W. H. Kossebau
- khexedit/gui/koffsetcolumn.cpp ~ LGPLv2 ~     copyright            : (C) 2003 by Friedrich W. H. Kossebau
- khexedit/gui/koffsetcolumn.h ~ LGPLv2 ~     copyright            : (C) 2003 by Friedrich W. H. Kossebau
- khexedit/gui/koffsetformat.cpp ~ LGPLv2 ~     copyright            : (C) 2003 by Friedrich W. H. Kossebau
- khexedit/gui/koffsetformat.h ~ LGPLv2 ~     copyright            : (C) 2003 by Friedrich W. H. Kossebau
- khexedit/gui/kvaluecoltextexport.cpp ~ LGPLv2 ~     copyright            : (C) 2003 by Friedrich W. H. Kossebau
- khexedit/gui/kvaluecoltextexport.h ~ LGPLv2 ~     copyright            : (C) 2003 by Friedrich W. H. Kossebau
- khexedit/gui/kvaluecolumn.cpp ~ LGPLv2 ~     copyright            : (C) 2003 by Friedrich W. H. Kossebau
- khexedit/gui/kvaluecolumn.h ~ LGPLv2 ~     copyright            : (C) 2003 by Friedrich W. H. Kossebau
- khexedit/gui/libkcolumnsview/kadds.h ~ LGPLv2 ~     copyright            : (C) 2003 by Friedrich W. H. Kossebau
- khexedit/gui/libkcolumnsview/kcolumn.cpp ~ LGPLv2 ~     copyright            : (C) 2003,2007 by Friedrich W. H. Kossebau
- khexedit/gui/libkcolumnsview/kcolumn.h ~ LGPLv2 ~     copyright            : (C) 2003,2007 by Friedrich W. H. Kossebau
- khexedit/gui/libkcolumnsview/kcolumnsview.cpp ~ LGPLv2 ~     copyright            : (C) 2003 by Friedrich W. H. Kossebau
- khexedit/gui/libkcolumnsview/kcolumnsview.h ~ LGPLv2 ~     copyright            : (C) 2003 by Friedrich W. H. Kossebau
- khexedit/gui/test/CMakeLists.txt ~ unspec ~ unspec
- khexedit/gui/test/kcoordrangelisttest.cpp ~ LGPLv2 ~     copyright            : (C) 2006 by Friedrich W. H. Kossebau
- khexedit/gui/test/kcoordrangelisttest.h ~ LGPLv2 ~     copyright            : (C) 2006 by Friedrich W. H. Kossebau
- khexedit/gui/test/kcoordrangetest.cpp ~ LGPLv2 ~     copyright            : (C) 2006 by Friedrich W. H. Kossebau
- khexedit/gui/test/kcoordrangetest.h ~ LGPLv2 ~     copyright            : (C) 2006 by Friedrich W. H. Kossebau
- khexedit/gui/test/kcoordtest.cpp ~ LGPLv2 ~     copyright            : (C) 2006 by Friedrich W. H. Kossebau
- khexedit/gui/test/kcoordtest.h ~ LGPLv2 ~     copyright            : (C) 2006 by Friedrich W. H. Kossebau
- khexedit/hexbuffer.cc ~ GPLv2h ~  *   Copyright (C) 1999-2000 Espen Sand, espensa@online.no
- khexedit/hexbuffer.h ~ GPLv2h ~  *   Copyright (C) 1999-2000 Espen Sand, espensa@online.no
- khexedit/hexclipboard.cc ~ GPLv2h ~  *   Copyright (C) 1999  Espen Sand, espensa@online.no
- khexedit/hexclipboard.h ~ GPLv2h ~  *   Copyright (C) 1999  Espen Sand, espensa@online.no
- khexedit/hexdrag.cc ~ GPLv2h ~  *   Copyright (C) 1999  Espen Sand, espensa@online.no
- khexedit/hexdrag.h ~ GPLv2h ~  *   Copyright (C) 1999  Espen Sand, espensa@online.no
- khexedit/hexeditorwidget.cc ~ GPLv2h ~  *   Copyright (C) 1999  Espen Sand, espensa@online.no
- khexedit/hexeditorwidget.h ~ GPLv2h ~  *   Copyright (C) 1999  Espen Sand, espensa@online.no
- khexedit/hexeditstate.h ~ GPLv2h ~  *   Copyright (C) 1999  Espen Sand, espensa@online.no
- khexedit/hexerror.cc ~ GPLv2h ~  *   Copyright (C) 1999  Espen Sand, espensa@online.no
- khexedit/hexerror.h ~ GPLv2h ~  *   Copyright (C) 1999  Espen Sand, espensa@online.no
- khexedit/hexmanagerwidget.cc ~ GPLv2h ~  *   Copyright (C) 1999-2000 Espen Sand, espensa@online.no
- khexedit/hexmanagerwidget.h ~ GPLv2h ~  *   Copyright (C) 1999  Espen Sand, espensa@online.no
- khexedit/hexprinter.cc ~ GPLv2h ~  *   Copyright (C) 1999  Espen Sand, espensa@online.no
- khexedit/hexprinter.h ~ GPLv2h ~  *   Copyright (C) 1999  Espen Sand, espensa@online.no
- khexedit/hextoolwidget.cc ~ GPLv2h ~  *   Copyright (C) 1999  Espen Sand, espensa@online.no
- khexedit/hextoolwidget.h ~ GPLv2h ~  *   Copyright (C) 1999  Espen Sand, espensa@online.no
- khexedit/hexvalidator.cc ~ GPLv2h ~  *   Copyright (C) 1999  Espen Sand, espensa@online.no
- khexedit/hexvalidator.h ~ GPLv2h ~  *   Copyright (C) 1999  Espen Sand, espensa@online.no
- khexedit/hexviewwidget.cc ~ GPLv2h ~  *   Copyright (C) 1999  Espen Sand, espensa@online.no
- khexedit/hexviewwidget.h ~ GPLv2h ~  *   Copyright (C) 1999  Espen Sand, espensa@online.no
- khexedit/hi16-app-khexedit.png ~ unspec ~ unspec
- khexedit/hi32-app-khexedit.png ~ unspec ~ unspec
- khexedit/hi48-app-khexedit.png ~ unspec ~ unspec
- khexedit/khexedit.desktop ~ unspec ~ unspec
- khexedit/khexeditui.rc ~ unspec ~ unspec
- khexedit/listview.cc ~ GPLv2h ~  *   Copyright (C) 1999  Espen Sand, espensa@online.no
- khexedit/listview.h ~ GPLv2h ~  *   Copyright (C) 1999  Espen Sand, espensa@online.no
- khexedit/main.cc ~ GPLv2h ~  *   Copyright (C) 1999-2000 Espen Sand, espensa@online.no
- khexedit/Messages.sh ~ unspec ~ unspec
- khexedit/optiondialog.cc ~ GPLv2h ~  *   Copyright (C) 1999  Espen Sand, espensa@online.no
- khexedit/optiondialog.h ~ GPLv2h ~  *   Copyright (C) 1999  Espen Sand, espensa@online.no
- khexedit/parts/CMakeLists.txt ~ unspec ~ unspec
- khexedit/parts/kbytesedit/CMakeLists.txt ~ unspec ~ unspec
- khexedit/parts/kbytesedit/factory.cpp ~ LGPLv2 ~     copyright            : (C) 2003 by Friedrich W. H. Kossebau
- khexedit/parts/kbytesedit/kbytearrayedit.cpp ~ LGPLv2 ~     copyright            : (C) 2003 by Friedrich W. H. Kossebau
- khexedit/parts/kbytesedit/kbytearrayedit.desktop ~ unspec ~ unspec
- khexedit/parts/kbytesedit/kbytearrayedit.h ~ LGPLv2 ~     copyright            : (C) 2003 by Friedrich W. H. Kossebau
- khexedit/parts/kbytesedit/README ~ unspec ~ unspec
- khexedit/parts/kbytesedit/tests/beiftest.cpp ~ LGPLv2 ~     copyright            : (C) 2006 by Friedrich W. H. Kossebau
- khexedit/parts/kbytesedit/tests/CMakeLists.txt ~ unspec ~ unspec
- khexedit/parts/kpart/browserextension.cpp ~ LGPLv2 ~     copyright            : (C) 2004 by Friedrich W. H. Kossebau
- khexedit/parts/kpart/browserextension.h ~ LGPLv2 ~     copyright            : (C) 2004 by Friedrich W. H. Kossebau
- khexedit/parts/kpart/CMakeLists.txt ~ unspec ~ unspec
- khexedit/parts/kpart/Messages.sh ~ unspec ~ unspec
- khexedit/parts/kpart/oktetapart.desktop ~ unspec ~ unspec
- khexedit/parts/kpart/oktetapartui.rc ~ unspec ~ unspec
- khexedit/parts/kpart/part.cpp ~ LGPLv2 ~     copyright            : (C) 2003 by Friedrich W. H. Kossebau
- khexedit/parts/kpart/partfactory.cpp ~ LGPLv2 ~     copyright            : 2003,2007 by Friedrich W. H. Kossebau
- khexedit/parts/kpart/partfactory.h ~ LGPLv2 ~     copyright            : (C) 2003 by Friedrich W. H. Kossebau
- khexedit/parts/kpart/part.h ~ LGPLv2 ~     copyright            : (C) 2003 by Friedrich W. H. Kossebau
- khexedit/parts/README ~ unspec ~ unspec
- khexedit/pics/CMakeLists.txt ~ unspec ~ unspec
- khexedit/pics/hexdrag.png ~ unspec ~ unspec
- khexedit/pics/hexmask.png ~ unspec ~ unspec
- khexedit/pics/hexwrite.png ~ unspec ~ unspec
- khexedit/printdialogpage.cc ~ GPLv2h ~  *   Copyright (C) 1999  Espen Sand, espensa@online.no
- khexedit/printdialogpage.h ~ GPLv2h ~  *   Copyright (C) 1999  Espen Sand, espensa@online.no
- khexedit/progress.h ~ GPLv2h ~  *   Copyright (C) 1999  Espen Sand, espensa@online.no
- khexedit/README ~ unspec ~ unspec
- khexedit/searchbar.cc ~ GPLv2h ~  *   Copyright (C) 2000 Espen Sand, espensa@online.no
- khexedit/searchbar.h ~ GPLv2h ~  *   Copyright (C) 2000 Espen Sand, espensa@online.no
- khexedit/statusbarprogress.cc ~ GPLv2h ~  *   Copyright (C) 1999  Espen Sand, espensa@online.no
- khexedit/statusbarprogress.h ~ GPLv2h ~  *   Copyright (C) 1999  Espen Sand, espensa@online.no
- khexedit/stringdialog.cc ~ GPLv2h ~  *   Copyright (C) 1999-2000 Espen Sand, espensa@online.no
- khexedit/stringdialog.h ~ GPLv2h ~  *   Copyright (C) 1999-2000 Espen Sand, espensa@online.no
- khexedit/toplevel.cc ~ GPLv2h ~  *   Copyright (C) 1999-2000 Espen Sand, espensa@online.no
- khexedit/toplevel.h ~ GPLv2h ~  *   Copyright (C) 1999-2000  Espen Sand, espensa@online.no
- khexedit/version.h ~ GPLv2h ~  *   Copyright (C) 1999  Espen Sand, espensa@online.no
-
-
-Files under kjots/
-
- kjots/ANNOUNCE ~ unspec ~ unspec
- kjots/bookshelf.cpp ~ GPLv2h ~ Copyright (C) 1997 Christoph Neerfeld <Christoph.Neerfeld@home.ivm.de>
-                       Copyright (C) 2002, 2003 Aaron J. Seigo <aseigo@kde.org>
-                       Copyright (C) 2003 Stanislav Kljuhhin <crz@hot.ee>
-                       Copyright (C) 2005-2006 Jaison Lee <lee.jaison@gmail.com>
- kjots/bookshelf.h ~ GPLv2h ~ Copyright (C) 1997 Christoph Neerfeld <Christoph.Neerfeld@home.ivm.de>
-                       Copyright (C) 2002, 2003 Aaron J. Seigo <aseigo@kde.org>
-                       Copyright (C) 2003 Stanislav Kljuhhin <crz@hot.ee>
-                       Copyright (C) 2005-2006 Jaison Lee <lee.jaison@gmail.com>
- kjots/BUGS ~ unspec ~ unspec
- kjots/CHANGES ~ unspec ~ unspec
- kjots/CMakeLists.txt ~ unspec ~ unspec
- kjots/confpagemisc.ui ~ unspec ~ unspec
- kjots/icons/* ~ unspec ~ unspec
- kjots/kjotsbookmarks.cpp ~ GPLv2h ~  Copyright (C) 1997 Christoph Neerfeld <Christoph.Neerfeld@home.ivm.de>
-                       Copyright (C) 2002, 2003 Aaron J. Seigo <aseigo@kde.org>
-                       Copyright (C) 2003 Stanislav Kljuhhin <crz@hot.ee>
-                       Copyright (C) 2005-2006 Jaison Lee <lee.jaison@gmail.com>
- kjots/kjotsbookmarks.h ~ GPLv2h ~ Copyright (C) 1997 Christoph Neerfeld <Christoph.Neerfeld@home.ivm.de>
-                       Copyright (C) 2002, 2003 Aaron J. Seigo <aseigo@kde.org>
-                       Copyright (C) 2003 Stanislav Kljuhhin <crz@hot.ee>
-                       Copyright (C) 2005-2006 Jaison Lee <lee.jaison@gmail.com>
- kjots/kjotsbrowser.cpp ~ GPLv2h ~ Copyright (C) 1997 Christoph Neerfeld <Christoph.Neerfeld@home.ivm.de>
-                       Copyright (C) 2002, 2003 Aaron J. Seigo <aseigo@kde.org>
-                       Copyright (C) 2003 Stanislav Kljuhhin <crz@hot.ee>
-                       Copyright (C) 2005-2006 Jaison Lee <lee.jaison@gmail.com>
- kjots/kjotsbrowser.h ~ GPLv2h ~    Copyright (C) 1997 Christoph Neerfeld <Christoph.Neerfeld@home.ivm.de>
-                       Copyright (C) 2002, 2003 Aaron J. Seigo <aseigo@kde.org>
-                       Copyright (C) 2003 Stanislav Kljuhhin <crz@hot.ee>
-                       Copyright (C) 2005-2006 Jaison Lee <lee.jaison@gmail.com>
- kjots/Kjots.desktop ~ unspec ~ unspec
- kjots/kjotsedit.cpp ~ GPLv2h ~ Copyright (C) 1997 Christoph Neerfeld <Christoph.Neerfeld@home.ivm.de>
-                       Copyright (C) 2002, 2003 Aaron J. Seigo <aseigo@kde.org>
-                       Copyright (C) 2003 Stanislav Kljuhhin <crz@hot.ee>
-                       Copyright (C) 2005-2006 Jaison Lee <lee.jaison@gmail.com>
- kjots/kjotsedit.h ~ GPLv2h ~ Copyright (C) 1997 Christoph Neerfeld <Christoph.Neerfeld@home.ivm.de>
-                       Copyright (C) 2002, 2003 Aaron J. Seigo <aseigo@kde.org>
-                       Copyright (C) 2003 Stanislav Kljuhhin <crz@hot.ee>
-                       Copyright (C) 2005-2006 Jaison Lee <lee.jaison@gmail.com>
- kjots/kjotsentry.cpp ~ GPLv2h ~ Copyright (C) 1997 Christoph Neerfeld <Christoph.Neerfeld@home.ivm.de>
-                       Copyright (C) 2002, 2003 Aaron J. Seigo <aseigo@kde.org>
-                       Copyright (C) 2003 Stanislav Kljuhhin <crz@hot.ee>
-                       Copyright (C) 2005-2006 Jaison Lee <lee.jaison@gmail.com>
- kjots/kjotsentry.h ~ GPLv2h ~  Copyright (C) 1997 Christoph Neerfeld <Christoph.Neerfeld@home.ivm.de>
-                       Copyright (C) 2002, 2003 Aaron J. Seigo <aseigo@kde.org>
-                       Copyright (C) 2003 Stanislav Kljuhhin <crz@hot.ee>
-                       Copyright (C) 2005-2006 Jaison Lee <lee.jaison@gmail.com>
- kjots/kjots.kcfg ~ unspec ~ unspec
- kjots/KJotsMain.cpp ~ GPLv2h ~                       Copyright (C) 1997 Christoph Neerfeld <Christoph.Neerfeld@home.ivm.de>
-                       Copyright (C) 2002, 2003 Aaron J. Seigo <aseigo@kde.org>
-                       Copyright (C) 2003 Stanislav Kljuhhin <crz@hot.ee>
-                       Copyright (C) 2005-2006 Jaison Lee <lee.jaison@gmail.com>
- kjots/KJotsMain.h ~ GPLv2h ~                       Copyright (C) 1997 Christoph Neerfeld <Christoph.Neerfeld@home.ivm.de>
-                       Copyright (C) 2002, 2003 Aaron J. Seigo <aseigo@kde.org>
-                       Copyright (C) 2003 Stanislav Kljuhhin <crz@hot.ee>
-                       Copyright (C) 2005-2006 Jaison Lee <lee.jaison@gmail.com>
- kjots/KJotsSettings.kcfgc ~ unspec ~ unspec
- kjots/kjotsui.rc ~ unspec ~ unspec
- kjots/main.cpp ~ GPLv2h ~                       Copyright (C) 1997 Christoph Neerfeld <Christoph.Neerfeld@home.ivm.de>
-                       Copyright (C) 2002, 2003 Aaron J. Seigo <aseigo@kde.org>
-                       Copyright (C) 2003 Stanislav Kljuhhin <crz@hot.ee>
-                       Copyright (C) 2005-2006 Jaison Lee <lee.jaison@gmail.com>
- kjots/Messages.sh ~ unspec ~ unspec
- kjots/README ~ GPLv2h ~ copyright (C) 1995-96 by Mark Crimmins (markcrim@umich.edu).
-
-
-Files under klaptopdaemon/
-
- klaptopdaemon/acpi.cpp ~ GPLv2h ~  * Copyright (c) 1999, 2003 Paul Campbell <paul@taniwha.com>
- klaptopdaemon/acpi.h ~ GPLv2h ~  * Copyright (c) 2002 Paul Campbell <paul@taniwha.com>
- klaptopdaemon/acpi_helper.cpp ~ GPLv2h ~  * Copyright (c) 2002 Paul Campbell <paul@taniwha.com>
- klaptopdaemon/apm.cpp ~ GPLv2h ~  * Copyright (c) 1999 Paul Campbell <paul@taniwha.com>
-                                   Copyright (c) 2002 Marc Mutz <mutz@kde.org>
- klaptopdaemon/apm.h ~ GPLv2h ~  * Copyright (c) 2003 Paul Campbell <paul@taniwha.com>
- klaptopdaemon/battery.cpp ~ GPLv2h ~  * Copyright (c) 1999 Paul Campbell <paul@taniwha.com>
-                                        Copyright (c) 2002 Marc Mutz <mutz@kde.org>
- klaptopdaemon/battery.h ~ GPLv2h ~  * Copyright (c) 1999 Paul Campbell <paul@taniwha.com>
-                                      Copyright (c) 2002 Marc Mutz <mutz@kde.org>
- klaptopdaemon/buttons.cpp ~ GPLv2h ~ Copyright (c) 1999 Paul Campbell <paul@taniwha.com>
-                                       Copyright (c) 2002 Marc Mutz <mutz@kde.org>
- klaptopdaemon/buttons.h ~ GPLv2h ~  * Copyright (c) 1999 Paul Campbell <paul@taniwha.com>
- klaptopdaemon/checkcrc.h ~ GPLv2h ~  * Copyright (c) 2003 Paul Campbell <paul@taniwha.com>
- klaptopdaemon/CMakeLists.txt ~ unspec ~ unspec
- klaptopdaemon/config-klaptopdaemon.h.cmake ~ unspec ~ unspec
- klaptopdaemon/daemondock.cpp ~ GPLv2h ~  * Copyright (C) 1999 Paul Campbell <paul@taniwha.com>
- klaptopdaemon/daemondock.h ~ GPLv2h ~  * Copyright (C) 1999 Paul Campbell <paul@taniwha.com>
- klaptopdaemon/daemon_state.cpp ~ GPLv2h ~  * Copyright (C) 1999, 2003 Paul Campbell <paul@taniwha.com>
- klaptopdaemon/daemon_state.h ~ GPLv2h ~  * Copyright (C) 1999, 2003 Paul Campbell <paul@taniwha.com>
- klaptopdaemon/kpcmcia.cpp ~ GPLv2h ~  * Copyright (C) 2001 George Staikos <staikos@kde.org>
-                                      Copyright 1999, Mirko Sucker <mirko.sucker@unibw-hamburg.de>
- klaptopdaemon/kpcmcia.h ~ GPLv2h ~  * Copyright (C) 2001 George Staikos <staikos@kde.org>
- klaptopdaemon/kpcmciainfo.cpp ~ GPLv2h ~  * Copyright (C) 2001 George Staikos <staikos@kde.org>
- klaptopdaemon/kpcmciainfo.h ~ GPLv2h ~  * Copyright (C) 2001 George Staikos <staikos@kde.org>
- 
- 
- klaptopdaemon/krichtextlabel.cpp ~ GPLv2 ~    Copyright (C) 2005 Waldo Bastian <bastian@kde.org>
- klaptopdaemon/krichtextlabel.h ~ GPLv2 ~    Copyright (C) 2005 Waldo Bastian <bastian@kde.org>
- klaptopdaemon/laptop_check.cpp ~ GPLv2h ~  * Copyright (C) 2003 Paul Campbell <paul@taniwha.com>
- klaptopdaemon/laptop_daemon.cpp ~ GPLv2h ~  * Copyright (C) 1999 Paul Campbell <paul@taniwha.com>
-                                            * Copyright 2001 Stelian Pop, Alcove
- klaptopdaemon/laptop_daemon.h ~ GPLv2h ~  * Copyright (C) 1999 Paul Campbell <paul@taniwha.com>
- klaptopdaemon/linux/bulkmem.h ~ MPL1.0 ~  * are Copyright (C) 1998 David A. Hinds.  All Rights Reserved.
- klaptopdaemon/linux/ciscode.h ~ MPL1.0 ~  * are Copyright (C) 1998 David A. Hinds.  All Rights Reserved.
- klaptopdaemon/linux/cisreg.h ~ MPL1.0 ~  * are Copyright (C) 1998 David A. Hinds.  All Rights Reserved.
- klaptopdaemon/linux/cistpl.h ~ MPL1.0 ~  * are Copyright (C) 1998 David A. Hinds.  All Rights Reserved.
- klaptopdaemon/linux/cs.h ~ MPL1.0 ~  * are Copyright (C) 1998 David A. Hinds.  All Rights Reserved.
- klaptopdaemon/linux/cs_types.h ~ MPL1.0 ~  * are Copyright (C) 1998 David A. Hinds.  All Rights Reserved.
- klaptopdaemon/linux/driver_ops.h ~ MPL1.0 ~  * are Copyright (C) 1998 David A. Hinds.  All Rights Reserved.
- klaptopdaemon/linux/ds.h ~ MPL1.0 ~  * are Copyright (C) 1998 David A. Hinds.  All Rights Reserved.
- klaptopdaemon/linux/ftl.h ~ MPL1.0 ~  * are Copyright (C) 1998 David A. Hinds.  All Rights Reserved.
- klaptopdaemon/linux/k_compat.h ~ MPL1.0 ~  * are Copyright (C) 1998 David A. Hinds.  All Rights Reserved.
- klaptopdaemon/linux/mem_op.h ~ MPL1.0 ~  * are Copyright (C) 1998 David A. Hinds.  All Rights Reserved.
- klaptopdaemon/linux/memory.h ~ MPL1.0 ~  * are Copyright (C) 1998 David A. Hinds.  All Rights Reserved.
- klaptopdaemon/linux/ss.h ~ MPL1.0 ~  * are Copyright (C) 1998 David A. Hinds.  All Rights Reserved.
- klaptopdaemon/linux/version.h ~ unspec ~ unspec
- klaptopdaemon/main.cpp ~ GPLv2h ~  * Copyright (c) 1999 Paul Campbell <paul@taniwha.com>
- klaptopdaemon/main.h ~ GPLv2h ~  * Copyright (c) 2002 Paul Campbell paul@taniwha.com
- klaptopdaemon/makecrc.cpp ~ GPLv2h ~  * Copyright (c) 2003 Paul Campbell <paul@taniwha.com>
- klaptopdaemon/menus/* ~ unspec ~ unspec
- klaptopdaemon/Messages.sh ~ unspec ~ unspec
- klaptopdaemon/pcmcia.cpp ~ GPLv2h ~  * Copyright (c) 1999 Paul Campbell <paul@taniwha.com>
- klaptopdaemon/pcmcia.h ~ GPLv2h ~  * Copyright (c) 1999 Paul Campbell <paul@taniwha.com>
- klaptopdaemon/pics/* ~ unspec ~ unspec
- klaptopdaemon/portable.cpp ~ GPLv2 ~  * Copyright (c) 1999 Paul Campbell <paul@taniwha.com>
- klaptopdaemon/portable.h ~ GPLv2h ~  * Copyright (c) 2002 Paul Campbell <paul@taniwha.com>
- klaptopdaemon/power.cpp ~ GPLv2h ~  * Copyright (c) 1999 Paul Campbell <paul@taniwha.com>
-  * Copyright (c) 2002 Marc Mutz <mutz@kde.org>
- klaptopdaemon/power.h ~ GPLv2h ~  * Copyright (c) 1999 Paul Campbell <paul@taniwha.com>
- klaptopdaemon/profile.cpp ~ GPLv2h ~  * Copyright (c) 2003 Paul Campbell <paul@taniwha.com>
- klaptopdaemon/profile.h ~ GPLv2h ~  * Copyright (c) 2003 Paul Campbell <paul@taniwha.com>
- klaptopdaemon/README ~ unspec ~ unspec
- klaptopdaemon/smapibios.h ~ GPLv2h ~  *     Copyright (c) 1999 J.D. Thomas Hood, All rights reserved
- klaptopdaemon/smapidev.c ~ GPLv2h ~  *     Copyright (c) 1999 J.D. Thomas Hood and Bill Mair,
- klaptopdaemon/smapidev.h ~ GPLv2h ~  *     Copyright (c) 1999 Bill Mair, All rights reserved
- klaptopdaemon/smapi.h ~ GPLv2h ~  *     Copyright (c) 1999 J.D. Thomas Hood, All rights reserved
- klaptopdaemon/sony.cpp ~ GPLv2h ~  * Copyright (c) 2002 Paul Campbell <paul@taniwha.com>
- klaptopdaemon/sony.h ~ GPLv2h ~  * Copyright (c) 2002 Paul Campbell <paul@taniwha.com>
- klaptopdaemon/thinkpad_common.h ~ GPLv2h ~  *     Copyright (c) 1999 J.D. Thomas Hood, All rights reserved
- 
- klaptopdaemon/version.h ~ GPLv2h ~  * Copyright (c) 2002 Paul Campbell <paul@taniwha.com>
- klaptopdaemon/wake_laptop.cpp ~ GPLv2h ~  * Copyright (C) 2003 Paul Campbell <paul@taniwha.com>
- klaptopdaemon/warning.cpp ~ GPLv2h ~  * Copyright (c) 1999 Paul Campbell <paul@taniwha.com>
- klaptopdaemon/warning.h ~ GPLv2h ~  * Copyright (c) 1999 Paul Campbell <paul@taniwha.com>
-                                    Copyright (c) 2002 Marc Mutz <mutz@kde.org>
-
-Files under kregexpeditor/
- 
- kregexpeditor/altnregexp.cpp ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/altnregexp.h ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/altnwidget.cpp ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/altnwidget.h ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/auxbuttons.cpp ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/auxbuttons.h ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/characterswidget.cpp ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/characterswidget.h ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/charselector.cpp ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/charselector.h ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/CMakeLists.txt ~ unspec ~ unspec
- kregexpeditor/Comments ~ unspec ~ unspec
- kregexpeditor/compoundregexp.cpp ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/compoundregexp.h ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/compoundwidget.cpp ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/compoundwidget.h ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/concregexp.cpp ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/concregexp.h ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/concwidget.cpp ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/concwidget.h ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/dcbutton.cpp ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/dcbutton.h ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/dotregexp.cpp ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/dotregexp.h ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/dragaccepter.cpp ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <Qt::blackie@kde.org>
- kregexpeditor/dragaccepter.h ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/drag.cpp ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/drag.h ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/editorwindow.cpp ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <Qt::blackie@kde.org>
- kregexpeditor/editorwindow.h ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/emacsregexpconverter.cpp ~ LGPLv2 ~  *  Copyright (c) 2002-2004 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/emacsregexpconverter.h ~ LGPLv2 ~  *  Copyright (c) 2002-2004 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/errormap.cpp ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/errormap.h ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/extractrc-from-regexp ~ unspec ~ unspec
- kregexpeditor/gen_qregexplexer.cpp ~ GPLv2h ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/gen_qregexpparser.cc ~ GPLv2h ~    Copyright (C) 1984, 1989, 1990, 2000, 2001, 2002 Free Software Foundation, Inc.
- kregexpeditor/gen_qregexpparser.hh ~ GPLv2h ~  Copyright (C) 1984, 1989, 1990, 2000, 2001, 2002 Free Software Foundation, Inc.
- kregexpeditor/hi128-app-kregexpeditor.png ~ unspec ~ unspec
- kregexpeditor/hi16-app-kregexpeditor.png ~ unspec ~ unspec
- kregexpeditor/hi22-app-kregexpeditor.png ~ unspec ~ unspec
- kregexpeditor/hi32-app-kregexpeditor.png ~ unspec ~ unspec
- kregexpeditor/hi48-app-kregexpeditor.png ~ unspec ~ unspec
- kregexpeditor/hi64-app-kregexpeditor.png ~ unspec ~ unspec
- kregexpeditor/infopage.cpp ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/infopage.h ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/KMultiFormListBox/ccp.cpp ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/KMultiFormListBox/ccp.h ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/KMultiFormListBox/CMakeLists.txt ~ unspec ~ unspec
- kregexpeditor/KMultiFormListBox/idx.xbm ~ unspec ~ unspec
- kregexpeditor/KMultiFormListBox/indexWindow.cpp ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/KMultiFormListBox/indexWindow.h ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/KMultiFormListBox/kmultiformlistbox.cpp ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/KMultiFormListBox/kmultiformlistboxentry.cpp ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/KMultiFormListBox/kmultiformlistboxentry.h ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/KMultiFormListBox/kmultiformlistboxfactory.cpp ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/KMultiFormListBox/kmultiformlistboxfactory.h ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/KMultiFormListBox/kmultiformlistbox.h ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/KMultiFormListBox/kmultiformlistbox-multivisible.cpp ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/KMultiFormListBox/kmultiformlistbox-multivisible.h ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/KMultiFormListBox/kmultiformlistbox-shower.h ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/KMultiFormListBox/kmultiformlistbox-windowed.cpp ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/KMultiFormListBox/kmultiformlistbox-windowed.h ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/KMultiFormListBox/TODO ~ unspec ~ unspec
- kregexpeditor/KMultiFormListBox/widgetwindow.cpp ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/KMultiFormListBox/widgetwindow.h ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/KMultiFormListBox/windowlistboxitem.cpp ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/KMultiFormListBox/windowlistboxitem.h ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/kregexpeditor.desktop ~ unspec ~ unspec
- kregexpeditor/kregexpeditorfactory.cpp ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/kregexpeditorgui.cpp ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/kregexpeditorgui.desktop ~ unspec ~ unspec
- kregexpeditor/kregexpeditorgui.h ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/kregexpeditorprivate.cpp ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/kregexpeditorprivate.h ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/kregexpeditor.svgz ~ unspec ~ unspec
- kregexpeditor/KWidgetStreamer/CMakeLists.txt ~ unspec ~ unspec
- kregexpeditor/KWidgetStreamer/kwidgetstreamer.cpp ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/KWidgetStreamer/kwidgetstreamer.h ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/limitedcharlineedit.cpp ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/limitedcharlineedit.h ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/lookaheadregexp.cpp ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/lookaheadregexp.h ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/lookaheadwidget.cpp ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/lookaheadwidget.h ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/main.cpp ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/Messages.sh ~ unspec ~ unspec
- kregexpeditor/multicontainerwidget.cpp ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/multicontainerwidget.h ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/myfontmetrics.cpp ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/myfontmetrics.h ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/pair.h ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/positionregexp.cpp ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/positionregexp.h ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/predefined/CMakeLists.txt ~ unspec ~ unspec
- kregexpeditor/predefined/General/anything.regexp ~ unspec ~ unspec
- kregexpeditor/predefined/General/CMakeLists.txt ~ unspec ~ unspec
- kregexpeditor/predefined/General/letter.regexp ~ unspec ~ unspec
- kregexpeditor/predefined/General/number.regexp ~ unspec ~ unspec
- kregexpeditor/predefined/General/spaces.regexp ~ unspec ~ unspec
- kregexpeditor/predefined/README ~ unspec ~ unspec
- kregexpeditor/qregexpparser.l ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/qregexpparser.y ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/qt-only/clean ~ unspec ~ unspec
- kregexpeditor/qt-only/compat.cpp ~ LGPLv2 ~  *  Copyright (c) 2002-2004 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/qt-only/compat.h ~ LGPLv2 ~  *  Copyright (c) 2002-2004 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/qt-only/compile ~ unspec ~ unspec
- kregexpeditor/qt-only/qt-only.pro ~ unspec ~ unspec
- kregexpeditor/qt-only/win-release.bat ~ unspec ~ unspec
- kregexpeditor/qtregexpconverter.cpp ~ LGPLv2 ~  *  Copyright (c) 2002-2004 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/qtregexpconverter.h ~ LGPLv2 ~  *  Copyright (c) 2002-2004 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/qtregexphighlighter.cpp ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/qtregexphighlighter.h ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/regexpbuttons.cpp ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/regexpbuttons.h ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/regexpconverter.cpp ~ LGPLv2 ~  *  Copyright (c) 2002-2004 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/regexpconverter.h ~ LGPLv2 ~  *  Copyright (c) 2002-2004 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/regexp.cpp ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/regexp.h ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/regexphighlighter.cpp ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/regexphighlighter.h ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/regexpwidget.cpp ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <Qt::blackie@kde.org>
- kregexpeditor/regexpwidget.h ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/repeatregexp.cpp ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/repeatregexp.h ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/repeatwidget.cpp ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/repeatwidget.h ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/scrollededitorwindow.cpp ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/scrollededitorwindow.h ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/selectablelineedit.cpp ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/selectablelineedit.h ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/singlecontainerwidget.cpp ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/singlecontainerwidget.h ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/test-without-dl/CMakeLists.txt ~ unspec ~ unspec
- kregexpeditor/test-without-dl/main.cpp ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/textrangeregexp.cpp ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/textrangeregexp.h ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/textregexp.cpp ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/textregexp.h ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/textwidget.cpp ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/textwidget.h ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/TODO ~ unspec ~ unspec
- kregexpeditor/triple.h ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/userdefinedregexps.cpp ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/userdefinedregexps.h ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/util.cpp ~ LGPLv2 ~  *  Copyright (c) 2002-2004 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/util.h ~ LGPLv2 ~  *  Copyright (c) 2002-2004 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/verifier.cpp ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/verifier.h ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/verifybuttons.cpp ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/verifybuttons.h ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/widgetfactory.cpp ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/widgetfactory.h ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/zerowidgets.cpp ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
- kregexpeditor/zerowidgets.h ~ LGPLv2 ~  *  Copyright (c) 2002-2003 Jesper K. Pedersen <blackie@kde.org>
-
-Files under ksim/
-
-ksim/AUTHORS ~ unspec ~ unspec
- ksim/baselist.h ~ GPLv2h ~  *  Copyright (C) 2001  Robbie Ward <linuxphreak@gmx.co.uk>
- ksim/BUGS ~ unspec ~ unspec
- ksim/ChangeLog ~ unspec ~ unspec
- ksim/CMakeLists.txt ~ unspec ~ unspec
- ksim/config-ksim.h.cmake ~ unspec ~ unspec
- ksim/configure.in.in ~ unspec ~ unspec
- ksim/COPYING ~ GPLv2h ~  Copyright (C) 1989, 1991 Free Software Foundation, Inc.
- ksim/generalprefs.cpp ~ GPLv2h ~  *  Copyright (C) 2001  Robbie Ward <linuxphreak@gmx.co.uk>
- ksim/generalprefs.h ~ GPLv2h ~  *  Copyright (C) 2001  Robbie Ward <linuxphreak@gmx.co.uk>
- ksim/ksim.cpp ~ GPLv2h ~  *  Copyright (C) 2001  Robbie Ward <linuxphreak@gmx.co.uk>
- ksim/ksim.desktop ~ unspec ~ unspec
- ksim/ksimframe.cpp ~ GPLv2h ~  *  Copyright (C) 2001  Robbie Ward <linuxphreak@gmx.co.uk>
- ksim/ksimframe.h ~ GPLv2h ~  *  Copyright (C) 2001  Robbie Ward <linuxphreak@gmx.co.uk>
- ksim/ksim.h ~ GPLv2h ~  *  Copyright (C) 2001  Robbie Ward <linuxphreak@gmx.co.uk>
- ksim/ksim_panelextensionrc ~ unspec ~ unspec
- ksim/ksimpref.cpp ~ GPLv2h ~  *  Copyright (C) 2001  Robbie Ward <linuxphreak@gmx.co.uk>
- ksim/ksimpref.h ~ GPLv2h ~  *  Copyright (C) 2001  Robbie Ward <linuxphreak@gmx.co.uk>
- ksim/ksimsysinfo.cpp ~ GPLv2h ~  *  Copyright (C) 2001  Robbie Ward <linuxphreak@gmx.co.uk>
- ksim/ksimsysinfo.h ~ GPLv2h ~  *  Copyright (C) 2001  Robbie Ward <linuxphreak@gmx.co.uk>
- ksim/ksimview.cpp ~ GPLv2h ~  *  Copyright (C) 2001  Robbie Ward <linuxphreak@gmx.co.uk>
- ksim/ksimview.h ~ GPLv2h ~  *  Copyright (C) 2001  Robbie Ward <linuxphreak@gmx.co.uk>
- ksim/library/chart.cpp ~ GPLv2h ~  *  Copyright (C) 2001  Robbie Ward <linuxphreak@gmx.co.uk>
- ksim/library/chart.h ~ GPLv2h ~  *  Copyright (C) 2001  Robbie Ward <linuxphreak@gmx.co.uk>
- ksim/library/CMakeLists.txt ~ unspec ~ unspec
- ksim/library/common.cpp ~ GPLv2h ~  *  Copyright (C) 2001  Robbie Ward <linuxphreak@gmx.co.uk>
- ksim/library/common.h ~ GPLv2h ~  *  Copyright (C) 2001  Robbie Ward <linuxphreak@gmx.co.uk>
- ksim/library/ksimconfig.cpp ~ GPLv2h ~  *  Copyright (C) 2001  Robbie Ward <linuxphreak@gmx.co.uk>
- ksim/library/ksimconfig.h ~ GPLv2h ~  *  Copyright (C) 2001  Robbie Ward <linuxphreak@gmx.co.uk>
- ksim/library/label.cpp ~ GPLv2h ~  *  Copyright (C) 2001  Robbie Ward <linuxphreak@gmx.co.uk>
- ksim/library/label.h ~ GPLv2h ~  *  Copyright (C) 2001  Robbie Ward <linuxphreak@gmx.co.uk>
- ksim/library/led.cpp ~ GPLv2h ~  *  Copyright (C) 2001  Robbie Ward <linuxphreak@gmx.co.uk>
- ksim/library/led.h ~ GPLv2h ~  *  Copyright (C) 2001  Robbie Ward <linuxphreak@gmx.co.uk>
- ksim/library/pluginglobal.cpp ~ GPLv2h ~  *  Copyright (C) 2001  Robbie Ward <linuxphreak@gmx.co.uk>
- ksim/library/pluginglobal.h ~ GPLv2h ~  *  Copyright (C) 2001  Robbie Ward <linuxphreak@gmx.co.uk>
- ksim/library/pluginloader.cpp ~ GPLv2h ~  *  Copyright (C) 2001  Robbie Ward <linuxphreak@gmx.co.uk>
- ksim/library/pluginloader.h ~ GPLv2h ~  *  Copyright (C) 2001  Robbie Ward <linuxphreak@gmx.co.uk>
- ksim/library/pluginmodule.cpp ~ GPLv2h ~  *  Copyright (C) 2001  Robbie Ward <linuxphreak@gmx.co.uk>
- ksim/library/pluginmodule.h ~ GPLv2h ~  *  Copyright (C) 2001  Robbie Ward <linuxphreak@gmx.co.uk>
- ksim/library/progress.cpp ~ GPLv2h ~  *  Copyright (C) 2001  Robbie Ward <linuxphreak@gmx.co.uk>
- ksim/library/progress.h ~ GPLv2h ~  *  Copyright (C) 2001  Robbie Ward <linuxphreak@gmx.co.uk>
- ksim/library/themeloader.cpp ~ GPLv2h ~  *  Copyright (C) 2001  Robbie Ward <linuxphreak@gmx.co.uk>
- ksim/library/themeloader.h ~ GPLv2h ~  *  Copyright (C) 2001  Robbie Ward <linuxphreak@gmx.co.uk>
- ksim/library/themetypes.h ~ GPLv2h ~  *  Copyright (C) 2001  Robbie Ward <linuxphreak@gmx.co.uk>
- ksim/Messages.sh ~ unspec ~ unspec
- ksim/monitorprefs.cpp ~ GPLv2h ~  *  Copyright (C) 2001  Robbie Ward <linuxphreak@gmx.co.uk>
- ksim/monitorprefs.h ~ GPLv2h ~  *  Copyright (C) 2001  Robbie Ward <linuxphreak@gmx.co.uk>
- ksim/monitors/CMakeLists.txt ~ unspec ~ unspec
- ksim/monitors/cpu/CMakeLists.txt ~ unspec ~ unspec
- ksim/monitors/cpu/cpu.desktop ~ GPLv2h ~ X-KSIM-COPYRIGHT=(C) 2001 Robbie Ward
- ksim/monitors/cpu/ksimcpu.cpp ~ GPLv2h ~  *  Copyright (C) 2001  Robbie Ward <linuxphreak@gmx.co.uk>
- ksim/monitors/cpu/ksimcpu.h ~ GPLv2h ~  *  Copyright (C) 2001  Robbie Ward <linuxphreak@gmx.co.uk>
- ksim/monitors/cpu/ox16-device-ksim_cpu.png ~ unspec ~ unspec
- ksim/monitors/disk/CMakeLists.txt ~ unspec ~ unspec
- ksim/monitors/disk/configure.in.in ~ unspec ~ unspec
- ksim/monitors/disk/disk.desktop ~ unspec ~ unspec
- ksim/monitors/disk/ksimdisk.cpp ~ GPLv2h ~  *  Copyright (C) 2001  Robbie Ward <linuxphreak@gmx.co.uk>
- ksim/monitors/disk/ksimdisk.h ~ GPLv2h ~  *  Copyright (C) 2001  Robbie Ward <linuxphreak@gmx.co.uk>
- ksim/monitors/filesystem/CMakeLists.txt ~ unspec ~ unspec
- ksim/monitors/filesystem/configure.in.in ~ unspec ~ unspec
- ksim/monitors/filesystem/DFree.desktop ~ GPLv2h ~ X-KSIM-COPYRIGHT=(C) 2001 Robbie Ward
- ksim/monitors/filesystem/filesystemstats.cpp ~ GPLv2h ~  *  Copyright (C) 2001  Robbie Ward <linuxphreak@gmx.co.uk>
- ksim/monitors/filesystem/filesystemstats.h ~ GPLv2h ~  *  Copyright (C) 2001  Robbie Ward <linuxphreak@gmx.co.uk>
- ksim/monitors/filesystem/filesystemwidget.cpp ~ GPLv2h ~  *  Copyright (C) 2001  Robbie Ward <linuxphreak@gmx.co.uk>
- ksim/monitors/filesystem/filesystemwidget.h ~ GPLv2h ~  *  Copyright (C) 2001  Robbie Ward <linuxphreak@gmx.co.uk>
- ksim/monitors/filesystem/fsystemconfig.cpp ~ GPLv2h ~  *  Copyright (C) 2001  Robbie Ward <linuxphreak@gmx.co.uk>
- ksim/monitors/filesystem/fsystemconfig.h ~ GPLv2h ~  *  Copyright (C) 2001  Robbie Ward <linuxphreak@gmx.co.uk>
- ksim/monitors/filesystem/fsystemiface.h ~ GPLv2h ~  *  Copyright (C) 2001 - 2004  Robbie Ward <linuxphreak@gmx.co.uk>
- ksim/monitors/filesystem/ksimfsystem.cpp ~ GPLv2h ~  *  Copyright (C) 2001  Robbie Ward <linuxphreak@gmx.co.uk>
- ksim/monitors/filesystem/ksimfsystem.h ~ GPLv2h ~  *  Copyright (C) 2001  Robbie Ward <linuxphreak@gmx.co.uk>
- ksim/monitors/i8k/CMakeLists.txt ~ unspec ~ unspec
- ksim/monitors/i8k/i8k.desktop ~ unspec ~ unspec
- ksim/monitors/i8k/ksimi8k.cpp ~ GPLv2h ~  *  Copyright (C) 2003 Nadeem Hasan <nhasan@kde.org>
- ksim/monitors/i8k/ksimi8k.h ~ GPLv2h ~  *  Copyright (C) 2003 Nadeem Hasan <nhasan@kde.org>
- ksim/monitors/lm_sensors/CMakeLists.txt ~ unspec ~ unspec
- ksim/monitors/lm_sensors/ksimsensors.cpp ~ GPLv2h ~  *  Copyright (C) 2001  Robbie Ward <linuxphreak@gmx.co.uk>
- ksim/monitors/lm_sensors/ksimsensors.h ~ GPLv2h ~  *  Copyright (C) 2001  Robbie Ward <linuxphreak@gmx.co.uk>
- ksim/monitors/lm_sensors/ksimsensorsiface.h ~ GPLv2h ~  *  Copyright (C) 2001 - 2004  Robbie Ward <linuxphreak@gmx.co.uk>
- ksim/monitors/lm_sensors/Lm_sensors.desktop ~ GPLv2h ~ X-KSIM-COPYRIGHT=(C) 2001 Robbie Ward
- ksim/monitors/lm_sensors/nv_control.h ~ GPLv2h ~  * Copyright (C) 2004 NVIDIA Corporation.
- ksim/monitors/lm_sensors/NVCtrl.c ~ GPLv2h ~  * Copyright (C) 2004 NVIDIA Corporation.
- ksim/monitors/lm_sensors/NVCtrl.h ~ GPLv2h ~  * Copyright (C) 2004 NVIDIA Corporation.
- ksim/monitors/lm_sensors/NVCtrlLib.h ~ unspec ~ unspec
- ksim/monitors/lm_sensors/org.kde.ksim.LmSensors.xml ~ unspec ~ unspec
- ksim/monitors/lm_sensors/sensorbase.cpp ~ GPLv2h ~  *  Copyright (C) 2001  Robbie Ward <linuxphreak@gmx.co.uk>
- ksim/monitors/lm_sensors/sensorbase.h ~ GPLv2h ~  *  Copyright (C) 2001  Robbie Ward <linuxphreak@gmx.co.uk>
- ksim/monitors/lm_sensors/sensorsconfig.cpp ~ GPLv2h ~  *  Copyright (C) 2001  Robbie Ward <linuxphreak@gmx.co.uk>
- ksim/monitors/lm_sensors/sensorsconfig.h ~ GPLv2h ~  *  Copyright (C) 2001  Robbie Ward <linuxphreak@gmx.co.uk>
- ksim/monitors/mail/CMakeLists.txt ~ unspec ~ unspec
- ksim/monitors/mail/ksimmail.cpp ~ GPLv2h ~    Copyright (c) 2002 Malte Starostik <malte@kde.org>
- ksim/monitors/mail/ksimmail.h ~ GPLv2h ~    Copyright (c) 2002 Malte Starostik <malte@kde.org>
- ksim/monitors/mail/mail.desktop ~ unspec ~ unspec
- ksim/monitors/net/CMakeLists.txt ~ unspec ~ unspec
- ksim/monitors/net/ksimnet.cpp ~ GPLv2h ~  *  Copyright (C) 2001  Robbie Ward <linuxphreak@gmx.co.uk>
- ksim/monitors/net/ksimnet.h ~ GPLv2h ~  *  Copyright (C) 2001  Robbie Ward <linuxphreak@gmx.co.uk>
- ksim/monitors/net/netconfig.cpp ~ GPLv2h ~  *  Copyright (C) 2001  Robbie Ward <linuxphreak@gmx.co.uk>
- ksim/monitors/net/netconfig.h ~ GPLv2h ~  *  Copyright (C) 2001  Robbie Ward <linuxphreak@gmx.co.uk>
- ksim/monitors/net/Net.desktop ~ GPLv2h ~ X-KSIM-COPYRIGHT=(C) 2001 Robbie Ward
- ksim/monitors/net/netdevices.h ~ GPLv2h ~  *  Copyright (C) 2001  Robbie Ward <linuxphreak@gmx.co.uk>
- ksim/monitors/net/netdialog.cpp ~ GPLv2h ~  *  Copyright (C) 2001  Robbie Ward <linuxphreak@gmx.co.uk>
- ksim/monitors/net/netdialog.h ~ GPLv2h ~  *  Copyright (C) 2001  Robbie Ward <linuxphreak@gmx.co.uk>
- ksim/monitors/snmp/browsedialogbase.ui ~ unspec ~ unspec
- ksim/monitors/snmp/browsedialog.cpp ~ GPLv2h ~    Copyright (C) 2003 Simon Hausmann <hausmann@kde.org>
- ksim/monitors/snmp/browsedialog.h ~ GPLv2h ~    Copyright (C) 2003 Simon Hausmann <hausmann@kde.org>
- ksim/monitors/snmp/chartmonitor.cpp ~ GPLv2h ~    Copyright (C) 2003 Simon Hausmann <hausmann@kde.org>
- ksim/monitors/snmp/chartmonitor.h ~ GPLv2h ~    Copyright (C) 2003 Simon Hausmann <hausmann@kde.org>
- ksim/monitors/snmp/CMakeLists.txt ~ unspec ~ unspec
- ksim/monitors/snmp/configpage.cpp ~ GPLv2h ~    Copyright (C) 2003 Simon Hausmann <hausmann@kde.org>
- ksim/monitors/snmp/configpage.h ~ GPLv2h ~    Copyright (C) 2003 Simon Hausmann <hausmann@kde.org>
- ksim/monitors/snmp/configure.in.in ~ unspec ~ unspec
- ksim/monitors/snmp/configwidget.ui ~ unspec ~ unspec
- ksim/monitors/snmp/hostconfig.cpp ~ GPLv2h ~    Copyright (C) 2003 Simon Hausmann <hausmann@kde.org>
- ksim/monitors/snmp/hostconfig.h ~ GPLv2h ~    Copyright (C) 2003 Simon Hausmann <hausmann@kde.org>
- ksim/monitors/snmp/hostdialogbase.ui ~ unspec ~ unspec
- ksim/monitors/snmp/hostdialog.cpp ~ GPLv2h ~    Copyright (C) 2003 Simon Hausmann <hausmann@kde.org>
- ksim/monitors/snmp/hostdialog.h ~ GPLv2h ~    Copyright (C) 2003 Simon Hausmann <hausmann@kde.org>
- ksim/monitors/snmp/identifier.cpp ~ GPLv2h ~    Copyright (C) 2003 Simon Hausmann <hausmann@kde.org>
- ksim/monitors/snmp/identifier.h ~ GPLv2h ~    Copyright (C) 2003 Simon Hausmann <hausmann@kde.org>
- ksim/monitors/snmp/labelmonitor.cpp ~ GPLv2h ~    Copyright (C) 2003 Simon Hausmann <hausmann@kde.org>
- ksim/monitors/snmp/labelmonitor.h ~ GPLv2h ~    Copyright (C) 2003 Simon Hausmann <hausmann@kde.org>
- ksim/monitors/snmp/monitorconfig.cpp ~ GPLv2h ~    Copyright (C) 2003 Simon Hausmann <hausmann@kde.org>
- ksim/monitors/snmp/monitorconfig.h ~ GPLv2h ~    Copyright (C) 2003 Simon Hausmann <hausmann@kde.org>
- ksim/monitors/snmp/monitor.cpp ~ GPLv2h ~    Copyright (C) 2003 Simon Hausmann <hausmann@kde.org>
- ksim/monitors/snmp/monitordialogbase.ui ~ unspec ~ unspec
- ksim/monitors/snmp/monitordialog.cpp ~ GPLv2h ~    Copyright (C) 2003 Simon Hausmann <hausmann@kde.org>
- ksim/monitors/snmp/monitordialog.h ~ GPLv2h ~    Copyright (C) 2003 Simon Hausmann <hausmann@kde.org>
- ksim/monitors/snmp/monitor.h ~ GPLv2h ~    Copyright (C) 2003 Simon Hausmann <hausmann@kde.org>
- ksim/monitors/snmp/pdu.cpp ~ GPLv2h ~    Copyright (C) 2003 Simon Hausmann <hausmann@kde.org>
- ksim/monitors/snmp/pdu.h ~ GPLv2h ~    Copyright (C) 2003 Simon Hausmann <hausmann@kde.org>
- ksim/monitors/snmp/plugin.cpp ~ GPLv2h ~    Copyright (C) 2003 Simon Hausmann <hausmann@kde.org>
- ksim/monitors/snmp/plugin.h ~ GPLv2h ~    Copyright (C) 2003 Simon Hausmann <hausmann@kde.org>
- ksim/monitors/snmp/probedialog.cpp ~ GPLv2h ~    Copyright (C) 2003 Simon Hausmann <hausmann@kde.org>
- ksim/monitors/snmp/probedialog.h ~ GPLv2h ~    Copyright (C) 2003 Simon Hausmann <hausmann@kde.org>
- ksim/monitors/snmp/proberesultdialogbase.ui ~ unspec ~ unspec
- ksim/monitors/snmp/proberesultdialog.cpp ~ GPLv2h ~    Copyright (C) 2003 Simon Hausmann <hausmann@kde.org>
- ksim/monitors/snmp/proberesultdialog.h ~ GPLv2h ~    Copyright (C) 2003 Simon Hausmann <hausmann@kde.org>
- ksim/monitors/snmp/session.cpp ~ GPLv2h ~    Copyright (C) 2003 Simon Hausmann <hausmann@kde.org>
- ksim/monitors/snmp/session.h ~ GPLv2h ~    Copyright (C) 2003 Simon Hausmann <hausmann@kde.org>
- ksim/monitors/snmp/snmp.cpp ~ GPLv2h ~    Copyright (C) 2003 Simon Hausmann <hausmann@kde.org>
- ksim/monitors/snmp/Snmp.desktop ~ GPLv2h ~ X-KSIM-COPYRIGHT=(C) 2003 Simon Hausmann
- ksim/monitors/snmp/snmp.h ~ GPLv2h ~    Copyright (C) 2003 Simon Hausmann <hausmann@kde.org>
- ksim/monitors/snmp/snmplib.cpp ~ GPLv2h ~    Copyright (C) 2003 Simon Hausmann <hausmann@kde.org>
- ksim/monitors/snmp/snmplib.h ~ GPLv2h ~    Copyright (C) 2003 Simon Hausmann <hausmann@kde.org>
- ksim/monitors/snmp/snmp_p.h ~ GPLv2h ~    Copyright (C) 2003 Simon Hausmann <hausmann@kde.org>
- ksim/monitors/snmp/value.cpp ~ GPLv2h ~    Copyright (C) 2003 Simon Hausmann <hausmann@kde.org>
- ksim/monitors/snmp/value.h ~ GPLv2h ~    Copyright (C) 2003 Simon Hausmann <hausmann@kde.org>
- ksim/monitors/snmp/value_p.h ~ GPLv2h ~    Copyright (C) 2003 Simon Hausmann <hausmann@kde.org>
- ksim/monitors/snmp/view.cpp ~ GPLv2h ~    Copyright (C) 2003 Simon Hausmann <hausmann@kde.org>
- ksim/monitors/snmp/view.h ~ GPLv2h ~    Copyright (C) 2003 Simon Hausmann <hausmann@kde.org>
- ksim/monitors/snmp/walker.cpp ~ GPLv2h ~    Copyright (C) 2003 Simon Hausmann <hausmann@kde.org>
- ksim/monitors/snmp/walker.h ~ GPLv2h ~    Copyright (C) 2003 Simon Hausmann <hausmann@kde.org>
- ksim/pics/CMakeLists.txt ~ unspec ~ unspec
- ksim/pics/misc/clock.png ~ unspec ~ unspec
- ksim/pics/misc/CMakeLists.txt ~ unspec ~ unspec
- ksim/pics/misc/uptime.png ~ unspec ~ unspec
- ksim/pics/ox16-app-ksim.png ~ unspec ~ unspec
- ksim/pics/ox32-app-ksim.png ~ unspec ~ unspec
- ksim/pics/ox48-app-ksim.png ~ unspec ~ unspec
- ksim/README ~ unspec ~ unspec
- ksim/systeminfo.cpp ~ GPLv2h ~  *  Copyright (C) 2001  Robbie Ward <linuxphreak@gmx.co.uk>
- ksim/systeminfo.h ~ GPLv2h ~  *  Copyright (C) 2001  Robbie Ward <linuxphreak@gmx.co.uk>
- ksim/themeprefs.cpp ~ GPLv2h ~  *  Copyright (C) 2001  Robbie Ward <linuxphreak@gmx.co.uk>
- ksim/themeprefs.h ~ GPLv2h ~  *  Copyright (C) 2001  Robbie Ward <linuxphreak@gmx.co.uk>
- ksim/themes/CMakeLists.txt ~ unspec ~ unspec
- ksim/themes/ksim/bg_chart.png ~ unspec ~ unspec
- ksim/themes/ksim/bg_grid.png ~ unspec ~ unspec
- ksim/themes/ksim/bg_meter.png ~ unspec ~ unspec
- ksim/themes/ksim/bg_panel.png ~ unspec ~ unspec
- ksim/themes/ksim/CMakeLists.txt ~ unspec ~ unspec
- ksim/themes/ksim/decal_net_leds.png ~ unspec ~ unspec
- ksim/themes/ksim/frame_bottom.png ~ unspec ~ unspec
- ksim/themes/ksim/frame_left.png ~ unspec ~ unspec
- ksim/themes/ksim/frame_right.png ~ unspec ~ unspec
- ksim/themes/ksim/frame_top.png ~ unspec ~ unspec
- ksim/themes/ksim/gkrellmrc ~ unspec ~ unspec
- ksim/themes/ksim/gkrellmrc_ksim ~ unspec ~ unspec
- ksim/themes/ksim/host/bg_meter.png ~ unspec ~ unspec
- ksim/themes/ksim/host/CMakeLists.txt ~ unspec ~ unspec
- ksim/themes/ksim/krell_meter.png ~ unspec ~ unspec
- ksim/themes/ksim/krell_panel.png ~ unspec ~ unspec
- ksim/themes/ksim/krell_slider.png ~ unspec ~ unspec
- ksim/themes/ksim/mail/CMakeLists.txt ~ unspec ~ unspec
- ksim/themes/ksim/mail/decal_mail.png ~ unspec ~ unspec
- ksim/themes/ksim/mail/krell_mail_daemon.png ~ unspec ~ unspec
- ksim/themes/ksim/mail/krell_mail.png ~ unspec ~ unspec
- ksim/TODO ~ unspec ~ unspec
+ Files is under a mix of GPLv2 or later and GPLv2+3+KDEev - effectively rendering kgpg under 
+ GPLv2+3+KDEev.
 
 
 Files under ktimer/
 
- ktimer/CMakeLists.txt ~ unspec ~ unspec
- ktimer/hi128-app-ktimer.png ~ unspec ~ unspec
- ktimer/hi16-app-ktimer.png ~ unspec ~ unspec
- ktimer/hi32-app-ktimer.png ~ unspec ~ unspec
- ktimer/hi48-app-ktimer.png ~ unspec ~ unspec
- ktimer/ktimer.cpp ~ GPLv2h ~  * Copyright 2001 Stefan Schimanski <1Stein@gmx.de>
- ktimer/ktimer.desktop ~ unspec ~ unspec
- ktimer/ktimer.h ~ GPLv2h ~  * Copyright 2001 Stefan Schimanski <1Stein@gmx.de>
- ktimer/main.cpp ~ GPLv2h ~  * Copyright 2001 Stefan Schimanski <schimmi@kde.org>
- ktimer/Messages.sh ~ unspec ~ unspec
- ktimer/prefwidget.ui ~ unspec ~ unspec
+ Copyright (C) 2001 Stefan Schimanski <1Stein@gmx.de>
+
+ Files is nuder GPLv2 or later.
 
 
 Files under kwallet/
 
- kwallet/allyourbase.cpp ~ GPLv2h ~ Copyright (C) 2003-2005 George Staikos <staikos@kde.org>
-                                    Copyright (C) 2005 Isaac Clerencia <isaac@warp.es>
- kwallet/allyourbase.h ~ GPLv2h ~ Copyright (C) 2003-2005 George Staikos <staikos@kde.org>
-                                  Copyright (C) 2005 Isaac Clerencia <isaac@warp.es>
- kwallet/CMakeLists.txt ~ unspec ~ unspec
- kwallet/hi128-app-kwalletmanager2.png ~ unspec ~ unspec
- kwallet/hi128-app-kwalletmanager.png ~ unspec ~ unspec
- kwallet/hi16-app-kwalletmanager2.png ~ unspec ~ unspec
- kwallet/hi16-app-kwalletmanager.png ~ unspec ~ unspec
- kwallet/hi22-app-kwalletmanager.png ~ unspec ~ unspec
- kwallet/hi32-app-kwalletmanager2.png ~ unspec ~ unspec
- kwallet/hi32-app-kwalletmanager.png ~ unspec ~ unspec
- kwallet/hi48-app-kwalletmanager2.png ~ unspec ~ unspec
- kwallet/hi48-app-kwalletmanager.png ~ unspec ~ unspec
- kwallet/hi64-app-kwalletmanager2.png ~ unspec ~ unspec
- kwallet/hi64-app-kwalletmanager.png ~ unspec ~ unspec
- kwallet/icons/* ~ unspec ~ unspec
- kwallet/kbetterthankdialogbase.cpp ~ unspec ~ unspec
- kwallet/kbetterthankdialogbase.h ~ unspec ~ unspec
- kwallet/kbetterthankdialogbase.ui ~ unspec ~ unspec
- kwallet/konfigurator/CMakeLists.txt ~ unspec ~ unspec
- kwallet/konfigurator/konfigurator.cpp ~ GPLv2h ~    Copyright (C) 2003 George Staikos <staikos@kde.org>
- kwallet/konfigurator/konfigurator.h ~ GPLv2h ~    Copyright (C) 2003 George Staikos <staikos@kde.org>
- kwallet/konfigurator/kwalletconfig.desktop ~ unspec ~ unspec
- kwallet/konfigurator/kwalletmanager_show.desktop ~ unspec ~ unspec
- kwallet/konfigurator/Messages.sh ~ unspec ~ unspec
- kwallet/konfigurator/walletconfigwidget.ui ~ unspec ~ unspec
- kwallet/kwalleteditor.cpp ~ GPLv2h ~    Copyright (C) 2003-2005 George Staikos <staikos@kde.org>
-                                        Copyright (C) 2005 Isaac Clerencia <isaac@warp.es>
- kwallet/kwalleteditor.h ~ GPLv2h ~    Copyright (C) 2003-2005 George Staikos <staikos@kde.org>
-                                        Copyright (C) 2005 Isaac Clerencia <isaac@warp.es>
- kwallet/kwalleteditor.rc ~ unspec ~ unspec
- kwallet/kwalletmanager.cpp ~ GPLv2h ~    Copyright (C) 2003,2004 George Staikos <staikos@kde.org>
- kwallet/kwalletmanager.desktop ~ unspec ~ unspec
- kwallet/kwalletmanager.h ~ GPLv2h ~    Copyright (C) 2003,2004 George Staikos <staikos@kde.org>
- kwallet/kwalletmanager-kwalletd.desktop ~ unspec ~ unspec
- kwallet/kwalletmanager.rc ~ unspec ~ unspec
- kwallet/kwalletpopup.cpp ~ GPLv2h ~    Copyright (C) 2003 George Staikos <staikos@kde.org>
- kwallet/kwalletpopup.h ~ GPLv2h ~    Copyright (C) 2003 George Staikos <staikos@kde.org>
- kwallet/kwmapeditor.cpp ~ GPLv2h ~    Copyright (C) 2003,2004 George Staikos <staikos@kde.org>
- kwallet/kwmapeditor.h ~ GPLv2h ~    Copyright (C) 2003,2004 George Staikos <staikos@kde.org>
- kwallet/main.cpp ~ GPLv2h ~    Copyright (C) 2003-2005 George Staikos <staikos@kde.org>
- kwallet/Messages.sh ~ unspec ~ unspec
- kwallet/TODO ~ unspec ~ unspec
- kwallet/walletwidget.ui ~ unspec ~ unspec
+ Copyright (C) 2003-2005 George Staikos <staikos@kde.org>
+ Copyright (C) 2005 Isaac Clerencia <isaac@warp.es>
 
+ Files is a mix of GPLv2 or later and GPLv2 only - rendering everything GPLv2only
+
+Files under okteta/
+ Copyright 2003-2008 Friedrich W. H. Kossebau <kossebau@kde.org> 
+
+ Files is except the main program under LGPLv2.1+3+KDEev and the main program is under 
+ GPLv2+3+KDEev.
+ okteta/programlibkakao/core/tests/util/* is under LGPLv2only.
+
+Files under printer-applet/
+ Copyright (C) 2007-2008 Canonical Ltd.
+               Author: Jonathan Riddell <jriddell@ubuntu.com>
+ Copyright (C) 2007 Tim Waugh <twaugh@redhat.com>
+ Copyright (C) 2007 Red Hat, Inc.
 
 Files under superkaramba/
+ Copyright (C) 2003 Hans Karlsson <karlsson.h@home.se>
+ Copyright (C) 2003-2004 Adam Geitgey <adam@rootnode.org>
+ Copyright (c) 2005 Ryan Nickell <p0z3r@earthlink.net>
+ Copyright (c) 2004,2005 Luke Kenneth Casson Leighton <lkcl@lkcl.net> 
+ Copyright (C) 2007 Sebastian Sauer <mail@dipe.org>
+ Copyright (C) 2003-2007 Matt Broadstone <mbroadst@gmail.com>
+ Copyright (c) 2004-2005 Petri Damst� <damu@iki.fi>
+ Copyright (c) 1999-2002 Hans Petter Bieker <bieker@kde.org>
+ Copyright (c) 1999 Preston Brown <pbrown@kde.org>
+ Copyright (c) 1997,2001 Stephan Kulow <coolo@kde.org>
+ Copyright (C) 1995 Software Foundation, Inc.
+ Copyright (c) 2005 Alexander Wiedenbruch <mail@wiedenbruch.de>
+ Copyright (C) 2003 by Ralph M. Churchill
+ Copyright (C) 2004 by Tommy Brander
+ Copyright (C) 2007 David Faure <faure@kde.org>
+ Copyright (C) 2001      Martijn Klingens <mklingens@yahoo.com>
+ Copyright (C) 2001      Carsten Pfeiffer <pfeiffer@kde.org>
+ Copyright (C) 2000-2001 Matthias Elter   <elter@kde.org>
+ Copyright (C) 2000-2001 Matthias Ettrich <ettrich@kde.org>
+ Copyright (C) 2003      Sven Leiber <s.leiber@web.de>
+ Copyright (c) 2001 Richard Moore <rich@kde.org>
+ Copyright (c) 2002 Lukas Tinkl <lukas@kde.org>
 
-superkaramba/AUTHORS ~ unspec ~ unspec
- superkaramba/ChangeLog ~ unspec ~ unspec
- superkaramba/CMakeLists.txt ~ unspec ~ unspec
- superkaramba/COPYING ~ unspec ~ unspec
- superkaramba/doc/* ~ unspec ~ unspec
- superkaramba/Doxyfile ~ unspec ~ unspec
- superkaramba/examples/* ~ unspec ~ unspec
- superkaramba/icons/* ~ unspec ~ unspec
- superkaramba/karamba.kdevelop ~ unspec ~ unspec
- superkaramba/karamba.kdevses ~ unspec ~ unspec
- superkaramba/NEWS ~ unspec ~ unspec
- superkaramba/README ~ unspec ~ unspec
- superkaramba/skapplet/CMakeLists.txt ~ unspec ~ unspec
- superkaramba/skapplet/Messages.sh ~ unspec ~ unspec
- superkaramba/skapplet/plasma-skapplet-default.desktop ~ unspec ~ unspec
- superkaramba/skapplet/skappletadaptor.h ~ GPLv2h ~  * Copyright (C) 2007 Sebastian Sauer <mail@dipe.org>
- superkaramba/skapplet/skapplet.cpp ~ GPLv2h ~  * Copyright (C) 2007 Sebastian Sauer <mail@dipe.org>
- superkaramba/skapplet/skapplet.h ~ GPLv2h ~  * Copyright (C) 2007 Sebastian Sauer <mail@dipe.org>
- superkaramba/skapplet/skwidgetadaptor.h ~ GPLv2h ~  * Copyright (C) 2007 Sebastian Sauer <mail@dipe.org>
- superkaramba/src/CMakeLists.txt ~ unspec ~ unspec
- superkaramba/src/config-superkaramba.h.cmake ~ unspec ~ unspec
- superkaramba/src/karambaapp.cpp ~ GPLv2h ~ Copyright (C) 2003-2004 Adam Geitgey <adam@rootnode.org>             
-                                Copyright (C) 2003 Hans Karlsson <karlsson.h@home.se>                 *
-                                Copyright (C) 2007 Alexander Wiedenbruch <mail@wiedenbruch.de>        *
-                                Copyright (C) 2007 Matt Broadstone <mbroadst@gmail.com>               *
- superkaramba/src/karambaapp.h ~ GPLv2h ~ Copyright (C) 2003-2004 Adam Geitgey <adam@rootnode.org>              *
-                                Copyright (C) 2003 Hans Karlsson <karlsson.h@home.se>                 *
-                                Copyright (C) 2007 Alexander Wiedenbruch <mail@wiedenbruch.de>        *
-                                Copyright (C) 2007 Matt Broadstone <mbroadst@gmail.com>               *
- superkaramba/src/karamba.cpp ~ GPLv2h ~  * Copyright (C) 2003-2004 Adam Geitgey <adam@rootnode.org>
-                                Copyright (C) 2003 Hans Karlsson <karlsson.h@home.se>
-                                Copyright (C) 2004,2005 Luke Kenneth Casson Leighton <lkcl@lkcl.net>
-                                Copyright (c) 2005 Ryan Nickell <p0z3r@earthlink.net>
-                                Copyright (c) 2007 Alexander Wiedenbruch <mail@wiedenbruch.de>
- superkaramba/src/karamba.h ~ GPLv2h ~  * Copyright (C) 2003-2004 Adam Geitgey <adam@rootnode.org>
-                                 Copyright (C) 2003 Hans Karlsson <karlsson.h@home.se>
-                                 Copyright (C) 2004,2005 Luke Kenneth Casson Leighton <lkcl@lkcl.net>
-                                 Copyright (c) 2005 Ryan Nickell <p0z3r@earthlink.net>
-                                 Copyright (c) 2007 Alexander Wiedenbruch <mail@wiedenbruch.de>
- superkaramba/src/karambainterface.cpp ~ GPLv2h ~  * Copyright (c) 2007 Alexander Wiedenbruch <mail@wiedenbruch.de>
- superkaramba/src/karambainterface.h ~ GPLv2h ~  * Copyright (c) 2007 Alexander Wiedenbruch <mail@wiedenbruch.de>
- superkaramba/src/karambamanager.cpp ~ GPLv2h ~  * Copyright (c) 2007 Alexander Wiedenbruch <mail@wiedenbruch.de>
- superkaramba/src/karambamanager.h ~ GPLv2h ~  * Copyright (c) 2007 Alexander Wiedenbruch <mail@wiedenbruch.de>
- superkaramba/src/karambasessionmanaged.cpp ~ GPLv2h ~ *  Copyright (C) 2004 -
- superkaramba/src/karambasessionmanaged.h ~ GPLv2h ~ *  Copyright (C) 2004 -
- superkaramba/src/kwidgetlistbox.cpp ~ GPLv2h ~ * Copyright (C) 2005 Petri Damst� <petri.damsten@iki.fi>
- superkaramba/src/kwidgetlistbox.h ~ GPLv2h ~  * Copyright (C) 2005 Petri Damst� <petri.damsten@iki.fi>
- superkaramba/src/lineparser.cpp ~ GPLv2h ~  * Copyright (C) 2003-2004 Adam Geitgey <adam@rootnode.org>
-                                             * Copyright (C) 2003 Hans Karlsson <karlsson.h@home.se>
-                                             * Copyright (c) 2005 Ryan Nickell <p0z3r@earthlink.net>
-                                             * Copyright (c) 2005 Petri Damsten <damu@iki.fi>
- superkaramba/src/lineparser.h ~ unspec ~ unspec
- superkaramba/src/main.cpp ~ GPLv2h ~ Copyright (C) 2003 Hans Karlsson <karlsson.h@home.se>
-                                      Copyright (C) 2003-2004 Adam Geitgey <adam@rootnode.org>
-                                      Copyright (c) 2005 Ryan Nickell <p0z3r@earthlink.net>
- superkaramba/src/mainwidget.cpp ~ GPLv2h ~  * Copyright (c) 2007 Alexander Wiedenbruch <mail@wiedenbruch.de>
- superkaramba/src/mainwidget.h ~ GPLv2h ~  * Copyright (c) 2007 Alexander Wiedenbruch <mail@wiedenbruch.de>
- superkaramba/src/Messages.sh ~ unspec ~ unspec
- superkaramba/src/meters/bar.cpp ~ GPLv2h ~ Copyright             (C) 2003 by Hans Karlsson <karlsson.h@home.se>              *
-                                           Copyright (C) 2003 Matt Broadstone <mbroadst@gmail.com>               *
- superkaramba/src/meters/bar.h ~ GPLv2h ~ Copyright             (C) 2003 by Hans Karlsson <karlsson.h@home.se>              *
-                                 Copyright (C) 2003 Matt Broadstone <mbroadst@gmail.com>               
- superkaramba/src/meters/clickarea.cpp ~ GPLv2h ~ Copyright             (C) 2003 by Hans Karlsson       
-                                 Copyright (C) 2004,2005 Luke Kenneth Casson Leighton <lkcl@lkcl.net>  
- superkaramba/src/meters/clickarea.h ~ GPLv2h ~ Copyright (C) 2003 Hans Karlsson <karlsson.h@home.se>
-                                                Copyright (C) 2003-2004 Adam Geitgey <adam@rootnode.org>
-                                                Copyright (c) 2005 Ryan Nickell <p0z3r@earthlink.net>
- superkaramba/src/meters/clickmap.cpp ~ GPLv2h ~ Copyright             (C) 2003 by Ralph M. Churchill <mrchucho@yahoo.com>                                                      Copyright (C) 2007 Matt Broadstone <mbroadst@gmail.com>               
- superkaramba/src/meters/clickmap.h ~ GPLv2h ~ Copyright             (C) 2003 by Ralph M. Churchill <mrchucho@yahoo.com>                                                       Copyright (C) 2007 Matt Broadstone <mbroadst@gmail.com>            
- superkaramba/src/meters/graph.cpp ~ GPLv2h ~ Copyright             (C) 2003 by Hans Karlsson                                  
- superkaramba/src/meters/graph.h ~ GPLv2h ~ Copyright             (C) 2003 by Hans Karlsson                                   
- superkaramba/src/meters/imagelabel.cpp ~ GPLv2h ~ *  Copyright (C) 2003 Hans Karlsson <karlsson.h@home.se>
-                                                   Copyright (c) 2004 Petri Damst� <damu@iki.fi>
- superkaramba/src/meters/imagelabel.h ~ GPLv2h ~ Copyright (C) 2003 Hans Karlsson <karlsson.h@home.se>
-                                                  Copyright (c) 2004 Petri Damst� <damu@iki.fi>
- superkaramba/src/meters/input.cpp ~ GPLv2h ~  Copyright (c) 2005 Alexander Wiedenbruch <mail@wiedenbruch.de>
-                                                Copyright (c) 2007 Matt Broadstone <mbroadst@gmail.com>
-                                               Copyright (C) 1992-2006 Trolltech ASA. All rights reserved.
- superkaramba/src/meters/input.h ~ GPLv2h ~  Copyright (c) 2005 Alexander Wiedenbruch <mail@wiedenbruch.de>
-  * Copyright (c) 2007 Matt Broadstone <mbroadst@gmail.com>
- superkaramba/src/meters/meter.cpp ~ GPLv2h ~ Copyright             (C) 2003 by Hans Karlsson <karlsson.h@home.se>             
-                                 Copyright (C) 2003 Matt Broadstone <mbroadst@gmail.com>               
- superkaramba/src/meters/meter.h ~ GPLv2h ~ Copyright             (C) 2003 by Hans Karlsson <karlsson.h@home.se>             
-                                 Copyright (C) 2003 Matt Broadstone <mbroadst@gmail.com>               
- superkaramba/src/meters/richtextlabel.cpp ~ GPLv2h ~ Copyright             (C) 2003 by Wilfried Huss <Wilfried.Huss@gmx.at>                                                Copyright (C) 2003 Matt Broadstone <mbroadst@gmail.com>               *
- superkaramba/src/meters/richtextlabel.h ~ GPLv2h ~ Copyright             (C) 2003 by Wilfried Huss <Wilfried.Huss@gmx.at>                                                         Copyright (C) 2003 Matt Broadstone <mbroadst@gmail.com>               *
- superkaramba/src/meters/textfield.cpp ~ GPLv2h ~ Copyright             (C) 2003 by Ralph M. Churchill   
- superkaramba/src/meters/textfield.h ~ GPLv2h ~ Copyright             (C) 2003 by Ralph M. Churchill                            
- superkaramba/src/meters/textlabel.cpp ~ GPLv2h ~ Copyright             (C) 2003 by Hans Karlsson <karlsson.h@home.se>     
-                                 Copyright (C) 2007 Matt Broadstone <mbroadst@gmail.com>               
- superkaramba/src/meters/textlabel.h ~ GPLv2h ~ Copyright             (C) 2003 by Hans Karlsson                       
- superkaramba/src/org.kde.superkaramba.xml ~ unspec ~ unspec
- superkaramba/src/python/bar.cpp ~ GPLv2h ~ *  Copyright (c) 2004 Petri Damst� <damu@iki.fi>
- superkaramba/src/python/bar.h ~ GPLv2h ~ *  Copyright (c) 2004 Petri Damst�n <damu@iki.fi>
- superkaramba/src/python/config.cpp ~ GPLv2h ~ *  Copyright (C) 2003 Hans Karlsson <karlsson.h@home.se>
-                                             Copyright (C) 2003-2004 Adam Geitgey <adam@rootnode.org>
-                                             Copyright (c) 2004 Petri Damst� <damu@iki.fi>
- superkaramba/src/python/config.h ~ GPLv2h ~ *  Copyright (C) 2003 Hans Karlsson <karlsson.h@home.se>
-                                             Copyright (C) 2003-2004 Adam Geitgey <adam@rootnode.org>
-                                             Copyright (c) 2004 Petri Damst�n <damu@iki.fi>
- superkaramba/src/python/graph.cpp ~ GPLv2h ~ *  Copyright (c) 2004 Petri Damst� <damu@iki.fi>
- superkaramba/src/python/graph.h ~ GPLv2h ~ *  Copyright (c) 2004 Petri Damst�n <damu@iki.fi>
- superkaramba/src/python/imagelabel.cpp ~ GPLv2h ~ *  Copyright (C) 2003 Hans Karlsson <karlsson.h@home.se>
-                                             Copyright (C) 2003-2004 Adam Geitgey <adam@rootnode.org>
-                                             Copyright (c) 2004 Petri Damst� <damu@iki.fi>
- superkaramba/src/python/imagelabel.h ~ GPLv2h ~ *  Copyright (C) 2003 Hans Karlsson <karlsson.h@home.se>
-                                             Copyright (C) 2003-2004 Adam Geitgey <adam@rootnode.org>
-                                             Copyright (c) 2004 Petri Damst�n <damu@iki.fi>
- superkaramba/src/python/input.cpp ~ GPLv2h ~ *  Copyright (C) 2003 Hans Karlsson <karlsson.h@home.se>
-                                             Copyright (C) 2003-2004 Adam Geitgey <adam@rootnode.org>
-                                             Copyright (c) 2004 Petri Damst� <damu@iki.fi>
-                                             Copyright (c) 2005 Alexander Wiedenbruch <mail@wiedenbruch.de>
- superkaramba/src/python/input.h ~ GPLv2h ~ *  Copyright (C) 2003 Hans Karlsson <karlsson.h@home.se>
-                                             Copyright (C) 2003-2004 Adam Geitgey <adam@rootnode.org>
-                                             Copyright (c) 2004 Petri Damst�n <damu@iki.fi>
-                                             Copyright (c) 2005 Alexander Wiedenbruch <mail@wiedenbruch.de>
- superkaramba/src/python/karamba.cpp ~ GPLv2h ~ *  Copyright (C) 2003 Hans Karlsson <karlsson.h@home.se>
-                                             Copyright (C) 2003-2004 Adam Geitgey <adam@rootnode.org>
-                                             Copyright (c) 2004 Petri Damst� <damu@iki.fi>
-                                             Copyright (c) 2004 Luke Kenneth Casson Leighton <lkcl@lkcl.net>
- superkaramba/src/python/karamba.h ~ GPLv2h ~ *  Copyright (C) 2003 Hans Karlsson <karlsson.h@home.se>
-                                             Copyright (C) 2003-2004 Adam Geitgey <adam@rootnode.org>
-                                             Copyright (c) 2004 Petri Damst� <damu@iki.fi>
- superkaramba/src/python/menu.cpp ~ GPLv2h ~ *  Copyright (C) 2003 Hans Karlsson <karlsson.h@home.se>
-                                             Copyright (C) 2003-2004 Adam Geitgey <adam@rootnode.org>
-                                             Copyright (c) 2004 Petri Damst� <damu@iki.fi>
- superkaramba/src/python/menu.h ~ GPLv2h ~ *  Copyright (C) 2003 Hans Karlsson <karlsson.h@home.se>
-                                             Copyright (C) 2003-2004 Adam Geitgey <adam@rootnode.org>
-                                             Copyright (c) 2004 Petri Damst�n <damu@iki.fi>
- superkaramba/src/python/meter.cpp ~ GPLv2h ~  * Copyright (C) 2003-2004 Adam Geitgey <adam@rootnode.org>                
-                                             Copyright (C) 2003 Hans Karlsson <karlsson.h@home.se>                   
- superkaramba/src/python/meter.h ~ GPLv2h ~  * Copyright (C) 2003-2004 Adam Geitgey <adam@rootnode.org>                
-                                             Copyright (C) 2003 Hans Karlsson <karlsson.h@home.se>                   
- superkaramba/src/python/misc.cpp ~ GPLv2h ~ *  Copyright (C) 2003 Hans Karlsson <karlsson.h@home.se>
-                                             Copyright (C) 2003-2004 Adam Geitgey <adam@rootnode.org>
-                                             Copyright (C) 2004 Petri Damst� <damu@iki.fi>
-                                             Copyright (C) 2004, 2005 Luke Kenneth Casson Leighton <lkcl@lkcl.net>
- superkaramba/src/python/misc.h ~ GPLv2h ~ *  Copyright (C) 2003 Hans Karlsson <karlsson.h@home.se>
-                                             Copyright (C) 2003-2004 Adam Geitgey <adam@rootnode.org>
-                                             Copyright (C) 2004 Petri Damst� <damu@iki.fi>
-                                             Copyright (C) 2004,2005 Luke Kenneth Casson Leighton <lkcl@lkcl.net>
- superkaramba/src/python/richtextlabel.cpp ~ GPLv2h ~ *  Copyright (C) 2003 Hans Karlsson <karlsson.h@home.se>
-                                             Copyright (C) 2003-2004 Adam Geitgey <adam@rootnode.org>
-                                             Copyright (c) 2004 Petri Damst� <damu@iki.fi>
- superkaramba/src/python/richtextlabel.h ~ GPLv2h ~ *  Copyright (C) 2003 Hans Karlsson <karlsson.h@home.se>
-                                             Copyright (C) 2003-2004 Adam Geitgey <adam@rootnode.org>
-                                             Copyright (c) 2004 Petri Damst�n <damu@iki.fi>
- superkaramba/src/python/svcgrp.cpp ~ GPLv2h ~  * Copyright (C) 2004 Luke Kenneth Casson Leighton <lkcl@lkcl.net>         
-                                                 Copyright (C) 2004 by Tommy Brander                                   
- superkaramba/src/python/svcgrp.h ~ GPLv2h ~  * Copyright (C) 2004 Luke Kenneth Casson Leighton <lkcl@lkcl.net>         
- superkaramba/src/python/systray.cpp ~ GPLv2h ~ *  Copyright (C) 2003 Hans Karlsson <karlsson.h@home.se>
-                                             Copyright (C) 2003-2004 Adam Geitgey <adam@rootnode.org>
-                                             Copyright (c) 2004 Petri Damst�n <damu@iki.fi>
- superkaramba/src/python/systray.h ~ GPLv2h ~ *  Copyright (C) 2003 Hans Karlsson <karlsson.h@home.se>
-                                             Copyright (C) 2003-2004 Adam Geitgey <adam@rootnode.org>
- superkaramba/src/python/task.cpp ~ GPLv2h ~ *  Copyright (C) 2003 Hans Karlsson <karlsson.h@home.se>
-                                             Copyright (C) 2003-2004 Adam Geitgey <adam@rootnode.org>
-                                             Copyright (c) 2004 Petri Damst� <damu@iki.fi>
- superkaramba/src/python/task.h ~ GPLv2h ~ *  Copyright (C) 2003 Hans Karlsson <karlsson.h@home.se>
-                                             Copyright (C) 2003-2004 Adam Geitgey <adam@rootnode.org>
-                                              Copyright (c) 2004 Petri Damst�n <damu@iki.fi>
- superkaramba/src/python/textlabel.cpp ~ GPLv2h ~ *  Copyright (C) 2003 Hans Karlsson <karlsson.h@home.se>
-                                             Copyright (C) 2003-2004 Adam Geitgey <adam@rootnode.org>
-                                              Copyright (c) 2004 Petri Damst� <damu@iki.fi>
- superkaramba/src/python/textlabel.h ~ GPLv2h ~ *  Copyright (C) 2003 Hans Karlsson <karlsson.h@home.se>
-                                             Copyright (C) 2003-2004 Adam Geitgey <adam@rootnode.org>
-                                             Copyright (c) 2004 Petri Damst�n <damu@iki.fi>
- superkaramba/src/python/widget.cpp ~ GPLv2h ~ *  Copyright (C) 2003 Hans Karlsson <karlsson.h@home.se>
-                                             Copyright (C) 2003-2004 Adam Geitgey <adam@rootnode.org>
-                                             Copyright (c) 2004 Petri Damst� <damu@iki.fi>
- superkaramba/src/python/widget.h ~ GPLv2h ~ *  Copyright (C) 2003 Hans Karlsson <karlsson.h@home.se>
-                                             Copyright (C) 2003-2004 Adam Geitgey <adam@rootnode.org>
-                                             Copyright (c) 2004 Petri Damst�n <damu@iki.fi>
- superkaramba/src/sensors/cpu.cpp ~ GPLv2h ~ Copyright             (C) 2003 by Hans Karlsson                                   
- superkaramba/src/sensors/cpu.h ~ GPLv2h ~ Copyright             (C) 2003 by Hans Karlsson                                  
- superkaramba/src/sensors/date.cpp ~ GPLv2h ~ Copyright             (C) 2003 by Hans Karlsson                                 
- superkaramba/src/sensors/date.h ~ GPLv2h ~ Copyright             (C) 2003 by Hans Karlsson                                  
- superkaramba/src/sensors/disk.cpp ~ GPLv2h ~ Copyright             (C) 2003 by Hans Karlsson                                 
- superkaramba/src/sensors/disk.h ~ GPLv2h ~ Copyright             (C) 2003 by Hans Karlsson                                  
- superkaramba/src/sensors/lmsensor.cpp ~ GPLv2h ~ Copyright             (C) 2003 by Hans Karlsson                              
- superkaramba/src/sensors/lmsensor.h ~ unspec ~ unspec
- superkaramba/src/sensors/mem.cpp ~ GPLv2h ~ Copyright             (C) 2003 by Hans Karlsson                                  
- superkaramba/src/sensors/mem.h ~ GPLv2h ~ Copyright             (C) 2003 by Hans Karlsson                                  
- superkaramba/src/sensors/network.cpp ~ GPLv2h ~ Copyright             (C) 2003 by Hans Karlsson                              
- superkaramba/src/sensors/network.h ~ GPLv2h ~ Copyright             (C) 2003 by Hans Karlsson                                  
- superkaramba/src/sensors/plasmaengine.cpp ~ GPLv2h ~  * Copyright (C) 2007 Sebastian Sauer <mail@dipe.org>
- superkaramba/src/sensors/plasmaengine.h ~ GPLv2h ~  * Copyright (C) 2007 Sebastian Sauer <mail@dipe.org>
- superkaramba/src/sensors/program.cpp ~ GPLv2h ~ Copyright             (C) 2003 by Hans Karlsson                               
- superkaramba/src/sensors/program.h ~ GPLv2h ~ Copyright             (C) 2003 by Hans Karlsson                                 
- superkaramba/src/sensors/rss.cpp ~ GPLv2h ~ Copyright             (C) 2003 by Ralph M. Churchill                              
- superkaramba/src/sensors/rss.h ~ GPLv2h ~ Copyright             (C) 2003 by Ralph M. Churchill                              
- superkaramba/src/sensors/sensor.cpp ~ GPLv2h ~ Copyright             (C) 2003 by Hans Karlsson                                 
- superkaramba/src/sensors/sensor.h ~ GPLv2h ~ Copyright             (C) 2003 by Hans Karlsson                                 
- superkaramba/src/sensors/sensorparams.cpp ~ GPLv2h ~ Copyright             (C) 2003 by Hans Karlsson                           
- superkaramba/src/sensors/sensorparams.h ~ GPLv2h ~  * Copyright (C) 2003-2004 Adam Geitgey <adam@rootnode.org>
-                                                     Copyright (c) 2005 Ryan Nickell <p0z3r@earthlink.net>
- superkaramba/src/sensors/textfile.cpp ~ GPLv2h ~ Copyright             (C) 2003 by Hans Karlsson                              
- superkaramba/src/sensors/textfile.h ~ GPLv2h ~  * Copyright (C) 2003 Hans Karlsson <karlsson.h@home.se>
-                                                Copyright (C) 2003-2004 Adam Geitgey <adam@rootnode.org>
-                                                    Copyright (c) 2005 Ryan Nickell <p0z3r@earthlink.net>
- superkaramba/src/sensors/uptime.cpp ~ GPLv2h ~ Copyright             (C) 2003 by Hans Karlsson                                 
- superkaramba/src/sensors/uptime.h ~ GPLv2h ~ Copyright             (C) 2003 by Hans Karlsson                                   
- superkaramba/src/showdesktop.cpp ~ GPLv2h ~ Copyright (C) 2003-2004 Adam Geitgey <adam@rootnode.org>
-                                             Copyright (c) 2005 Ryan Nickell <p0z3r@earthlink.net>
- superkaramba/src/showdesktop.h ~ GPLv2h ~  Copyright (C) 2003-2004 Adam Geitgey <adam@rootnode.org>
-                                            Copyright (c) 2005 Ryan Nickell <p0z3r@earthlink.net>
- superkaramba/src/superkaramba.desktop ~ unspec ~ unspec
- superkaramba/src/superkaramba_export.h ~ GPLv2h ~     Copyright (C) 2007 David Faure <faure@kde.org>
- superkaramba/src/superkaramba.kcfg ~ unspec ~ unspec
- superkaramba/src/superkaramba.knsrc ~ unspec ~ unspec
- superkaramba/src/superkaramba.lsm ~ unspec ~ unspec
- superkaramba/src/superkarambasettings.kcfgc ~ unspec ~ unspec
- superkaramba/src/superkarambaui.rc ~ unspec ~ unspec
- superkaramba/src/systemtray.cpp ~ GPLv2h ~     copyright (C) 2003      Adam Geitgey <adam@rootnode.org>
- superkaramba/src/systemtray.h ~ GPLv2h ~     copyright (C) 2003      Adam Geitgey <adam@rootnode.org>
- superkaramba/src/taskmanager.cpp ~ MIT ~ Copyright (c) 2000 Matthias Elter <elter@kde.org>
-                                             Copyright (C) 2004 Hans Oischinger
- superkaramba/src/taskmanager.h ~ MIT ~ Copyright (c) 2000-2001 Matthias Elter <elter@kde.org>
-                                             Copyright (c) 2001 Richard Moore <rich@kde.org>
- superkaramba/src/themefile.cpp ~ GPLv2 ~ *  Copyright (C) 2003 Hans Karlsson <karlsson.h@home.se>
-                                             Copyright (C) 2003-2004 Adam Geitgey <adam@rootnode.org>
-                                             Copyright (c) 2004 Petri Damst� <damu@iki.fi>
- superkaramba/src/themefile.h ~ GPLv2 ~ *  Copyright (C) 2003 Hans Karlsson <karlsson.h@home.se>
-                                             Copyright (C) 2003-2004 Adam Geitgey <adam@rootnode.org>
-                                             Copyright (c) 2004 Petri Damst� <damu@iki.fi>
- superkaramba/src/themelocale.cpp ~ GPLv2 ~  *  Copyright (c) 1997,2001 Stephan Kulow <coolo@kde.org>
-                                             Copyright (c) 1999 Preston Brown <pbrown@kde.org>
-                                             Copyright (c) 1999-2002 Hans Petter Bieker <bieker@kde.org>
-                                             Copyright (c) 2002 Lukas Tinkl <lukas@kde.org>
-                                             Copyright (C) 1995 Software Foundation, Inc.
-                                              Copyright (c) 2005 Petri Damsten <damu@iki.fi>
- superkaramba/src/themelocale.h ~ GPLv2 ~  * Copyright (c) 2005 Petri Damsten <damu@iki.fi>
- 
- 
- superkaramba/src/themesdlg.cpp ~ GPLv2h ~  * Copyright (C) 2005 Petri Damst� <petri.damsten@iki.fi>
- superkaramba/src/themesdlg.h ~ GPLv2h ~  * Copyright (C) 2005 Petri Damst� <petri.damsten@iki.fi>
- superkaramba/src/themes_layout.ui ~ unspec ~ unspec
- superkaramba/src/themewidget.cpp ~ GPLv2h ~  * Copyright (C) 2005 Petri Damst� <petri.damsten@iki.fi>
- superkaramba/src/themewidget.h ~ GPLv2h ~  * Copyright (C) 2005 Petri Damst� <petri.damsten@iki.fi>
- superkaramba/src/themewidget_layout.ui ~ unspec ~ unspec
- superkaramba/TODO ~ unspec ~ unspec
+ Most files under GPLv2 or later
+ Some files under GPLv2only
+ Some example code is not clear licensed, but as example code it must be covered by the 
+ generic COPYING file, GPLv2.
+
+ A few files is under a BSD-ish license:
+	Permission is hereby granted, free of charge, to any person obtaining a copy
+	of this software and associated documentation files (the "Software"), to deal
+	in the Software without restriction, including without limitation the rights
+	to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+	copies of the Software, and to permit persons to whom the Software is
+	furnished to do so, subject to the following conditions:
+
+	The above copyright notice and this permission notice shall be included in
+	all copies or substantial portions of the Software.
+
+	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE
+	AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN
+	AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+	CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
 
 
 Files under sweeper/
 
- sweeper/CMakeLists.txt ~ unspec ~ unspec
- sweeper/kprivacysettings.ui ~ unspec ~ unspec
- sweeper/main.cpp ~ LGPLv2.1h ~   * Copyright (C) 2005 Benjamin C Meyer (ben at meyerhome dot net)
- sweeper/Messages.sh ~ unspec ~ unspec
- sweeper/org.kde.sweeper.xml ~ unspec ~ unspec
- sweeper/privacyaction.cpp ~ LGPLv2.1h ~   * Copyright (C) 2005 Brian S. Stephan ( bssteph at irtonline dot org )
- sweeper/privacyaction.h ~ LGPLv2.1h ~   * Copyright (C) 2005 Brian S. Stephan ( bssteph at irtonline dot org )
- sweeper/privacyfunctions.cpp ~ LGPLv2.1h ~  * Copyright (c) 2003 Ralf Hoelzer <ralf@well.com>
- sweeper/privacyfunctions.h ~ LGPLv2.1h ~   * Copyright (c) 2003 Ralf Hoelzer <ralf@well.com>
- sweeper/sweeper.cpp ~ LGPLv2.1h ~   * Copyright (c) 2003-2005 Ralf Hoelzer <ralf@well.com>
- sweeper/sweeper.desktop ~ unspec ~ unspec
- sweeper/sweeperdialog.ui ~ unspec ~ unspec
- sweeper/sweeper.h ~ LGPLv2.1h ~   * Copyright (c) 2003-2005 Ralf Hoelzer <ralf@well.com>
- sweeper/sweeperui.rc ~ unspec ~ unspec
- sweeper/TODO ~ unspec ~ unspec
+ Copyright (C) 2005 Benjamin C Meyer (ben at meyerhome dot net)
+ Copyright (C) 2005 Brian S. Stephan ( bssteph at irtonline dot org )
+ Copyright (c) 2003-2005 Ralf Hoelzer <ralf@well.com>
+
+ Files under LGPLv2 or later.
 
 
 
 -------------------------------------------------------------------------------
 Legend:
- - "unspec":    The file contains no specific copyright/license notice. This
-                means that the copyright holder is the KDE Development Team (as
-                listed above) and the license is GPL2, unless specified otherwise.
- - "GPL":       The GNU General Public License, without versioning constraints.
- - "GPLv2":     The GNU General Public License, version 2.
- - "GPLv2h":    The GNU General Public License, version 2 or (at your
-                option) higher.
- - "LGPLv2h":   The Lesser (or Library) GNU General Public License, version
-                2 or (at your option).
- - "BSD"        Files under the BSD license.
- - "GFDL1.1":   The GNU Free Documentation License, version 1.1 or (at your
-                option) higher. The listed documents use the GFDL with no
-                Invariant Sections, no Front-Cover Texts, and no Back-Cover
-                Texts.
- - "MPLv1":     The Mozilla Public License, version 1. See full text below.
- - "MIT":       Permission is hereby granted, free of charge, to any person obtaining a copy
-                of this software and associated documentation files (the "Software"), to deal
-                in the Software without restriction, including without limitation the rights
-                to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-                copies of the Software, and to permit persons to whom the Software is
-                furnished to do so, subject to the following conditions:
-                The above copyright notice and this permission notice shall be included in
-                all copies or substantial portions of the Software.
-                THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-                IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-                FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-                AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-                LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-                OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-                THE SOFTWARE.
 
 
 On Debian systems, you can find the complete texts of these licenses at:
@@ -1579,441 +342,6 @@ On Debian systems, you can find the complete texts of these licenses at:
   - LGPLv2:   /usr/share/common-licenses/LGPL-2
   - GFDL:     /usr/share/common-licenses/GFDL
   - BSD:      /usr/share/common-licenses/BSD
-
--------------------------------------------------------------------------------
-                          MOZILLA PUBLIC LICENSE
-                                Version 1.1
-
-                              ---------------
-
-1. Definitions.
-
-     1.0.1. "Commercial Use" means distribution or otherwise making the
-     Covered Code available to a third party.
-
-     1.1. "Contributor" means each entity that creates or contributes to
-     the creation of Modifications.
-
-     1.2. "Contributor Version" means the combination of the Original
-     Code, prior Modifications used by a Contributor, and the Modifications
-     made by that particular Contributor.
-
-     1.3. "Covered Code" means the Original Code or Modifications or the
-     combination of the Original Code and Modifications, in each case
-     including portions thereof.
-
-     1.4. "Electronic Distribution Mechanism" means a mechanism generally
-     accepted in the software development community for the electronic
-     transfer of data.
-
-     1.5. "Executable" means Covered Code in any form other than Source
-     Code.
-
-     1.6. "Initial Developer" means the individual or entity identified
-     as the Initial Developer in the Source Code notice required by Exhibit
-     A.
-
-     1.7. "Larger Work" means a work which combines Covered Code or
-     portions thereof with code not governed by the terms of this License.
-
-     1.8. "License" means this document.
-
-     1.8.1. "Licensable" means having the right to grant, to the maximum
-     extent possible, whether at the time of the initial grant or
-     subsequently acquired, any and all of the rights conveyed herein.
-
-     1.9. "Modifications" means any addition to or deletion from the
-     substance or structure of either the Original Code or any previous
-     Modifications. When Covered Code is released as a series of files, a
-     Modification is:
-          A. Any addition to or deletion from the contents of a file
-          containing Original Code or previous Modifications.
-
-          B. Any new file that contains any part of the Original Code or
-          previous Modifications.
-
-     1.10. "Original Code" means Source Code of computer software code
-     which is described in the Source Code notice required by Exhibit A as
-     Original Code, and which, at the time of its release under this
-     License is not already Covered Code governed by this License.
-
-     1.10.1. "Patent Claims" means any patent claim(s), now owned or
-     hereafter acquired, including without limitation,  method, process,
-     and apparatus claims, in any patent Licensable by grantor.
-
-     1.11. "Source Code" means the preferred form of the Covered Code for
-     making modifications to it, including all modules it contains, plus
-     any associated interface definition files, scripts used to control
-     compilation and installation of an Executable, or source code
-     differential comparisons against either the Original Code or another
-     well known, available Covered Code of the Contributor's choice. The
-     Source Code can be in a compressed or archival form, provided the
-     appropriate decompression or de-archiving software is widely available
-     for no charge.
-
-     1.12. "You" (or "Your")  means an individual or a legal entity
-     exercising rights under, and complying with all of the terms of, this
-     License or a future version of this License issued under Section 6.1.
-     For legal entities, "You" includes any entity which controls, is
-     controlled by, or is under common control with You. For purposes of
-     this definition, "control" means (a) the power, direct or indirect,
-     to cause the direction or management of such entity, whether by
-     contract or otherwise, or (b) ownership of more than fifty percent
-     (50%) of the outstanding shares or beneficial ownership of such
-     entity.
-
-2. Source Code License.
-
-     2.1. The Initial Developer Grant.
-     The Initial Developer hereby grants You a world-wide, royalty-free,
-     non-exclusive license, subject to third party intellectual property
-     claims:
-          (a)  under intellectual property rights (other than patent or
-          trademark) Licensable by Initial Developer to use, reproduce,
-          modify, display, perform, sublicense and distribute the Original
-          Code (or portions thereof) with or without Modifications, and/or
-          as part of a Larger Work; and
-
-          (b) under Patents Claims infringed by the making, using or
-          selling of Original Code, to make, have made, use, practice,
-          sell, and offer for sale, and/or otherwise dispose of the
-          Original Code (or portions thereof).
-
-          (c) the licenses granted in this Section 2.1(a) and (b) are
-          effective on the date Initial Developer first distributes
-          Original Code under the terms of this License.
-
-          (d) Notwithstanding Section 2.1(b) above, no patent license is
-          granted: 1) for code that You delete from the Original Code; 2)
-          separate from the Original Code;  or 3) for infringements caused
-          by: i) the modification of the Original Code or ii) the
-          combination of the Original Code with other software or devices.
-
-     2.2. Contributor Grant.
-     Subject to third party intellectual property claims, each Contributor
-     hereby grants You a world-wide, royalty-free, non-exclusive license
-
-          (a)  under intellectual property rights (other than patent or
-          trademark) Licensable by Contributor, to use, reproduce, modify,
-          display, perform, sublicense and distribute the Modifications
-          created by such Contributor (or portions thereof) either on an
-          unmodified basis, with other Modifications, as Covered Code
-          and/or as part of a Larger Work; and
-
-          (b) under Patent Claims infringed by the making, using, or
-          selling of  Modifications made by that Contributor either alone
-          and/or in combination with its Contributor Version (or portions
-          of such combination), to make, use, sell, offer for sale, have
-          made, and/or otherwise dispose of: 1) Modifications made by that
-          Contributor (or portions thereof); and 2) the combination of
-          Modifications made by that Contributor with its Contributor
-          Version (or portions of such combination).
-
-          (c) the licenses granted in Sections 2.2(a) and 2.2(b) are
-          effective on the date Contributor first makes Commercial Use of
-          the Covered Code.
-
-          (d)    Notwithstanding Section 2.2(b) above, no patent license is
-          granted: 1) for any code that Contributor has deleted from the
-          Contributor Version; 2)  separate from the Contributor Version;
-          3)  for infringements caused by: i) third party modifications of
-          Contributor Version or ii)  the combination of Modifications made
-          by that Contributor with other software  (except as part of the
-          Contributor Version) or other devices; or 4) under Patent Claims
-          infringed by Covered Code in the absence of Modifications made by
-          that Contributor.
-
-3. Distribution Obligations.
-
-     3.1. Application of License.
-     The Modifications which You create or to which You contribute are
-     governed by the terms of this License, including without limitation
-     Section 2.2. The Source Code version of Covered Code may be
-     distributed only under the terms of this License or a future version
-     of this License released under Section 6.1, and You must include a
-     copy of this License with every copy of the Source Code You
-     distribute. You may not offer or impose any terms on any Source Code
-     version that alters or restricts the applicable version of this
-     License or the recipients' rights hereunder. However, You may include
-     an additional document offering the additional rights described in
-     Section 3.5.
-
-     3.2. Availability of Source Code.
-     Any Modification which You create or to which You contribute must be
-     made available in Source Code form under the terms of this License
-     either on the same media as an Executable version or via an accepted
-     Electronic Distribution Mechanism to anyone to whom you made an
-     Executable version available; and if made available via Electronic
-     Distribution Mechanism, must remain available for at least twelve (12)
-     months after the date it initially became available, or at least six
-     (6) months after a subsequent version of that particular Modification
-     has been made available to such recipients. You are responsible for
-     ensuring that the Source Code version remains available even if the
-     Electronic Distribution Mechanism is maintained by a third party.
-
-     3.3. Description of Modifications.
-     You must cause all Covered Code to which You contribute to contain a
-     file documenting the changes You made to create that Covered Code and
-     the date of any change. You must include a prominent statement that
-     the Modification is derived, directly or indirectly, from Original
-     Code provided by the Initial Developer and including the name of the
-     Initial Developer in (a) the Source Code, and (b) in any notice in an
-     Executable version or related documentation in which You describe the
-     origin or ownership of the Covered Code.
-
-     3.4. Intellectual Property Matters
-          (a) Third Party Claims.
-          If Contributor has knowledge that a license under a third party's
-          intellectual property rights is required to exercise the rights
-          granted by such Contributor under Sections 2.1 or 2.2,
-          Contributor must include a text file with the Source Code
-          distribution titled "LEGAL" which describes the claim and the
-          party making the claim in sufficient detail that a recipient will
-          know whom to contact. If Contributor obtains such knowledge after
-          the Modification is made available as described in Section 3.2,
-          Contributor shall promptly modify the LEGAL file in all copies
-          Contributor makes available thereafter and shall take other steps
-          (such as notifying appropriate mailing lists or newsgroups)
-          reasonably calculated to inform those who received the Covered
-          Code that new knowledge has been obtained.
-
-          (b) Contributor APIs.
-          If Contributor's Modifications include an application programming
-          interface and Contributor has knowledge of patent licenses which
-          are reasonably necessary to implement that API, Contributor must
-          also include this information in the LEGAL file.
-
-               (c)    Representations.
-          Contributor represents that, except as disclosed pursuant to
-          Section 3.4(a) above, Contributor believes that Contributor's
-          Modifications are Contributor's original creation(s) and/or
-          Contributor has sufficient rights to grant the rights conveyed by
-          this License.
-
-     3.5. Required Notices.
-     You must duplicate the notice in Exhibit A in each file of the Source
-     Code.  If it is not possible to put such notice in a particular Source
-     Code file due to its structure, then You must include such notice in a
-     location (such as a relevant directory) where a user would be likely
-     to look for such a notice.  If You created one or more Modification(s)
-     You may add your name as a Contributor to the notice described in
-     Exhibit A.  You must also duplicate this License in any documentation
-     for the Source Code where You describe recipients' rights or ownership
-     rights relating to Covered Code.  You may choose to offer, and to
-     charge a fee for, warranty, support, indemnity or liability
-     obligations to one or more recipients of Covered Code. However, You
-     may do so only on Your own behalf, and not on behalf of the Initial
-     Developer or any Contributor. You must make it absolutely clear than
-     any such warranty, support, indemnity or liability obligation is
-     offered by You alone, and You hereby agree to indemnify the Initial
-     Developer and every Contributor for any liability incurred by the
-     Initial Developer or such Contributor as a result of warranty,
-     support, indemnity or liability terms You offer.
-
-     3.6. Distribution of Executable Versions.
-     You may distribute Covered Code in Executable form only if the
-     requirements of Section 3.1-3.5 have been met for that Covered Code,
-     and if You include a notice stating that the Source Code version of
-     the Covered Code is available under the terms of this License,
-     including a description of how and where You have fulfilled the
-     obligations of Section 3.2. The notice must be conspicuously included
-     in any notice in an Executable version, related documentation or
-     collateral in which You describe recipients' rights relating to the
-     Covered Code. You may distribute the Executable version of Covered
-     Code or ownership rights under a license of Your choice, which may
-     contain terms different from this License, provided that You are in
-     compliance with the terms of this License and that the license for the
-     Executable version does not attempt to limit or alter the recipient's
-     rights in the Source Code version from the rights set forth in this
-     License. If You distribute the Executable version under a different
-     license You must make it absolutely clear that any terms which differ
-     from this License are offered by You alone, not by the Initial
-     Developer or any Contributor. You hereby agree to indemnify the
-     Initial Developer and every Contributor for any liability incurred by
-     the Initial Developer or such Contributor as a result of any such
-     terms You offer.
-
-     3.7. Larger Works.
-     You may create a Larger Work by combining Covered Code with other code
-     not governed by the terms of this License and distribute the Larger
-     Work as a single product. In such a case, You must make sure the
-     requirements of this License are fulfilled for the Covered Code.
-
-4. Inability to Comply Due to Statute or Regulation.
-
-     If it is impossible for You to comply with any of the terms of this
-     License with respect to some or all of the Covered Code due to
-     statute, judicial order, or regulation then You must: (a) comply with
-     the terms of this License to the maximum extent possible; and (b)
-     describe the limitations and the code they affect. Such description
-     must be included in the LEGAL file described in Section 3.4 and must
-     be included with all distributions of the Source Code. Except to the
-     extent prohibited by statute or regulation, such description must be
-     sufficiently detailed for a recipient of ordinary skill to be able to
-     understand it.
-
-5. Application of this License.
-
-     This License applies to code to which the Initial Developer has
-     attached the notice in Exhibit A and to related Covered Code.
-
-6. Versions of the License.
-
-     6.1. New Versions.
-     Netscape Communications Corporation ("Netscape") may publish revised
-     and/or new versions of the License from time to time. Each version
-     will be given a distinguishing version number.
-
-     6.2. Effect of New Versions.
-     Once Covered Code has been published under a particular version of the
-     License, You may always continue to use it under the terms of that
-     version. You may also choose to use such Covered Code under the terms
-     of any subsequent version of the License published by Netscape. No one
-     other than Netscape has the right to modify the terms applicable to
-     Covered Code created under this License.
-
-     6.3. Derivative Works.
-     If You create or use a modified version of this License (which you may
-     only do in order to apply it to code which is not already Covered Code
-     governed by this License), You must (a) rename Your license so that
-     the phrases "Mozilla", "MOZILLAPL", "MOZPL", "Netscape",
-     "MPL", "NPL" or any confusingly similar phrase do not appear in your
-     license (except to note that your license differs from this License)
-     and (b) otherwise make it clear that Your version of the license
-     contains terms which differ from the Mozilla Public License and
-     Netscape Public License. (Filling in the name of the Initial
-     Developer, Original Code or Contributor in the notice described in
-     Exhibit A shall not of themselves be deemed to be modifications of
-     this License.)
-
-7. DISCLAIMER OF WARRANTY.
-
-     COVERED CODE IS PROVIDED UNDER THIS LICENSE ON AN "AS IS" BASIS,
-     WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING,
-     WITHOUT LIMITATION, WARRANTIES THAT THE COVERED CODE IS FREE OF
-     DEFECTS, MERCHANTABLE, FIT FOR A PARTICULAR PURPOSE OR NON-INFRINGING.
-     THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE COVERED CODE
-     IS WITH YOU. SHOULD ANY COVERED CODE PROVE DEFECTIVE IN ANY RESPECT,
-     YOU (NOT THE INITIAL DEVELOPER OR ANY OTHER CONTRIBUTOR) ASSUME THE
-     COST OF ANY NECESSARY SERVICING, REPAIR OR CORRECTION. THIS DISCLAIMER
-     OF WARRANTY CONSTITUTES AN ESSENTIAL PART OF THIS LICENSE. NO USE OF
-     ANY COVERED CODE IS AUTHORIZED HEREUNDER EXCEPT UNDER THIS DISCLAIMER.
-
-8. TERMINATION.
-
-     8.1.  This License and the rights granted hereunder will terminate
-     automatically if You fail to comply with terms herein and fail to cure
-     such breach within 30 days of becoming aware of the breach. All
-     sublicenses to the Covered Code which are properly granted shall
-     survive any termination of this License. Provisions which, by their
-     nature, must remain in effect beyond the termination of this License
-     shall survive.
-
-     8.2.  If You initiate litigation by asserting a patent infringement
-     claim (excluding declatory judgment actions) against Initial Developer
-     or a Contributor (the Initial Developer or Contributor against whom
-     You file such action is referred to as "Participant")  alleging that:
-
-     (a)  such Participant's Contributor Version directly or indirectly
-     infringes any patent, then any and all rights granted by such
-     Participant to You under Sections 2.1 and/or 2.2 of this License
-     shall, upon 60 days notice from Participant terminate prospectively,
-     unless if within 60 days after receipt of notice You either: (i)
-     agree in writing to pay Participant a mutually agreeable reasonable
-     royalty for Your past and future use of Modifications made by such
-     Participant, or (ii) withdraw Your litigation claim with respect to
-     the Contributor Version against such Participant.  If within 60 days
-     of notice, a reasonable royalty and payment arrangement are not
-     mutually agreed upon in writing by the parties or the litigation claim
-     is not withdrawn, the rights granted by Participant to You under
-     Sections 2.1 and/or 2.2 automatically terminate at the expiration of
-     the 60 day notice period specified above.
-
-     (b)  any software, hardware, or device, other than such Participant's
-     Contributor Version, directly or indirectly infringes any patent, then
-     any rights granted to You by such Participant under Sections 2.1(b)
-     and 2.2(b) are revoked effective as of the date You first made, used,
-     sold, distributed, or had made, Modifications made by that
-     Participant.
-
-     8.3.  If You assert a patent infringement claim against Participant
-     alleging that such Participant's Contributor Version directly or
-     indirectly infringes any patent where such claim is resolved (such as
-     by license or settlement) prior to the initiation of patent
-     infringement litigation, then the reasonable value of the licenses
-     granted by such Participant under Sections 2.1 or 2.2 shall be taken
-     into account in determining the amount or value of any payment or
-     license.
-
-     8.4.  In the event of termination under Sections 8.1 or 8.2 above,
-     all end user license agreements (excluding distributors and resellers)
-     which have been validly granted by You or any distributor hereunder
-     prior to termination shall survive termination.
-
-9. LIMITATION OF LIABILITY.
-
-     UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER TORT
-     (INCLUDING NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL YOU, THE INITIAL
-     DEVELOPER, ANY OTHER CONTRIBUTOR, OR ANY DISTRIBUTOR OF COVERED CODE,
-     OR ANY SUPPLIER OF ANY OF SUCH PARTIES, BE LIABLE TO ANY PERSON FOR
-     ANY INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF ANY
-     CHARACTER INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF GOODWILL,
-     WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER
-     COMMERCIAL DAMAGES OR LOSSES, EVEN IF SUCH PARTY SHALL HAVE BEEN
-     INFORMED OF THE POSSIBILITY OF SUCH DAMAGES. THIS LIMITATION OF
-     LIABILITY SHALL NOT APPLY TO LIABILITY FOR DEATH OR PERSONAL INJURY
-     RESULTING FROM SUCH PARTY'S NEGLIGENCE TO THE EXTENT APPLICABLE LAW
-     PROHIBITS SUCH LIMITATION. SOME JURISDICTIONS DO NOT ALLOW THE
-     EXCLUSION OR LIMITATION OF INCIDENTAL OR CONSEQUENTIAL DAMAGES, SO
-     THIS EXCLUSION AND LIMITATION MAY NOT APPLY TO YOU.
-
-10. U.S. GOVERNMENT END USERS.
-
-     The Covered Code is a "commercial item," as that term is defined in
-     48 C.F.R. 2.101 (Oct. 1995), consisting of "commercial computer
-     software" and "commercial computer software documentation," as such
-     terms are used in 48 C.F.R. 12.212 (Sept. 1995). Consistent with 48
-     C.F.R. 12.212 and 48 C.F.R. 227.7202-1 through 227.7202-4 (June 1995),
-     all U.S. Government End Users acquire Covered Code with only those
-     rights set forth herein.
-
-11. MISCELLANEOUS.
-
-     This License represents the complete agreement concerning subject
-     matter hereof. If any provision of this License is held to be
-     unenforceable, such provision shall be reformed only to the extent
-     necessary to make it enforceable. This License shall be governed by
-     California law provisions (except to the extent applicable law, if
-     any, provides otherwise), excluding its conflict-of-law provisions.
-     With respect to disputes in which at least one party is a citizen of,
-     or an entity chartered or registered to do business in the United
-     States of America, any litigation relating to this License shall be
-     subject to the jurisdiction of the Federal Courts of the Northern
-     District of California, with venue lying in Santa Clara County,
-     California, with the losing party responsible for costs, including
-     without limitation, court costs and reasonable attorneys' fees and
-     expenses. The application of the United Nations Convention on
-     Contracts for the International Sale of Goods is expressly excluded.
-     Any law or regulation which provides that the language of a contract
-     shall be construed against the drafter shall not apply to this
-     License.
-
-12. RESPONSIBILITY FOR CLAIMS.
-
-     As between Initial Developer and the Contributors, each party is
-     responsible for claims and damages arising, directly or indirectly,
-     out of its utilization of rights under this License and You agree to
-     work with Initial Developer and Contributors to distribute such
-     responsibility on an equitable basis. Nothing herein is intended or
-     shall be deemed to constitute any admission of liability.
-
-13. MULTIPLE-LICENSED CODE.
-
-     Initial Developer may designate portions of the Covered Code as
-     "Multiple-Licensed".  "Multiple-Licensed" means that the Initial
-     Developer permits you to utilize portions of the Covered Code under
-     Your choice of the NPL or the alternative licenses, if any, specified
-     by the Initial Developer in the file described in Exhibit A.
 
 -------------------------------------------------------------------------------
 

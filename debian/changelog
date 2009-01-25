@@ -28,6 +28,10 @@ kdeutils (4:4.2.0-0r1) UNRELEASED; urgency=low
 
   * Fix typo in the printer-applet description (Closes: #509241).
 
+  +++ Changes by Sune Vuorela:
+
+  * Update copyright file.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 24 Jan 2009 03:37:19 +0200
 
 kdeutils (4:4.1.3-2) experimental; urgency=low
