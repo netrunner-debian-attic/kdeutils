@@ -2,7 +2,7 @@
 
 DEB_CMAKE_CUSTOM_FLAGS += -DINSTALL_PRINTER_APPLET:BOOL=TRUE
 
-include debian/cdbs/kde.mk
+include /usr/share/pkg-kde-tools/qt-kde-team/1/debian-qt-kde.mk
 
 binary-install/printer-applet::
 	dh_pysupport -pprinter-applet
