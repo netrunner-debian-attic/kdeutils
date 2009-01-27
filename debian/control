@@ -19,7 +19,7 @@ Depends: ark (>= ${source:Version}), kcalc (>= ${source:Version}),
  kdf (>= ${source:Version}), kfloppy (>= ${source:Version}),
  kgpg (>= ${source:Version}), ktimer (>= ${source:Version}),
  kwalletmanager (>= ${source:Version}), okteta (>= ${source:Version}),
- superkaramba (>= ${source:Version}), sweeper (>= ${source:Version})
+ plasma-scriptengine-superkaramba (>= ${source:Version}), sweeper (>= ${source:Version})
 Description: general-purpose utilities from the official KDE 4 release
  KDE is produced by an international technology team that creates free and open
  source software for desktop and portable computing. Among KDE's products are a
@@ -167,13 +167,16 @@ Description: hexeditor for binary files for KDE 4
  .
  This package is part of the KDE 4 utilities module.
 
-Package: superkaramba
+Package: plasma-scriptengine-superkaramba
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Suggests: kdebase-workspace-bin
+Replaces: superkaramba
+Conflicts: superkaramba
 Description: SuperKaramba theme support for the KDE 4 Plasma desktop
- SuperKaramba was the KDE 3.5 utility for displaying interactive desktop
- applets, called "themes".  This package allows the Plasma desktop to use
- SuperKaramba themes.
+ This package provides SuperKaramba scriptengine for Plasma. It brings
+ support for the SuperKaramba interactive desktop applets, called "themes", to
+ the Plasma desktop.
  .
  This package is part of the KDE 4 utilities module.
 
