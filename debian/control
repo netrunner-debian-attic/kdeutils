@@ -9,8 +9,8 @@ Build-Depends: cdbs (>= 0.4.51), debhelper (>= 7), quilt, pkg-kde-tools (>= 0.4)
  libarchive-dev, libx11-dev, libxrender-dev, python-support
 Standards-Version: 3.8.0
 Homepage: http://www.kde.org/
-Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/branches/kde4/packages/kdeutils
-Vcs-Svn: svn://svn.debian.org/pkg-kde/branches/kde4/packages/kdeutils
+Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/trunk/packages/kdeutils
+Vcs-Svn: svn://svn.debian.org/pkg-kde/trunk/packages/kdeutils
 
 Package: kdeutils
 Architecture: all
