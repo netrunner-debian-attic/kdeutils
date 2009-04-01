@@ -1,6 +1,7 @@
 kdeutils (4:4.2.2-0r1) UNRELEASED; urgency=low
 
   * New upstream release.
+  * Update installed files in kwalletmanager.install.
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Tue, 31 Mar 2009 22:51:01 +0200
 
