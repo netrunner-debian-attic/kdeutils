@@ -1,4 +1,4 @@
-kdeutils (4:4.2.2-0r1) UNRELEASED; urgency=low
+kdeutils (4:4.2.2-1) unstable; urgency=low
 
   * New upstream release.
   * Update installed files in kwalletmanager.install.
