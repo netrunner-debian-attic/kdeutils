@@ -1,9 +1,12 @@
 kdeutils (4:4.2.2-1) unstable; urgency=low
 
-  * New upstream release.
+  * New upstream release:
+    - Fix message "decryption failed" when verifying an untrusted signature.
+     (Closes: #398293)
+    - Fix default server duplication in preferences dialog. (Closes: #427404)
   * Update installed files in kwalletmanager.install.
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Tue, 31 Mar 2009 22:51:01 +0200
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sun, 05 Apr 2009 13:08:10 +0200
 
 kdeutils (4:4.2.1-1) experimental; urgency=low
 
