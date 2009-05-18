@@ -10,6 +10,11 @@ kdeutils (4:4.2.3-1) UNRELEASED; urgency=low
 
   * Bump Standards-Version from 3.8.0 to 3.8.1 (no changes needed).
 
+  +++ Changes by Pino Toscano:
+
+  * Remove ncompress and zoo from ark recommends.
+  * Add rar and  unrar | unrar-free to ark recommends.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 02 May 2009 12:35:15 +0200
 
 kdeutils (4:4.2.2-1) unstable; urgency=low
