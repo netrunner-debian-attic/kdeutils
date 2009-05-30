@@ -1,10 +1,12 @@
-kdeutils (4:4.2.3-1) UNRELEASED; urgency=low
+kdeutils (4:4.2.4-1) UNRELEASED; urgency=low
 
   * New upstream release.
 
   +++ Changes by Sune Vuorela:
 
   * Fix sections.
+  * Backport a patch to write better xml in kwalletmanager.
+    (Closes: 530419)
 
   +++ Changes by Fathi Boudra:
 
@@ -13,7 +15,7 @@ kdeutils (4:4.2.3-1) UNRELEASED; urgency=low
   +++ Changes by Pino Toscano:
 
   * Remove ncompress and zoo from ark recommends.
-  * Add rar and  unrar | unrar-free to ark recommends.
+  * Add rar and  unrar | unrar-free to ark suggests.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 02 May 2009 12:35:15 +0200
 

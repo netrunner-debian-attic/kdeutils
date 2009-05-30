@@ -45,7 +45,8 @@ Description: debugging symbols for the KDE 4 utilities module
 Package: ark
 Section: utils
 Architecture: any
-Recommends: bzip2, p7zip-full, rar, unrar | unrar-free, unzip, zip
+Recommends: bzip2, p7zip-full, unzip, zip
+Suggests: rar, unrar | unrar-free
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: archive utility for KDE 4
  Ark manages various archive formats, including tar, gzip, bzip2, rar and zip,
