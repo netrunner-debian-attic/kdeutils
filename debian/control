@@ -4,9 +4,10 @@ Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Fathi Boudra <fabo@debian.org>, Sune Vuorela <debian@pusling.com>
 Build-Depends: cdbs (>= 0.4.51), debhelper (>= 7), quilt, pkg-kde-tools (>= 0.4.2),
- kdelibs5-dev (>= 4:4.2.96), kdepimlibs5-dev (>= 4:4.2.96),
- libgmp3-dev, libqimageblitz-dev (>= 1:0.0.4-2), libsnmp-dev, libzip-dev,
- libarchive-dev, libx11-dev, libxrender-dev, python-support
+ kdelibs5-dev (>= 4:4.2.96), kdepimlibs5-dev (>= 4:4.2.96), libknotificationitem-1-dev,
+ libgmp3-dev, libqimageblitz-dev (>= 1:0.0.4-2), libsnmp-dev,
+ libarchive-dev, libx11-dev, libxrender-dev, python-support,
+ libqca2-dev, libkonq5-dev
 Standards-Version: 3.8.2
 Homepage: http://www.kde.org/
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/trunk/packages/kdeutils
@@ -45,7 +46,7 @@ Description: debugging symbols for the KDE 4 utilities module
 Package: ark
 Section: utils
 Architecture: any
-Recommends: bzip2, p7zip-full, unzip, zip
+Recommends: bzip2, p7zip-full, zip, unzip
 Suggests: rar, unrar | unrar-free
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: archive utility for KDE 4

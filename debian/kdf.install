@@ -9,8 +9,8 @@ usr/share/doc/kde4/HTML/en/kcontrol/blockdevices/index.docbook
 usr/share/doc/kde4/HTML/en/kdf/common
 usr/share/doc/kde4/HTML/en/kdf/index.cache.bz2
 usr/share/doc/kde4/HTML/en/kdf/index.docbook
-usr/share/doc/kde4/HTML/en/kdf/kdf_config.png
 usr/share/doc/kde4/HTML/en/kdf/kdf.png
+usr/share/doc/kde4/HTML/en/kdf/kdf_config.png
 usr/share/icons/hicolor/128x128/apps/kdf.png
 usr/share/icons/hicolor/128x128/apps/kwikdisk.png
 usr/share/icons/hicolor/16x16/apps/kdf.png
@@ -27,6 +27,4 @@ usr/share/icons/oxygen/16x16/apps/kcmdf.png
 usr/share/icons/oxygen/22x22/apps/kcmdf.png
 usr/share/icons/oxygen/32x32/apps/kcmdf.png
 usr/share/kde4/apps/kdf/kdfui.rc
-usr/share/kde4/apps/kdf/pics/delete.png
-usr/share/kde4/apps/kdf/pics/tick.png
 usr/share/kde4/services/kcmdf.desktop

@@ -2,9 +2,9 @@ usr/bin/okteta
 usr/lib/kde4/libkbytearrayedit.so
 usr/lib/kde4/liboktetapart.so
 usr/lib/liboktetacore.so.4
-usr/lib/liboktetacore.so.4.2.0
+usr/lib/liboktetacore.so.4.3.0
 usr/lib/liboktetagui.so.4
-usr/lib/liboktetagui.so.4.2.0
+usr/lib/liboktetagui.so.4.3.0
 usr/share/applications/kde4/okteta.desktop
 usr/share/doc/kde4/HTML/en/okteta/basics.docbook
 usr/share/doc/kde4/HTML/en/okteta/common

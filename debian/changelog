@@ -1,7 +1,13 @@
 kdeutils (4:4.2.96-1) experimental; urgency=low
 
   * New upstream release.
-  * Bump Standards-Version from 3.8.1 to 3.8.2 (no changes needed).
+  * Drop backported patch from upstream.
+  * Update debian/control:
+    - Add libknotificationitem-1-dev, libkonq5-dev and libqca2-dev build
+      dependencies.
+    - Remove libzip-dev build dependency, replaced by a cli plugin.
+    - Bump Standards-Version from 3.8.1 to 3.8.2 (no changes needed).
+  * Update installed files.
 
  -- Fathi Boudra <fabo@debian.org>  Wed, 15 Jul 2009 09:33:24 +0200
 
