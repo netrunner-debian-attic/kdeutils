@@ -1,5 +1,5 @@
+./usr/lib/libkdelirc_shared.so
+./usr/lib/libkerfuffle.so
 ./usr/lib/liboktetacore.so
 ./usr/lib/liboktetagui.so
-./usr/lib/libkerfuffle.so
 ./usr/lib/libsuperkaramba.so
-

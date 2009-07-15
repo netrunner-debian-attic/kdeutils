@@ -1,6 +1,11 @@
 usr/bin/printer-applet
 usr/share/autostart/printer-applet.desktop
+usr/share/kde4/apps/printer-applet/authconn.py
+usr/share/kde4/apps/printer-applet/debug.py
+usr/share/kde4/apps/printer-applet/monitor.py
 usr/share/kde4/apps/printer-applet/printer-applet-printers.ui
+usr/share/kde4/apps/printer-applet/printer-applet.notifyrc
 usr/share/kde4/apps/printer-applet/printer-applet.py
 usr/share/kde4/apps/printer-applet/printer-applet.ui
 usr/share/kde4/apps/printer-applet/printer-appletui.rc
+usr/share/kde4/apps/printer-applet/statereason.py

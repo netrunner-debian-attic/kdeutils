@@ -21,7 +21,7 @@ the GNU General Public License: (This is later referred to as GPLv2 or later)
 
     | This program is free software; you can redistribute it and/or modify
     | it under the terms of the GNU General Public License as published by
-    | the Free Software Foundation; either version 2 of the license, or 
+    | the Free Software Foundation; either version 2 of the license, or
     | (at your option) any later version.
     |
     | This package is distributed in the hope that it will be useful,
@@ -129,7 +129,7 @@ Files under ark/
    Copyright (C) 2008 Chen Yew Ming <fusion82@gmail.com>
    Copyright (C) 2005-2007 Andrew Smith <andrew-smith@mail.ru>
    Copyright (C) 2008 Claudio Bantaloukas <rockdreamer@gmail.com>
-   
+
 
  Most files under GPLv2 or later
  Some plugins under GPLv2only
@@ -157,8 +157,8 @@ Files under ark/
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
  so ark is effectively GPLv2.
- 
- 
+
+
 
 Files under cmake/
 Files under printer-applet/cmake
@@ -176,7 +176,7 @@ Files under printer-applet/cmake
 	2. Redistributions in binary form must reproduce the copyright
 	   notice, this list of conditions and the following disclaimer in the
 	   documentation and/or other materials provided with the distribution.
-	3. The name of the author may not be used to endorse or promote products 
+	3. The name of the author may not be used to endorse or promote products
 	   derived from this software without specific prior written permission.
 
 	THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
@@ -197,17 +197,17 @@ Files under kcalc/
  Copyright (C) 2006  Michel Marti <mma@objectxp.com>
  Copyright (C) 1995 Martin Bartlett
 
- Some parts under GNU Library General Public License version 2 or later, some parts under 
+ Some parts under GNU Library General Public License version 2 or later, some parts under
  GNU General Public License, version 2 or later.
 
  KCalc is effectively GPLv2 or later.
 
 Files under kcharselect/
 
- Copyright (C) 1999 Reginald Stadlbauer <reggie@kde.org>   
+ Copyright (C) 1999 Reginald Stadlbauer <reggie@kde.org>
  Copyright (C) 2007 Daniel Laidig <d.laidig@gmx.de>
 
- Some parts under GNU Library General Public License version 2 or later, some parts under 
+ Some parts under GNU Library General Public License version 2 or later, some parts under
  GNU General Public License, version 2 or later.
 
 
@@ -240,7 +240,7 @@ Files under kgpg/
  Copyright (C) 2007-2008  Rolf Eike Beer <kde@opensource.sf-tec.de>
  Copyright (C) 2007 Lukas Kropatschek <lukas.krop@gmail.com>
 
- Files is under a mix of GPLv2 or later and GPLv2+3+KDEev - effectively rendering kgpg under 
+ Files is under a mix of GPLv2 or later and GPLv2+3+KDEev - effectively rendering kgpg under
  GPLv2+3+KDEev.
 
 
@@ -259,9 +259,9 @@ Files under kwallet/
  Files is a mix of GPLv2 or later and GPLv2 only - rendering everything GPLv2only
 
 Files under okteta/
- Copyright 2003-2008 Friedrich W. H. Kossebau <kossebau@kde.org> 
+ Copyright 2003-2008 Friedrich W. H. Kossebau <kossebau@kde.org>
 
- Files is except the main program under LGPLv2.1+3+KDEev and the main program is under 
+ Files is except the main program under LGPLv2.1+3+KDEev and the main program is under
  GPLv2+3+KDEev.
  okteta/programlibkakao/core/tests/util/* is under LGPLv2only.
 
@@ -275,7 +275,7 @@ Files under superkaramba/
  Copyright (C) 2003 Hans Karlsson <karlsson.h@home.se>
  Copyright (C) 2003-2004 Adam Geitgey <adam@rootnode.org>
  Copyright (c) 2005 Ryan Nickell <p0z3r@earthlink.net>
- Copyright (c) 2004,2005 Luke Kenneth Casson Leighton <lkcl@lkcl.net> 
+ Copyright (c) 2004,2005 Luke Kenneth Casson Leighton <lkcl@lkcl.net>
  Copyright (C) 2007 Sebastian Sauer <mail@dipe.org>
  Copyright (C) 2003-2007 Matt Broadstone <mbroadst@gmail.com>
  Copyright (c) 2004-2005 Petri Damst� <damu@iki.fi>
@@ -297,7 +297,7 @@ Files under superkaramba/
 
  Most files under GPLv2 or later
  Some files under GPLv2only
- Some example code is not clear licensed, but as example code it must be covered by the 
+ Some example code is not clear licensed, but as example code it must be covered by the
  generic COPYING file, GPLv2.
 
  A few files is under a BSD-ish license:
@@ -328,7 +328,11 @@ Files under sweeper/
 
  Files under LGPLv2 or later.
 
+Files under kdelirc/
 
+ Copyright (C) 2002-2003 Gav Wood <gav@kde.org>
+
+ Files under LGPLv2 or later.
 
 -------------------------------------------------------------------------------
 Legend:

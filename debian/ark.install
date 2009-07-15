@@ -6,6 +6,7 @@ usr/lib/kde4/kerfuffle_libarchive.so
 usr/lib/kde4/kerfuffle_libbz2.so
 usr/lib/kde4/kerfuffle_libgz.so
 usr/lib/kde4/libarkpart.so
+usr/lib/kde4/libextracthere.so
 usr/lib/libkerfuffle.so.4
 usr/lib/libkerfuffle.so.4.3.0
 usr/share/applications/kde4/ark.desktop
@@ -18,8 +19,9 @@ usr/share/kde4/apps/ark/arkui.rc
 usr/share/kde4/config.kcfg/ark.kcfg
 usr/share/kde4/services/ServiceMenus/ark_addtoservicemenu.desktop
 usr/share/kde4/services/ServiceMenus/ark_servicemenu.desktop
+usr/share/kde4/services/ark_dndextract.desktop
 usr/share/kde4/services/ark_part.desktop
-usr/share/kde4/services/kerfuffle_7zip.desktop
+usr/share/kde4/services/kerfuffle_7z.desktop
 usr/share/kde4/services/kerfuffle_clirar.desktop
 usr/share/kde4/services/kerfuffle_clizip.desktop
 usr/share/kde4/services/kerfuffle_libarchive.desktop

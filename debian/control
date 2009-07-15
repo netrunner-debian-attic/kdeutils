@@ -7,7 +7,7 @@ Build-Depends: cdbs (>= 0.4.51), debhelper (>= 7), quilt, pkg-kde-tools (>= 0.4.
  kdelibs5-dev (>= 4:4.2.96), kdepimlibs5-dev (>= 4:4.2.96), libknotificationitem-1-dev,
  libgmp3-dev, libqimageblitz-dev (>= 1:0.0.4-2), libsnmp-dev,
  libarchive-dev, libx11-dev, libxrender-dev, python-support,
- libqca2-dev, libkonq5-dev
+ libqca2-dev, libkonq5-dev (>= 4:4.2.96)
 Standards-Version: 3.8.2
 Homepage: http://www.kde.org/
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/trunk/packages/kdeutils
@@ -83,6 +83,20 @@ Description: special character utility for KDE 4
  .
  This package is part of the KDE 4 utilities module.
 
+Package: kdelirc
+Section: utils
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Recommends: lirc
+Description: infrared remote control for KDE 4
+ KDELirc is a frontend for the Linux Infrared Remote Control system (LIRC).
+ .
+ KDELirc consists of two parts:
+  * a systemtray applet acting as a proxy between the LIRC system and D-Bus.
+  * a control module.
+ .
+ This package is part of the KDE 4 utilities module.
+
 Package: kdessh
 Section: net
 Architecture: any
@@ -148,7 +162,7 @@ Description: secure password wallet manager for KDE 4
  secret information, allowing the user to remember only a single KDE Wallet
  password instead of numerous different passwords and credentials.
  .
- KWallet Manager is a utility for viewing and editing information stored in 
+ KWallet Manager is a utility for viewing and editing information stored in
  the KDE Wallet.
  .
  This package is part of the KDE 4 utilities module.
@@ -156,7 +170,7 @@ Description: secure password wallet manager for KDE 4
 Package: okteta
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: hexeditor for binary files for KDE 4 
+Description: hexeditor for binary files for KDE 4
  Okteta is a simple editor for the raw data of files. This type of program is
  also called hex editor or binary editor.
  The data is displayed in the traditional view with two columns: one with the
@@ -203,4 +217,4 @@ Description: manages your printing jobs
  Printer applet lets you easily manage your printing jobs.
  .
  This package is part of the KDE 4 utilities module.
- 
+
