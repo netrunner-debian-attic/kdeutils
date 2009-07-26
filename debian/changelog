@@ -1,3 +1,10 @@
+kdeutils (4:4.2.98-0~pre1) UNRELEASED; urgency=low
+
+  * New upstream release, RC3.
+  * Update debian/copyrights: years and copyright word.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sun, 26 Jul 2009 20:43:40 +0200
+
 kdeutils (4:4.2.96-1) experimental; urgency=low
 
   * New upstream release.
