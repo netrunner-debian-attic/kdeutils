@@ -1,6 +1,6 @@
-kdeutils (4:4.2.98-0~pre1) UNRELEASED; urgency=low
+kdeutils (4:4.3.0-0r1) UNRELEASED; urgency=low
 
-  * New upstream release, RC3.
+  * New upstream release.
   * Update debian/copyrights: years and copyright word.
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sun, 26 Jul 2009 20:43:40 +0200
