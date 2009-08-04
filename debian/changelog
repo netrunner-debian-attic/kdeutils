@@ -1,10 +1,10 @@
-kdeutils (4:4.3.0-0r1) UNRELEASED; urgency=low
+kdeutils (4:4.3.0-1) unstable; urgency=low
 
   * New upstream release.
   * Update debian/copyrights: years and copyright word.
   * Bump build dependencies to >= 4.3.0.
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sat, 01 Aug 2009 20:02:34 +0200
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Tue, 04 Aug 2009 09:21:42 +0200
 
 kdeutils (4:4.2.96-1) experimental; urgency=low
 
