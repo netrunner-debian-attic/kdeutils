@@ -1,3 +1,15 @@
+kdeutils (4:4.3.1-0r1) UNRELEASED; urgency=low
+
+  * New upstream release.
+
+  +++ Changes by Fathi Boudra:
+
+  * Bump KDE build dependencies to 4.3.1.
+  * Bump Standards-Version to 3.8.3 (no changes needed).
+  * Update debian/kdelirc.install file.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 31 Aug 2009 12:03:34 +0200
+
 kdeutils (4:4.3.0-1) unstable; urgency=low
 
   * New upstream release.
