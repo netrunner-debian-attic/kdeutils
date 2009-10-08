@@ -1,4 +1,4 @@
-kdeutils (4:4.3.1-2) unstable; urgency=low
+kdeutils (4:4.3.1-2) UNRELEASED; urgency=low
 
   * Add source.lintian-overrides to ignore lintian warning about missing
     debug depends.
