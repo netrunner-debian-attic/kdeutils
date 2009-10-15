@@ -12,8 +12,9 @@ kdeutils (4:4.3.2-1) unstable; urgency=low
   * Bump KDE build dependencies to 4.3.2. Add versioned build depend to 
     libknotificationitem-1-dev as well.
   * Remove 01_fix_kscd.profile.xml.diff patch, merged upstream.
+  * Update okteta.install
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 15 Oct 2009 18:30:02 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 15 Oct 2009 19:25:09 +0200
 
 kdeutils (4:4.3.1-1) unstable; urgency=low
 

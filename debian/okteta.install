@@ -1,6 +1,6 @@
 usr/bin/okteta
 usr/lib/kde4/libkbytearrayedit.so
-usr/lib/kde4/liboktetapart.so
+usr/lib/kde4/oktetapart.so
 usr/lib/liboktetacore.so.4
 usr/lib/liboktetacore.so.4.3.0
 usr/lib/liboktetagui.so.4
