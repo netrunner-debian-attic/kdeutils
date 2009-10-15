@@ -1,9 +1,19 @@
-kdeutils (4:4.3.1-2) UNRELEASED; urgency=low
+kdeutils (4:4.3.2-1) unstable; urgency=low
+
+  * New upstream release.
+  
+  +++ Changes by Karl Ferdinand Ebert:
 
   * Add source.lintian-overrides to ignore lintian warning about missing
     debug depends.
 
- -- Karl Ferdinand Ebert <kfebert@gmail.com>  Thu, 08 Oct 2009 16:17:34 +0200
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
+  * Bump KDE build dependencies to 4.3.2. Add versioned build depend to 
+    libknotificationitem-1-dev as well.
+  * Remove 01_fix_kscd.profile.xml.diff patch, merged upstream.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 15 Oct 2009 18:30:02 +0200
 
 kdeutils (4:4.3.1-1) unstable; urgency=low
 

@@ -4,10 +4,10 @@ Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Fathi Boudra <fabo@debian.org>, Sune Vuorela <debian@pusling.com>
 Build-Depends: cdbs (>= 0.4.51), debhelper (>= 7), quilt, pkg-kde-tools (>= 0.4.2),
- kdelibs5-dev (>= 4:4.3.1), kdepimlibs5-dev (>= 4:4.3.1), libknotificationitem-1-dev,
+ kdelibs5-dev (>= 4:4.3.2), kdepimlibs5-dev (>= 4:4.3.2), libknotificationitem-1-dev (>= 4:4.3.2),
  libgmp3-dev, libqimageblitz-dev (>= 1:0.0.4-2), libsnmp-dev,
  libarchive-dev, libx11-dev, libxrender-dev, python-support,
- libqca2-dev, libkonq5-dev (>= 4:4.3.1)
+ libqca2-dev, libkonq5-dev (>= 4:4.3.2)
 Standards-Version: 3.8.3
 Homepage: http://www.kde.org/
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/trunk/packages/kdeutils
