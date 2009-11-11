@@ -2,7 +2,11 @@ kdeutils (4:4.3.3-0r1) UNRELEASED; urgency=low
 
   * New upstream release.
 
- -- Lukasz Janyst <janyst@gmail.com>  Tue, 10 Nov 2009 19:05:06 +0100
+  +++ Changes by Pino Toscano:
+
+  * Add liblzma-dev build-depend to add XZ support in Ark.
+
+ -- Lukasz Janyst <janyst@gmail.com>  Wed, 11 Nov 2009 12:57:43 +0100
 
 kdeutils (4:4.3.2-1) unstable; urgency=low
 
