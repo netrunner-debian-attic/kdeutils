@@ -6,6 +6,10 @@ kdeutils (4:4.3.3-0r1) UNRELEASED; urgency=low
 
   * Add liblzma-dev build-depend to add XZ support in Ark.
 
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
+  * Remove myself from Uploaders.
+
  -- Lukasz Janyst <janyst@gmail.com>  Wed, 11 Nov 2009 12:57:43 +0100
 
 kdeutils (4:4.3.2-1) unstable; urgency=low
