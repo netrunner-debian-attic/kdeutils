@@ -1,4 +1,4 @@
-kdeutils (4:4.3.3-0r1) UNRELEASED; urgency=low
+kdeutils (4:4.3.4-0r1) UNRELEASED; urgency=low
 
   * New upstream release.
 
@@ -10,7 +10,7 @@ kdeutils (4:4.3.3-0r1) UNRELEASED; urgency=low
 
   * Remove myself from Uploaders.
 
- -- Lukasz Janyst <janyst@gmail.com>  Wed, 11 Nov 2009 12:57:43 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 05 Dec 2009 01:03:48 +0200
 
 kdeutils (4:4.3.2-1) unstable; urgency=low
 
