@@ -1,3 +1,9 @@
+kdeutils (4:4.3.4-3) UNRELEASED; urgency=low
+
+  * Add myself as uploader.
+
+ -- Modestas Vainius <modax@debian.org>  Sat, 12 Dec 2009 17:48:52 +0200
+
 kdeutils (4:4.3.4-2) unstable; urgency=low
 
   +++ Changes by Modestas Vainius:
