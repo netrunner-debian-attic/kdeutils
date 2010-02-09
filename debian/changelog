@@ -1,9 +1,13 @@
 kdeutils (4:4.3.4-3) UNRELEASED; urgency=low
 
+  [ Modestas Vainius ]
   * Add myself as uploader.
   * Fix Vcs-Browser URL.
 
- -- Modestas Vainius <modax@debian.org>  Sat, 12 Dec 2009 17:48:52 +0200
+  [ Pino Toscano ]
+  * Fix typos in okteta's description. (Closes: #569074)
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 09 Feb 2010 23:09:53 +0100
 
 kdeutils (4:4.3.4-2) unstable; urgency=low
 
