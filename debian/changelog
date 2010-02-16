@@ -1,8 +1,9 @@
-kdeutils (4:4.3.4-3) UNRELEASED; urgency=low
+kdeutils (4:4.4.0-0) UNRELEASED; urgency=low
 
   [ Modestas Vainius ]
   * Add myself as uploader.
   * Fix Vcs-Browser URL.
+  * libkdeinit4_*.so have been moved to private directory (Closes: #553114);
 
   [ Pino Toscano ]
   * Fix typos in okteta's description. (Closes: #569074)
