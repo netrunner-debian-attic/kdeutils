@@ -4,6 +4,8 @@ kdeutils (4:4.4.1~svn-0r1) UNRELEASED; urgency=low
   * Add myself as uploader.
   * Fix Vcs-Browser URL.
   * libkdeinit4_*.so have been moved to private directory (Closes: #553114);
+  * Add cmake to Build-Depends.
+  * Add kde-sc-dev-latest (>= 4:4.4.1~) | kde-sc-dev-maint to Build-Depends.
 
   [ Pino Toscano ]
   * Fix typos in okteta's description. (Closes: #569074)
