@@ -1,5 +1,7 @@
 kdeutils (4:4.4.1~svn-0r1) UNRELEASED; urgency=low
 
+  * New upstream release.
+
   [ Modestas Vainius ]
   * Add myself as uploader.
   * Fix Vcs-Browser URL.
