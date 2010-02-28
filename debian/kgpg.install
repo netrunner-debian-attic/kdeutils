@@ -52,8 +52,7 @@ usr/share/kde4/apps/kgpg/icons/oxygen/scalable/status/key-group.svgz
 usr/share/kde4/apps/kgpg/icons/oxygen/scalable/status/key-pair.svgz
 usr/share/kde4/apps/kgpg/icons/oxygen/scalable/status/key-single.svgz
 usr/share/kde4/apps/kgpg/keysmanager.rc
-usr/share/kde4/apps/kgpg/kgpg.rc
-usr/share/kde4/apps/kgpg/pics/kgpg_anim.gif
+usr/share/kde4/apps/kgpg/kgpgeditor.rc
 usr/share/kde4/apps/kgpg/tips
 usr/share/kde4/config.kcfg/kgpg.kcfg
 usr/share/kde4/services/ServiceMenus/encryptfile.desktop

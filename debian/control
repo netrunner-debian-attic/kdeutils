@@ -5,10 +5,10 @@ Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Fathi Boudra <fabo@debian.org>, Sune Vuorela <debian@pusling.com>, Modestas Vainius <modax@debian.org>
 Build-Depends: kde-sc-dev-latest (>= 4:4.4.1) | kde-sc-dev-maint,
  cdbs (>= 0.4.51), cmake, debhelper (>= 7), quilt, pkg-kde-tools (>= 0.4.2),
- kdelibs5-dev (>= 4:4.3.4), kdepimlibs5-dev (>= 4:4.3.4), libknotificationitem-1-dev (>= 4:4.3.4),
+ kdelibs5-dev (>= 4:4.3.4), kdepimlibs5-dev (>= 4:4.3.4), 
  libgmp3-dev, libqimageblitz-dev (>= 1:0.0.4-2), libsnmp-dev,
  libarchive-dev, libx11-dev, libxrender-dev, python-support,
- libqca2-dev, libkonq5-dev (>= 4:4.3.3), liblzma-dev, libkvm-dev [ kfreebsd-i386 kfreebsd-amd64 ]
+ libqca2-dev, libkonq5-dev (>= 4:4.4), liblzma-dev, libkvm-dev [ kfreebsd-i386 kfreebsd-amd64 ]
 Standards-Version: 3.8.3
 Homepage: http://www.kde.org/
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/trunk/packages/kdeutils/#_trunk_packages_kdeutils_
@@ -17,7 +17,7 @@ Vcs-Svn: svn://svn.debian.org/pkg-kde/trunk/packages/kdeutils
 Package: kdeutils
 Architecture: all
 Depends: ark (>= ${source:Version}), kcalc (>= ${source:Version}),
- kcharselect (>= ${source:Version}), kdessh (>= ${source:Version}),
+ kcharselect (>= ${source:Version}), 
  kdf (>= ${source:Version}), kfloppy (>= ${source:Version}),
  kgpg (>= ${source:Version}), ktimer (>= ${source:Version}),
  kwalletmanager (>= ${source:Version}), okteta (>= ${source:Version}),
@@ -95,17 +95,6 @@ Description: infrared remote control for KDE 4
  KDELirc consists of two parts:
   * a systemtray applet acting as a proxy between the LIRC system and D-Bus.
   * a control module.
- .
- This package is part of the KDE 4 utilities module.
-
-Package: kdessh
-Section: net
-Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: Secure Shell utility for KDE 4
- KDE SSH runs commands on remote systems using the Secure Shell protocol.  It
- temporarily stores passwords, so users do not have to repeatedly re-enter
- their passwords to run further commands.
  .
  This package is part of the KDE 4 utilities module.
 

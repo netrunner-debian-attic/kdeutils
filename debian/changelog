@@ -12,6 +12,11 @@ kdeutils (4:4.4.1-0) UNRELEASED; urgency=low
   [ Pino Toscano ]
   * Fix typos in okteta's description. (Closes: #569074)
 
+  [ Sune Vuorela ]
+  * Kdessh is finally gone. Remove the packages.
+  * Remove libknotification-dev from build-deps. Not used
+  * Update installed files
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 25 Feb 2010 01:20:02 +0200
 
 kdeutils (4:4.3.4-2) unstable; urgency=low

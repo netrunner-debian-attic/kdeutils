@@ -1,5 +1,14 @@
-./usr/lib/libkdelirc_shared.so
+#dev .so symlinks, we aren't shipping dev suff for these
+./usr/lib/libkastencontrollers.so
+./usr/lib/libkastencore.so
+./usr/lib/libkastengui.so
 ./usr/lib/libkerfuffle.so
 ./usr/lib/liboktetacore.so
 ./usr/lib/liboktetagui.so
+./usr/lib/liboktetakastencontrollers.so
+./usr/lib/liboktetakastencore.so
+./usr/lib/liboktetakastengui.so
 ./usr/lib/libsuperkaramba.so
+
+#libkdeinit things, handled differently
+./usr/lib/libkdeinit4_kcalc.so
