@@ -12,3 +12,7 @@
 
 #libkdeinit things, handled differently
 ./usr/lib/libkdeinit4_kcalc.so
+./usr/lib/libkdeinit4_irkick.so
+
+#manpages, actually installed but compressed
+./usr/share/man/man1/ark.1

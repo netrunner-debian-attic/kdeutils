@@ -8,7 +8,8 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.4.1) | kde-sc-dev-maint,
  kdelibs5-dev (>= 4:4.3.4), kdepimlibs5-dev (>= 4:4.3.4), 
  libgmp3-dev, libqimageblitz-dev (>= 1:0.0.4-2), libsnmp-dev,
  libarchive-dev, libx11-dev, libxrender-dev, python-support,
- libqca2-dev, libkonq5-dev (>= 4:4.4), liblzma-dev, libkvm-dev [ kfreebsd-i386 kfreebsd-amd64 ]
+ libqca2-dev, libkonq5-dev (>= 4:4.4), liblzma-dev, libkvm-dev [ kfreebsd-i386 kfreebsd-amd64 ],
+ kdebase-workspace-dev (>= 4:4.4)
 Standards-Version: 3.8.3
 Homepage: http://www.kde.org/
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/trunk/packages/kdeutils/#_trunk_packages_kdeutils_
