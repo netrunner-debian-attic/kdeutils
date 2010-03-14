@@ -1,6 +1,7 @@
 kdeutils (4:4.4.1-0rc1) UNRELEASED; urgency=low
 
-  * New upstream release.
+  * New upstream release:
+    - Fixes paint recursion in "three bullet" password mode. (Closes: #525540)
 
   [ Modestas Vainius ]
   * Add myself as uploader.
