@@ -10,7 +10,7 @@ kdeutils (4:4.4.1-0rc1) UNRELEASED; urgency=low
   * Fix Vcs-Browser URL.
   * libkdeinit4_*.so have been moved to private directory (Closes: #553114);
   * Add cmake to Build-Depends.
-  * Add kde-sc-dev-latest (>= 4:4.4.1) to Build-Depends.
+  * Add kde-sc-dev-latest (>= 4:4.4.2) to Build-Depends.
   * Bump Standards-Version to 3.8.4: no changes needed.
   * Bump KDE build dependencies to 4:4.4.
   * Bump pkg-kde-tools build dependency to 0.6.4.
