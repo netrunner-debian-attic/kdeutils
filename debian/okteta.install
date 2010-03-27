@@ -18,14 +18,9 @@ usr/lib/liboktetakastencore.so.4.4.0
 usr/lib/liboktetakastengui.so.4
 usr/lib/liboktetakastengui.so.4.4.0
 usr/share/applications/kde4/okteta.desktop
-usr/share/doc/kde4/HTML/en/okteta/basics.docbook
 usr/share/doc/kde4/HTML/en/okteta/common
-usr/share/doc/kde4/HTML/en/okteta/credits.docbook
 usr/share/doc/kde4/HTML/en/okteta/index.cache.bz2
 usr/share/doc/kde4/HTML/en/okteta/index.docbook
-usr/share/doc/kde4/HTML/en/okteta/introduction.docbook
-usr/share/doc/kde4/HTML/en/okteta/menu.docbook
-usr/share/doc/kde4/HTML/en/okteta/tools.docbook
 usr/share/icons/hicolor/16x16/apps/okteta.png
 usr/share/icons/hicolor/32x32/apps/okteta.png
 usr/share/icons/hicolor/48x48/apps/okteta.png
