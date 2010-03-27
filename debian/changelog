@@ -1,4 +1,4 @@
-kdeutils (4:4.4.1-0rc1) UNRELEASED; urgency=low
+kdeutils (4:4.4.2-0rc1) UNRELEASED; urgency=low
 
   * New upstream release:
     - Fixes paint recursion in "three bullet" password mode. (Closes: #525540)
@@ -23,7 +23,7 @@ kdeutils (4:4.4.1-0rc1) UNRELEASED; urgency=low
   * Remove libknotification-dev from build-deps. Not used
   * Update installed files
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 04 Mar 2010 22:14:07 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 27 Mar 2010 11:59:06 +0200
 
 kdeutils (4:4.3.4-2) unstable; urgency=low
 
