@@ -1,10 +1,10 @@
 usr/bin/kcalc
 usr/lib/libkdeinit4_kcalc.so
 usr/share/applications/kde4/kcalc.desktop
-usr/share/doc/kde4/HTML/en/kcalc/commands.docbook
-usr/share/doc/kde4/HTML/en/kcalc/common
-usr/share/doc/kde4/HTML/en/kcalc/index.cache.bz2
-usr/share/doc/kde4/HTML/en/kcalc/index.docbook
+usr/share/doc/kde/HTML/en/kcalc/commands.docbook
+usr/share/doc/kde/HTML/en/kcalc/common
+usr/share/doc/kde/HTML/en/kcalc/index.cache.bz2
+usr/share/doc/kde/HTML/en/kcalc/index.docbook
 usr/share/kde4/apps/kcalc/kcalcui.rc
 usr/share/kde4/apps/kcalc/scienceconstants.xml
 usr/share/kde4/apps/kconf_update/kcalcrc.upd

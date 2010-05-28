@@ -1,7 +1,7 @@
 usr/bin/kcharselect
 usr/share/applications/kde4/KCharSelect.desktop
-usr/share/doc/kde4/HTML/en/kcharselect/common
-usr/share/doc/kde4/HTML/en/kcharselect/index.cache.bz2
-usr/share/doc/kde4/HTML/en/kcharselect/index.docbook
+usr/share/doc/kde/HTML/en/kcharselect/common
+usr/share/doc/kde/HTML/en/kcharselect/index.cache.bz2
+usr/share/doc/kde/HTML/en/kcharselect/index.docbook
 usr/share/kde4/apps/kcharselect/kcharselectui.rc
 usr/share/kde4/apps/kconf_update/kcharselect.upd
