@@ -1,8 +1,8 @@
 usr/bin/printer-applet
 usr/share/autostart/printer-applet.desktop
-usr/share/doc/kde4/HTML/en/printer-applet/common
-usr/share/doc/kde4/HTML/en/printer-applet/index.cache.bz2
-usr/share/doc/kde4/HTML/en/printer-applet/index.docbook
+usr/share/doc/kde/HTML/en/printer-applet/common
+usr/share/doc/kde/HTML/en/printer-applet/index.cache.bz2
+usr/share/doc/kde/HTML/en/printer-applet/index.docbook
 usr/share/kde4/apps/printer-applet/authconn.py
 usr/share/kde4/apps/printer-applet/debug.py
 usr/share/kde4/apps/printer-applet/monitor.py
