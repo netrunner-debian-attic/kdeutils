@@ -2,7 +2,7 @@ Source: kdeutils
 Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: Fathi Boudra <fabo@debian.org>, Sune Vuorela <debian@pusling.com>, Modestas Vainius <modax@debian.org>
+Uploaders: Fathi Boudra <fabo@debian.org>, Sune Vuorela <sune@debian.org>, Modestas Vainius <modax@debian.org>
 Build-Depends: kde-sc-dev-latest (>= 4:4.4.5),
  cdbs (>= 0.4.51), cmake, debhelper (>= 7), pkg-kde-tools (>= 0.9),
  kdelibs5-dev (>= 4:4.4), kdepimlibs5-dev (>= 4:4.4), 
@@ -23,16 +23,9 @@ Depends: ark (>= ${source:Version}), kcalc (>= ${source:Version}),
  kgpg (>= ${source:Version}), ktimer (>= ${source:Version}),
  kwalletmanager (>= ${source:Version}), okteta (>= ${source:Version}),
  plasma-scriptengine-superkaramba (>= ${source:Version}), sweeper (>= ${source:Version})
-Description: general-purpose utilities from the official KDE 4 release
- KDE is produced by an international technology team that creates free and open
- source software for desktop and portable computing. Among KDE's products are a
- modern desktop system for Linux and UNIX platforms, comprehensive office
- productivity and groupware suites and hundreds of software titles in many
- categories including Internet and web applications, multimedia, entertainment,
- educational, graphics and software development.
- .
+Description: general-purpose utilities from the official KDE release
  This metapackage includes general-purpose utilities provided with the
- official release of KDE 4.
+ official release of KDE.
 
 Package: kdeutils-dbg
 Section: debug
@@ -40,9 +33,9 @@ Architecture: any
 Priority: extra
 Depends: kdebase-runtime-dbg
 Suggests: kdeutils (= ${source:Version})
-Description: debugging symbols for the KDE 4 utilities module
+Description: debugging symbols for the KDE utilities module
  This package contains debugging files used to investigate problems with
- binaries included in the KDE 4 utilities module.
+ binaries included in the KDE utilities module.
 
 
 Package: ark
@@ -51,18 +44,18 @@ Architecture: any
 Recommends: bzip2, p7zip-full, zip, unzip
 Suggests: rar, unrar | unrar-free
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: archive utility for KDE 4
+Description: archive utility 
  Ark manages various archive formats, including tar, gzip, bzip2, rar and zip,
  as well as CD-ROM images.  Ark can be used to browse, extract, create, and
  modify archives.
  .
- This package is part of the KDE 4 utilities module.
+ This package is part of the KDE utilities module.
 
 Package: kcalc
 Section: math
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: calculator for KDE 4
+Description: simple and scientific calculator
  KCalc is a scientific calculator.
  .
  KCalc provides:
@@ -71,39 +64,39 @@ Description: calculator for KDE 4
   * Memory functions for storing results
   * A comprehensive collection of mathematical constants
  .
- This package is part of the KDE 4 utilities module.
+ This package is part of the KDE utilities module.
 
 Package: kcharselect
 Section: utils
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: special character utility for KDE 4
+Description: special character utility
  KCharSelect is a utility for finding special characters which are not
  available on the keyboard.  It can search for characters by Unicode number,
  display characters in any font, and copy characters to the clipboard so they
  can be pasted into documents.
  .
- This package is part of the KDE 4 utilities module.
+ This package is part of the KDE utilities module.
 
 Package: kdelirc
 Section: utils
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Recommends: lirc
-Description: infrared remote control for KDE 4
+Description: infrared remote control 
  KDELirc is a frontend for the Linux Infrared Remote Control system (LIRC).
  .
  KDELirc consists of two parts:
   * a systemtray applet acting as a proxy between the LIRC system and D-Bus.
   * a control module.
  .
- This package is part of the KDE 4 utilities module.
+ This package is part of the KDE utilities module.
 
 Package: kdf
 Section: utils
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: disk information utility for KDE 4
+Description: disk information utility
  KDiskFree displays information about hard disks and other storage devices,
  including the amount of free space available.  It can also mount and unmount
  storage devices and view them in the file manager.
@@ -117,38 +110,38 @@ Package: kfloppy
 Section: utils
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: floppy formatter for KDE 4
+Description: floppy formatter
  Kfloppy is a utility for formatting floppy disks.
  .
- This package is part of the KDE 4 utilities module.
+ This package is part of the KDE utilities module.
 
 Package: kgpg
 Section: utils
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: encryption utility for KDE 4
+Description: graphical front end for GNU Privacy Guard
  Kgpg manages cryptographic keys for the GNU Privacy Guard, and can encrypt,
  decrypt, sign, and verify files.  It features a simple editor for applying
  cryptography to short pieces of text, and can also quickly apply cryptography
  to the contents of the clipboard.
  .
- This package is part of the KDE 4 utilities module.
+ This package is part of the KDE utilities module.
 
 Package: ktimer
 Section: utils
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: countdown timer for KDE 4
+Description: countdown timer
  KTimer is a countdown timer for running commands after a delay.
  The countdown can be paused or set to loop continuously.
  .
- This package is part of the KDE 4 utilities module.
+ This package is part of the KDE utilities module.
 
 Package: kwalletmanager
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Section: utils
-Description: secure password wallet manager for KDE 4
+Description: secure password wallet manager
  The KDE Wallet system provides a secure way to store passwords and other
  secret information, allowing the user to remember only a single KDE Wallet
  password instead of numerous different passwords and credentials.
@@ -156,12 +149,12 @@ Description: secure password wallet manager for KDE 4
  KWallet Manager is a utility for viewing and editing information stored in
  the KDE Wallet.
  .
- This package is part of the KDE 4 utilities module.
+ This package is part of the KDE utilities module.
 
 Package: okteta
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: hexadecimal editor for binary files for KDE 4
+Description: hexadecimal editor for binary files
  Okteta is a simple editor for the raw data of files. This type of program is
  also called hexadecimal editor or binary editor.
  The data is displayed in the traditional view with two columns: one with the
@@ -173,7 +166,7 @@ Description: hexadecimal editor for binary files for KDE 4
  filter tool. All modifications to the data loaded can be endlessly undone or
  redone.
  .
- This package is part of the KDE 4 utilities module.
+ This package is part of the KDE utilities module.
 
 Package: plasma-scriptengine-superkaramba
 Architecture: any
@@ -181,18 +174,18 @@ Depends: ${shlibs:Depends}, ${misc:Depends}
 Suggests: kdebase-workspace-bin
 Replaces: superkaramba
 Conflicts: superkaramba
-Description: SuperKaramba theme support for the KDE 4 Plasma desktop
+Description: SuperKaramba theme support for the Plasma Workspaces
  This package provides SuperKaramba scriptengine for Plasma. It brings
  support for the SuperKaramba interactive desktop applets, called "themes", to
  the Plasma desktop.
  .
- This package is part of the KDE 4 utilities module.
+ This package is part of the KDE utilities module.
 
 Package: sweeper
 Section: utils
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: history and temporary file cleaner for KDE 4
+Description: history and temporary file cleaner
  Sweeper can quickly remove temporary information, such as web page cookies,
  browser history, or the list of recently-opened documents.  It helps provide
  additional privacy on a system shared between multiple users.
@@ -207,5 +200,5 @@ Recommends: hal-cups-utils, system-config-printer
 Description: manages your printing jobs
  Printer applet lets you easily manage your printing jobs.
  .
- This package is part of the KDE 4 utilities module.
+ This package is part of the KDE utilities module.
 
