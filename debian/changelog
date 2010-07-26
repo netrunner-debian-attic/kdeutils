@@ -451,41 +451,20 @@ kdeutils (4:3.96.0-1) experimental; urgency=low
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 14 Nov 2007 20:45:22 +0100
 
-kdeutils (4:3.95.2-1) experimental; urgency=low
-
-  * New upstream release.
-
-  +++ Changes by Fathi Boudra:
-
-  * Bump kdepimlibs5-dev build dependency version.
-  * Update installed files.
-
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 10 Nov 2007 10:36:32 +0100
-
 kdeutils (4:3.95.0-1) experimental; urgency=low
 
   * KDE4 beta 4, first upload to the Debian archive.
-  * Rework packages description.
-  * Complete copyright file.
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Wed, 31 Oct 2007 17:52:19 +0100
+  +++ Changes by Ana Beatriz Guerrero Lopez:
 
-kdeutils (4:3.94.0-1) alioth; urgency=low
-
-  * New upstream release, KDE4 beta3.
   * Update build-dep:
     * Add libqimageblitz-dev, libsnmp-dev and libzip-dev.
     * Remove tpctl.
+  * Rework packages description.
+  * Complete copyright file.
 
   +++ Changes by Fathi Boudra:
 
   * Split kdeutils in multiple packages.
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sat, 20 Oct 2007 21:36:45 +0200
-
-kdeutils (4:3.90.1-1) alioth; urgency=low
-
-  * Initial release.
-
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Wed, 23 May 2007 18:51:02 +0200
-
+ -- Debian Qt/KDE Maintainers <ana@debian.org>  Wed, 31 Oct 2007 17:52:19 +0100
