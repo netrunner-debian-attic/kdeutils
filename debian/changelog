@@ -96,7 +96,7 @@ kdeutils (4:4.3.4-1) unstable; urgency=low
 kdeutils (4:4.3.2-1) unstable; urgency=low
 
   * New upstream release.
-  
+
   +++ Changes by Karl Ferdinand Ebert:
 
   * Add source.lintian-overrides to ignore lintian warning about missing
@@ -104,7 +104,7 @@ kdeutils (4:4.3.2-1) unstable; urgency=low
 
   +++ Changes by Ana Beatriz Guerrero Lopez:
 
-  * Bump KDE build dependencies to 4.3.2. Add versioned build depend to 
+  * Bump KDE build dependencies to 4.3.2. Add versioned build depend to
     libknotificationitem-1-dev as well.
   * Remove 01_fix_kscd.profile.xml.diff patch, merged upstream.
   * Update okteta.install
