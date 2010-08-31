@@ -6,11 +6,11 @@ Uploaders: Fathi Boudra <fabo@debian.org>, Sune Vuorela <sune@debian.org>, Modes
  George Kiagiadakis <kiagiadakis.george@gmail.com>
 Build-Depends: kde-sc-dev-latest (>= 4:4.4.5),
  cdbs (>= 0.4.51), cmake, debhelper (>= 7), pkg-kde-tools (>= 0.9),
- kdelibs5-dev (>= 4:4.4), kdepimlibs5-dev (>= 4:4.4), 
+ kdelibs5-dev (>= 4:4.5), kdepimlibs5-dev (>= 4:4.5),
  libgmp3-dev, libqimageblitz-dev (>= 1:0.0.4-2), libsnmp-dev,
  libarchive-dev, libx11-dev, libxrender-dev, python-support,
- libqca2-dev, libkonq5-dev (>= 4:4.4), liblzma-dev, libkvm-dev [ kfreebsd-i386 kfreebsd-amd64 ],
- kdebase-workspace-dev (>= 4:4.4)
+ libqca2-dev, libkonq5-dev (>= 4:4.5), liblzma-dev, libkvm-dev [ kfreebsd-i386 kfreebsd-amd64 ],
+ kdebase-workspace-dev (>= 4:4.5)
 Standards-Version: 3.8.4
 Homepage: http://www.kde.org/
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kdeutils.git

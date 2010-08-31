@@ -7,6 +7,7 @@ kdeutils (4:4.5.1-0r1) UNRELEASED; urgency=low
 
   [ George Kiagiadakis ]
   * Add myself to uploaders.
+  * Bump build dependencies on other kde-sc components to version 4:4.5.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 31 Aug 2010 21:08:30 +0300
 
