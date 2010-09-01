@@ -9,7 +9,7 @@ kdeutils (4:4.5.1-0r1) UNRELEASED; urgency=low
   * Add myself to uploaders.
   * Bump build dependencies on other kde-sc components to version 4:4.5.
   * Update installed files.
-  * Add new kremotecontrol package and remove the old kdelirc package.
+  * Add new kremotecontrol package and make kdelirc a transitional package.
   * Remove unused build dependency on libsnmp-dev.
   * Add build dependency on python-dev, needed for superkaramba.
 
