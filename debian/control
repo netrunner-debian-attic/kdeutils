@@ -19,7 +19,7 @@ Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/kdeutils.git
 Package: kdeutils
 Architecture: all
 Depends: ark (>= ${source:Version}), kcalc (>= ${source:Version}),
- kcharselect (>= ${source:Version}), 
+ kcharselect (>= ${source:Version}), kremotecontrol (>= ${source:Version}),
  kdf (>= ${source:Version}), kfloppy (>= ${source:Version}),
  kgpg (>= ${source:Version}), ktimer (>= ${source:Version}),
  kwalletmanager (>= ${source:Version}), okteta (>= ${source:Version}),
@@ -79,17 +79,21 @@ Description: special character utility
  .
  This package is part of the KDE utilities module.
 
-Package: kdelirc
+Package: kremotecontrol
 Section: utils
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Recommends: lirc
-Description: infrared remote control 
- KDELirc is a frontend for the Linux Infrared Remote Control system (LIRC).
+Description: KDE frontend for using remote controls
+ KRemoteControl is a KDE frontend for your remote controls. It allows you
+ to configure actions for button presses on remotes. All types of remotes
+ supported by Solid are also supported by KRemoteControl.
  .
- KDELirc consists of two parts:
-  * a systemtray applet acting as a proxy between the LIRC system and D-Bus.
-  * a control module.
+ KRemoteControl consists of the following parts:
+  * a control module that allows to create and assign actions.
+  * a kded module responsible for executing the actions.
+  * a system tray applet for visual feedback.
+  * a plasma data engine for interacting with remotes from plasmoids.
  .
  This package is part of the KDE utilities module.
 
