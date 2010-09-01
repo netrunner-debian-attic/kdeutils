@@ -9,8 +9,9 @@ usr/lib/kde4/kerfuffle_libgz.so
 usr/lib/kde4/kerfuffle_libxz.so
 usr/lib/kde4/libextracthere.so
 usr/lib/libkerfuffle.so.4
-usr/lib/libkerfuffle.so.4.4.0
+usr/lib/libkerfuffle.so.4.5.0
 usr/share/applications/kde4/ark.desktop
+usr/share/doc/kde/HTML/en/ark/ark-mainwindow.png
 usr/share/doc/kde/HTML/en/ark/common
 usr/share/doc/kde/HTML/en/ark/index.cache.bz2
 usr/share/doc/kde/HTML/en/ark/index.docbook

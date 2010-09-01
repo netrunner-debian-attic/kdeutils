@@ -12,8 +12,9 @@ usr/share/doc/kde/HTML/en/kgpg/keyprop.png
 usr/share/doc/kde/HTML/en/kgpg/keys.png
 usr/share/doc/kde/HTML/en/kgpg/keyserver-search.png
 usr/share/doc/kde/HTML/en/kgpg/keyserver.png
-usr/share/doc/kde/HTML/en/kgpg/kicker.png
 usr/share/doc/kde/HTML/en/kgpg/options.png
+usr/share/doc/kde/HTML/en/kgpg/select-secret-key.png
+usr/share/doc/kde/HTML/en/kgpg/systray.png
 usr/share/icons/hicolor/16x16/apps/kgpg.png
 usr/share/icons/hicolor/22x22/apps/kgpg.png
 usr/share/icons/hicolor/32x32/apps/kgpg.png
