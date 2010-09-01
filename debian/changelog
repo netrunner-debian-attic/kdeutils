@@ -12,6 +12,7 @@ kdeutils (4:4.5.1-0r1) UNRELEASED; urgency=low
   * Add new kremotecontrol package and make kdelirc a transitional package.
   * Remove unused build dependency on libsnmp-dev.
   * Add build dependency on python-dev, needed for superkaramba.
+  * s/KDE/KDE SC/ in all package descriptions.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 31 Aug 2010 21:08:30 +0300
 

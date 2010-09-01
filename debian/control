@@ -24,9 +24,9 @@ Depends: ark (>= ${source:Version}), kcalc (>= ${source:Version}),
  kgpg (>= ${source:Version}), ktimer (>= ${source:Version}),
  kwalletmanager (>= ${source:Version}), okteta (>= ${source:Version}),
  plasma-scriptengine-superkaramba (>= ${source:Version}), sweeper (>= ${source:Version})
-Description: general-purpose utilities from the official KDE release
+Description: general-purpose utilities from the official KDE SC release
  This metapackage includes general-purpose utilities provided with the
- official release of KDE.
+ official release of KDE SC.
 
 Package: kdeutils-dbg
 Section: debug
@@ -34,9 +34,9 @@ Architecture: any
 Priority: extra
 Depends: kdebase-runtime-dbg
 Suggests: kdeutils (= ${source:Version})
-Description: debugging symbols for the KDE utilities module
+Description: debugging symbols for the KDE SC utilities module
  This package contains debugging files used to investigate problems with
- binaries included in the KDE utilities module.
+ binaries included in the KDE SC utilities module.
 
 
 Package: ark
@@ -50,7 +50,7 @@ Description: archive utility
  as well as CD-ROM images.  Ark can be used to browse, extract, create, and
  modify archives.
  .
- This package is part of the KDE utilities module.
+ This package is part of the KDE SC utilities module.
 
 Package: kcalc
 Section: math
@@ -65,7 +65,7 @@ Description: simple and scientific calculator
   * Memory functions for storing results
   * A comprehensive collection of mathematical constants
  .
- This package is part of the KDE utilities module.
+ This package is part of the KDE SC utilities module.
 
 Package: kcharselect
 Section: utils
@@ -77,14 +77,14 @@ Description: special character utility
  display characters in any font, and copy characters to the clipboard so they
  can be pasted into documents.
  .
- This package is part of the KDE utilities module.
+ This package is part of the KDE SC utilities module.
 
 Package: kremotecontrol
 Section: utils
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Recommends: lirc
-Description: KDE frontend for using remote controls
+Description: frontend for using remote controls
  KRemoteControl is a KDE frontend for your remote controls. It allows you
  to configure actions for button presses on remotes. All types of remotes
  supported by Solid are also supported by KRemoteControl.
@@ -95,7 +95,7 @@ Description: KDE frontend for using remote controls
   * a system tray applet for visual feedback.
   * a plasma data engine for interacting with remotes from plasmoids.
  .
- This package is part of the KDE utilities module.
+ This package is part of the KDE SC utilities module.
 
 Package: kdelirc
 Section: utils
@@ -105,7 +105,7 @@ Description: transitional package for kremotecontrol
  This is a transitional package provided to ease upgrade from kdelirc
  to the new kremotecontrol. You can safely remove it if you want.
  .
- This package is part of the KDE utilities module.
+ This package is part of the KDE SC utilities module.
 
 Package: kdf
 Section: utils
@@ -119,7 +119,7 @@ Description: disk information utility
  KwikDisk is an icon for the system tray that provides convenient access to
  the features of KDiskFree.
  .
- This package is part of the KDE 4 utilities module.
+ This package is part of the KDE SC utilities module.
 
 Package: kfloppy
 Section: utils
@@ -128,7 +128,7 @@ Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: floppy formatter
  Kfloppy is a utility for formatting floppy disks.
  .
- This package is part of the KDE utilities module.
+ This package is part of the KDE SC utilities module.
 
 Package: kgpg
 Section: utils
@@ -140,7 +140,7 @@ Description: graphical front end for GNU Privacy Guard
  cryptography to short pieces of text, and can also quickly apply cryptography
  to the contents of the clipboard.
  .
- This package is part of the KDE utilities module.
+ This package is part of the KDE SC utilities module.
 
 Package: ktimer
 Section: utils
@@ -150,7 +150,7 @@ Description: countdown timer
  KTimer is a countdown timer for running commands after a delay.
  The countdown can be paused or set to loop continuously.
  .
- This package is part of the KDE utilities module.
+ This package is part of the KDE SC utilities module.
 
 Package: kwalletmanager
 Architecture: any
@@ -164,7 +164,7 @@ Description: secure password wallet manager
  KWallet Manager is a utility for viewing and editing information stored in
  the KDE Wallet.
  .
- This package is part of the KDE utilities module.
+ This package is part of the KDE SC utilities module.
 
 Package: okteta
 Architecture: any
@@ -181,7 +181,7 @@ Description: hexadecimal editor for binary files
  filter tool. All modifications to the data loaded can be endlessly undone or
  redone.
  .
- This package is part of the KDE utilities module.
+ This package is part of the KDE SC utilities module.
 
 Package: plasma-scriptengine-superkaramba
 Architecture: any
@@ -194,7 +194,7 @@ Description: SuperKaramba theme support for the Plasma Workspaces
  support for the SuperKaramba interactive desktop applets, called "themes", to
  the Plasma desktop.
  .
- This package is part of the KDE utilities module.
+ This package is part of the KDE SC utilities module.
 
 Package: sweeper
 Section: utils
@@ -205,7 +205,7 @@ Description: history and temporary file cleaner
  browser history, or the list of recently-opened documents.  It helps provide
  additional privacy on a system shared between multiple users.
  .
- This package is part of the KDE 4 utilities module.
+ This package is part of the KDE SC utilities module.
 
 Package: printer-applet
 Section: utils
@@ -215,5 +215,5 @@ Recommends: hal-cups-utils, system-config-printer
 Description: manages your printing jobs
  Printer applet lets you easily manage your printing jobs.
  .
- This package is part of the KDE utilities module.
+ This package is part of the KDE SC utilities module.
 
