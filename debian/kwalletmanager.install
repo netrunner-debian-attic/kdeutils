@@ -12,8 +12,6 @@ usr/share/doc/kde/HTML/en/kwallet/kwalletmanager.png
 usr/share/doc/kde/HTML/en/kwallet/openwallet-request.png
 usr/share/doc/kde/HTML/en/kwallet/oxygen48-status-wallet-closed.png
 usr/share/doc/kde/HTML/en/kwallet/oxygen48-status-wallet-open.png
-usr/share/doc/kde/HTML/en/kwallet/password1.png
-usr/share/doc/kde/HTML/en/kwallet/password2.png
 usr/share/doc/kde/HTML/en/kwallet/save-login-information.png
 usr/share/icons/hicolor/128x128/apps/kwalletmanager.png
 usr/share/icons/hicolor/128x128/apps/kwalletmanager2.png
@@ -26,8 +24,8 @@ usr/share/icons/hicolor/48x48/apps/kwalletmanager.png
 usr/share/icons/hicolor/48x48/apps/kwalletmanager2.png
 usr/share/icons/hicolor/64x64/apps/kwalletmanager.png
 usr/share/icons/hicolor/64x64/apps/kwalletmanager2.png
-usr/share/kde4/apps/kwalletmanager/icons/oxygen/22x22/actions/folder_closed.png
-usr/share/kde4/apps/kwalletmanager/icons/oxygen/22x22/actions/folder_open.png
+usr/share/kde4/apps/kwalletmanager/icons/hicolor/22x22/actions/folder_closed.png
+usr/share/kde4/apps/kwalletmanager/icons/hicolor/22x22/actions/folder_open.png
 usr/share/kde4/apps/kwalletmanager/kwalleteditor.rc
 usr/share/kde4/apps/kwalletmanager/kwalletmanager.rc
 usr/share/kde4/services/kwalletconfig.desktop

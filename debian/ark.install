@@ -9,7 +9,7 @@ usr/lib/kde4/kerfuffle_libgz.so
 usr/lib/kde4/kerfuffle_libxz.so
 usr/lib/kde4/libextracthere.so
 usr/lib/libkerfuffle.so.4
-usr/lib/libkerfuffle.so.4.5.0
+usr/lib/libkerfuffle.so.4.6.0
 usr/share/applications/kde4/ark.desktop
 usr/share/doc/kde/HTML/en/ark/ark-mainwindow.png
 usr/share/doc/kde/HTML/en/ark/common
@@ -27,6 +27,7 @@ usr/share/kde4/services/kerfuffle_cli7z.desktop
 usr/share/kde4/services/kerfuffle_clirar.desktop
 usr/share/kde4/services/kerfuffle_clizip.desktop
 usr/share/kde4/services/kerfuffle_libarchive.desktop
+usr/share/kde4/services/kerfuffle_libarchive_readonly.desktop
 usr/share/kde4/services/kerfuffle_libbz2.desktop
 usr/share/kde4/services/kerfuffle_libgz.desktop
 usr/share/kde4/services/kerfuffle_libxz.desktop

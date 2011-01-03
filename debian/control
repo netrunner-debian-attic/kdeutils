@@ -22,8 +22,9 @@ Depends: ark (>= ${source:Version}), kcalc (>= ${source:Version}),
  kcharselect (>= ${source:Version}), kremotecontrol (>= ${source:Version}),
  kdf (>= ${source:Version}), kfloppy (>= ${source:Version}),
  kgpg (>= ${source:Version}), ktimer (>= ${source:Version}),
- kwalletmanager (>= ${source:Version}), okteta (>= ${source:Version}),
- plasma-scriptengine-superkaramba (>= ${source:Version}), sweeper (>= ${source:Version})
+ kwalletmanager (>= ${source:Version}),
+ plasma-scriptengine-superkaramba (>= ${source:Version}), sweeper (>= ${source:Version}),
+ filelight (>= ${source:Version})
 Description: general-purpose utilities from the official KDE SC release
  This metapackage includes general-purpose utilities provided with the
  official release of KDE SC.
@@ -166,23 +167,6 @@ Description: secure password wallet manager
  .
  This package is part of the KDE SC utilities module.
 
-Package: okteta
-Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: hexadecimal editor for binary files
- Okteta is a simple editor for the raw data of files. This type of program is
- also called hexadecimal editor or binary editor.
- The data is displayed in the traditional view with two columns: one with the
- numeric values and one with the assigned characters. Editing can be done both
- in the value column and the character column. Besides the usual editing
- capabilities Okteta also brings a small set of tools, like a table listing
- decodings into common simple data types, a table listing all possible bytes
- with its character and value equivalents, a info view with a statistic and a
- filter tool. All modifications to the data loaded can be endlessly undone or
- redone.
- .
- This package is part of the KDE SC utilities module.
-
 Package: plasma-scriptengine-superkaramba
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
@@ -217,3 +201,13 @@ Description: manages your printing jobs
  .
  This package is part of the KDE SC utilities module.
 
+Package: filelight
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: show where your diskspace is being used
+ Filelight allows you to understand your disk usage by graphically
+ representing your filesystem as a set of concentric, segmented rings.
+ .
+ It is like a pie-chart, but the segments nest, allowing you to see both
+ which directories take up all your space, and which directories
+ and files inside those directories are the real culprits.

@@ -2,7 +2,7 @@ usr/bin/superkaramba
 usr/lib/kde4/plasma_package_superkaramba.so
 usr/lib/kde4/plasma_scriptengine_superkaramba.so
 usr/lib/libsuperkaramba.so.4
-usr/lib/libsuperkaramba.so.4.5.0
+usr/lib/libsuperkaramba.so.4.6.0
 usr/share/applications/kde4/superkaramba.desktop
 usr/share/dbus-1/interfaces/org.kde.superkaramba.xml
 usr/share/icons/hicolor/128x128/apps/superkaramba.png

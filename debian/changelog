@@ -14,6 +14,11 @@ kdeutils (4:4.5.90-0r1) UNRELEASED; urgency=low
   * Add build dependency on python-dev, needed for superkaramba.
   * s/KDE/KDE SC/ in all package descriptions.
 
+  [ José Manuel Santamaría Lema ]
+  * Update installed files.
+  * Remove package okteta.
+  * Add package filelight.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 31 Aug 2010 21:08:30 +0300
 
 kdeutils (4:4.4.5-1) unstable; urgency=low
