@@ -1,6 +1,7 @@
 kdeutils (4:4.5.95-0r1) UNRELEASED; urgency=low
 
-  * New upstream release.
+  * New upstream release:
+    - fixes creation of DSA&ElGamal keys in kgpg (Closes: #597001)
 
   [ Modestas Vainius ]
   * Point debian/control Vcs fields to the new Git repository.
