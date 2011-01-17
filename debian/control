@@ -9,7 +9,7 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.4.5),
  kdelibs5-dev (>= 4:4.5.95), kdepimlibs5-dev (>= 4:4.5.95),
  libgmp3-dev, libqimageblitz-dev (>= 1:0.0.4-2),
  libarchive-dev, libx11-dev, libxrender-dev, python-support, python-dev,
- libqca2-dev, libkonq5-dev (>= 4:4.5.95), liblzma-dev, libkvm-dev [ kfreebsd-i386 kfreebsd-amd64 ],
+ libkonq5-dev (>= 4:4.5.95), liblzma-dev, libkvm-dev [ kfreebsd-i386 kfreebsd-amd64 ],
  kdebase-workspace-dev (>= 4:4.5)
 Standards-Version: 3.8.4
 Homepage: http://www.kde.org/

@@ -19,6 +19,7 @@ kdeutils (4:4.5.95-0r1) UNRELEASED; urgency=low
   * Update installed files.
   * Remove package okteta.
   * Add package filelight.
+  * Remove unused build dependency on libqca2-dev.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 31 Aug 2010 21:08:30 +0300
 
