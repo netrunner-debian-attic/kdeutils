@@ -8,7 +8,7 @@ kdeutils (4:4.6.0-0r1) UNRELEASED; urgency=low
 
   [ George Kiagiadakis ]
   * Add myself to uploaders.
-  * Bump build dependencies on other kde-sc components to version 4:4.5.95.
+  * Bump build dependencies on other kde-sc components to version 4:4.6.
   * Update installed files.
   * Add new kremotecontrol package and make kdelirc a transitional package.
   * Remove unused build dependency on libsnmp-dev.
@@ -20,6 +20,7 @@ kdeutils (4:4.6.0-0r1) UNRELEASED; urgency=low
   * Remove package okteta.
   * Add package filelight.
   * Remove unused build dependency on libqca2-dev.
+  * Bump build dependency on kde-sc-dev-latest to 4:4.6.0.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 31 Aug 2010 21:08:30 +0300
 
