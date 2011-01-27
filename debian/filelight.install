@@ -1,7 +1,6 @@
 usr/bin/filelight
 usr/lib/kde4/filelightpart.so
 usr/share/applications/kde4/filelight.desktop
-usr/share/config/filelightrc
 usr/share/doc/kde/HTML/en/filelight/common
 usr/share/doc/kde/HTML/en/filelight/config_appear.png
 usr/share/doc/kde/HTML/en/filelight/config_scan.png
@@ -17,4 +16,5 @@ usr/share/icons/hicolor/48x48/apps/filelight.png
 usr/share/icons/hicolor/64x64/apps/filelight.png
 usr/share/kde4/apps/filelight/filelightui.rc
 usr/share/kde4/apps/filelightpart/filelightpartui.rc
+usr/share/kde4/config/filelightrc
 usr/share/kde4/services/filelightpart.desktop
