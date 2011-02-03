@@ -18,7 +18,8 @@ Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/kdeutils.git
 
 Package: kdeutils
 Architecture: all
-Depends: ark (>= ${source:Version}), kcalc (>= ${source:Version}),
+Depends: ${misc:Depends},
+ ark (>= ${source:Version}), kcalc (>= ${source:Version}),
  kcharselect (>= ${source:Version}), kremotecontrol (>= ${source:Version}),
  kdf (>= ${source:Version}), kfloppy (>= ${source:Version}),
  kgpg (>= ${source:Version}), ktimer (>= ${source:Version}),
@@ -33,7 +34,7 @@ Package: kdeutils-dbg
 Section: debug
 Architecture: any
 Priority: extra
-Depends: kdebase-runtime-dbg
+Depends: ${shlibs:Depends}, ${misc:Depends}, kdebase-runtime-dbg
 Suggests: kdeutils (= ${source:Version})
 Description: debugging symbols for the KDE SC utilities module
  This package contains debugging files used to investigate problems with
