@@ -11,7 +11,7 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.6.0),
  libarchive-dev, libx11-dev, libxrender-dev, python-support, python-dev,
  libkonq5-dev (>= 4:4.6), liblzma-dev, libkvm-dev [ kfreebsd-i386 kfreebsd-amd64 ],
  kdebase-workspace-dev (>= 4:4.6)
-Standards-Version: 3.8.4
+Standards-Version: 3.9.1
 Homepage: http://www.kde.org/
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kdeutils.git
 Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/kdeutils.git
@@ -172,7 +172,7 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Suggests: kdebase-workspace-bin
 Replaces: superkaramba
-Conflicts: superkaramba
+Breaks: superkaramba
 Description: SuperKaramba theme support for the Plasma Workspaces
  This package provides SuperKaramba scriptengine for Plasma. It brings
  support for the SuperKaramba interactive desktop applets, called "themes", to
