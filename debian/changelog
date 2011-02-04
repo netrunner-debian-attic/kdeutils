@@ -23,6 +23,7 @@ kdeutils (4:4.6.0-0r1) UNRELEASED; urgency=low
   * Bump build dependency on kde-sc-dev-latest to 4:4.6.0.
   * Bump S-V to 3.9.1; update Replaces/Breaks/Conflicts.
   * Add debhelper depends substvars to kdeutils and kdeutils-dbg.
+  * Add lintian-overrides files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 31 Aug 2010 21:08:30 +0300
 
