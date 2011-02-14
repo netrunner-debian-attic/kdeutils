@@ -2,6 +2,7 @@ kdeutils (4:4.6.0-0r1) UNRELEASED; urgency=low
 
   * New upstream release:
     - fixes creation of DSA&ElGamal keys in kgpg (Closes: #597001)
+    - fixes filelight build with GCC 4.5 (Closes: #564987)
 
   [ Modestas Vainius ]
   * Point debian/control Vcs fields to the new Git repository.
