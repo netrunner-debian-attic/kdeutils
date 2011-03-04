@@ -24,6 +24,7 @@ kdeutils (4:4.6.1-0r0) UNRELEASED; urgency=low
   * Bump S-V to 3.9.1; update Replaces/Breaks/Conflicts.
   * Add debhelper depends substvars to kdeutils and kdeutils-dbg.
   * Add lintian-overrides files.
+  * Add myself to Uploaders.
 
   [ Pino Toscano ]
   * Use wildcard architectures:
