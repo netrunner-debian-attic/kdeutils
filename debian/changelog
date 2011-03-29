@@ -8,6 +8,7 @@ kdeutils (4:4.6.1-0r1) UNRELEASED; urgency=low
   * Point debian/control Vcs fields to the new Git repository.
   * Switch debian/rules engine to dhmk based qt-kde-team/2/*.
   * Remove redundant links to deprecated common-licenses/BSD.
+  * Fix grammar error in the kremotecontrol description.
 
   [ George Kiagiadakis ]
   * Add myself to uploaders.

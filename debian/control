@@ -92,7 +92,7 @@ Description: frontend for using remote controls
  supported by Solid are also supported by KRemoteControl.
  .
  KRemoteControl consists of the following parts:
-  * a control module that allows to create and assign actions.
+  * a control module that allows one to create and assign actions.
   * a kded module responsible for executing the actions.
   * a system tray applet for visual feedback.
   * a plasma data engine for interacting with remotes from plasmoids.
