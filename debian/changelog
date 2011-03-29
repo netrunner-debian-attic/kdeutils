@@ -6,6 +6,7 @@ kdeutils (4:4.6.1-0r1) UNRELEASED; urgency=low
 
   [ Modestas Vainius ]
   * Point debian/control Vcs fields to the new Git repository.
+  * Switch debian/rules engine to dhmk based qt-kde-team/2/*.
 
   [ George Kiagiadakis ]
   * Add myself to uploaders.
