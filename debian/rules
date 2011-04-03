@@ -5,9 +5,9 @@ dh = --with=python-support
 include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
 
 override_dh_auto_configure:
-	$(overriden_command) -- -DINSTALL_PRINTER_APPLET:BOOL=TRUE
+	$(overridden_command) -- -DINSTALL_PRINTER_APPLET:BOOL=TRUE
 
 .PHONY: override_dh_auto_test
 
 override_dh_strip:
-	$(overriden_command) --dbg-package=kdeutils-dbg
+	$(overridden_command) --dbg-package=kdeutils-dbg
