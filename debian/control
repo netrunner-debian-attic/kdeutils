@@ -21,11 +21,12 @@ Architecture: all
 Depends: ${misc:Depends},
  ark (>= ${source:Version}), kcalc (>= ${source:Version}),
  kcharselect (>= ${source:Version}), kremotecontrol (>= ${source:Version}),
- kdf (>= ${source:Version}), kfloppy (>= ${source:Version}),
+ kdf (>= ${source:Version}),
  kgpg (>= ${source:Version}), ktimer (>= ${source:Version}),
  kwalletmanager (>= ${source:Version}),
  plasma-scriptengine-superkaramba (>= ${source:Version}), sweeper (>= ${source:Version}),
  filelight (>= ${source:Version})
+Suggests: kfloppy (>= ${source:Version})
 Description: general-purpose utilities from the official KDE SC release
  This metapackage includes general-purpose utilities provided with the
  official release of KDE SC.
