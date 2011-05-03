@@ -1,8 +1,13 @@
-kdeutils (4:4.6.2-2) UNRELEASED; urgency=low
+kdeutils (4:4.6.3-0r0) UNRELEASED; urgency=low
+
+  * New upstream release.
 
   [ Pino Toscano ]
   * Lower kfloppy as suggest for the kdeutils metapackage, as it is no more
     worth than that, nowadays. (Closes: #623778)
+
+  [ José Manuel Santamaría Lema ]
+  * Bump build dependency on kde-sc-dev-latest to 4:4.6.3.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 01 May 2011 23:13:07 +0200
 
