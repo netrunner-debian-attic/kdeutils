@@ -8,6 +8,7 @@ kdeutils (4:4.6.3-0r0) UNRELEASED; urgency=low
 
   [ José Manuel Santamaría Lema ]
   * Bump build dependency on kde-sc-dev-latest to 4:4.6.3.
+  * Bump Standards-Version to 3.9.2; no changes needed.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 01 May 2011 23:13:07 +0200
 
