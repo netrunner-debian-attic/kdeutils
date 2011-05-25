@@ -1,4 +1,4 @@
-kdeutils (4:4.6.3-0r0) UNRELEASED; urgency=low
+kdeutils (4:4.6.3-1) unstable; urgency=low
 
   * New upstream release.
 
@@ -10,7 +10,7 @@ kdeutils (4:4.6.3-0r0) UNRELEASED; urgency=low
   * Bump build dependency on kde-sc-dev-latest to 4:4.6.3.
   * Bump Standards-Version to 3.9.2; no changes needed.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 01 May 2011 23:13:07 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 26 May 2011 02:41:41 +0300
 
 kdeutils (4:4.6.2-1) experimental; urgency=low
 
