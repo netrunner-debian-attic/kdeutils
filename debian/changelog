@@ -3,6 +3,9 @@ kdeutils (4:4.6.4-0r1) UNRELEASED; urgency=low
   * New upstream release:
     - ark now supports password-protected archives correctly (Closes: #451926)
 
+  [ José Manuel Santamaría Lema ]
+  * Bump build dependency on kde-sc-dev-latest to 4:4.6.4.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 14 Jun 2011 12:06:02 +0200
 
 kdeutils (4:4.6.3-1) unstable; urgency=low
