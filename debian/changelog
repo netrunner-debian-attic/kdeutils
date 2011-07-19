@@ -1,3 +1,8 @@
+kdeutils (4:4.6.5-2) UNRELEASED; urgency=low
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 19 Jul 2011 13:38:48 +0200
+
 kdeutils (4:4.6.5-1) unstable; urgency=low
 
   * New upstream release:
