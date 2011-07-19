@@ -1,5 +1,5 @@
 Author: Evan Teran <eteran@alum.rit.edu>
-Origin: upstream
+Origin: http://websvn.kde.org/?revision=1240130&view=revision
 Description: This patch reverts a faulty commit which broke the key bindings in kcalc.
 
 --- a/kcalc/kcalc.ui
