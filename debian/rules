@@ -1,6 +1,6 @@
 #!/usr/bin/make -f
 
-dh = --with=python-support
+dh = --with=python2
 
 include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
 
@@ -11,3 +11,6 @@ override_dh_auto_configure:
 
 override_dh_strip:
 	$(overridden_command) --dbg-package=kdeutils-dbg
+
+override_dh_python2:
+	$(overridden_command) -p printer-applet /usr/share/kde4/apps/printer-applet

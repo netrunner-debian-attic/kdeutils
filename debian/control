@@ -8,7 +8,7 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.6.5),
  cmake, debhelper (>= 7.3.16), pkg-kde-tools (>= 0.12),
  kdelibs5-dev (>= 4:4.6), kdepimlibs5-dev (>= 4:4.6),
  libgmp3-dev, libqimageblitz-dev (>= 1:0.0.4-2),
- libarchive-dev, libx11-dev, libxrender-dev, python-support, python-dev,
+ libarchive-dev, libx11-dev, libxrender-dev, python-dev,
  libkonq5-dev (>= 4:4.6), liblzma-dev, libkvm-dev [kfreebsd-any],
  kdebase-workspace-dev (>= 4:4.6)
 Standards-Version: 3.9.2

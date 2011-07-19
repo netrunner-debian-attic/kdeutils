@@ -4,6 +4,10 @@ kdeutils (4:4.6.5-2) UNRELEASED; urgency=low
   * Add kcalc_key_bindings.diff which reverts a faulty upstream commit
     which broke the key bindings in kcalc.
 
+  [ Modestas Vainius ]
+  * Switch the package to dh_python2 and actually byte-compile private py files
+    in the process.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 19 Jul 2011 13:38:48 +0200
 
 kdeutils (4:4.6.5-1) unstable; urgency=low
