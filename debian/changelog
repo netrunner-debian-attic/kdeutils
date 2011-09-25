@@ -1,5 +1,9 @@
 kdeutils (4:4.6.5-3) UNRELEASED; urgency=low
 
+  [ Pino Toscano ]
+  * Explicitly build-depend on libbz2-dev and zlib1g-dev, as they are needed
+    for ark and no more implicitly provided by libarchive-dev.
+    (Closes: #64281)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 25 Sep 2011 17:18:37 +0200
 
