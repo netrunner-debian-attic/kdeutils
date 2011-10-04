@@ -1,11 +1,11 @@
-kdeutils (4:4.6.5-3) UNRELEASED; urgency=low
+kdeutils (4:4.6.5-3) unstable; urgency=low
 
   [ Pino Toscano ]
   * Explicitly build-depend on libbz2-dev and zlib1g-dev, as they are needed
     for ark and no more implicitly provided by libarchive-dev.
     (Closes: #642815)
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 25 Sep 2011 17:18:37 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 04 Oct 2011 15:52:38 +0200
 
 kdeutils (4:4.6.5-2) unstable; urgency=low
 
