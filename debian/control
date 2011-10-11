@@ -36,7 +36,7 @@ Package: kdeutils-dbg
 Section: debug
 Architecture: any
 Priority: extra
-Depends: ${shlibs:Depends}, ${misc:Depends}, kdebase-runtime-dbg
+Depends: ${misc:Depends}, kdebase-runtime-dbg
 Suggests: kdeutils (= ${source:Version})
 Description: debugging symbols for the KDE SC utilities module
  This package contains debugging files used to investigate problems with
@@ -197,7 +197,7 @@ Description: history and temporary file cleaner
 Package: printer-applet
 Section: utils
 Architecture: all
-Depends: ${python:Depends}, ${shlibs:Depends}, ${misc:Depends}, python-qt4-dbus, python-cups, python-kde4 (>= 4:4.1.82)
+Depends: ${python:Depends}, ${misc:Depends}, python-qt4-dbus, python-cups, python-kde4 (>= 4:4.1.82)
 Recommends: hal-cups-utils, system-config-printer
 Description: manages your printing jobs
  Printer applet lets you easily manage your printing jobs.
