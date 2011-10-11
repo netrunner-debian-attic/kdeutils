@@ -1,17 +1,7 @@
-remove worspaces from CMakelists
----
-The information above should follow the Patch Tagging Guidelines, please
-checkout http://dep.debian.net/deps/dep3/ to learn about the format. Here
-are templates for supplementary fields that you might want to add:
-
-Origin: <vendor|upstream|other>, <url of original patch>
-Bug: <url in upstream bugtracker>
-Bug-Debian: http://bugs.debian.org/<bugnumber>
-Bug-Ubuntu: https://launchpad.net/bugs/<bugnumber>
-Forwarded: <no|not-needed|url proving that it has been forwarded>
-Reviewed-By: <name and email of someone who approved the patch>
-Last-Update: <YYYY-MM-DD>
-
+Author: Pino Toscano <pino@debian.org>
+Description: remove extra kdebase-workspace dependency
+Last-Update: 2011-10-11
+Forwarded: no
 --- kdeutils-4.7.2.orig/kremotecontrol/CMakeLists.txt
 +++ kdeutils-4.7.2/kremotecontrol/CMakeLists.txt
 @@ -21,11 +21,9 @@ else()
