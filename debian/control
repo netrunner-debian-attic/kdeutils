@@ -3,14 +3,15 @@ Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Fathi Boudra <fabo@debian.org>, Sune Vuorela <sune@debian.org>, Modestas Vainius <modax@debian.org>,
- George Kiagiadakis <kiagiadakis.george@gmail.com>, José Manuel Santamaría Lema <panfaust@gmail.com>
-Build-Depends: kde-sc-dev-latest (>= 4:4.6.5),
+ George Kiagiadakis <kiagiadakis.george@gmail.com>, José Manuel Santamaría Lema <panfaust@gmail.com>,
+ Eshat Cakar <info@eshat.de>
+Build-Depends: kde-sc-dev-latest (>= 4:4.7.2),
  cmake, debhelper (>= 7.3.16), pkg-kde-tools (>= 0.12),
- kdelibs5-dev (>= 4:4.6), kdepimlibs5-dev (>= 4:4.6),
+ kdelibs5-dev (>= 4:4.7), kdepimlibs5-dev (>= 4:4.7),
  libgmp3-dev, libqimageblitz-dev (>= 1:0.0.4-2),
  libarchive-dev, libx11-dev, libxrender-dev, python-dev,
- libkonq5-dev (>= 4:4.6), liblzma-dev, libkvm-dev [kfreebsd-any],
- kdebase-workspace-dev (>= 4:4.6), libbz2-dev, zlib1g-dev
+ libkonq5-dev (>= 4:4.7), liblzma-dev, libkvm-dev [kfreebsd-any],
+ libbz2-dev, zlib1g-dev
 Standards-Version: 3.9.2
 Homepage: http://www.kde.org/
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kdeutils.git
