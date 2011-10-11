@@ -1,0 +1,81 @@
+remove worspaces from CMakelists
+---
+The information above should follow the Patch Tagging Guidelines, please
+checkout http://dep.debian.net/deps/dep3/ to learn about the format. Here
+are templates for supplementary fields that you might want to add:
+
+Origin: <vendor|upstream|other>, <url of original patch>
+Bug: <url in upstream bugtracker>
+Bug-Debian: http://bugs.debian.org/<bugnumber>
+Bug-Ubuntu: https://launchpad.net/bugs/<bugnumber>
+Forwarded: <no|not-needed|url proving that it has been forwarded>
+Reviewed-By: <name and email of someone who approved the patch>
+Last-Update: <YYYY-MM-DD>
+
+--- kdeutils-4.7.2.orig/kremotecontrol/CMakeLists.txt
++++ kdeutils-4.7.2/kremotecontrol/CMakeLists.txt
+@@ -21,11 +21,9 @@ else()
+     set(STUFF_REQUIRED FALSE)
+ endif()
+ 
+-find_package( KDE4Workspace )
+-macro_log_feature( KDE4Workspace_FOUND "KDE4Workspace" "KDE Workspace library, part of kdebase-workspace" "http://www.kde.org" ${STUFF_REQUIRED} "" "Required to build kremotecontrol." )
+ macro_log_feature( QT_QTXMLPATTERNS_FOUND "QtXmlPatterns" "Qt support for XPath, XQuery, XSLT and XML Schema validation" "http://doc.trolltech.com/latest/qtxmlpatterns.html" ${STUFF_REQUIRED} "" "Required to build kremotecontrol." )
+ 
+-if(NOT KDE4Workspace_FOUND OR NOT QT_QTXMLPATTERNS_FOUND)
++if(NOT QT_QTXMLPATTERNS_FOUND)
+     if(${CMAKE_SOURCE_DIR} STREQUAL ${CMAKE_CURRENT_SOURCE_DIR})
+         macro_display_feature_log()
+     else()
+--- kdeutils-4.7.2.orig/kremotecontrol/libkremotecontrol/CMakeLists.txt
++++ kdeutils-4.7.2/kremotecontrol/libkremotecontrol/CMakeLists.txt
+@@ -4,7 +4,6 @@ include_directories(
+    ${KDE4_INCLUDES}
+    ${QT_INCLUDES}
+    ${X11_INCLUDE_DIR}
+-#   ${KDE4WORKSPACE_INCLUDE_DIR}
+ )
+ 
+ 
+--- kdeutils-4.7.2.orig/kremotecontrol/krcdnotifieritem/CMakeLists.txt
++++ kdeutils-4.7.2/kremotecontrol/krcdnotifieritem/CMakeLists.txt
+@@ -6,7 +6,7 @@ include_directories(
+     ${CMAKE_CURRENT_BINARY_DIR}
+     ${KDE4_INCLUDES}
+     ${QT_INCLUDES}
+-    ${KDE4WORKSPACE_INCLUDE_DIR} )
++)
+ 
+ set(krcdnotifieritem_SRCS
+     main.cpp
+--- kdeutils-4.7.2.orig/kremotecontrol/dataengine/CMakeLists.txt
++++ kdeutils-4.7.2/kremotecontrol/dataengine/CMakeLists.txt
+@@ -8,7 +8,6 @@ include_directories(
+   ${CMAKE_BINARY_DIR} 
+   ${KDE4_INCLUDES} 
+   ${PLASMA_INCLUDE_DIR}
+-  ${KDE4WORKSPACE_INCLUDE_DIR}
+   ${CMAKE_CURRENT_SOURCE_DIR}/../libkremotecontrol
+ )
+ 
+--- kdeutils-4.7.2.orig/kremotecontrol/kcmremotecontrol/CMakeLists.txt
++++ kdeutils-4.7.2/kremotecontrol/kcmremotecontrol/CMakeLists.txt
+@@ -7,7 +7,7 @@ include_directories(
+    ${CMAKE_CURRENT_BINARY_DIR}/../libkremotecontrol
+    ${KDE4_INCLUDES}
+    ${QT_INCLUDES}
+-   ${KDE4WORKSPACE_INCLUDE_DIR} )
++)
+ 
+ ########### next target ###############
+ 
+--- kdeutils-4.7.2.orig/kremotecontrol/kded/CMakeLists.txt
++++ kdeutils-4.7.2/kremotecontrol/kded/CMakeLists.txt
+@@ -1,7 +1,6 @@
+ 
+ include_directories(
+    ${CMAKE_CURRENT_SOURCE_DIR}/../libkremotecontrol
+-   ${KDE4WORKSPACE_INCLUDE_DIR}
+    )
+ 
+ set(kded_kremotecontroldaemon_SRCS
