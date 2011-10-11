@@ -1,6 +1,7 @@
 usr/bin/krcdnotifieritem
 usr/lib/kde4/kcm_remotecontrol.so
 usr/lib/kde4/kded_kremotecontroldaemon.so
+usr/lib/kde4/kremotecontrol_lirc.so
 usr/lib/kde4/plasma_engine_kremoteconrol.so
 usr/lib/liblibkremotecontrol.so.1
 usr/lib/liblibkremotecontrol.so.1.0.0
@@ -46,4 +47,6 @@ usr/share/kde4/apps/kremotecontrol/profiles/vlc.profile.xml
 usr/share/kde4/apps/kremotecontroldaemon/kremotecontroldaemon.notifyrc
 usr/share/kde4/services/kcm_remotecontrol.desktop
 usr/share/kde4/services/kded/kremotecontroldaemon.desktop
+usr/share/kde4/services/kremotecontrolbackends/kremotecontrol_lirc.desktop
 usr/share/kde4/services/plasma-engine-kremotecontrol.desktop
+usr/share/kde4/servicetypes/kremotecontrolmanager.desktop
