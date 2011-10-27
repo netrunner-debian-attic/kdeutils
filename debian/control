@@ -198,7 +198,7 @@ Package: printer-applet
 Section: utils
 Architecture: all
 Depends: ${python:Depends}, ${misc:Depends}, python-qt4-dbus, python-cups, python-kde4 (>= 4:4.1.82)
-Recommends: hal-cups-utils, system-config-printer
+Recommends: hal-cups-utils, system-config-printer-kde
 Description: manages your printing jobs
  Printer applet lets you easily manage your printing jobs.
  .
