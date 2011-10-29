@@ -11,7 +11,7 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.7.2),
  libgmp3-dev, libqimageblitz-dev (>= 1:0.0.4-2),
  libarchive-dev, libx11-dev, libxrender-dev, python-dev,
  libkonq5-dev (>= 4:4.7), liblzma-dev, libkvm-dev [kfreebsd-any],
- libbz2-dev, zlib1g-dev
+ libbz2-dev, zlib1g-dev, libxtst-dev
 Standards-Version: 3.9.2
 Homepage: http://www.kde.org/
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kdeutils.git
