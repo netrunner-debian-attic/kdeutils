@@ -15,6 +15,10 @@ kdeutils (4:4.7.2-0r1) UNRELEASED; urgency=low
   [ Pino Toscano ]
   * printer-applet: recommend system-config-printer-kde instead of
     system-config-printer. (Closes: #646786)
+  * Manage some packages renamings:
+    - kdeutils-dbg depends on kde-runtime-dbg instead of kdebase-runtime-dbg.
+    - plasma-scriptengine-superkaramba suggests kde-workspace-bin instead of
+      kdebase-workspace-bin.
 
   [ José Manuel Santamaría Lema ]
   * Add libxtst-dev build depend.

@@ -36,7 +36,7 @@ Package: kdeutils-dbg
 Section: debug
 Architecture: any
 Priority: extra
-Depends: ${misc:Depends}, kdebase-runtime-dbg
+Depends: ${misc:Depends}, kde-runtime-dbg
 Suggests: kdeutils (= ${source:Version})
 Description: debugging symbols for the KDE SC utilities module
  This package contains debugging files used to investigate problems with
@@ -173,7 +173,7 @@ Description: secure password wallet manager
 Package: plasma-scriptengine-superkaramba
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Suggests: kdebase-workspace-bin
+Suggests: kde-workspace-bin
 Replaces: superkaramba
 Breaks: superkaramba
 Description: SuperKaramba theme support for the Plasma Workspaces
