@@ -1,5 +1,8 @@
 kdeutils (4:4.6.5-4) UNRELEASED; urgency=low
 
+  [ Pino Toscano ]
+  * Backport the upstream r1259334 from the 4.6 branch to fix the Ark
+    directory traversal, CVE-2011-2725. (Closes: #635541)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 03 Dec 2011 12:22:25 +0100
 
