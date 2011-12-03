@@ -1,4 +1,4 @@
-kdeutils (4:4.7.2-0r1) UNRELEASED; urgency=low
+kdeutils (4:4.7.2-0r1) experimental; urgency=low
 
   [ Eshat Cakar ]
   * New upstream release.
@@ -23,7 +23,7 @@ kdeutils (4:4.7.2-0r1) UNRELEASED; urgency=low
   [ José Manuel Santamaría Lema ]
   * Add libxtst-dev build depend.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 12 Oct 2011 14:54:23 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 03 Dec 2011 10:43:15 -0300
 
 kdeutils (4:4.6.5-4) unstable; urgency=high
 
