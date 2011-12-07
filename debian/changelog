@@ -1,6 +1,7 @@
 kdeutils (4:4.7.4-0r0) UNRELEASED; urgency=low
 
-  * New upstream relese.
+  * New upstream relese:
+    - fix German name of kwalletmanager. (Closes: #641039)
 
   [ Eshat Cakar ]
   * Bump kde-sc-dev-latest build dependency to 4:4.7.4.
