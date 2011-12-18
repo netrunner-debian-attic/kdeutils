@@ -1,4 +1,4 @@
-kdeutils (4:4.7.4-0r0) UNRELEASED; urgency=low
+kdeutils (4:4.7.4-1) experimental; urgency=low
 
   * New upstream relese:
     - fix German name of kwalletmanager. (Closes: #641039)
@@ -7,7 +7,7 @@ kdeutils (4:4.7.4-0r0) UNRELEASED; urgency=low
   * Bump kde-sc-dev-latest build dependency to 4:4.7.4.
   * Remove CVE-2011-2725_4.6.diff (applied upstream).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 07 Dec 2011 14:50:11 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 18 Dec 2011 01:37:56 +0100
 
 kdeutils (4:4.7.2-1) experimental; urgency=low
 
