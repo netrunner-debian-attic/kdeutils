@@ -1,7 +1,7 @@
 Author: Pino Toscano <pino@debian.org>
 Description: remove extra kdebase-workspace dependency
 Last-Update: 2011-10-11
-Forwarded: no
+Applied-Upstream: 4.8, commit:a9bc543c627d3abf582975695dbae78ed44c8dd8 (kremotecontrol repository)
 --- kdeutils-4.7.2.orig/kremotecontrol/CMakeLists.txt
 +++ kdeutils-4.7.2/kremotecontrol/CMakeLists.txt
 @@ -21,11 +21,9 @@ else()
