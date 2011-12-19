@@ -2,8 +2,8 @@ Author: Pino Toscano <pino@debian.org>
 Description: remove extra kdebase-workspace dependency
 Last-Update: 2011-10-11
 Applied-Upstream: 4.8, commit:a9bc543c627d3abf582975695dbae78ed44c8dd8 (kremotecontrol repository)
---- kdeutils-4.7.2.orig/kremotecontrol/CMakeLists.txt
-+++ kdeutils-4.7.2/kremotecontrol/CMakeLists.txt
+--- a/kremotecontrol/CMakeLists.txt
++++ b/kremotecontrol/CMakeLists.txt
 @@ -21,11 +21,9 @@ else()
      set(STUFF_REQUIRED FALSE)
  endif()
@@ -17,8 +17,8 @@ Applied-Upstream: 4.8, commit:a9bc543c627d3abf582975695dbae78ed44c8dd8 (kremotec
      if(${CMAKE_SOURCE_DIR} STREQUAL ${CMAKE_CURRENT_SOURCE_DIR})
          macro_display_feature_log()
      else()
---- kdeutils-4.7.2.orig/kremotecontrol/libkremotecontrol/CMakeLists.txt
-+++ kdeutils-4.7.2/kremotecontrol/libkremotecontrol/CMakeLists.txt
+--- a/kremotecontrol/libkremotecontrol/CMakeLists.txt
++++ b/kremotecontrol/libkremotecontrol/CMakeLists.txt
 @@ -4,7 +4,6 @@ include_directories(
     ${KDE4_INCLUDES}
     ${QT_INCLUDES}
@@ -27,8 +27,8 @@ Applied-Upstream: 4.8, commit:a9bc543c627d3abf582975695dbae78ed44c8dd8 (kremotec
  )
  
  
---- kdeutils-4.7.2.orig/kremotecontrol/krcdnotifieritem/CMakeLists.txt
-+++ kdeutils-4.7.2/kremotecontrol/krcdnotifieritem/CMakeLists.txt
+--- a/kremotecontrol/krcdnotifieritem/CMakeLists.txt
++++ b/kremotecontrol/krcdnotifieritem/CMakeLists.txt
 @@ -6,7 +6,7 @@ include_directories(
      ${CMAKE_CURRENT_BINARY_DIR}
      ${KDE4_INCLUDES}
@@ -38,8 +38,8 @@ Applied-Upstream: 4.8, commit:a9bc543c627d3abf582975695dbae78ed44c8dd8 (kremotec
  
  set(krcdnotifieritem_SRCS
      main.cpp
---- kdeutils-4.7.2.orig/kremotecontrol/dataengine/CMakeLists.txt
-+++ kdeutils-4.7.2/kremotecontrol/dataengine/CMakeLists.txt
+--- a/kremotecontrol/dataengine/CMakeLists.txt
++++ b/kremotecontrol/dataengine/CMakeLists.txt
 @@ -8,7 +8,6 @@ include_directories(
    ${CMAKE_BINARY_DIR} 
    ${KDE4_INCLUDES} 
@@ -48,8 +48,8 @@ Applied-Upstream: 4.8, commit:a9bc543c627d3abf582975695dbae78ed44c8dd8 (kremotec
    ${CMAKE_CURRENT_SOURCE_DIR}/../libkremotecontrol
  )
  
---- kdeutils-4.7.2.orig/kremotecontrol/kcmremotecontrol/CMakeLists.txt
-+++ kdeutils-4.7.2/kremotecontrol/kcmremotecontrol/CMakeLists.txt
+--- a/kremotecontrol/kcmremotecontrol/CMakeLists.txt
++++ b/kremotecontrol/kcmremotecontrol/CMakeLists.txt
 @@ -7,7 +7,7 @@ include_directories(
     ${CMAKE_CURRENT_BINARY_DIR}/../libkremotecontrol
     ${KDE4_INCLUDES}
@@ -59,8 +59,8 @@ Applied-Upstream: 4.8, commit:a9bc543c627d3abf582975695dbae78ed44c8dd8 (kremotec
  
  ########### next target ###############
  
---- kdeutils-4.7.2.orig/kremotecontrol/kded/CMakeLists.txt
-+++ kdeutils-4.7.2/kremotecontrol/kded/CMakeLists.txt
+--- a/kremotecontrol/kded/CMakeLists.txt
++++ b/kremotecontrol/kded/CMakeLists.txt
 @@ -1,7 +1,6 @@
  
  include_directories(
