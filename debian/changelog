@@ -1,9 +1,11 @@
-kdeutils (4:4.7.4-2) UNRELEASED; urgency=low
+kdeutils (4:4.7.4-2) unstable; urgency=low
+
+  * Team upload. Upload to unstable.
 
   [ Pino Toscano ]
   * Switch the libgmp3-dev build dependency to libgmp-dev.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 07 Mar 2012 01:31:57 +0100
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Wed, 07 Mar 2012 11:00:59 +0100
 
 kdeutils (4:4.7.4-1) experimental; urgency=low
 
