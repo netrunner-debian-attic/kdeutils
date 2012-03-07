@@ -8,7 +8,7 @@ Uploaders: Fathi Boudra <fabo@debian.org>, Sune Vuorela <sune@debian.org>, Modes
 Build-Depends: kde-sc-dev-latest (>= 4:4.7.4),
  cmake, debhelper (>= 7.3.16), pkg-kde-tools (>= 0.12),
  kdelibs5-dev (>= 4:4.7), kdepimlibs5-dev (>= 4:4.7),
- libgmp3-dev, libqimageblitz-dev (>= 1:0.0.4-2),
+ libgmp-dev, libqimageblitz-dev (>= 1:0.0.4-2),
  libarchive-dev, libx11-dev, libxrender-dev, python-dev,
  libkonq5-dev (>= 4:4.7), liblzma-dev, libkvm-dev [kfreebsd-any],
  libbz2-dev, zlib1g-dev, libxtst-dev
