@@ -97,7 +97,7 @@ Description: frontend for using remote controls
   * a control module that allows one to create and assign actions.
   * a kded module responsible for executing the actions.
   * a system tray applet for visual feedback.
-  * a plasma data engine for interacting with remotes from plasmoids.
+  * a Plasma data engine for interacting with remotes from Plasma widgets.
  .
  This package is part of the KDE SC utilities module.
 
@@ -108,7 +108,7 @@ Priority: extra
 Depends: kremotecontrol (>= ${source:Version}), ${misc:Depends}
 Description: transitional package for kremotecontrol
  This is a transitional package provided to ease upgrade from kdelirc
- to the new kremotecontrol. You can safely remove it if you want.
+ to the new kremotecontrol.  It can be safely removed.
  .
  This package is part of the KDE SC utilities module.
 
@@ -215,3 +215,6 @@ Description: show where your diskspace is being used
  It is like a pie-chart, but the segments nest, allowing you to see both
  which directories take up all your space, and which directories
  and files inside those directories are the real culprits.
+ .
+ This package is part of the KDE SC utilities module.
+
