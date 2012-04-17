@@ -1,5 +1,8 @@
 kdeutils (4:4.7.4-3) UNRELEASED; urgency=low
 
+  [ Pino Toscano ]
+  * Move the transitional kdelirc package to Section oldlibs and set Priority
+    extra.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 18 Apr 2012 00:55:55 +0200
 

@@ -102,8 +102,9 @@ Description: frontend for using remote controls
  This package is part of the KDE SC utilities module.
 
 Package: kdelirc
-Section: utils
+Section: oldlibs
 Architecture: all
+Priority: extra
 Depends: kremotecontrol (>= ${source:Version}), ${misc:Depends}
 Description: transitional package for kremotecontrol
  This is a transitional package provided to ease upgrade from kdelirc
